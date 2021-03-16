@@ -1,10 +1,10 @@
 {
-  "type": "minecraft:overworld",
+  "type": "pundus_root:white_void",
   "generator": {
     "type": "minecraft:flat",
-    "seed": -436460708,
+    "seed": 0,
     "settings": {
-      "biome": "pundus_root:white_void",
+      "biome": "pundus_root:white_biome",
       "lakes": false,
       "features": false,
       "layers": [
