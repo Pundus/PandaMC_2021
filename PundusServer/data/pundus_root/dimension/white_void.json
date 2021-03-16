@@ -7,7 +7,12 @@
       "biome": "pundus_root:white_void",
       "lakes": false,
       "features": false,
-      "layers": [],
+      "layers": [
+        {
+          "block": "minecraft:white_concrete",
+          "height": 64
+        }
+      ],
       "structures": {
         "structures": {}
       }
