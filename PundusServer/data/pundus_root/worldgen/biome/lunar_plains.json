@@ -1,0 +1,96 @@
+{
+  "surface_builder": "pundus_root:moon_surface_builder",
+  "depth": 0.125,
+  "scale": 0.05,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "category": "plains",
+  "effects": {"mood_sound": {
+      "sound": "minecraft:ambient.crimson_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.crimson_forest",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+	    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+    "sky_color": 0,
+    "fog_color": 8421504,
+    "water_color": 4210752,
+    "water_fog_color": 4210752,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:mycelium"
+      },
+      "probability": 0.1
+    }
+  },
+  "starts": [
+    "minecraft:igloo"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:silverfish",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 16
+      },{
+        "type": "minecraft:stray",
+        "weight": 6,
+        "minCount": 4,
+        "maxCount": 8
+      },{
+        "type": "minecraft:wither_skeleton",
+        "weight": 4,
+        "minCount": 4,
+        "maxCount": 8
+      },
+	  {
+        "type": "minecraft:phantom",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+       "air": [
+     "minecraft:cave",
+	 "minecraft:crack"
+    ]
+	   },
+  "features": [
+    [
+      "pundus_root:moon_stone_pile",
+      "pundus_root:moon_ore",
+      "pundus_root:moon_tree",
+      "pundus_root:moon_infested",
+      "pundus_root:moon_andesite_blob",
+      "pundus_root:moon_diorite_blob",
+      "pundus_root:moon_stone_blob",
+      "pundus_root:moon_magma_blob",
+      "minecraft:lake_lava",
+      "minecraft:spring_water"
+    ]
+  ]
+}

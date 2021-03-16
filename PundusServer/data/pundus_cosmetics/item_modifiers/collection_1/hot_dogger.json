@@ -1,0 +1,66 @@
+[{
+		"function": "minecraft:set_lore",
+		"lore": [
+			[{
+				"translate": "cosmetic.item.value",
+				"color": "white",
+				"italic": false
+			}, {
+				"text": "100",
+				"color": "white",
+				"italic": false
+			}, {
+				"translate": "cosmetic.item.playcoin.suffix",
+				"color": "white",
+				"italic": false
+			}],
+			[{
+				"translate": "cosmetic.item.collection",
+				"color": "dark_gray",
+				"italic": false
+			}, {
+				"text": "1 [#1/20]",
+				"color": "dark_gray",
+				"italic": false
+			}], {
+				"translate": "cosmetic.item.hot_dogger.lore1",
+				"color": "gray",
+				"italic": false
+			}, {
+				"translate": "cosmetic.item.hot_dogger.lore2",
+				"color": "gray",
+				"italic": false
+			},
+			[{
+				"translate": "cosmetic.item.dyeable",
+				"color": "dark_gray",
+				"italic": false
+			}, {
+				"translate": "cosmetic.item.dyeable.zone.trimmings",
+				"color": "dark_gray",
+				"italic": false
+			}],
+			[{
+				"translate": "cosmetic.item.dyeable.default_color",
+				"color": "dark_gray",
+				"italic": false
+			}, {
+				"translate": "color.minecraft.red",
+				"color": "dark_gray",
+				"italic": false
+			}]
+		],
+		"replace": true
+	},
+	{
+		"function": "minecraft:set_name",
+		"name": {
+			"translate": "cosmetic.item.hot_dogger.name",
+			"color": "yellow",
+			"italic": false
+		}
+	}, {
+		"function": "set_nbt",
+		"tag": "{pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_playcoin_sellable:1b,Unbreakable:1b,pundus_id:\"hat_hot_dogger\",pundus_cosmetic:1b,pundus_custom:1b,pundus_data:1b,pundus_data_modified:1b,HideFlags:126,CustomModelData:5001,pundus_cosmetic_dyeable:1b,display:{color:9838624}}"
+	}
+]

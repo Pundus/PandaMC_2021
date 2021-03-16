@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "item": "minecraft:leather_helmet",
+        "nbt": "{pundus_cosmetic_dyeable:1b}"
+      }
+    }
+  }
+}
