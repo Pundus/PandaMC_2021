@@ -1,1 +1,10 @@
-210315 10:51:10    473 Client[P[8748162@8619839 Pundus@captain8cheese]]: GSM_Quit(). Reason: emEditorMain or utilitiesLibShouldQuit()
+#Withdraw a Diamond
+
+execute at @s run playsound ui.sell_item master @s
+
+scoreboard players remove @s Pundus_Diamonds 1
+give @s diamond
+
+scoreboard players enable @s Pundus_MenuVar
+
+execute as @s run function pundus_root:economy/pda_menu

@@ -1,15 +1,10 @@
-#Invulns the items
+#deposit a Diamond
 
-data modify entity @s NoGravity set value 1b
-data modify entity @s NoAI set value 1b
-data modify entity @s Invulnerable set value 1b
-data modify entity @s PickupDelay set value -32768
-data modify entity @s Age set value -32768
+execute at @s run playsound ui.sell_item master @s
 
-execute in minecraft:overworld run tp @s 0 400 0
+scoreboard players add @s Pundus_Diamonds 1
+clear @s diamond 1
 
-data merge entity @s {Motion:[0.0f,0.0f,0.0f]}
+scoreboard players enable @s Pundus_MenuVar
 
-schedule function pundus_root:pseudo_keepinv/pki_item_lock 2t
-
-tag @s add Pundus_PKI_Processed
+execute as @s run function pundus_root:economy/pda_menu

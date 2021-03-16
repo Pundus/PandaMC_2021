@@ -1,8 +1,6 @@
-#Economy Values
+# Load functions
 
-scoreboard players set %HatMaxVal Pundus_ItemValue 700
+function pundus_cosmetics:cosmetics_set_server_value
 
-#Hot Dogger
-function pundus_root:rng
-scoreboard players operation hat_hot_dogger Pundus_ItemValue = %Output Pundus_RNG
-scoreboard players operation hat_hot_dogger Pundus_ItemValue %= %HatMaxVal Pundus_ItemValue
+schedule function pundus_cosmetics:cosmetic_item_handlers/cosmetics_collection_1_items_handler 4t
+schedule function pundus_cosmetics:cosmetics_modification_looper 5t
