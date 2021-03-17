@@ -22,6 +22,11 @@ scoreboard objectives add Pundus_CurDaily dummy
 scoreboard objectives add Pundus_LogStr dummy
 
 
+scoreboard objectives add PQ_QuestID dummy
+scoreboard objectives add PQ_QuestComp dummy
+
+
 execute unless score %CurrentID Pundus_PlayerID = %CurrentID Pundus_PlayerID run scoreboard players set %CurrentID Pundus_PlayerID 0
 execute unless score %Server Pundus_Diamonds = %Server Pundus_Diamonds run scoreboard players set %Server Pundus_Diamonds 10000
 execute unless score %Server Pundus_Playcoins = %Server Pundus_Playcoins run scoreboard players set %Server Pundus_Playcoins 5000000
+execute unless score %QuestTime PQ_QuestID = %QuestTime PQ_QuestID run scoreboard players set %QuestTime PQ_QuestID 3600

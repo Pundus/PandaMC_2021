@@ -27,5 +27,6 @@ schedule function pundus_root:items_handler 4t
 schedule function pundus_cosmetics:cosmetics_load 5t
 schedule function pundus_root:economy/sell_item_menu_loop 6t
 schedule function pundus_root:gashapon/gashapon_offhand_determination_init 7t
-schedule function pundus_root:welcome_message/init 19t
+schedule function pundus_root:quests_v2/quest_sub_looper 8t
+schedule function pundus_root:welcome_message/welcome_init 19t
 schedule function pundus_root:dailies/second_ticker 1s

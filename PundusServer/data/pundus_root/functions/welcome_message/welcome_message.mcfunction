@@ -1,17 +1,17 @@
-tellraw @s [{"translate":"np.login.welcome","color":"green","underlined":"true"},{"selector":"@s"},{"text":" !"}]
+tellraw @s [{"translate":"pundus.server.welcome.title","color":"green","underlined":"true"},{"selector":"@s"},{"text":" !"}]
 
 tellraw @s [{"text":" "}]
 
-tellraw @s [{"translate":"np.login.time"},{"score":{"name":"Online_Hours","objective":"LiveStats"},"underlined":"true"},{"translate":"np.login.hours","underlined":"true"},{"score":{"name":"Online_Minutes","objective":"LiveStats"},"underlined":"true"},{"translate":"np.login.minutes","underlined":"true"},{"score":{"name":"Online_Seconds","objective":"LiveStats"},"underlined":"true"},{"translate":"np.login.seconds","underlined":"true"}]
+tellraw @s [{"translate":"pundus.server.welcome.daily_reset"},{"score":{"name":"%Counter","objective":"Pundus_DailyC"}},{"text":"/72000"}]
 
 tellraw @s [{"text":" "}]
 
-tellraw @s [{"translate":"np.login.streak"},{"score":{"name":"@s","objective":"DailyStreak"},"bold":true}]
-tellraw @s [{"translate":"np.login.playcoins"},{"score":{"name":"Banked_Playcoins","objective":"LiveStats"},"bold":true},{"translate":"np.login.playcoins2"}]
+tellraw @s [{"translate":"pundus.server.dailies.streak"},{"score":{"name":"@s","objective":"Pundus_LogStr"},"bold":true}]
+#tellraw @s [{"translate":"np.login.playcoins"},{"score":{"name":"Banked_Playcoins","objective":"LiveStats"},"bold":true},{"translate":"np.login.playcoins2"}]
 
 tellraw @s [{"text":" "}]
 
-tellraw @s [{"translate":"np.events.active","color":"yellow"},{"translate":"np.events.newbeginnings.name"}]
-tellraw @s [{"translate":"np.events.about","color":"gold"},{"translate":"np.events.newbeginnings.desc","underlined":"true"}]
+tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.new_beginnings.title","bold":false}]
+tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.new_beginnings.info","bold":false}]
 
-scoreboard players set @s PlayerLeft 0
+scoreboard players set @s Pundus_PlyrLeave 0
