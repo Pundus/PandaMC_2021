@@ -5,9 +5,9 @@
     "seed": 0,
     "biome_source": {
       "type": "minecraft:multi_noise",
-      "seed": -358151893,
+      "seed": 0,
       "altitude_noise": {
-        "firstOctave": -7,
+        "firstOctave": -5,
         "amplitudes": [
           1,
           1
@@ -41,7 +41,7 @@
             "altitude": 0,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": 0.2,
+            "weirdness": 0.1,
             "offset": 0
           }
         },
@@ -61,14 +61,14 @@
             "altitude": -0.5,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": 0.5,
+            "weirdness": 0.2,
             "offset": 0.5
           }
         },
         {
           "biome": "pundus_root:lunar_mountains",
           "parameters": {
-            "altitude": 0.5,
+            "altitude": 0.7,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0.1,

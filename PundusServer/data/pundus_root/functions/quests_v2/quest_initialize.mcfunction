@@ -1,10 +1,11 @@
 # A new quest!
 
-scoreboard players set @a PQ_QuestComp 0
+scoreboard players set * PQ_QuestComp 0
 
 tellraw @a {"color":"green","translate":"pundus.server.quests.new"}
 
 bossbar remove pundus_root:quest_info
+bossbar remove pundus_root:quest_info_complete
 
 function pundus_root:quests_v2/quest_reset
 

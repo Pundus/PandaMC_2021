@@ -10,4 +10,4 @@ tellraw @s [{"translate":"pundus.server.quests.complete","color":"green"}]
 execute as @s run function pundus_root:quests_v2/rewards/playcoins
 
 #give general extras
-execute as @s run function pundus_root:quests/rewards/global_rewards
+execute as @s run function pundus_root:quests_v2/rewards/global_rewards

@@ -21,6 +21,7 @@ setblock 1 -64 1 oak_sign
 
 
 #Schedule functions
+function pundus_root:devtools/current_game_settings
 schedule function pundus_root:unique_player_id 2t
 schedule function pundus_root:economy/shops_handler/shop_interaction_check 3t
 schedule function pundus_root:items_handler 4t
