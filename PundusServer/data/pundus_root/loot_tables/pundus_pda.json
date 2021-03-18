@@ -14,8 +14,8 @@
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
-					"text": "",
-					"color": "gray",
+					"translate": "pundus.item.pda.offhand",
+					"color": "dark_gray",
 					"italic": false
 				},{
 					"translate": "pundus.item.pda.lore1",

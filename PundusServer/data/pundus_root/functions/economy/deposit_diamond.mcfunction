@@ -1,6 +1,6 @@
 #deposit a Diamond
 
-execute at @s run playsound ui.sell_item master @s
+execute at @s run playsound ui.diamond_deposit master @s
 
 scoreboard players add @s Pundus_Diamonds 1
 clear @s diamond 1

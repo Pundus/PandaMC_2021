@@ -25,6 +25,9 @@ scoreboard objectives add Pundus_LogStr dummy
 scoreboard objectives add PQ_QuestID dummy
 scoreboard objectives add PQ_QuestComp dummy
 
+scoreboard objectives add Pundus_NPCInt minecraft.custom:minecraft.talked_to_villager
+scoreboard objectives add Pundus_NPC_ID dummy
+
 
 execute unless score %CurrentID Pundus_PlayerID = %CurrentID Pundus_PlayerID run scoreboard players set %CurrentID Pundus_PlayerID 0
 execute unless score %Server Pundus_Diamonds = %Server Pundus_Diamonds run scoreboard players set %Server Pundus_Diamonds 10000

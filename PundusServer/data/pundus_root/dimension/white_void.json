@@ -1,10 +1,10 @@
 {
-  "type": "pundus_root:white_void",
+  "type": "pundus_root:void_type",
   "generator": {
     "type": "minecraft:flat",
     "seed": 0,
     "settings": {
-      "biome": "pundus_root:white_biome",
+      "biome": "pundus_root:white_void_biome",
       "lakes": false,
       "features": false,
       "layers": [

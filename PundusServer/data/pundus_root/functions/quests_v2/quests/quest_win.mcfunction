@@ -1,7 +1,7 @@
 #Set quest to 1 to indicate a win
 scoreboard players set @s PQ_QuestComp 1
 
-playsound minecraft:ui.quest_complete master @s
+execute at @s run playsound minecraft:ui.quest_complete master @s ~ ~ ~
 
 #text
 tellraw @s [{"translate":"pundus.server.quests.complete","color":"green"}]

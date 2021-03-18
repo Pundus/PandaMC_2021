@@ -1,6 +1,6 @@
 #Withdraw a Diamond
 
-execute at @s run playsound ui.sell_item master @s
+execute at @s run playsound ui.diamond_withdraw master @s
 
 scoreboard players remove @s Pundus_Diamonds 1
 give @s diamond
