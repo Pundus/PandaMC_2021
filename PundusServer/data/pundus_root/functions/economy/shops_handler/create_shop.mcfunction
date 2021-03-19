@@ -1,5 +1,6 @@
 #Creates a shop.
 
+data modify entity @s Invulnerable set value 1b
 data modify entity @s NoGravity set value 1b
 data modify entity @s NoAI set value 1b
 data modify entity @s PickupDelay set value -32768

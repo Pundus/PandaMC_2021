@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_shop_playcoin:1b,pundus_shop_cost:100,pundus_shop_sellable:1b,pundus_playcoin_sellable:1b,pundus_playcoin_value:100,Unbreakable:1b,pundus_id:\"hat_hot_dogger\",pundus_cosmetic:1b,pundus_custom:1b,pundus_data:1b,pundus_data_modified:0b,HideFlags:126,CustomModelData:5001,pundus_cosmetic_dyeable:1b,display:{color:9838624}}"
+				"tag": "{pundus_shop_playcoin:1b,pundus_shop_cost:100,pundus_shop_sellable:1b,pundus_playcoin_sellable:1b,pundus_playcoin_value:100,Unbreakable:1b,pundus_id:\"hat_the_phantom\",pundus_cosmetic:1b,pundus_custom:1b,pundus_data:1b,pundus_data_modified:0b,HideFlags:126,CustomModelData:5011,pundus_cosmetic_dyeable:1b,display:{color:16777215}}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -21,7 +21,7 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "cosmetic.item.hot_dogger.name",
+					"translate": "cosmetic.item.the_phantom.name",
 					"color": "yellow",
 					"italic": false
 				}
