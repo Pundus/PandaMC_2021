@@ -7,7 +7,7 @@ execute as @a[tag=Pundus_PKI,scores={Pundus_DeathTrk=1..}] at @s run scoreboard 
 
 scoreboard players set @a[scores={Pundus_DeathTrk=1..}] Pundus_DeathTrk 0
 
-execute as @e[type=item,tag=!Pundus_PKI_Processed,scores={Pundus_PKIID=1..}] run tag @s add Pundus_PKI_Item
+execute as @e[type=item,tag=!Pundus_PKI_Processed,tag=!Pundus_ShopItemDisplay,scores={Pundus_PKIID=1..}] run tag @s add Pundus_PKI_Item
 execute as @e[type=item,tag=!Pundus_PKI_Processed,tag=Pundus_PKI_Item,scores={Pundus_PKIID=1..}] run function pundus_root:pseudo_keepinv/pki_item_processing
 
 
