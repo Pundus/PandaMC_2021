@@ -23,6 +23,9 @@ scoreboard objectives add Pundus_LogStr dummy
 scoreboard objectives add Pundus_DelayD dummy
 scoreboard objectives add Pundus_DelayL dummy
 
+scoreboard objectives add Pundus_Deaths deathCount {"translate":"pundus.server.leaderboards.deaths"}
+scoreboard objectives add Pundus_Health health {"translate":"pundus.server.leaderboards.health"}
+
 
 scoreboard objectives add PQ_QuestID dummy
 scoreboard objectives add PQ_QuestComp dummy
