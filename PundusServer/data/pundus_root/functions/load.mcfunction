@@ -9,7 +9,7 @@ function pundus_root:scoreboard_setup
 
 #RNG Handler
 scoreboard players set %C Pundus_RNG 12345
-scoreboard players set %A Pundus_RNG 1664525
+scoreboard players set %A Pundus_RNG 1103515245
 scoreboard players set %Modulo Pundus_RNG 100
 
 execute store result score %X Pundus_RNG run time query gametime
@@ -31,3 +31,4 @@ schedule function pundus_root:gashapon/gashapon_offhand_determination_init 7t
 schedule function pundus_root:quests_v2/quest_sub_looper 8t
 schedule function pundus_root:welcome_message/welcome_init 19t
 schedule function pundus_root:dailies/second_ticker 1s
+schedule function pundus_root:protected_area/protected_area_init 1t

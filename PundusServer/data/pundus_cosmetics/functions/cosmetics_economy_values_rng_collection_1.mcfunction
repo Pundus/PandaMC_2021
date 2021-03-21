@@ -1,6 +1,6 @@
 #Economy Values
 
-scoreboard players set %HatMaxVal Pundus_ItemValue 1000
+scoreboard players set %HatMaxVal Pundus_ItemValue 777
 
 #hat_hot_dogger
 function pundus_root:rng

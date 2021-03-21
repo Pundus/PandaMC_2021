@@ -20,6 +20,8 @@ scoreboard objectives add Pundus_PlyrLeave minecraft.custom:minecraft.leave_game
 scoreboard objectives add Pundus_DailyC dummy
 scoreboard objectives add Pundus_CurDaily dummy
 scoreboard objectives add Pundus_LogStr dummy
+scoreboard objectives add Pundus_DelayD dummy
+scoreboard objectives add Pundus_DelayL dummy
 
 
 scoreboard objectives add PQ_QuestID dummy

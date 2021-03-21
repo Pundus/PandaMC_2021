@@ -1,5 +1,8 @@
 # hat resetters
 
+#special
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_the_og"}}}] weapon.mainhand modify pundus_cosmetics:special/the_og
+
 #collection 1
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_hot_dogger"}}}] weapon.mainhand modify pundus_cosmetics:collection_1/hot_dogger
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_bear_necessities"}}}] weapon.mainhand modify pundus_cosmetics:collection_1/bear_necessities
@@ -25,4 +28,4 @@ item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_a_toymakers_toy"}}}] weapo
 
 item entity @s weapon.mainhand modify pundus_cosmetics:cosmetics_armor_modifier
 #econ reset
-execute as @s run function pundus_cosmetics:cosmetics_initial_economy_value
+execute as @s[nbt={SelectedItem:{tag:{pundus_playcoin_sellable:1b}}}] run function pundus_cosmetics:cosmetics_initial_economy_value

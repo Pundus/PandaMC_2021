@@ -1,0 +1,55 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_gasha_id:2,CustomModelData:10002,pundus_gashapon:1b,pundus_shop_cost:3,pundus_shop_diamond:1b,pundus_shop_sellable:1b,pundus_id:\"gorb_cosmetic_1\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.gashapon.instruction",
+					"color": "dark_gray",
+					"italic": false
+				},[{
+					"translate": "pundus.item.gashapon.number",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"text": "2",
+					"color": "dark_gray",
+					"italic": false
+				}],{
+					"translate": "pundus.item.gashapon.cosmetic_1.lore.prelude",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.cosmetic_1.lore.info1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.cosmetic_1.lore.info2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.cosmetic_1.lore.info3",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.gashapon.cosmetic_1.name",
+					"color": "light_purple",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

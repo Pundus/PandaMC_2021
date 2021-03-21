@@ -32,7 +32,7 @@
 				"color": "dark_gray",
 				"italic": false
 			}, {
-				"translate": "cosmetic.item.dyeable.zone.eyepiece",
+				"translate": "cosmetic.item.dyeable.zone.text",
 				"color": "dark_gray",
 				"italic": false
 			}],
