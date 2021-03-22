@@ -1,0 +1,39 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:iron_leggings",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s}],graviton_leggings:1b,pundus_id:\"graviton_leggings\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.graviton_leggings.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.graviton_leggings.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.graviton_leggings.lore3",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.graviton_leggings.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

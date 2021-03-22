@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "legs": {
+		"item": "minecraft:iron_leggings",
+        "nbt": "{graviton_leggings:1b}"
+      }
+    }
+  }
+}

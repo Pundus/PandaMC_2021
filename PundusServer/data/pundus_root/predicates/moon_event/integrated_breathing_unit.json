@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "chest": {
+		"item": "minecraft:iron_chestplate",
+        "nbt": "{integrated_breathing_unit:1b}"
+      }
+    }
+  }
+}

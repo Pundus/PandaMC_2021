@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Enchantments:[{}],pundus_disable_pki:1b,CustomModelData:1001,lunarite_crystal:1b,pundus_id:\"lunarite_crystal\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.lunarite_crystal.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lunarite_crystal.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lunarite_crystal.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lunarite_crystal.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.lossy1",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.lossy2",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.lunarite_crystal.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

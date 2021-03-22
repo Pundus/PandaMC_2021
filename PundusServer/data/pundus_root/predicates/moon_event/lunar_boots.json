@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "feet": {
+		"item": "minecraft:iron_boots",
+        "nbt": "{lunar_boots:1b}"
+      }
+    }
+  }
+}

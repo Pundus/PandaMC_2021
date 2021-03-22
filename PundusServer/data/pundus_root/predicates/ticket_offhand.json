@@ -1,0 +1,12 @@
+{
+"condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+		"item": "minecraft:enchanted_book",
+        "nbt": "{pundus_ticket:1b}"
+      }
+    }
+  }
+}

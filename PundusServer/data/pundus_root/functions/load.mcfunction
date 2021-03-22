@@ -22,6 +22,7 @@ setblock 1 -64 1 oak_sign
 
 #Schedule functions
 function pundus_root:devtools/current_game_settings
+schedule function pundus_root:tickets/tickets_looper 1t
 schedule function pundus_root:unique_player_id 2t
 schedule function pundus_root:economy/shops_handler/shop_interaction_check 3t
 schedule function pundus_root:items_handler 4t
@@ -31,4 +32,5 @@ schedule function pundus_root:gashapon/gashapon_offhand_determination_init 7t
 schedule function pundus_root:quests_v2/quest_sub_looper 8t
 schedule function pundus_root:welcome_message/welcome_init 19t
 schedule function pundus_root:dailies/second_ticker 1s
+schedule function pundus_root:the_moon/moon_looper 13t
 schedule function pundus_root:protected_area/protected_area_init 1t
