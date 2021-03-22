@@ -46,8 +46,13 @@
         "minCount": 4,
         "maxCount": 16
       },{
-        "type": "minecraft:stray",
+        "type": "minecraft:skeleton",
         "weight": 6,
+        "minCount": 8,
+        "maxCount": 16
+      },{
+        "type": "minecraft:enderman",
+        "weight": 4,
         "minCount": 4,
         "maxCount": 8
       },{

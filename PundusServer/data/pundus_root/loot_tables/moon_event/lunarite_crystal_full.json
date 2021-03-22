@@ -4,36 +4,36 @@
 		"entries": [{
 			"type": "item",
 			"weight": 1,
-			"name": "minecraft:enchanted_book",
+			"name": "minecraft:stick",
 			"functions": [{
 				"function": "set_count",
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:1003,pundus_ticket:1b,pundus_shop_cost:100,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_id:\"recall_device\"}"
+				"tag": "{Enchantments:[{}],CustomModelData:1004,lunarite_crystal_full:1b,pundus_id:\"lunarite_crystal_full\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
-					"translate": "pundus.item.generic.place_in_offhand",
-					"color": "dark_gray",
-					"italic": false
-				},{
-					"translate": "pundus.item.recall_device.lore1",
+					"translate": "pundus.item.lunarite_crystal_full.lore1",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.recall_device.lore2",
+					"translate": "pundus.item.lunarite_crystal_full.lore2",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.generic.consumed",
-					"color": "red",
+					"translate": "pundus.item.lunarite_crystal_full.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lunarite_crystal_full.lore4",
+					"color": "gray",
 					"italic": false
 				}]
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.recall_device.name",
+					"translate": "pundus.item.lunarite_crystal_full.name",
 					"color": "aqua",
 					"italic": false
 				}

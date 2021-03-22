@@ -43,6 +43,17 @@
         "weight": 50,
         "minCount": 12,
         "maxCount": 24
+      },{
+        "type": "minecraft:enderman",
+        "weight": 4,
+        "minCount": 4,
+        "maxCount": 8
+      },
+	  {
+        "type": "minecraft:skeleton",
+        "weight": 10,
+        "minCount": 16,
+        "maxCount": 24
       },
 	  {
         "type": "minecraft:phantom",

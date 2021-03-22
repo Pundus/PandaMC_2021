@@ -8,4 +8,8 @@ execute as @a at @s if block ~ 319 ~ minecraft:structure_void if entity @e[type=
 execute as @a at @s as @e[type=#pundus_root:struck_mobs,distance=..5] at @s if block ~ 319 ~ minecraft:structure_void run particle minecraft:flame ~ ~1 ~ 0 0.5 0 0.05 10 force
 execute as @a at @s as @e[type=#pundus_root:struck_mobs,distance=..5] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
 
+execute as @a[scores={Pundus_Unstuck=1..}] at @s if block ~ 319 ~ minecraft:structure_void run spreadplayers ~ ~ 15 3 under 100 false @s
+scoreboard players reset @a[scores={Pundus_Unstuck=1..}] Pundus_Unstuck
+scoreboard players enable @a Pundus_Unstuck
+
 schedule function pundus_root:protected_area/protected_area_init 1s

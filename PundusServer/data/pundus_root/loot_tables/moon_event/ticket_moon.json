@@ -41,6 +41,10 @@
 					"translate": "pundus.item.ticket_moon.lore6",
 					"color": "gray",
 					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
 				}]
 			}, {
 				"function": "set_name",

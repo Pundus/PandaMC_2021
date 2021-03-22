@@ -10,10 +10,14 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s}],graviton_leggings:1b,pundus_id:\"graviton_leggings\"}"
+				"tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}],graviton_leggings:1b,pundus_id:\"graviton_leggings\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
 					"translate": "pundus.item.graviton_leggings.lore1",
 					"color": "gray",
 					"italic": false

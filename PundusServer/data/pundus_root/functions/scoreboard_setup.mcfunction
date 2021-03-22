@@ -24,6 +24,9 @@ scoreboard objectives add Pundus_DelayD dummy
 scoreboard objectives add Pundus_DelayL dummy
 scoreboard objectives add Pundus_MoonGrav dummy
 
+scoreboard objectives add Pundus_Unstuck trigger
+
+
 scoreboard objectives add Pundus_Deaths deathCount {"translate":"pundus.server.leaderboards.deaths"}
 scoreboard objectives add Pundus_Health health {"translate":"pundus.server.leaderboards.health"}
 
