@@ -42,24 +42,13 @@
         "type": "minecraft:silverfish",
         "weight": 10,
         "minCount": 8,
-        "maxCount": 8
-      },{
-        "type": "minecraft:enderman",
-        "weight": 4,
-        "minCount": 4,
-        "maxCount": 8
+        "maxCount": 12
       },
 	  {
         "type": "minecraft:phantom",
         "weight": 10,
-        "minCount": 4,
-        "maxCount": 8
-      },
-	  {
-        "type": "minecraft:skeleton",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 8
+        "minCount": 8,
+        "maxCount": 16
       }
     ]
   },

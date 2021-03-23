@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:arrow",
+    "minecraft:potion",
+    "minecraft:ender_pearl",
+    "minecraft:item"
+  ]
+}

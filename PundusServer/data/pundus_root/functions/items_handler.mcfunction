@@ -20,9 +20,13 @@ tag @a[tag=ticket_moon] remove ticket_moon
 execute as @a[tag=recall_device] run loot give @s loot pundus_root:recall_device
 tag @a[tag=recall_device] remove recall_device
 
-#Lunarite Crystal
+#Lunarite Shard
 execute as @a[tag=lunarite_crystal] run loot give @s loot pundus_root:moon_event/lunarite_crystal
 tag @a[tag=lunarite_crystal] remove lunarite_crystal
+
+#Lunarite Crystal
+execute as @a[tag=lunarite_crystal_full] run loot give @s loot pundus_root:moon_event/lunarite_crystal_full
+tag @a[tag=lunarite_crystal_full] remove lunarite_crystal_full
 
 #Lunar Boots
 execute as @a[tag=lunar_boots] run loot give @s loot pundus_root:moon_event/lunar_boots
@@ -35,6 +39,14 @@ tag @a[tag=integrated_breathing_unit] remove integrated_breathing_unit
 #Graviton Leggings
 execute as @a[tag=graviton_leggings] run loot give @s loot pundus_root:moon_event/graviton_leggings
 tag @a[tag=graviton_leggings] remove graviton_leggings
+
+#Moonshot Bow
+execute as @a[tag=moonshot_bow] run loot give @s loot pundus_root:moon_event/moonshot_bow
+tag @a[tag=moonshot_bow] remove moonshot_bow
+
+#Vorpal Blade
+execute as @a[tag=vorpal_blade] run loot give @s loot pundus_root:moon_event/vorpal_blade
+tag @a[tag=vorpal_blade] remove vorpal_blade
 
 
 

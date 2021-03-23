@@ -24,8 +24,16 @@ scoreboard objectives add Pundus_DelayD dummy
 scoreboard objectives add Pundus_DelayL dummy
 scoreboard objectives add Pundus_MoonGrav dummy
 
+scoreboard objectives add Pundus_GenMathX dummy
+scoreboard objectives add Pundus_GenMathY dummy
+scoreboard objectives add Pundus_GenMathZ dummy
+scoreboard objectives add Pundus_EntTrack dummy
+
 scoreboard objectives add Pundus_Unstuck trigger
 
+scoreboard objectives add Pundus_Moonshot minecraft.used:minecraft.bow
+scoreboard objectives add Pundus_VorpalB minecraft.used:minecraft.iron_sword
+scoreboard objectives add Pundus_VorpStr dummy
 
 scoreboard objectives add Pundus_Deaths deathCount {"translate":"pundus.server.leaderboards.deaths"}
 scoreboard objectives add Pundus_Health health {"translate":"pundus.server.leaderboards.health"}

@@ -34,3 +34,7 @@ schedule function pundus_root:welcome_message/welcome_init 19t
 schedule function pundus_root:dailies/second_ticker 1s
 schedule function pundus_root:the_moon/moon_looper 13t
 schedule function pundus_root:protected_area/protected_area_init 1t
+schedule function pundus_root:custom_items/custom_1_tick_loop 14t
+schedule function pundus_root:custom_items/custom_5_tick_loop 11t
+schedule function pundus_root:custom_items/custom_10_tick_loop 12t
+schedule function pundus_root:custom_items/custom_1_second_loop 13t

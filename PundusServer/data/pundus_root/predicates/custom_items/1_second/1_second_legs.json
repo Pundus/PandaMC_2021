@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "legs": {
+        "nbt": "{pundus_custom_1sec:1b}"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:iron_sword",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_custom_1sec:1b,CustomModelData:1005,RepairCost:9999,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:sharpness\",lvl:2s}],vorpal_blade:1b,pundus_id:\"vorpal_blade\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.vorpal_blade.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.vorpal_blade.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.vorpal_blade.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.vorpal_blade.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.vorpal_blade.lore5",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.vorpal_blade.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}
