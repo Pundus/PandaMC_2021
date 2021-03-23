@@ -29,6 +29,18 @@ scoreboard objectives add Pundus_GenMathY dummy
 scoreboard objectives add Pundus_GenMathZ dummy
 scoreboard objectives add Pundus_EntTrack dummy
 
+scoreboard objectives add Pundus_VanValue dummy
+
+scoreboard players set %Math_2 Pundus_VanValue 2
+scoreboard players set %Math_3 Pundus_VanValue 3
+scoreboard players set %Math_4 Pundus_VanValue 4
+scoreboard players set %Math_5 Pundus_VanValue 5
+scoreboard players set %Math_6 Pundus_VanValue 6
+scoreboard players set %Math_7 Pundus_VanValue 7
+scoreboard players set %Math_8 Pundus_VanValue 8
+scoreboard players set %Math_9 Pundus_VanValue 9
+scoreboard players set %Math_10 Pundus_VanValue 10
+
 scoreboard objectives add Pundus_Unstuck trigger
 
 scoreboard objectives add Pundus_Moonshot minecraft.used:minecraft.bow

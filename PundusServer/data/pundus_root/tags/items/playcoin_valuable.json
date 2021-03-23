@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#pundus_root:playcoin_values/playcoin_worth_1",
+    "#pundus_root:playcoin_values/playcoin_worth_2",
+    "#pundus_root:playcoin_values/playcoin_worth_3",
+    "#pundus_root:playcoin_values/playcoin_worth_4",
+    "#pundus_root:playcoin_values/playcoin_worth_5",
+    "#pundus_root:playcoin_values/playcoin_worth_6",
+    "#pundus_root:playcoin_values/playcoin_worth_7",
+    "#pundus_root:playcoin_values/playcoin_worth_8",
+    "#pundus_root:playcoin_values/playcoin_worth_9",
+    "#pundus_root:playcoin_values/playcoin_worth_10"
+  ]
+}

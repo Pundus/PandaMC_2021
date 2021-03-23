@@ -22,4 +22,18 @@ scoreboard players reset @a[scores={Pundus_MenuVar=101..104}] Pundus_MenuVar
 
 tag @a[predicate=!pundus_root:pda_offhand,tag=pda_open] remove pda_open
 
+
+
+
+#Sell Vanilla items For Playcoins
+execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=!sim_playcoin_vanilla] at @s run function pundus_root:economy/sell_item_menu_vanilla_pc
+
+execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=sim_playcoin_vanilla,scores={Pundus_MenuVar=501}] run function pundus_root:economy/sell_item_vanilla_pc
+
+scoreboard players reset @a[scores={Pundus_MenuVar=501}] Pundus_MenuVar
+
+tag @a[predicate=!pundus_root:playcoin_values/playcoin_valuable,tag=sim_playcoin_vanilla] remove sim_playcoin_vanilla
+
+
+
 schedule function pundus_root:economy/sell_item_menu_loop 5t

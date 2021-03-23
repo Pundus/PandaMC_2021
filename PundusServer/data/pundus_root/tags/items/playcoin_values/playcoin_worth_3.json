@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:slime_ball",
+    "minecraft:ender_pearl",
+    "minecraft:vine",
+    "minecraft:blackstone",
+    "minecraft:glow_lichen",
+    "minecraft:copper_ingot",
+    "minecraft:seagrass",
+    "minecraft:dead_bush",
+    "minecraft:grass_block",
+    "minecraft:pumpkin",
+    "minecraft:melon",
+    "minecraft:cobweb",
+    "minecraft:nether_wart_block",
+    "minecraft:warped_wart_block",
+    "minecraft:magma_cream",
+    "minecraft:blaze_rod",
+    "minecraft:magma_block",
+    "minecraft:glow_ink_sac",
+    "minecraft:amethyst_block"
+  ]
+}

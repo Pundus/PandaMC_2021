@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:calcite",
+    "minecraft:snowball",
+    "minecraft:gunpowder",
+    "minecraft:cocoa_beans",
+    "minecraft:flint",
+    "minecraft:quartz",
+    "minecraft:cobbled_deepslate",
+	"minecraft:tuff",
+    "minecraft:redstone",
+    "minecraft:shroomlight",
+    "minecraft:sandstone",
+	"minecraft:end_stone",
+	"minecraft:coal",
+    "minecraft:glowstone_dust",
+    "minecraft:soul_sand",
+    "minecraft:wheat",
+    "minecraft:beetroot",
+    "minecraft:red_sand",
+    "minecraft:nether_wart",
+    "minecraft:spider_eye",
+    "minecraft:bone_block",
+    "minecraft:lapis_lazuli",
+    "minecraft:soul_soil"
+  ]
+}

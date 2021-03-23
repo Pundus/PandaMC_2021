@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:twisting_vines",
+    "minecraft:podzol",
+    "minecraft:mycelium",
+    "minecraft:packed_ice",
+    "minecraft:rabbit_foot",
+    "minecraft:amethyst_shard",
+    "minecraft:mossy_cobblestone",
+    "minecraft:weeping_vines"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_ingot",
+    "minecraft:scute",
+    "minecraft:nautilus_shell",
+    "minecraft:prismarine_crystals",
+    "minecraft:prismarine_shard",
+    "minecraft:honey_bottle",
+    "minecraft:phantom_membrane",
+    "minecraft:sea_pickle"
+  ]
+}
