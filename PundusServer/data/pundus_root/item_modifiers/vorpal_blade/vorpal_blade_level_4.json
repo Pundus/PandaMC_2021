@@ -1,6 +1,6 @@
 [ 
 {
 		"function": "set_nbt",
-		"tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:4s},{id:\"minecraft:knockback\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:sharpness\",lvl:2s}]}"
+		"tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:4s},{id:\"minecraft:knockback\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:sharpness\",lvl:2s}]}"
 	}
 ]

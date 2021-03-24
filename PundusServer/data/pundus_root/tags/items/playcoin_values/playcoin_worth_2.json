@@ -9,6 +9,7 @@
     "minecraft:quartz",
     "minecraft:cobbled_deepslate",
 	"minecraft:tuff",
+	"minecraft:stone",
     "minecraft:redstone",
     "minecraft:shroomlight",
     "minecraft:sandstone",
@@ -23,6 +24,8 @@
     "minecraft:spider_eye",
     "minecraft:bone_block",
     "minecraft:lapis_lazuli",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
     "minecraft:soul_soil"
   ]
 }

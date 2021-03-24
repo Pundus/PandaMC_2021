@@ -12,12 +12,12 @@ tellraw @s [{"translate":"pundus.server.dailies.streak"},{"score":{"name":"@s","
 tellraw @s [{"text":" "}]
 
 #new beginnings
-tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.new_beginnings.title","bold":false}]
-tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.new_beginnings.info","bold":false}]
+#tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.new_beginnings.title","bold":false}]
+#tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.new_beginnings.info","bold":false}]
 
 #to the moon!
-#tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.to_the_moon.title","bold":false}]
-#tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.to_the_moon.info","bold":false}]
+tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.to_the_moon.title","bold":false}]
+tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.to_the_moon.info","bold":false}]
 
 scoreboard players set @s Pundus_DelayL 0
 scoreboard players set @s Pundus_PlyrLeave 0

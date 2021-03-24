@@ -4,13 +4,13 @@
 		"entries": [{
 			"type": "item",
 			"weight": 1,
-			"name": "minecraft:iron_sword",
+			"name": "minecraft:bow",
 			"functions": [{
 				"function": "set_count",
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_custom_1sec:1b,CustomModelData:1005,RepairCost:9999,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:sharpness\",lvl:2s}],vorpal_blade:1b,pundus_id:\"vorpal_blade\"}"
+				"tag": "{Damage:374,pundus_custom_1tick:1b,CustomModelData:1006,RepairCost:9999,Enchantments:[{id:\"minecraft:power\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s}],moonshot_bow:1b,pundus_id:\"moonshot_bow\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -18,30 +18,34 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.vorpal_blade.lore1",
+					"translate": "pundus.item.moonshot_bow.lore1",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.vorpal_blade.lore2",
+					"translate": "pundus.item.moonshot_bow.lore2",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.vorpal_blade.lore3",
+					"translate": "pundus.item.moonshot_bow.lore3",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.vorpal_blade.lore4",
+					"translate": "pundus.item.moonshot_bow.lore4",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.vorpal_blade.lore5",
+					"translate": "pundus.item.moonshot_bow.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.moonshot_bow.lore6",
 					"color": "gray",
 					"italic": false
 				}]
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.vorpal_blade.name",
+					"translate": "pundus.item.moonshot_bow.name",
 					"color": "aqua",
 					"italic": false
 				}

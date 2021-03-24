@@ -19,6 +19,10 @@
     "minecraft:blaze_rod",
     "minecraft:magma_block",
     "minecraft:glow_ink_sac",
+    "minecraft:pufferfish",
+    "minecraft:poisonous_potato",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus",
     "minecraft:amethyst_block"
   ]
 }

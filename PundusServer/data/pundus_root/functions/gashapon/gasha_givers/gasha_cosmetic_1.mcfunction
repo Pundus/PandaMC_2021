@@ -1,6 +1,6 @@
 #cosmetic 1 gasha
 
-scoreboard players set %Modulo Pundus_RNG 20
+scoreboard players set %Modulo Pundus_RNG 21
 scoreboard players set %C Pundus_RNG 2048
 function pundus_root:rng
 
@@ -29,3 +29,7 @@ execute if score %GorbVal Pundus_RNG matches 16 run tag @s add hat_dual_hair_rib
 execute if score %GorbVal Pundus_RNG matches 17 run tag @s add hat_frankenstein_bolts
 execute if score %GorbVal Pundus_RNG matches 18 run tag @s add hat_party_hat
 execute if score %GorbVal Pundus_RNG matches 19 run tag @s add hat_a_toymakers_toy
+execute if score %GorbVal Pundus_RNG matches 20 run tag @s add lunarite_crystal_full
+execute if score %GorbVal Pundus_RNG matches 20 run function pundus_root:gashapon/gasha_givers/gasha_cosmetic_1
+
+function pundus_root:gashapon/gasha_givers/cosmetic_bonus_lunarite

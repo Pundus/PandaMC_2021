@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_custom_1tick:1b,CustomModelData:1006,RepairCost:9999,Enchantments:[{id:\"minecraft:power\",lvl:1s}],moonshot_bow:1b,pundus_id:\"moonshot_bow\"}"
+				"tag": "{pundus_custom_1tick:1b,CustomModelData:1006,RepairCost:9999,Enchantments:[{id:\"minecraft:power\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s}],moonshot_bow:1b,pundus_id:\"moonshot_bow\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

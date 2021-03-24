@@ -13,6 +13,13 @@ execute if score %CurrentQID PQ_QuestID matches 8 run function pundus_root:quest
 execute if score %CurrentQID PQ_QuestID matches 9 run function pundus_root:quests_v2/quests/quest_9_loop
 execute if score %CurrentQID PQ_QuestID matches 10 run function pundus_root:quests_v2/quests/quest_10_loop
 execute if score %CurrentQID PQ_QuestID matches 11 run function pundus_root:quests_v2/quests/quest_11_loop
+execute if score %CurrentQID PQ_QuestID matches 12 run function pundus_root:quests_v2/quests/quest_12_loop
+execute if score %CurrentQID PQ_QuestID matches 13 run function pundus_root:quests_v2/quests/quest_13_loop
+execute if score %CurrentQID PQ_QuestID matches 14 run function pundus_root:quests_v2/quests/quest_14_loop
+execute if score %CurrentQID PQ_QuestID matches 15 run function pundus_root:quests_v2/quests/quest_15_loop
+execute if score %CurrentQID PQ_QuestID matches 16 run function pundus_root:quests_v2/quests/quest_16_loop
+execute if score %CurrentQID PQ_QuestID matches 17 run function pundus_root:quests_v2/quests/quest_17_loop
+execute if score %CurrentQID PQ_QuestID matches 18 run function pundus_root:quests_v2/quests/quest_18_loop
 scoreboard players operation %QuestTimeLeft PQ_QuestID = %QuestTime PQ_QuestID
 scoreboard players operation %QuestTimeLeft PQ_QuestID -= %QuestCounter Pundus_DailyC
 

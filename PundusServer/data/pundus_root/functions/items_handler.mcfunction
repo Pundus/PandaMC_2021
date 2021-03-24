@@ -24,6 +24,32 @@ tag @a[tag=recall_device] remove recall_device
 execute as @a[tag=lunarite_crystal] run loot give @s loot pundus_root:moon_event/lunarite_crystal
 tag @a[tag=lunarite_crystal] remove lunarite_crystal
 
+#Lunarite Shard x2
+execute as @a[tag=lunarite_crystal_x2] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+execute as @a[tag=lunarite_crystal_x2] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+tag @a[tag=lunarite_crystal_x2] remove lunarite_crystal_x2
+
+#Lunarite Shard x3
+execute as @a[tag=lunarite_crystal_x3] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+execute as @a[tag=lunarite_crystal_x3] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+execute as @a[tag=lunarite_crystal_x3] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+tag @a[tag=lunarite_crystal_x3] remove lunarite_crystal_x3
+
+#Lunarite Shard x4
+execute as @a[tag=lunarite_crystal_x4] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+execute as @a[tag=lunarite_crystal_x4] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+execute as @a[tag=lunarite_crystal_x4] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+execute as @a[tag=lunarite_crystal_x4] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+tag @a[tag=lunarite_crystal_x4] remove lunarite_crystal_x4
+
+#Lunarite Shard x5
+execute as @a[tag=lunarite_crystal_x5] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+execute as @a[tag=lunarite_crystal_x5] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+execute as @a[tag=lunarite_crystal_x5] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+execute as @a[tag=lunarite_crystal_x5] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+execute as @a[tag=lunarite_crystal_x5] run loot give @s loot pundus_root:moon_event/lunarite_crystal
+tag @a[tag=lunarite_crystal_x5] remove lunarite_crystal_x5
+
 #Lunarite Crystal
 execute as @a[tag=lunarite_crystal_full] run loot give @s loot pundus_root:moon_event/lunarite_crystal_full
 tag @a[tag=lunarite_crystal_full] remove lunarite_crystal_full
@@ -47,6 +73,14 @@ tag @a[tag=moonshot_bow] remove moonshot_bow
 #Vorpal Blade
 execute as @a[tag=vorpal_blade] run loot give @s loot pundus_root:moon_event/vorpal_blade
 tag @a[tag=vorpal_blade] remove vorpal_blade
+
+#Moonshot Bow
+execute as @a[tag=moonshot_bow_trial] run loot give @s loot pundus_root:moon_event/moonshot_bow_trial
+tag @a[tag=moonshot_bow_trial] remove moonshot_bow_trial
+
+#Vorpal Blade
+execute as @a[tag=vorpal_blade_trial] run loot give @s loot pundus_root:moon_event/vorpal_blade_trial
+tag @a[tag=vorpal_blade_trial] remove vorpal_blade_trial
 
 
 
