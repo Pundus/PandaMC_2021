@@ -12,6 +12,7 @@
     "minecraft:netherrack",
     "#minecraft:logs",
     "#minecraft:wool",
+    "#pundus_root:playcoin_values/small_flowers",
     "minecraft:string",
     "minecraft:feather",
     "minecraft:leather",
@@ -35,7 +36,6 @@
     "minecraft:cactus",
     "minecraft:sweet_berries",
     "minecraft:beetroot_seeds",
-    "minecraft:kelp",
-    "minecraft:sunflower"
+    "minecraft:kelp"
   ]
 }
