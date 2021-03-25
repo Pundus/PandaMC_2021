@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_gasha_id:2,CustomModelData:10002,pundus_gashapon:1b,pundus_shop_cost:3,pundus_shop_diamond:1b,pundus_shop_sellable:1b,pundus_id:\"gorb_cosmetic_1\"}"
+				"tag": "{pundus_gasha_id:3,CustomModelData:10003,pundus_gashapon:1b,pundus_shop_cost:50,pundus_shop_diamond:1b,pundus_shop_sellable:1b,pundus_id:\"gorb_overworld_fauna\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -22,42 +22,42 @@
 					"color": "dark_gray",
 					"italic": false
 				},{
-					"text": "2",
+					"text": "3",
 					"color": "dark_gray",
 					"italic": false
 				}],{
-					"translate": "pundus.item.gashapon.cosmetic_1.lore.prelude",
+					"translate": "pundus.item.gashapon.overworld_fauna.lore.prelude",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.cosmetic_1.lore.info1",
+					"translate": "pundus.item.gashapon.spawner.lore.global1",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.cosmetic_1.lore.info2",
+					"translate": "pundus.item.gashapon.spawner.lore.global2",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.cosmetic_1.lore.info3",
+					"translate": "pundus.item.gashapon.spawner.lore.global3",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus1",
-					"color": "dark_green",
+					"translate": "pundus.item.gashapon.spawner.warning1",
+					"color": "red",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus2",
-					"color": "dark_green",
+					"translate": "pundus.item.gashapon.spawner.warning2",
+					"color": "red",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus3",
-					"color": "dark_green",
+					"translate": "pundus.item.gashapon.spawner.warning3",
+					"color": "red",
 					"italic": false
 				}]
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.gashapon.cosmetic_1.name",
+					"translate": "pundus.item.gashapon.overworld_fauna.name",
 					"color": "light_purple",
 					"italic": false
 				}

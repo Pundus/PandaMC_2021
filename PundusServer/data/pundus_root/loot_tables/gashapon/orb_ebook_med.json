@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_gasha_id:2,CustomModelData:10002,pundus_gashapon:1b,pundus_shop_cost:3,pundus_shop_diamond:1b,pundus_shop_sellable:1b,pundus_id:\"gorb_cosmetic_1\"}"
+				"tag": "{pundus_gasha_id:5,CustomModelData:10005,pundus_gashapon:1b,pundus_shop_cost:10,pundus_shop_diamond:1b,pundus_shop_sellable:1b,pundus_id:\"gorb_ebook_med\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -22,42 +22,30 @@
 					"color": "dark_gray",
 					"italic": false
 				},{
-					"text": "2",
+					"text": "5",
 					"color": "dark_gray",
 					"italic": false
 				}],{
-					"translate": "pundus.item.gashapon.cosmetic_1.lore.prelude",
+					"translate": "pundus.item.gashapon.ebook.lore.global",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.cosmetic_1.lore.info1",
+					"translate": "pundus.item.gashapon.ebook.lore.med",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.cosmetic_1.lore.info2",
-					"color": "gray",
-					"italic": false
-				},{
-					"translate": "pundus.item.gashapon.cosmetic_1.lore.info3",
-					"color": "gray",
-					"italic": false
-				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus1",
+					"translate": "pundus.item.gashapon.lunarite_bonus_nocrystal1",
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus2",
-					"color": "dark_green",
-					"italic": false
-				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus3",
+					"translate": "pundus.item.gashapon.lunarite_bonus_nocrystal2",
 					"color": "dark_green",
 					"italic": false
 				}]
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.gashapon.cosmetic_1.name",
+					"translate": "pundus.item.gashapon.ebook.med.name",
 					"color": "light_purple",
 					"italic": false
 				}

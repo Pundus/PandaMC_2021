@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "minecraft:enchant_with_levels",
-				"levels": 50.0,
+				"levels": 20.0,
 				"treasure": true
 			}]
 		}]

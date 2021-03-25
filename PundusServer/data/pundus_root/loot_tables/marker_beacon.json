@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:1008,pundus_marker_beacon:1b,pundus_id:\"marker_beacon\"}"
+				"tag": "{pundus_custom_1sec:1b,CustomModelData:1008,pundus_marker_beacon:1b,pundus_id:\"marker_beacon\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -29,11 +29,11 @@
 					"translate": "pundus.item.marker_beacon.coord.x",
 					"color": "white",
 					"italic": false
-				},,{
+				},{
 					"translate": "pundus.item.marker_beacon.coord.y",
 					"color": "white",
 					"italic": false
-				},,{
+				},{
 					"translate": "pundus.item.marker_beacon.coord.z",
 					"color": "white",
 					"italic": false

@@ -1,8 +1,8 @@
 # QFS Beacon
 
-execute store result score @s Pundus_GenMathX run data get entity @s Pos.x
-execute store result score @s Pundus_GenMathY run data get entity @s Pos.y
-execute store result score @s Pundus_GenMathZ run data get entity @s Pos.z
+execute store result score @s Pundus_GenMathX run data get entity @s Pos[0]
+execute store result score @s Pundus_GenMathY run data get entity @s Pos[1]
+execute store result score @s Pundus_GenMathZ run data get entity @s Pos[2]
 
 execute as @s run item block 0 -64 0 container.0 copy entity @s weapon.offhand
 
@@ -21,11 +21,11 @@ execute as @s run data modify block 0 -64 0 Items[0].tag.display.Lore[3] set fro
 execute as @s run data modify block 0 -64 0 Items[0].tag.display.Lore[4] set from block 1 -64 1 Text2
 execute as @s run data modify block 0 -64 0 Items[0].tag.display.Lore[5] set from block 1 -64 1 Text3
 
-execute as @s run item entity @s weapon.mainhand copy block 0 -64 0 container.0
+execute as @s run item entity @s weapon.offhand copy block 0 -64 0 container.0
 
 
 title @s actionbar {"translate":"pundus.special.qfs.beacon_set"}
 
-
+playsound minecraft:ui.marker_beacon player @s ~ ~ ~ 0.5 1 0
 
 #other

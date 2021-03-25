@@ -12,6 +12,22 @@ tag @a[tag=gorb_starter] remove gorb_starter
 execute as @a[tag=gorb_cosmetic_1] run loot give @s loot pundus_root:gashapon/orb_cosmetic_1
 tag @a[tag=gorb_cosmetic_1] remove gorb_cosmetic_1
 
+#Gashapon - Overworld Fauna
+execute as @a[tag=gorb_overworld_fauna] run loot give @s loot pundus_root:gashapon/orb_overworld_fauna
+tag @a[tag=gorb_overworld_fauna] remove gorb_overworld_fauna
+
+#Gashapon - Ebook Low
+execute as @a[tag=gorb_ebook_low] run loot give @s loot pundus_root:gashapon/orb_ebook_low
+tag @a[tag=gorb_ebook_low] remove gorb_ebook_low
+
+#Gashapon - Ebook Med
+execute as @a[tag=gorb_ebook_med] run loot give @s loot pundus_root:gashapon/orb_ebook_med
+tag @a[tag=gorb_ebook_med] remove gorb_ebook_med
+
+#Gashapon - Ebook High
+execute as @a[tag=gorb_ebook_high] run loot give @s loot pundus_root:gashapon/orb_ebook_high
+tag @a[tag=gorb_ebook_high] remove gorb_ebook_high
+
 #Lunar Express Ticket
 execute as @a[tag=ticket_moon] run loot give @s loot pundus_root:moon_event/ticket_moon
 tag @a[tag=ticket_moon] remove ticket_moon
@@ -74,13 +90,21 @@ tag @a[tag=moonshot_bow] remove moonshot_bow
 execute as @a[tag=vorpal_blade] run loot give @s loot pundus_root:moon_event/vorpal_blade
 tag @a[tag=vorpal_blade] remove vorpal_blade
 
-#Moonshot Bow
+#Moonshot Bow trial
 execute as @a[tag=moonshot_bow_trial] run loot give @s loot pundus_root:moon_event/moonshot_bow_trial
 tag @a[tag=moonshot_bow_trial] remove moonshot_bow_trial
 
-#Vorpal Blade
+#Vorpal Blade trial
 execute as @a[tag=vorpal_blade_trial] run loot give @s loot pundus_root:moon_event/vorpal_blade_trial
 tag @a[tag=vorpal_blade_trial] remove vorpal_blade_trial
+
+#Quantum Fold Shifter
+execute as @a[tag=quantum_fold_shifter] run loot give @s loot pundus_root:quantum_fold_shifter
+tag @a[tag=quantum_fold_shifter] remove quantum_fold_shifter
+
+#Marker Beacon
+execute as @a[tag=marker_beacon] run loot give @s loot pundus_root:marker_beacon
+tag @a[tag=marker_beacon] remove marker_beacon
 
 
 
