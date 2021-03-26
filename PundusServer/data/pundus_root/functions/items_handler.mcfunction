@@ -28,6 +28,14 @@ tag @a[tag=gorb_ebook_med] remove gorb_ebook_med
 execute as @a[tag=gorb_ebook_high] run loot give @s loot pundus_root:gashapon/orb_ebook_high
 tag @a[tag=gorb_ebook_high] remove gorb_ebook_high
 
+#Decor - Model Rocket
+execute as @a[tag=decor_model_rocket] run loot give @s loot pundus_root:decor/model_rocket
+tag @a[tag=decor_model_rocket] remove decor_model_rocket
+
+#Decor - Model Phantom
+execute as @a[tag=decor_model_phantom] run loot give @s loot pundus_root:decor/model_phantom
+tag @a[tag=decor_model_phantom] remove decor_model_phantom
+
 #Lunar Express Ticket
 execute as @a[tag=ticket_moon] run loot give @s loot pundus_root:moon_event/ticket_moon
 tag @a[tag=ticket_moon] remove ticket_moon

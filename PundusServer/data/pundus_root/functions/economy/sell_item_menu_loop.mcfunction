@@ -3,6 +3,8 @@
 #Sell Item For Playcoins
 execute as @a[predicate=pundus_root:playcoin_sellable_offhand,tag=!sim_playcoin_open] run function pundus_root:economy/sell_item_menu_playcoin
 
+execute as @a[predicate=pundus_root:playcoin_sellable_offhand,tag=sim_playcoin_open,predicate=pundus_root:crouching] run scoreboard players set @s Pundus_MenuVar 401
+
 execute as @a[predicate=pundus_root:playcoin_sellable_offhand,tag=sim_playcoin_open,scores={Pundus_MenuVar=401}] run function pundus_root:economy/sell_item_playcoin
 
 scoreboard players reset @a[scores={Pundus_MenuVar=401}] Pundus_MenuVar
@@ -36,6 +38,8 @@ tag @a[predicate=!pundus_root:pda_offhand,tag=pda_open] remove pda_open
 
 #Sell Vanilla items For Playcoins
 execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=!sim_playcoin_vanilla] at @s run function pundus_root:economy/sell_item_menu_vanilla_pc
+
+execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=sim_playcoin_vanilla,predicate=pundus_root:crouching] run scoreboard players set @s Pundus_MenuVar 501
 
 execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=sim_playcoin_vanilla,scores={Pundus_MenuVar=501}] run function pundus_root:economy/sell_item_vanilla_pc
 

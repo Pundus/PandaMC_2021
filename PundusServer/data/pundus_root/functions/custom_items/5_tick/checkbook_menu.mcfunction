@@ -24,4 +24,7 @@ tellraw @s [{"color":"red","text":"[-1] ","hoverEvent":{"action":"show_text","co
 
 tellraw @s [{"translate":"pundus.pda.divider"}]
 
-tellraw @s [{"color":"green","translate":"pundus.checkbook.create_check","hoverEvent":{"action":"show_text","contents":[{"translate":"pundus.checkbook.create_check.info"}]},"clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 9999"}}]
+execute if score @s Pundus_CheckBk = @s Pundus_CheckBk if score @s Pundus_CheckBk matches 1.. run tellraw @s [{"color":"green","translate":"pundus.checkbook.create_check","hoverEvent":{"action":"show_text","contents":[{"translate":"pundus.checkbook.create_check.info"}]},"clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 9999"}}]
+
+execute unless score @s Pundus_CheckBk = @s Pundus_CheckBk run tellraw @s [{"text":""}]
+execute if score @s Pundus_CheckBk matches ..0 run tellraw @s [{"text":""}]

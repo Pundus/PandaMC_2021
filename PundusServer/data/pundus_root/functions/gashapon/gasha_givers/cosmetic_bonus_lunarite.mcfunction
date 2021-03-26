@@ -5,7 +5,7 @@ scoreboard players set %C Pundus_RNG 2048
 function pundus_root:rng
 
 scoreboard players operation %LunarVal Pundus_RNG = %Output Pundus_RNG
-scoreboard players operation %LunarVal Pundus_RNG /= %Divisor Pundus_RNG
+scoreboard players operation %LunarVal Pundus_RNG /= %C Pundus_RNG
 scoreboard players operation %LunarVal Pundus_RNG %= %Modulo Pundus_RNG
 
 

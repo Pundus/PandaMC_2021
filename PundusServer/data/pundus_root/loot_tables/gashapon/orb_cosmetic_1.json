@@ -53,6 +53,14 @@
 					"translate": "pundus.item.gashapon.lunarite_bonus3",
 					"color": "dark_green",
 					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.head_bonus1",
+					"color": "yellow",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.head_bonus2",
+					"color": "yellow",
+					"italic": false
 				}]
 			}, {
 				"function": "set_name",
