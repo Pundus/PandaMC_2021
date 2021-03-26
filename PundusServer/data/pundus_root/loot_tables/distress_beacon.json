@@ -1,0 +1,83 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_custom_1sec:1b,CustomModelData:1011,pundus_distress_beacon:1b,pundus_shop_cost:4000,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_id:\"distress_beacon\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore1",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore7",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore8",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore9",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore10",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore11",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.distress_beacon.lore12",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.distress_beacon.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

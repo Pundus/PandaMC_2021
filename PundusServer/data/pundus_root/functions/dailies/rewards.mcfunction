@@ -39,6 +39,36 @@ execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tag @s add go
 execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.cosmetic_1.name","underlined":true}]
 
 
+#Streak 9 - Low tier EB
+execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tag @s add gorb_ebook_low
+execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.ebook.low.name","underlined":true}]
+
+
+#Streak 10 - Mid tier EB
+execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tag @s add gorb_ebook_med
+execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.ebook.med.name","underlined":true}]
+
+
+#Streak 11 - 150 PC
+execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tag @s add gorb_cosmetic_1
+execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.cosmetic_1.name","underlined":true}]
+
+
+#Streak 12 - High Tier EB
+execute as @s[scores={Pundus_LogStr=12},tag=!Pundus_DailyGiven] run tag @s add gorb_ebook_high
+execute as @s[scores={Pundus_LogStr=12},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.ebook.high.name","underlined":true}]
+
+
+#Streak 13 - Moon Ticket
+execute as @s[scores={Pundus_LogStr=13},tag=!Pundus_DailyGiven] run tag @s add ticket_moon
+execute as @s[scores={Pundus_LogStr=13},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.ticket_moon.name","underlined":true}]
+
+
+#Streak 14 - 200 PC
+execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tag @s add gorb_cosmetic_1
+execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.cosmetic_1.name","underlined":true}]
+
+
   
 
 #End 

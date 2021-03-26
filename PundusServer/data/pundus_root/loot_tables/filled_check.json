@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:1010,pundus_filled_check:1b,pundus_id:\"filled_check\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.filled_check.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.filled_check.value",
+					"color": "white",
+					"italic": false
+				},{
+					"translate": "pundus.item.filled_check.from",
+					"color": "white",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.filled_check.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

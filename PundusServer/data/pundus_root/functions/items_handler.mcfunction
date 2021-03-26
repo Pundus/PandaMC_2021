@@ -106,6 +106,14 @@ tag @a[tag=quantum_fold_shifter] remove quantum_fold_shifter
 execute as @a[tag=marker_beacon] run loot give @s loot pundus_root:marker_beacon
 tag @a[tag=marker_beacon] remove marker_beacon
 
+#Checkbook
+execute as @a[tag=checkbook] run loot give @s loot pundus_root:checkbook
+tag @a[tag=checkbook] remove checkbook
+
+#Distress Beacon
+execute as @a[tag=distress_beacon] run loot give @s loot pundus_root:distress_beacon
+tag @a[tag=distress_beacon] remove distress_beacon
+
 
 
 schedule function pundus_root:items_handler 5t

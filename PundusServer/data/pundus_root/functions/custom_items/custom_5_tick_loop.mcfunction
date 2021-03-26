@@ -7,6 +7,8 @@ execute as @a[predicate=pundus_root:custom_items/5_tick/5_tick_legs] at @s run f
 execute as @a[predicate=pundus_root:custom_items/5_tick/5_tick_mainhand] at @s run function pundus_root:custom_items/5_tick/5_tick_mainhand_disambig
 execute as @a[predicate=pundus_root:custom_items/5_tick/5_tick_offhand] at @s run function pundus_root:custom_items/5_tick/5_tick_offhand_disambig
 
+tag @a[predicate=!pundus_root:custom_items/5_tick/5_tick_offhand,tag=Pundus_CB_open] remove Pundus_CB_open
+
 ##other go here
 
 

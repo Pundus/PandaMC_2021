@@ -3,7 +3,7 @@
 worldborder warning distance 0
 worldborder set 768 0
 
-gamerule mobGriefing false
+gamerule mobGriefing true
 gamerule commandBlockOutput false
 gamerule playersSleepingPercentage 50
 

@@ -26,6 +26,7 @@ execute as @s run item entity @s weapon.offhand copy block 0 -64 0 container.0
 
 title @s actionbar {"translate":"pundus.special.qfs.beacon_set"}
 
-playsound minecraft:ui.marker_beacon player @s ~ ~ ~ 0.5 1 0
+playsound minecraft:ui.marker_beacon master @s ~ ~ ~ 0.5 1 0
+
 
 #other

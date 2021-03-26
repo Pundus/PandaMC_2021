@@ -1,7 +1,7 @@
 bossbar add pundus_root:quest_info {"translate":"pundus.server.quests.current","color":"green"}
 
 function pundus_root:rng
-scoreboard players set %QuestLimit PQ_QuestID 18
+scoreboard players set %QuestLimit PQ_QuestID 19
 scoreboard players operation %Output Pundus_RNG %= %QuestLimit PQ_QuestID
 scoreboard players operation %CurrentQID PQ_QuestID = %Output Pundus_RNG
 

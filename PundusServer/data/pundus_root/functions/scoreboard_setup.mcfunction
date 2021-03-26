@@ -3,6 +3,7 @@ scoreboard objectives add Pundus_RNG dummy
 scoreboard objectives add Pundus_Diamonds dummy {"translate":"pundus.economy.diamond_bank"}
 scoreboard objectives add Pundus_Playcoins dummy {"translate":"pundus.economy.playcoin_bank"}
 scoreboard objectives add Pundus_EconMath dummy
+scoreboard objectives add Pundus_IndivMath dummy
 scoreboard objectives add Pundus_ItemValue dummy
 scoreboard objectives add Pundus_ItemSell dummy
 scoreboard objectives add Pundus_MenuVar trigger
@@ -23,6 +24,8 @@ scoreboard objectives add Pundus_LogStr dummy
 scoreboard objectives add Pundus_DelayD dummy
 scoreboard objectives add Pundus_DelayL dummy
 scoreboard objectives add Pundus_MoonGrav dummy
+
+scoreboard objectives add Pundus_CheckBk dummy
 
 scoreboard objectives add Pundus_GenMathX dummy
 scoreboard objectives add Pundus_GenMathY dummy

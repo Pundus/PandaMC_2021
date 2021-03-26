@@ -9,6 +9,15 @@ scoreboard players reset @a[scores={Pundus_MenuVar=401}] Pundus_MenuVar
 
 tag @a[predicate=!pundus_root:playcoin_sellable_offhand,tag=sim_playcoin_open] remove sim_playcoin_open
 
+#DEPOSIT CHEQUE
+execute as @a[predicate=pundus_root:deposit_check_offhand,tag=!sim_check_open] run function pundus_root:economy/deposit_check_menu
+
+execute as @a[predicate=pundus_root:deposit_check_offhand,tag=sim_check_open,scores={Pundus_MenuVar=901}] run function pundus_root:economy/deposit_check
+
+scoreboard players reset @a[scores={Pundus_MenuVar=901}] Pundus_MenuVar
+
+tag @a[predicate=!pundus_root:deposit_check_offhand,tag=sim_check_open] remove sim_check_open
+
 #PDA Menu
 execute as @a[predicate=pundus_root:pda_offhand,tag=!pda_open] run function pundus_root:economy/pda_menu
 
