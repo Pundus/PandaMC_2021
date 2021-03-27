@@ -37,6 +37,10 @@
 					"translate": "pundus.item.vorpal_blade.lore5",
 					"color": "gray",
 					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
 				}]
 			}, {
 				"function": "set_name",

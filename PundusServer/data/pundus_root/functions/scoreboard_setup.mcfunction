@@ -26,6 +26,7 @@ scoreboard objectives add Pundus_DelayL dummy
 scoreboard objectives add Pundus_MoonGrav dummy
 
 scoreboard objectives add Pundus_CheckBk dummy
+scoreboard objectives add Pundus_TempPKI dummy
 
 scoreboard objectives add Pundus_GenMathX dummy
 scoreboard objectives add Pundus_GenMathY dummy

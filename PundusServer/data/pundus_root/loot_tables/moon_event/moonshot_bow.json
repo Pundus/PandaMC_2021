@@ -41,6 +41,10 @@
 					"translate": "pundus.item.moonshot_bow.lore6",
 					"color": "gray",
 					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
 				}]
 			}, {
 				"function": "set_name",

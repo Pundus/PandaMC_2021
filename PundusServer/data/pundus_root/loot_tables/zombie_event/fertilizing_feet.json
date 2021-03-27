@@ -4,37 +4,37 @@
 		"entries": [{
 			"type": "item",
 			"weight": 1,
-			"name": "minecraft:iron_sword",
+			"name": "minecraft:leather_boots",
 			"functions": [{
 				"function": "set_count",
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{Damage:246,pundus_custom_1sec:1b,CustomModelData:1005,RepairCost:9999,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:sharpness\",lvl:2s}],vorpal_blade:1b,pundus_id:\"vorpal_blade\"}"
+				"tag": "{pundus_custom_1sec:1b,RepairCost:9999,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}],fertilizing_feet:1b,pundus_id:\"fertilizing_feet\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
-					"text": " ",
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.fertilizing_feet.lore1",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.vorpal_blade.lore1",
+					"translate": "pundus.item.fertilizing_feet.lore2",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.vorpal_blade.lore2",
+					"translate": "pundus.item.fertilizing_feet.lore3",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.vorpal_blade.lore3",
+					"translate": "pundus.item.fertilizing_feet.lore4",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.vorpal_blade.lore4",
-					"color": "gray",
-					"italic": false
-				},{
-					"translate": "pundus.item.vorpal_blade.lore5",
+					"translate": "pundus.item.fertilizing_feet.lore5",
 					"color": "gray",
 					"italic": false
 				},{
@@ -45,8 +45,8 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.vorpal_blade.name",
-					"color": "aqua",
+					"translate": "pundus.item.fertilizing_feet.name",
+					"color": "yellow",
 					"italic": false
 				}
 			}]

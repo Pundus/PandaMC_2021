@@ -8,7 +8,7 @@ tellraw @a [{"translate":"pundus.special.distress_beacon.alert","color":"yellow"
 
 tellraw @a [{"translate":" "}]
 
-tellraw @s [{"color":"green","underlined":true,"translate":"pundus.special.distress_beacon.respond","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 1337"}}]
+tellraw @a [{"color":"green","underlined":true,"translate":"pundus.special.distress_beacon.respond","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 1337"}}]
 
 scoreboard players enable @a Pundus_MenuVar
 

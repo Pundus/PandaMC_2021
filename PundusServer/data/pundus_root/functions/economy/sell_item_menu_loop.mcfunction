@@ -14,6 +14,8 @@ tag @a[predicate=!pundus_root:playcoin_sellable_offhand,tag=sim_playcoin_open] r
 #DEPOSIT CHEQUE
 execute as @a[predicate=pundus_root:deposit_check_offhand,tag=!sim_check_open] run function pundus_root:economy/deposit_check_menu
 
+execute as @a[predicate=pundus_root:deposit_check_offhand,tag=sim_check_open,predicate=pundus_root:crouching] run scoreboard players set @s Pundus_MenuVar 901
+
 execute as @a[predicate=pundus_root:deposit_check_offhand,tag=sim_check_open,scores={Pundus_MenuVar=901}] run function pundus_root:economy/deposit_check
 
 scoreboard players reset @a[scores={Pundus_MenuVar=901}] Pundus_MenuVar

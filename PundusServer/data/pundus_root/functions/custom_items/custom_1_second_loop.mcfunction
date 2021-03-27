@@ -14,7 +14,9 @@ execute as @e[type=area_effect_cloud,tag=Pundus_QFS] at @s unless block ~ ~ ~ en
 
 execute as @e[type=item,nbt={OnGround:1b,Item:{tag:{pundus_id:"marker_beacon"}}}] at @s if block ~ ~ ~ end_portal_frame[eye=false] run function pundus_root:custom_items/1_second/qfs_loop
 
-execute as @a[scores={Pundus_MenuVar=1337}] run function pundus_root:custom_items/1_second/distress_beacon_activate
+execute as @a[scores={Pundus_MenuVar=1337}] if entity @e[type=area_effect_cloud,tag=Pundus_DistressBeacon,limit=1] run function pundus_root:custom_items/1_second/distress_beacon_activate
+
+execute as @a[tag=Pundus_Temp_PKI] run function pundus_root:custom_items/1_second/distress_beacon_temp_pki
 
 
 ##

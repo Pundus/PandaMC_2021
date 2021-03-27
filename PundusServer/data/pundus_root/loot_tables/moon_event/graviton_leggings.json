@@ -14,8 +14,8 @@
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
-					"text": " ",
-					"color": "gray",
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
 					"italic": false
 				},{
 					"translate": "pundus.item.graviton_leggings.lore1",
@@ -28,6 +28,10 @@
 				},{
 					"translate": "pundus.item.graviton_leggings.lore3",
 					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
 					"italic": false
 				}]
 			}, {

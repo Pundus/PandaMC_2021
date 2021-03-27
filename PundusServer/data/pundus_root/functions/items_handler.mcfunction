@@ -122,6 +122,10 @@ tag @a[tag=checkbook] remove checkbook
 execute as @a[tag=distress_beacon] run loot give @s loot pundus_root:distress_beacon
 tag @a[tag=distress_beacon] remove distress_beacon
 
+#Fertilizing Feet
+execute as @a[tag=fertilizing_feet] run loot give @s loot pundus_root:zombie_event/fertilizing_feet
+tag @a[tag=fertilizing_feet] remove fertilizing_feet
+
 
 
 schedule function pundus_root:items_handler 5t

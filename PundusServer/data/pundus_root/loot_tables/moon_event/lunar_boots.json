@@ -14,8 +14,8 @@
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
-					"text": " ",
-					"color": "gray",
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
 					"italic": false
 				},{
 					"translate": "pundus.item.lunar_boots.lore1",
@@ -24,6 +24,10 @@
 				},{
 					"translate": "pundus.item.lunar_boots.lore2",
 					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
 					"italic": false
 				}]
 			}, {

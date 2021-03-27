@@ -40,18 +40,18 @@ execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tellraw @s [{
 
 
 #Streak 9 - Low tier EB
-execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tag @s add gorb_ebook_low
-execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.ebook.low.name","underlined":true}]
+execute as @s[scores={Pundus_LogStr=9},tag=!Pundus_DailyGiven] run tag @s add gorb_ebook_low
+execute as @s[scores={Pundus_LogStr=9},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.ebook.low.name","underlined":true}]
 
 
 #Streak 10 - Mid tier EB
-execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tag @s add gorb_ebook_med
-execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.ebook.med.name","underlined":true}]
+execute as @s[scores={Pundus_LogStr=10},tag=!Pundus_DailyGiven] run tag @s add gorb_ebook_med
+execute as @s[scores={Pundus_LogStr=10},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.ebook.med.name","underlined":true}]
 
 
 #Streak 11 - 150 PC
-execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tag @s add gorb_cosmetic_1
-execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.cosmetic_1.name","underlined":true}]
+execute as @s[scores={Pundus_LogStr=11},tag=!Pundus_DailyGiven] run tag @s add gorb_cosmetic_1
+execute as @s[scores={Pundus_LogStr=11},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.cosmetic_1.name","underlined":true}]
 
 
 #Streak 12 - High Tier EB
