@@ -36,6 +36,14 @@ tag @a[tag=decor_model_rocket] remove decor_model_rocket
 execute as @a[tag=decor_model_phantom] run loot give @s loot pundus_root:decor/model_phantom
 tag @a[tag=decor_model_phantom] remove decor_model_phantom
 
+#Decor - Trans Bee
+execute as @a[tag=decor_trans_bee] run loot give @s loot pundus_root:decor/model_trans_bee
+tag @a[tag=decor_trans_bee] remove decor_trans_bee
+
+#Decor - Bee
+execute as @a[tag=decor_bee] run loot give @s loot pundus_root:decor/model_bee
+tag @a[tag=decor_bee] remove decor_bee
+
 #Lunar Express Ticket
 execute as @a[tag=ticket_moon] run loot give @s loot pundus_root:moon_event/ticket_moon
 tag @a[tag=ticket_moon] remove ticket_moon
@@ -125,6 +133,14 @@ tag @a[tag=distress_beacon] remove distress_beacon
 #Fertilizing Feet
 execute as @a[tag=fertilizing_feet] run loot give @s loot pundus_root:zombie_event/fertilizing_feet
 tag @a[tag=fertilizing_feet] remove fertilizing_feet
+
+#Percent Equal
+execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
+tag @a[tag=percent_equal] remove percent_equal
+
+#Percent Variable
+execute as @a[tag=percent_variable] run loot give @s loot pundus_root:percent_variable
+tag @a[tag=percent_variable] remove percent_variable
 
 
 
