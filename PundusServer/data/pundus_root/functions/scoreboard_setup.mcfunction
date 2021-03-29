@@ -33,6 +33,13 @@ scoreboard objectives add Pundus_GenMathY dummy
 scoreboard objectives add Pundus_GenMathZ dummy
 scoreboard objectives add Pundus_EntTrack dummy
 
+scoreboard objectives add Pundus_CrimFFCD dummy
+scoreboard objectives add Pundus_CrimKill totalKillCount
+scoreboard objectives add Pundus_ReapSCD dummy
+scoreboard objectives add Pundus_ScptMTCD dummy
+scoreboard objectives add Pundus_ScptSSCD dummy
+scoreboard objectives add Pundus_ScptSSGM dummy
+
 scoreboard objectives add Pundus_VanValue dummy
 
 scoreboard players set %Math_2 Pundus_VanValue 2

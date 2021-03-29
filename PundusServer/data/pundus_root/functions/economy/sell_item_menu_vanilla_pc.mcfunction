@@ -19,6 +19,7 @@ execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_7] run scoreb
 execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_8] run scoreboard players operation @s Pundus_VanValue *= %Math_8 Pundus_VanValue
 execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_9] run scoreboard players operation @s Pundus_VanValue *= %Math_9 Pundus_VanValue
 execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_10] run scoreboard players operation @s Pundus_VanValue *= %Math_10 Pundus_VanValue
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_pennies] run scoreboard players operation @s Pundus_VanValue /= %Math_5 Pundus_VanValue
 
 tellraw @s [{"color":"aqua","translate":"pundus.pda.balance"},{"color":"white","score":{"name":"*","objective":"Pundus_Playcoins"}},{"color":"white","translate":"pundus.pda.balance_divider"},{"color":"white","score":{"name":"*","objective":"Pundus_Diamonds"}},{"color":"white","translate":"pundus.pda.balance_end"}]
 

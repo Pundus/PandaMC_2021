@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "minecraft:calcite",
-    "minecraft:snowball",
     "minecraft:gunpowder",
     "minecraft:cocoa_beans",
     "minecraft:flint",
@@ -17,8 +16,6 @@
 	"minecraft:coal",
     "minecraft:glowstone_dust",
     "minecraft:soul_sand",
-    "minecraft:wheat",
-    "minecraft:beetroot",
     "minecraft:red_sand",
     "minecraft:nether_wart",
     "minecraft:spider_eye",

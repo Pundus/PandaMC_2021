@@ -18,6 +18,7 @@ execute as @a[scores={Pundus_MenuVar=1337}] if entity @e[type=area_effect_cloud,
 
 execute as @a[tag=Pundus_Temp_PKI] run function pundus_root:custom_items/1_second/distress_beacon_temp_pki
 
+function pundus_root:custom_items/1_second_cooldowns
 
 ##
 

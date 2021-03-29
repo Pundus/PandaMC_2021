@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "#pundus_root:playcoin_values/playcoin_worth_pennies",
     "#pundus_root:playcoin_values/playcoin_worth_1",
     "#pundus_root:playcoin_values/playcoin_worth_2",
     "#pundus_root:playcoin_values/playcoin_worth_3",

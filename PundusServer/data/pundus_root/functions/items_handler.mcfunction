@@ -131,8 +131,40 @@ execute as @a[tag=distress_beacon] run loot give @s loot pundus_root:distress_be
 tag @a[tag=distress_beacon] remove distress_beacon
 
 #Fertilizing Feet
-execute as @a[tag=fertilizing_feet] run loot give @s loot pundus_root:zombie_event/fertilizing_feet
+execute as @a[tag=fertilizing_feet] run loot give @s loot pundus_root:undead_event/fertilizing_feet
 tag @a[tag=fertilizing_feet] remove fertilizing_feet
+
+#Zombie Brain
+execute as @a[tag=zombie_brain] run loot give @s loot pundus_root:undead_event/zombie_brain
+tag @a[tag=zombie_brain] remove zombie_brain
+
+#Crimson Sword
+execute as @a[tag=crimson_sword] run loot give @s loot pundus_root:undead_event/crimson_sword
+tag @a[tag=crimson_sword] remove crimson_sword
+
+#Crimson Battleaxe
+execute as @a[tag=crimson_battleaxe] run loot give @s loot pundus_root:undead_event/crimson_battleaxe
+tag @a[tag=crimson_battleaxe] remove crimson_battleaxe
+
+#Reaping Scythe
+execute as @a[tag=reaping_scythe] run loot give @s loot pundus_root:undead_event/reaping_scythe
+tag @a[tag=reaping_scythe] remove reaping_scythe
+
+#Scepter of Mindless Translocation
+execute as @a[tag=scepter_mindless_translocation] run loot give @s loot pundus_root:undead_event/scepter_mindless_translocation
+tag @a[tag=scepter_mindless_translocation] remove scepter_mindless_translocation
+
+#Scepter of Spirit Shifting
+execute as @a[tag=scepter_spirit_shift] run loot give @s loot pundus_root:undead_event/scepter_spirit_shift
+tag @a[tag=scepter_spirit_shift] remove scepter_spirit_shift
+
+#Mini-Crossbow
+execute as @a[tag=mini_crossbow] run loot give @s loot pundus_root:undead_event/mini_crossbow
+tag @a[tag=mini_crossbow] remove mini_crossbow
+
+#Firebrand
+execute as @a[tag=firebrand] run loot give @s loot pundus_root:undead_event/firebrand
+tag @a[tag=firebrand] remove firebrand
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

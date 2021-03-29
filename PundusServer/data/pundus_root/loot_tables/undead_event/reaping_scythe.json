@@ -1,0 +1,63 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:iron_sword",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_custom_1sec:1b,CustomModelData:1014,RepairCost:9999,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:sweeping_edge\",lvl:10s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}],crimson_sword:1b,pundus_id:\"reaping_scythe\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.reaping_scythe.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.reaping_scythe.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.reaping_scythe.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.reaping_scythe.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.reaping_scythe.lore5",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.reaping_scythe.lore6",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.cannot_protected",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.reaping_scythe.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}
