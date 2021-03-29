@@ -1,5 +1,18 @@
 #Selling item for playcoin
 
+execute store result score @s Pundus_VanValue run data get entity @s Inventory[{Slot: -106b}].Count 1
+
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_2] run scoreboard players operation @s Pundus_VanValue *= %Math_2 Pundus_VanValue
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_3] run scoreboard players operation @s Pundus_VanValue *= %Math_3 Pundus_VanValue
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_4] run scoreboard players operation @s Pundus_VanValue *= %Math_4 Pundus_VanValue
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_5] run scoreboard players operation @s Pundus_VanValue *= %Math_5 Pundus_VanValue
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_6] run scoreboard players operation @s Pundus_VanValue *= %Math_6 Pundus_VanValue
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_7] run scoreboard players operation @s Pundus_VanValue *= %Math_7 Pundus_VanValue
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_8] run scoreboard players operation @s Pundus_VanValue *= %Math_8 Pundus_VanValue
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_9] run scoreboard players operation @s Pundus_VanValue *= %Math_9 Pundus_VanValue
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_10] run scoreboard players operation @s Pundus_VanValue *= %Math_10 Pundus_VanValue
+execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_pennies] run scoreboard players operation @s Pundus_VanValue /= %Math_5 Pundus_VanValue
+
 
 execute at @s run playsound ui.sell_item master @s
 
