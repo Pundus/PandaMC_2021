@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:1019,RepairCost:9999,Enchantments:[{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:3s},{id:\"minecraft:sweeping_edge\",lvl:3s},{id:\"minecraft:knockback\",lvl:1s}],pundus_id:\"firebrand\"}"
+				"tag": "{pundus_custom_1sec:1b,CustomModelData:1019,RepairCost:9999,Enchantments:[{id:\"minecraft:smite\",lvl:6s},{id:\"minecraft:fire_aspect\",lvl:5s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:knockback\",lvl:1s}],pundus_id:\"firebrand\",AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.9,Operation:0,UUID:[I;191204919,-835302606,-2038583727,-319974933],Slot:\"mainhand\"}],HideFlags:2}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -31,6 +31,10 @@
 					"italic": false
 				},{
 					"translate": "pundus.item.firebrand.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.firebrand.lore5",
 					"color": "gray",
 					"italic": false
 				},{

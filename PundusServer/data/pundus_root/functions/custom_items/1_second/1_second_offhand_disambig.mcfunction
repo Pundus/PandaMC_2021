@@ -23,4 +23,8 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_spirit_shift"}
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_dead_men_walking"}}]}] at @s run function pundus_root:custom_items/1_second/spell_dead_men_walking
 
+
+execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"golem_reinforcements"}}]}] at @s run function pundus_root:custom_items/1_second/golem_reinforcements
+execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"golem_cannon_fodder"}}]}] at @s run function pundus_root:custom_items/1_second/golem_cannon_fodder
+
 #other

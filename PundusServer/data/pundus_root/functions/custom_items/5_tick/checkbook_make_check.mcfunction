@@ -19,7 +19,7 @@ data modify entity @e[type=item,limit=1,distance=..1,sort=nearest] Item.tag.disp
 
 scoreboard players operation @s Pundus_Playcoins -= @s Pundus_CheckBk
 
-data modify entity @e[type=item,limit=1,distance=..1,sort=nearest] PickupDelay set value 0
+data modify entity @e[type=item,limit=1,tag=!Pundus_ShopItemDisplay,distance=..1,sort=nearest] PickupDelay set value 0
 
 tag @s remove Pundus_GenCheck
 

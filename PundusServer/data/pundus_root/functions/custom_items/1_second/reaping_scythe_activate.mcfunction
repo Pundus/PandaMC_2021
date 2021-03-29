@@ -1,6 +1,6 @@
 # reaping scythe activate
 
-execute as @e[type=!player,distance=..15] run effect give @s minecraft:wither 30 2 false
+execute as @e[type=!player,distance=..15] run effect give @s minecraft:wither 30 2 true
 
 playsound sfx.scythe_wither player @a ~ ~ ~ 1 1 0
 

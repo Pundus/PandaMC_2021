@@ -18,6 +18,11 @@ execute as @a[scores={Pundus_MenuVar=1337}] if entity @e[type=area_effect_cloud,
 
 execute as @a[tag=Pundus_Temp_PKI] run function pundus_root:custom_items/1_second/distress_beacon_temp_pki
 
+execute as @e[type=iron_golem,tag=Pundus_Golem_Summon] run function pundus_root:custom_items/1_second/golems_loop
+execute as @e[type=snow_golem,tag=Pundus_Golem_Summon] run function pundus_root:custom_items/1_second/golems_loop
+
+execute as @e[type=#minecraft:raiders,tag=!PillagerFuck] at @s run function pundus_root:custom_items/pillager
+
 function pundus_root:custom_items/1_second_cooldowns
 
 ##

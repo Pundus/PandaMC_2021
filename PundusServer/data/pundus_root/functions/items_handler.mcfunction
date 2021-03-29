@@ -166,6 +166,18 @@ tag @a[tag=mini_crossbow] remove mini_crossbow
 execute as @a[tag=firebrand] run loot give @s loot pundus_root:undead_event/firebrand
 tag @a[tag=firebrand] remove firebrand
 
+#Spell: Dead Man Walking
+execute as @a[tag=spell_dead_men_walking] run loot give @s loot pundus_root:undead_event/spell_dead_men_walking
+tag @a[tag=spell_dead_men_walking] remove spell_dead_men_walking
+
+#Golem Reinforcements
+execute as @a[tag=golem_reinforcements] run loot give @s loot pundus_root:undead_event/golem_reinforcements
+tag @a[tag=golem_reinforcements] remove golem_reinforcements
+
+#Golem Cannon Fodder
+execute as @a[tag=golem_cannon_fodder] run loot give @s loot pundus_root:undead_event/golem_cannon_fodder
+tag @a[tag=golem_cannon_fodder] remove golem_cannon_fodder
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

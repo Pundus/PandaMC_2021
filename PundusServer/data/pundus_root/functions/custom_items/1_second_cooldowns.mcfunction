@@ -19,3 +19,4 @@ execute as @a[tag=Pundus_SpiritShifted] at @s if block ~ 319 ~ minecraft:structu
 ##
 
 
+execute as @e[type=#pundus_root:undead_mobs,tag=Pundus_DMWFrozen] run function pundus_root:custom_items/1_second/spell_dead_men_walking_loop

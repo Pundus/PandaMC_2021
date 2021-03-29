@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1021,pundus_id:\"golem_reinforcements\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.golem_reinforcements.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.golem_reinforcements.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.golem_reinforcements.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.golem_reinforcements.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.golem_reinforcements.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

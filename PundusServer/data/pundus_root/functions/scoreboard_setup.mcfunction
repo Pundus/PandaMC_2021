@@ -12,6 +12,7 @@ scoreboard objectives add Pundus_DmdCount dummy
 scoreboard objectives add Pundus_ShopValue dummy
 scoreboard objectives add Pundus_PlayerID dummy
 scoreboard objectives add Pundus_PKIID dummy
+scoreboard objectives add Pundus_GshpScrl dummy
 scoreboard objectives add Pundus_ShopInt minecraft.custom:minecraft.open_chest
 
 scoreboard objectives add Pundus_DeathTrk deathCount 
