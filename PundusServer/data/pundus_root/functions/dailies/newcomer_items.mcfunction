@@ -7,3 +7,4 @@ execute as @a unless score @s Pundus_Diamonds = @s Pundus_Diamonds run scoreboar
 
 tag @s add pundus_pda
 tag @s add gorb_cosmetic_1
+tag @s add gorb_starter

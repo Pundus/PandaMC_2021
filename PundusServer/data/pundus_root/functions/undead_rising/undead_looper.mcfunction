@@ -11,4 +11,4 @@ execute as @e[type=#pundus_root:undead_mobs] run function pundus_root:undead_ris
 
 tell Lord_Pundus active
 
-#schedule function pundus_root:undead_rising/undead_looper 21t
+schedule function pundus_root:undead_rising/undead_looper 21t
