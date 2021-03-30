@@ -40,6 +40,10 @@ scoreboard objectives add Pundus_ReapSCD dummy
 scoreboard objectives add Pundus_ScptMTCD dummy
 scoreboard objectives add Pundus_ScptSSCD dummy
 scoreboard objectives add Pundus_ScptSSGM dummy
+scoreboard objectives add Pundus_HoFishCD dummy
+scoreboard objectives add Pundus_BQuivB minecraft.used:minecraft.bow
+scoreboard objectives add Pundus_BQuivCB minecraft.used:minecraft.crossbow
+
 
 scoreboard objectives add Pundus_VanValue dummy
 
@@ -68,6 +72,11 @@ scoreboard objectives add PQ_QuestComp dummy
 
 scoreboard objectives add Pundus_NPCInt minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add Pundus_NPC_ID dummy
+
+scoreboard objectives add Pundus_URKills minecraft.killed:minecraft.zombie
+scoreboard objectives add Pundus_URKillsD minecraft.killed:minecraft.drowned
+scoreboard objectives add Pundus_URKillsH minecraft.killed:minecraft.husk
+scoreboard objectives add Pundus_CSHunger food 
 
 
 execute unless score %CurrentID Pundus_PlayerID = %CurrentID Pundus_PlayerID run scoreboard players set %CurrentID Pundus_PlayerID 0

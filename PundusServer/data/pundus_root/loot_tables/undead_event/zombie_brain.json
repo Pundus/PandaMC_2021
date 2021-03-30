@@ -34,7 +34,7 @@
 				"function": "set_name",
 				"name": {
 					"translate": "pundus.item.zombie_brain.name",
-					"color": "yellow",
+					"color": "white",
 					"italic": false
 				}
 			}]

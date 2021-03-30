@@ -26,6 +26,9 @@ item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_frankenstein_bolts"}}}] we
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_party_hat"}}}] weapon.mainhand modify pundus_cosmetics:collection_1/party_hat
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_a_toymakers_toy"}}}] weapon.mainhand modify pundus_cosmetics:collection_1/a_toymakers_toy
 
+#collection 2
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_zombie_pal"}}}] weapon.mainhand modify pundus_cosmetics:collection_2/zombie_pal
+
 
 item entity @s weapon.mainhand modify pundus_cosmetics:cosmetics_armor_modifier
 #econ reset

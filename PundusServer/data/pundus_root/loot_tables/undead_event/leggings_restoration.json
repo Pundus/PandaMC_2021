@@ -1,0 +1,55 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_leggings",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_playcoin_sellable:1b,pundus_playcoin_value:400,pundus_custom_1sec:1b,RepairCost:9999,Unbreakable:1b,Enchantments:[{}],leggings_restoration:1b,pundus_id:\"leggings_restoration\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [[{
+				"translate": "pundus.item.generic.value",
+				"color": "white",
+				"italic": false
+			}, {
+				"text": "400",
+				"color": "white",
+				"italic": false
+			}, {
+				"translate": "pundus.item.generic.playcoin_suffix",
+				"color": "white",
+				"italic": false
+			}],{
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.leggings_restoration.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.leggings_restoration.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.unbreaking",
+					"color": "dark_green",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.leggings_restoration.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

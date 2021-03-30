@@ -1,5 +1,8 @@
 #cosmetic 1 gasha scroll
 
+
+execute as @s[tag=!Pundus_Gasha_Scrolling] at @s run function pundus_root:gashapon/gashapon_open_sfx
+
 scoreboard players set @s[tag=!Pundus_Gasha_Scrolling] Pundus_GshpScrl 33
 scoreboard players remove @s[tag=Pundus_Gasha_Scrolling] Pundus_GshpScrl 1
 

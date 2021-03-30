@@ -3,5 +3,6 @@
 function pundus_cosmetics:cosmetics_set_server_value
 
 schedule function pundus_cosmetics:cosmetic_item_handlers/cosmetics_collection_1_items_handler 4t
+schedule function pundus_cosmetics:cosmetic_item_handlers/cosmetics_collection_2_items_handler 3t
 schedule function pundus_cosmetics:cosmetic_item_handlers/cosmetics_special_items_handler 6t
 schedule function pundus_cosmetics:cosmetics_modification_looper 5t

@@ -1,0 +1,3 @@
+# stalker
+
+summon minecraft:zombie ~ ~ ~ {DeathLootTable:"pundus_root:undead_event/zombie_brain",CustomName:'{"translate":"pundus.npc.zombie.stalker.name","color":"dark_green"}',Health:100f,Tags:["Pundus_Stalker"],Attributes:[{Name:generic.follow_range,Base:100},{Name:generic.movement_speed,Base:.2},{Name:generic.max_health,Base:100},{Name:generic.attack_damage,Base:1},{Name:zombie.spawn_reinforcements,Base:1.0}]}

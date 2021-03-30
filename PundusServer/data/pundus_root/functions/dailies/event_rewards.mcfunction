@@ -13,6 +13,11 @@
 
 
 #To the Moon!
-execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow"},{"translate":"pundus.server.events.to_the_moon.title"}]
-execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"text":" (","color":"gold"},{"translate":"pundus.server.events.to_the_moon.details"},{"text":")"}]
-execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add ticket_moon
+#execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow"},{"translate":"pundus.server.events.to_the_moon.title"}]
+#execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"text":" (","color":"gold"},{"translate":"pundus.server.events.to_the_moon.details"},{"text":")"}]
+#execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add ticket_moon
+
+#Undead Rising
+execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow"},{"translate":"pundus.server.events.undead_rising.title"}]
+execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"text":" (","color":"gold"},{"translate":"pundus.server.events.undead_rising.details"},{"text":")"}]
+execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add lb_undead_rising

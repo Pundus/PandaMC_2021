@@ -38,7 +38,7 @@
 				"function": "set_name",
 				"name": {
 					"translate": "pundus.item.spell_dead_men_walking.name",
-					"color": "yellow",
+					"color": "white",
 					"italic": false
 				}
 			}]

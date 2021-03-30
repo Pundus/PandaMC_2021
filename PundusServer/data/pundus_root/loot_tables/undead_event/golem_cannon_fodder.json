@@ -42,7 +42,7 @@
 				"function": "set_name",
 				"name": {
 					"translate": "pundus.item.golem_cannon_fodder.name",
-					"color": "yellow",
+					"color": "white",
 					"italic": false
 				}
 			}]

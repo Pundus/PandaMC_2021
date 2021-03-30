@@ -62,3 +62,6 @@ execute unless score hat_party_hat Pundus_ItemSell = hat_party_hat Pundus_ItemSe
 #A Toymaker's Toy: 1900
 execute unless score hat_a_toymakers_toy Pundus_ItemSell = hat_a_toymakers_toy Pundus_ItemSell run scoreboard players set hat_a_toymakers_toy Pundus_ItemSell 1900
 
+#Zombie Pal: 2000
+execute unless score hat_zombie_pal Pundus_ItemSell = hat_zombie_pal Pundus_ItemSell run scoreboard players set hat_zombie_pal Pundus_ItemSell 2000
+

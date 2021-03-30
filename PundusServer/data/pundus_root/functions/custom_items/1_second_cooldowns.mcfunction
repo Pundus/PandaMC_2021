@@ -10,6 +10,8 @@ scoreboard players remove @a[scores={Pundus_ReapSCD=1..}] Pundus_ReapSCD 1
 
 scoreboard players remove @a[scores={Pundus_ScptMTCD=1..}] Pundus_ScptMTCD 1
 
+scoreboard players remove @a[scores={Pundus_HoFishCD=1..}] Pundus_HoFishCD 1
+
 scoreboard players remove @a[scores={Pundus_ScptSSCD=1..}] Pundus_ScptSSCD 1
 scoreboard players remove @a[tag=Pundus_SpiritShifted,scores={Pundus_ScptSSGM=1..}] Pundus_ScptSSGM 1
 execute as @a[tag=Pundus_SpiritShifted] at @s if score @s Pundus_ScptSSGM matches 0 run function pundus_root:custom_items/1_second/scepter_spirit_shift_disable

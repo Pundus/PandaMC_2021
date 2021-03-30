@@ -21,7 +21,7 @@ execute as @a[tag=Pundus_Temp_PKI] run function pundus_root:custom_items/1_secon
 execute as @e[type=iron_golem,tag=Pundus_Golem_Summon] run function pundus_root:custom_items/1_second/golems_loop
 execute as @e[type=snow_golem,tag=Pundus_Golem_Summon] run function pundus_root:custom_items/1_second/golems_loop
 
-execute as @e[type=#minecraft:raiders,tag=!PillagerFuck] at @s run function pundus_root:custom_items/pillager
+execute as @e[type=#minecraft:raiders,tag=!PillagerFuck,limit=10] at @s run function pundus_root:custom_items/pillager
 
 function pundus_root:custom_items/1_second_cooldowns
 

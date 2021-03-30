@@ -74,7 +74,7 @@
 				"function": "set_name",
 				"name": {
 					"translate": "pundus.item.crimson_battleaxe.name",
-					"color": "aqua",
+					"color": "light_purple",
 					"italic": false
 				}
 			}]

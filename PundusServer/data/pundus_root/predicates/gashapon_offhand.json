@@ -4,7 +4,6 @@
   "predicate": {
     "equipment": {
       "offhand": {
-		"item": "minecraft:enchanted_book",
         "nbt": "{pundus_gashapon:1b}"
       }
     }

@@ -28,6 +28,10 @@ tag @a[tag=gorb_ebook_med] remove gorb_ebook_med
 execute as @a[tag=gorb_ebook_high] run loot give @s loot pundus_root:gashapon/orb_ebook_high
 tag @a[tag=gorb_ebook_high] remove gorb_ebook_high
 
+#Lockbox Undead Rising
+execute as @a[tag=lb_undead_rising] run loot give @s loot pundus_root:gashapon/lb_undead_rising
+tag @a[tag=lb_undead_rising] remove lb_undead_rising
+
 #Decor - Model Rocket
 execute as @a[tag=decor_model_rocket] run loot give @s loot pundus_root:decor/model_rocket
 tag @a[tag=decor_model_rocket] remove decor_model_rocket
@@ -134,6 +138,14 @@ tag @a[tag=distress_beacon] remove distress_beacon
 execute as @a[tag=fertilizing_feet] run loot give @s loot pundus_root:undead_event/fertilizing_feet
 tag @a[tag=fertilizing_feet] remove fertilizing_feet
 
+#Chestplate of Satiation
+execute as @a[tag=chestplate_satiation] run loot give @s loot pundus_root:undead_event/chestplate_satiation
+tag @a[tag=chestplate_satiation] remove chestplate_satiation
+
+#Leggings of Restoration
+execute as @a[tag=leggings_restoration] run loot give @s loot pundus_root:undead_event/leggings_restoration
+tag @a[tag=leggings_restoration] remove leggings_restoration
+
 #Zombie Brain
 execute as @a[tag=zombie_brain] run loot give @s loot pundus_root:undead_event/zombie_brain
 tag @a[tag=zombie_brain] remove zombie_brain
@@ -177,6 +189,22 @@ tag @a[tag=golem_reinforcements] remove golem_reinforcements
 #Golem Cannon Fodder
 execute as @a[tag=golem_cannon_fodder] run loot give @s loot pundus_root:undead_event/golem_cannon_fodder
 tag @a[tag=golem_cannon_fodder] remove golem_cannon_fodder
+
+#Zombo-soda
+execute as @a[tag=zombosoda] run loot give @s loot pundus_root:undead_event/zombosoda
+tag @a[tag=zombosoda] remove zombosoda
+
+#History of Fish
+execute as @a[tag=history_of_fish] run loot give @s loot pundus_root:undead_event/history_of_fish
+tag @a[tag=history_of_fish] remove history_of_fish
+
+#Basic Quiver
+execute as @a[tag=basic_quiver] run loot give @s loot pundus_root:undead_event/basic_quiver
+tag @a[tag=basic_quiver] remove basic_quiver
+
+# Undead Rising Buyout Token
+execute as @a[tag=buyout_token_ur] run loot give @s loot pundus_root:undead_event/buyout_token_ur
+tag @a[tag=buyout_token_ur] remove buyout_token_ur
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

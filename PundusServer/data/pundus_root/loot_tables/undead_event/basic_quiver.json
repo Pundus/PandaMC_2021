@@ -1,0 +1,59 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_chestplate",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:1025,display:{color:15790320},HideFlags:127,pundus_playcoin_sellable:1b,pundus_playcoin_value:500,pundus_custom_1sec:1b,RepairCost:9999,Enchantments:[{}],basic_quiver:1b,pundus_id:\"basic_quiver\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [[{
+				"translate": "pundus.item.generic.value",
+				"color": "white",
+				"italic": false
+			}, {
+				"text": "500",
+				"color": "white",
+				"italic": false
+			}, {
+				"translate": "pundus.item.generic.playcoin_suffix",
+				"color": "white",
+				"italic": false
+			}],{
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.basic_quiver.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.basic_quiver.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.basic_quiver.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.basic_quiver.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

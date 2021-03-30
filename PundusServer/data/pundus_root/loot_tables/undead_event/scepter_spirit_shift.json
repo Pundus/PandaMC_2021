@@ -54,7 +54,7 @@
 				"function": "set_name",
 				"name": {
 					"translate": "pundus.item.scepter_spirit_shift.name",
-					"color": "yellow",
+					"color": "light_purple",
 					"italic": false
 				}
 			}]

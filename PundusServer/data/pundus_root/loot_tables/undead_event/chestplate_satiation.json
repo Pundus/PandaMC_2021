@@ -1,0 +1,55 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_chestplate",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_playcoin_sellable:1b,pundus_playcoin_value:500,pundus_custom_1sec:1b,RepairCost:9999,Unbreakable:1b,Enchantments:[{}],chestplate_satiation:1b,pundus_id:\"chestplate_satiation\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [[{
+				"translate": "pundus.item.generic.value",
+				"color": "white",
+				"italic": false
+			}, {
+				"text": "500",
+				"color": "white",
+				"italic": false
+			}, {
+				"translate": "pundus.item.generic.playcoin_suffix",
+				"color": "white",
+				"italic": false
+			}],{
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.chestplate_satiation.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.chestplate_satiation.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.unbreaking",
+					"color": "dark_green",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.chestplate_satiation.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

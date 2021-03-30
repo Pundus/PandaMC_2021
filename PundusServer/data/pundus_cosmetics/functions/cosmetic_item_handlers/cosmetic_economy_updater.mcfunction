@@ -81,4 +81,8 @@ execute as @s[nbt={SelectedItem:{tag:{pundus_id:"hat_party_hat"}}}] store result
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"hat_a_toymakers_toy"}}}] store result block 0 -64 0 Items[0].tag.pundus_playcoin_value int 1 run scoreboard players get hat_a_toymakers_toy Pundus_ItemValue
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"hat_a_toymakers_toy"}}}] store result block 0 -64 0 Items[0].tag.pundus_shop_cost int 1 run scoreboard players get hat_a_toymakers_toy Pundus_ItemSell
 
+################################
 
+#hat_zombie_pal
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"hat_zombie_pal"}}}] store result block 0 -64 0 Items[0].tag.pundus_playcoin_value int 1 run scoreboard players get hat_zombie_pal Pundus_ItemValue
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"hat_zombie_pal"}}}] store result block 0 -64 0 Items[0].tag.pundus_shop_cost int 1 run scoreboard players get hat_zombie_pal Pundus_ItemSell
