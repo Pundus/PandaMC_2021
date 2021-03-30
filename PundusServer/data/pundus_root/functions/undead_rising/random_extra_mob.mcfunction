@@ -22,11 +22,11 @@ execute if score %UR_ZombBonus Pundus_RNG matches 12..14 at @s run function pund
 execute if score %UR_ZombBonus Pundus_RNG matches 15..17 at @s run function pundus_root:undead_rising/special_mobs/spawn_baby
 #execute if score %UR_ZombBonus Pundus_RNG matches 15..17 at @s run tell Lord_Pundus baby
 
-execute if score %UR_ZombBonus Pundus_RNG matches 18..20 at @s run function pundus_root:undead_rising/special_mobs/spawn_phantom_bomber
-#execute if score %UR_ZombBonus Pundus_RNG matches 18..20 at @s run tell Lord_Pundus phantombomber
+execute if score %UR_ZombBonus Pundus_RNG matches 96 at @s run function pundus_root:undead_rising/special_mobs/spawn_phantom_bomber
+#execute if score %UR_ZombBonus Pundus_RNG matches 96 at @s run tell Lord_Pundus phantombomber
 
-execute if score %UR_ZombBonus Pundus_RNG matches 21..23 at @s run function pundus_root:undead_rising/special_mobs/spawn_shielder
-#execute if score %UR_ZombBonus Pundus_RNG matches 21..23 at @s run tell Lord_Pundus shielder
+execute if score %UR_ZombBonus Pundus_RNG matches 18..20 at @s run function pundus_root:undead_rising/special_mobs/spawn_shielder
+#execute if score %UR_ZombBonus Pundus_RNG matches 18..20 at @s run tell Lord_Pundus shielder
 
 execute if score %UR_ZombBonus Pundus_RNG matches 97.. at @s at @a[limit=1,sort=random] run function pundus_root:undead_rising/special_mobs/spawn_stalker
 #execute if score %UR_ZombBonus Pundus_RNG matches 97.. at @s at @a[limit=1,sort=random] run tell Lord_Pundus stalker

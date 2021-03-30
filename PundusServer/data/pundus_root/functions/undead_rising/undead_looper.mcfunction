@@ -9,6 +9,5 @@ execute as @a if score @s Pundus_URKillsH matches 5.. run function pundus_root:u
 
 execute as @e[type=#pundus_root:undead_mobs] run function pundus_root:undead_rising/torch_disable
 
-tell Lord_Pundus active
 
 schedule function pundus_root:undead_rising/undead_looper 21t
