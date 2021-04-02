@@ -1,3 +1,3 @@
 # husk
 
-summon minecraft:husk ~ ~ ~ {DeathLootTable:"pundus_root:undead_event/zombie_brain",CustomName:'{"translate":"pundus.npc.zombie.husk.name","color":"dark_green"}',Health:30f,Tags:["Pundus_HungerZombie"],Attributes:[{Name:generic.follow_range,Base:100},{Name:generic.movement_speed,Base:.35},{Name:generic.max_health,Base:30},{Name:generic.attack_damage,Base:1},{Name:zombie.spawn_reinforcements,Base:0.7}]}
+summon minecraft:husk ~ ~ ~ {DeathLootTable:"pundus_root:undead_event/zombie_brain",CustomName:'{"translate":"pundus.npc.zombie.husk.name","color":"dark_green"}',Health:15f,Tags:["Pundus_HungerZombie","Pundus_ZR_Set"],Attributes:[{Name:generic.follow_range,Base:48},{Name:generic.movement_speed,Base:.35},{Name:generic.max_health,Base:15},{Name:generic.attack_damage,Base:1},{Name:zombie.spawn_reinforcements,Base:0.7}]}

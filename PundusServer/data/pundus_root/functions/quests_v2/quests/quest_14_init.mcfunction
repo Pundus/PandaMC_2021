@@ -1,5 +1,5 @@
 #Fix the bossbar text
-bossbar set pundus_root:quest_info name [{"translate":"pundus.server.quests.current","color":"green"},{"translate":"pundus.server.quests.cull"},{"text":"10 "},{"translate":"entity.minecraft.enderman"}]
+bossbar set pundus_root:quest_info name [{"translate":"pundus.server.quests.current","color":"green"},{"translate":"pundus.server.quests.slay"},{"text":"10 "},{"translate":"entity.minecraft.enderman"}]
 
 #Set ID (CHANGE)
 #scoreboard players set PQ_QuestComp QuestID 0

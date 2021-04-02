@@ -6,6 +6,8 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"gorb_overworld_fauna"}
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"gorb_ebook_low"}}]}] run function pundus_root:gashapon/gasha_givers/gasha_ebook_low
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"gorb_ebook_med"}}]}] run function pundus_root:gashapon/gasha_givers/gasha_ebook_med
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"gorb_ebook_high"}}]}] run function pundus_root:gashapon/gasha_givers/gasha_ebook_high
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"gorb_monsters"}}]}] run function pundus_root:gashapon/gasha_givers/gasha_monsters
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"gorb_interdimensional"}}]}] run function pundus_root:gashapon/gasha_givers/gasha_interdimensional
 
 
 #scroll

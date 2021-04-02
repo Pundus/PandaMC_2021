@@ -42,5 +42,8 @@ schedule function pundus_root:custom_items/custom_1_second_loop 13t
 schedule function pundus_root:undead_rising/undead_init 17t
 
 
+schedule function pundus_root:block_packs/bp_offhand_determination_init 19t
+
+
 
 #schedule function pundus_root:generic_loops/generic_5_second_loop 14t

@@ -50,8 +50,8 @@ execute as @s[scores={Pundus_LogStr=10},tag=!Pundus_DailyGiven] run tellraw @s [
 
 
 #Streak 11 - 150 PC
-execute as @s[scores={Pundus_LogStr=11},tag=!Pundus_DailyGiven] run tag @s add gorb_cosmetic_1
-execute as @s[scores={Pundus_LogStr=11},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.cosmetic_1.name","underlined":true}]
+execute as @s[scores={Pundus_LogStr=11},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 150
+execute as @s[scores={Pundus_LogStr=11},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"150 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
 
 
 #Streak 12 - High Tier EB
@@ -65,8 +65,40 @@ execute as @s[scores={Pundus_LogStr=13},tag=!Pundus_DailyGiven] run tellraw @s [
 
 
 #Streak 14 - 200 PC
-execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tag @s add gorb_cosmetic_1
-execute as @s[scores={Pundus_LogStr=8},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.cosmetic_1.name","underlined":true}]
+execute as @s[scores={Pundus_LogStr=14},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 200
+execute as @s[scores={Pundus_LogStr=14},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"200 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
+
+#Streak 15 - 250 PC
+execute as @s[scores={Pundus_LogStr=15},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 250
+execute as @s[scores={Pundus_LogStr=15},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"250 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
+
+#Streak 16 - golem cannon fodder
+execute as @s[scores={Pundus_LogStr=16},tag=!Pundus_DailyGiven] run tag @s add golem_cannon_fodder
+execute as @s[scores={Pundus_LogStr=16},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.golem_cannon_fodder.name","underlined":true}]
+
+#Streak 17 - golem reinforcements
+execute as @s[scores={Pundus_LogStr=17},tag=!Pundus_DailyGiven] run tag @s add golem_reinforcements
+execute as @s[scores={Pundus_LogStr=17},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.golem_reinforcements.name","underlined":true}]
+
+#Streak 18 - block pack: typical stones
+execute as @s[scores={Pundus_LogStr=18},tag=!Pundus_DailyGiven] run tag @s add bp_typical_stones
+execute as @s[scores={Pundus_LogStr=18},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.block_pack.typical_stones.name","underlined":true}]
+
+#Streak 19 - block pack: sparse stones
+execute as @s[scores={Pundus_LogStr=19},tag=!Pundus_DailyGiven] run tag @s add bp_sparse_stones
+execute as @s[scores={Pundus_LogStr=19},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.block_pack.sparse_stones.name","underlined":true}]
+
+#Streak 20 - block pack: common ground
+execute as @s[scores={Pundus_LogStr=20},tag=!Pundus_DailyGiven] run tag @s add bp_common_ground
+execute as @s[scores={Pundus_LogStr=20},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.block_pack.common_ground.name","underlined":true}]
+
+#Streak 21 - undead rising lockbox
+execute as @s[scores={Pundus_LogStr=21},tag=!Pundus_DailyGiven] run tag @s add lb_undead_rising
+execute as @s[scores={Pundus_LogStr=21},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.undead_rising.name","underlined":true}]
+
+#Streak 22 - overworld fauna gashapon
+execute as @s[scores={Pundus_LogStr=22},tag=!Pundus_DailyGiven] run tag @s add gorb_overworld_fauna
+execute as @s[scores={Pundus_LogStr=22},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.overworld_fauna.name","underlined":true}]
 
 
   

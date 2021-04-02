@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_shop_cost:320,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,HideFlags:127,pundus_blockpack:1b,CustomModelData:1028,pundus_id:\"bp_sparse_stones\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.block_pack.global_lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.block_pack.global_lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.block_pack.sparse_stones.list1",
+					"color": "white",
+					"italic": false
+				},{
+					"translate": "pundus.item.block_pack.sparse_stones.list2",
+					"color": "white",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.block_pack.sparse_stones.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

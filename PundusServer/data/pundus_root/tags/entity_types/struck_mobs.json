@@ -8,7 +8,8 @@
     "minecraft:spider",
     "minecraft:phantom",
     "minecraft:tnt",
-    "minecraft:pillager",
+    "minecraft:husk",
+    "minecraft:drowned",
     "minecraft:enderman"
   ]
 }

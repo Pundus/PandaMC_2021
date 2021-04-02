@@ -1,0 +1,250 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+				"type": "minecraft:item",
+				"name": "minecraft:cave_spider_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:creeper_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:drowned_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:elder_guardian_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:guardian_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:husk_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:phantom_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:silverfish_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:skeleton_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:skeleton_horse_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:slime_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:spider_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:stray_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:zombie_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:zombie_horse_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:zombie_villager_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:evoker_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:pillager_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:ravager_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:vex_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:vindicator_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:witch_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
+			}
+
+		]
+	}]
+}

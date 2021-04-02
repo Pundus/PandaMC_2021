@@ -8,6 +8,7 @@ scoreboard objectives add Pundus_ItemValue dummy
 scoreboard objectives add Pundus_ItemSell dummy
 scoreboard objectives add Pundus_MenuVar trigger
 scoreboard objectives add Pundus_ShopVar trigger
+scoreboard objectives add Pundus_BPVar trigger
 scoreboard objectives add Pundus_DmdCount dummy
 scoreboard objectives add Pundus_ShopValue dummy
 scoreboard objectives add Pundus_PlayerID dummy
@@ -44,6 +45,8 @@ scoreboard objectives add Pundus_HoFishCD dummy
 scoreboard objectives add Pundus_BQuivB minecraft.used:minecraft.bow
 scoreboard objectives add Pundus_BQuivCB minecraft.used:minecraft.crossbow
 
+scoreboard objectives add Pundus_Armor armor
+scoreboard objectives add Pundus_URCount dummy
 
 scoreboard objectives add Pundus_VanValue dummy
 

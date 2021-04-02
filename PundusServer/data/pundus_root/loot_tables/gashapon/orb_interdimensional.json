@@ -1,0 +1,71 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_gasha_id:9,CustomModelData:10009,pundus_gashapon:1b,pundus_shop_cost:32,pundus_shop_diamond:1b,pundus_shop_sellable:1b,pundus_id:\"gorb_interdimensional\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.gashapon.instruction",
+					"color": "dark_gray",
+					"italic": false
+				},[{
+					"translate": "pundus.item.gashapon.number",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"text": "9",
+					"color": "dark_gray",
+					"italic": false
+				}],{
+					"translate": "pundus.item.gashapon.interdimensional.lore.prelude",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.monsters.lore.prelude2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.spawner.lore.global1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.spawner.lore.global2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.spawner.lore.global3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.spawner.warning1",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.spawner.warning2",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.spawner.warning3",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.gashapon.interdimensional.name",
+					"color": "light_purple",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

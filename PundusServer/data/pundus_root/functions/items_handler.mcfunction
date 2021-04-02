@@ -28,6 +28,14 @@ tag @a[tag=gorb_ebook_med] remove gorb_ebook_med
 execute as @a[tag=gorb_ebook_high] run loot give @s loot pundus_root:gashapon/orb_ebook_high
 tag @a[tag=gorb_ebook_high] remove gorb_ebook_high
 
+#Gashapon - Monsters
+execute as @a[tag=gorb_monsters] run loot give @s loot pundus_root:gashapon/orb_monsters
+tag @a[tag=gorb_monsters] remove gorb_monsters
+
+#Gashapon - Interdimensional
+execute as @a[tag=gorb_interdimensional] run loot give @s loot pundus_root:gashapon/orb_interdimensional
+tag @a[tag=gorb_interdimensional] remove gorb_interdimensional
+
 #Lockbox Undead Rising
 execute as @a[tag=lb_undead_rising] run loot give @s loot pundus_root:gashapon/lb_undead_rising
 tag @a[tag=lb_undead_rising] remove lb_undead_rising
@@ -47,6 +55,18 @@ tag @a[tag=decor_trans_bee] remove decor_trans_bee
 #Decor - Bee
 execute as @a[tag=decor_bee] run loot give @s loot pundus_root:decor/model_bee
 tag @a[tag=decor_bee] remove decor_bee
+
+#Block Pack: Typical Stones
+execute as @a[tag=bp_typical_stones] run loot give @s loot pundus_root:block_pack/bp_typical_stones
+tag @a[tag=bp_typical_stones] remove bp_typical_stones
+
+#Block Pack: Sparse Stones
+execute as @a[tag=bp_sparse_stones] run loot give @s loot pundus_root:block_pack/bp_sparse_stones
+tag @a[tag=bp_sparse_stones] remove bp_sparse_stones
+
+#Block Pack: Common Ground
+execute as @a[tag=bp_common_ground] run loot give @s loot pundus_root:block_pack/bp_common_ground
+tag @a[tag=bp_common_ground] remove bp_common_ground
 
 #Lunar Express Ticket
 execute as @a[tag=ticket_moon] run loot give @s loot pundus_root:moon_event/ticket_moon
@@ -147,7 +167,7 @@ execute as @a[tag=leggings_restoration] run loot give @s loot pundus_root:undead
 tag @a[tag=leggings_restoration] remove leggings_restoration
 
 #Zombie Brain
-execute as @a[tag=zombie_brain] run loot give @s loot pundus_root:undead_event/zombie_brain
+execute as @a[tag=zombie_brain] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
 tag @a[tag=zombie_brain] remove zombie_brain
 
 #Crimson Sword
