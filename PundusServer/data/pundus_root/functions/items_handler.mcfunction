@@ -226,6 +226,10 @@ tag @a[tag=basic_quiver] remove basic_quiver
 execute as @a[tag=buyout_token_ur] run loot give @s loot pundus_root:undead_event/buyout_token_ur
 tag @a[tag=buyout_token_ur] remove buyout_token_ur
 
+# eggdar
+execute as @a[tag=eggdar] run loot give @s loot pundus_root:eggdar
+tag @a[tag=eggdar] remove eggdar
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

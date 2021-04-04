@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "item": "minecraft:iron_helmet",
+        "nbt": "{pundus_easter_egg:1b}"
+      }
+    }
+  }
+}

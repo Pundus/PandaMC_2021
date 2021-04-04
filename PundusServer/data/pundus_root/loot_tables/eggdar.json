@@ -1,0 +1,47 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_custom_1sec:1b,CustomModelData:1036,pundus_shop_cost:500,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_id:\"eggdar\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.eggdar.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.eggdar.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.eggdar.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.eggdar.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.eggdar.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

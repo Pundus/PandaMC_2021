@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_playcoin_sellable:1b,pundus_playcoin_value:300,pundus_custom_1sec:1b,RepairCost:9999,Unbreakable:1b,Enchantments:[{}],fertilizing_feet:1b,pundus_id:\"fertilizing_feet\"}"
+				"tag": "{pundus_playcoin_sellable:1b,pundus_playcoin_value:300,pundus_custom_10tick:1b,RepairCost:9999,Unbreakable:1b,Enchantments:[{}],fertilizing_feet:1b,pundus_id:\"fertilizing_feet\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [[{

@@ -1,0 +1,31 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:iron_helmet",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Unbreakable:1b,pundus_id:\"egg_dirt\",pundus_easter_egg:1b,pundus_custom:1b,pundus_data_modified:0b,HideFlags:126,CustomModelData:5101}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "cosmetic.item.generic.lore",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "cosmetic.item.egg.normal.dirt.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

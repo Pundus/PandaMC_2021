@@ -30,10 +30,6 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.monsters.lore.prelude2",
-					"color": "gray",
-					"italic": false
-				},{
 					"translate": "pundus.item.gashapon.spawner.lore.global1",
 					"color": "gray",
 					"italic": false

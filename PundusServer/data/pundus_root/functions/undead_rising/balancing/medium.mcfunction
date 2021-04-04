@@ -1,7 +1,7 @@
 #rain hellfire
 
 
-attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
+attribute @s minecraft:zombie.spawn_reinforcements base set 0.3
 attribute @s minecraft:generic.attack_knockback base set 0.5
 attribute @s minecraft:generic.attack_damage base set 1.0
 attribute @s minecraft:generic.follow_range base set 48.0

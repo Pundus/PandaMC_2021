@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "item": "minecraft:iron_helmet",
+        "nbt": "{pundus_easter_egg:1b,pundus_data_modified:0b}"
+      }
+    }
+  }
+}

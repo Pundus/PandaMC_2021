@@ -32,4 +32,7 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"history_of_fish"}}]}] 
 execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"golem_reinforcements"}}]}] at @s run function pundus_root:custom_items/1_second/golem_reinforcements
 execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"golem_cannon_fodder"}}]}] at @s run function pundus_root:custom_items/1_second/golem_cannon_fodder
 
+
+execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"eggdar"}}]}] at @s if entity @e[type=item,tag=Pundus_DroppedEgg,distance=..32] run function pundus_root:custom_items/1_second/eggdar
+
 #other
