@@ -8,6 +8,6 @@ execute as @s at @s if block ~ ~ ~ air unless block ^1 ^1 ^ air run tp @s ^2 ^2 
 execute as @s at @s if block ~ ~ ~ air unless block ^-1 ^1 ^ air run tp @s ^-2 ^2 ^
 execute as @s at @s unless block ~ ~ ~ air run tp @s ^ ^ ^1
 
-execute as @s at @s if block ~ ~1 ~ ladder run tp @s ^ ^1 ^1
+execute as @s at @s if block ~ ~1 ~ ladder run tp @s ~ ~1 ~
 
 tag @s add Pundus_URH_REM
