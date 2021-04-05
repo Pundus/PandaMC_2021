@@ -12,3 +12,4 @@ schedule function pundus_cosmetics:cosmetic_item_handlers/egg_items_handler 7t
 schedule function pundus_cosmetics:easter_eggs/global_eggs_looper 9t
 schedule function pundus_cosmetics:easter_eggs/global_egg_short_loop 11t
 schedule function pundus_cosmetics:cosmetics_modification_looper 5t
+schedule function pundus_cosmetics:easter_eggs/global_egg_particles 13t

@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_shop_cost:448,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,HideFlags:127,pundus_blockpack:1b,CustomModelData:1031,pundus_id:\"bp_into_fire\"}"
+				"tag": "{pundus_shop_cost:192,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,HideFlags:127,pundus_blockpack:1b,CustomModelData:1032,pundus_id:\"bp_wooden_logs\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -26,11 +26,15 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.block_pack.into_fire.list1",
+					"translate": "pundus.item.block_pack.wooden_logs.list1",
 					"color": "white",
 					"italic": false
 				},{
-					"translate": "pundus.item.block_pack.into_fire.list2",
+					"translate": "pundus.item.block_pack.wooden_logs.list2",
+					"color": "white",
+					"italic": false
+				},{
+					"translate": "pundus.item.block_pack.wooden_logs.list3",
 					"color": "white",
 					"italic": false
 				},{
@@ -41,7 +45,7 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.block_pack.into_fire.name",
+					"translate": "pundus.item.block_pack.wooden_logs.name",
 					"color": "yellow",
 					"italic": false
 				}

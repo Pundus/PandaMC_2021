@@ -68,6 +68,18 @@ tag @a[tag=bp_sparse_stones] remove bp_sparse_stones
 execute as @a[tag=bp_common_ground] run loot give @s loot pundus_root:block_pack/bp_common_ground
 tag @a[tag=bp_common_ground] remove bp_common_ground
 
+#Block Pack: Nether Flora
+execute as @a[tag=bp_nether_flora] run loot give @s loot pundus_root:block_pack/bp_nether_flora
+tag @a[tag=bp_nether_flora] remove bp_nether_flora
+
+#Block Pack: Into Fire
+execute as @a[tag=bp_into_fire] run loot give @s loot pundus_root:block_pack/bp_into_fire
+tag @a[tag=bp_into_fire] remove bp_into_fire
+
+#Block Pack: Wooden Logs
+execute as @a[tag=bp_wooden_logs] run loot give @s loot pundus_root:block_pack/bp_wooden_logs
+tag @a[tag=bp_wooden_logs] remove bp_wooden_logs
+
 #Lunar Express Ticket
 execute as @a[tag=ticket_moon] run loot give @s loot pundus_root:moon_event/ticket_moon
 tag @a[tag=ticket_moon] remove ticket_moon

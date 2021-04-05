@@ -22,7 +22,7 @@
 				"function": "set_name",
 				"name": {
 					"translate": "cosmetic.item.egg.special.eggvalanche.name",
-					"color": "yellow",
+					"color": "aqua",
 					"italic": false
 				}
 			}]

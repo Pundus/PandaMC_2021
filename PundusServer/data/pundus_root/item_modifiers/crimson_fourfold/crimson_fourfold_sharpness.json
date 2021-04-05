@@ -1,6 +1,6 @@
 [ 
 {
 		"function": "set_nbt",
-		"tag": "{pundus_crimson_mode:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:unbreaking\",lvl:7s}]}"
+		"tag": "{pundus_crimson_mode:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:unbreaking\",lvl:7s}]}"
 	}
 ]
