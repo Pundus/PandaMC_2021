@@ -242,6 +242,10 @@ tag @a[tag=buyout_token_ur] remove buyout_token_ur
 execute as @a[tag=eggdar] run loot give @s loot pundus_root:eggdar
 tag @a[tag=eggdar] remove eggdar
 
+# meggnet
+execute as @a[tag=meggnet] run loot give @s loot pundus_root:meggnet
+tag @a[tag=meggnet] remove meggnet
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal
