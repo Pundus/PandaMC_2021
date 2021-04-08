@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "offhand": {
+                  "item": "minecraft:bone_meal"
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "item": "minecraft:milk_bucket"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:misc/milked_cheese"
+  }
+}

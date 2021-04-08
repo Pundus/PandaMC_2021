@@ -25,6 +25,8 @@ execute as @e[type=#minecraft:raiders,tag=!PillagerFuck,limit=5] at @s run funct
 
 function pundus_root:custom_items/1_second_cooldowns
 
+function pundus_root:custom_items/1_second_misc/1_second_misc_root
+
 ##
 
 schedule function pundus_root:custom_items/custom_1_second_loop 1s

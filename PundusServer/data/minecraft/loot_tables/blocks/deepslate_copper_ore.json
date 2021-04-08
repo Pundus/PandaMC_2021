@@ -6,9 +6,10 @@
 			"weight": 1,
 			"name": "minecraft:stick",
 			"functions": [{
-				"function": "set_count",
-				"count": 1
-			}, {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                }, {
 				"function": "set_nbt",
 				"tag": "{Enchantments:[{}],pundus_disable_pki:1b,CustomModelData:1001,lunarite_crystal:1b,pundus_id:\"lunarite_crystal\"}"
 			}, {

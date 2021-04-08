@@ -17,7 +17,7 @@ execute if score %EEH_EggFab Pundus_RNG matches 5 at @s run loot replace entity 
 execute if score %EEH_EggFab Pundus_RNG matches 6 at @s run loot replace entity @s armor.head loot pundus_cosmetics:easter_eggs/faberge/fegg_sculk
 execute if score %EEH_EggFab Pundus_RNG matches 7 at @s run loot replace entity @s armor.head loot pundus_cosmetics:easter_eggs/faberge/fegg_redstone
 execute if score %EEH_EggFab Pundus_RNG matches 8 at @s run loot replace entity @s armor.head loot pundus_cosmetics:easter_eggs/faberge/fegg_music
-execute if score %EEH_EggFab Pundus_RNG matches 9 at @s run loot replace entity @s armor.head loot pundus_cosmetics:easter_eggs/faberge/fegg_netherrite
+execute if score %EEH_EggFab Pundus_RNG matches 9 at @s run loot replace entity @s armor.head loot pundus_cosmetics:easter_eggs/faberge/fegg_netherite
 execute if score %EEH_EggFab Pundus_RNG matches 10 at @s run loot replace entity @s armor.head loot pundus_cosmetics:easter_eggs/faberge/fegg_beacon
 execute if score %EEH_EggFab Pundus_RNG matches 11 at @s run loot replace entity @s armor.head loot pundus_cosmetics:easter_eggs/faberge/fegg_wither
 

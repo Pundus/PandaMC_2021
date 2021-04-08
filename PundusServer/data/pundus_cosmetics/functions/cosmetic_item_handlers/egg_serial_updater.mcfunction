@@ -293,9 +293,9 @@ execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_redstone"}}}] store result
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_music"}}}] run scoreboard players add fegg_music Pundus_EggSerial 1
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_music"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get fegg_music Pundus_EggSerial
 
-#fegg_netherrite
-execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_netherrite"}}}] run scoreboard players add fegg_netherrite Pundus_EggSerial 1
-execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_netherrite"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get fegg_netherrite Pundus_EggSerial
+#fegg_netherite
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_netherite"}}}] run scoreboard players add fegg_netherite Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_netherite"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get fegg_netherite Pundus_EggSerial
 
 #fegg_beacon
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_beacon"}}}] run scoreboard players add fegg_beacon Pundus_EggSerial 1

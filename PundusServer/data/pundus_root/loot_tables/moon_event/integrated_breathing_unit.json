@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}],pundus_shop_cost:100,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,integrated_breathing_unit:1b,pundus_id:\"integrated_breathing_unit\"}"
+				"tag": "{pundus_custom_1sec:1b,IBU_Updated:1b,RepairCost:9999,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}],pundus_shop_cost:300,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,integrated_breathing_unit:1b,pundus_id:\"integrated_breathing_unit\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -23,6 +23,10 @@
 					"italic": false
 				},{
 					"translate": "pundus.item.integrated_breathing_unit.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.integrated_breathing_unit.lore3",
 					"color": "gray",
 					"italic": false
 				},{

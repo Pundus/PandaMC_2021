@@ -246,6 +246,22 @@ tag @a[tag=eggdar] remove eggdar
 execute as @a[tag=meggnet] run loot give @s loot pundus_root:meggnet
 tag @a[tag=meggnet] remove meggnet
 
+# item_frame_editor
+execute as @a[tag=item_frame_editor] run loot give @s loot pundus_root:item_frame_editor
+tag @a[tag=item_frame_editor] remove item_frame_editor
+
+# spell_drop_eggs
+execute as @a[tag=spell_drop_eggs] run loot give @s loot pundus_root:spell_drop_eggs
+tag @a[tag=spell_drop_eggs] remove spell_drop_eggs
+
+# lunarite_drill
+execute as @a[tag=lunarite_drill] run loot give @s loot pundus_root:moon_event/lunarite_drill
+tag @a[tag=lunarite_drill] remove lunarite_drill
+
+# cheese
+execute as @a[tag=cheese] run loot give @s loot pundus_root:cheese
+tag @a[tag=cheese] remove cheese
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

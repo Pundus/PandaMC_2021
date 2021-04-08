@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_custom_1sec:1b,pundus_shop_cost:2500,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,CustomModelData:1039,pundus_id:\"spell_drop_eggs\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.spell_drop_eggs.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.spell_drop_eggs.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.spell_drop_eggs.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

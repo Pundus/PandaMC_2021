@@ -37,4 +37,8 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"eggdar"}}]}] at @s if 
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"meggnet"}}]}] at @s if entity @e[type=item,tag=Pundus_DroppedEgg,distance=..5] run function pundus_root:custom_items/1_second/meggnet
 
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_drop_eggs"}}]}] at @s run function pundus_root:custom_items/1_second/spell_drop_eggs
+
+
 #other

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#pundus_root:hostile_neutral_mobs",
+    "#pundus_root:hostile_only_mobs"
+  ]
+}

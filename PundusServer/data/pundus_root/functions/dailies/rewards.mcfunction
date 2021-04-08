@@ -100,6 +100,10 @@ execute as @s[scores={Pundus_LogStr=21},tag=!Pundus_DailyGiven] run tellraw @s [
 execute as @s[scores={Pundus_LogStr=22},tag=!Pundus_DailyGiven] run tag @s add gorb_overworld_fauna
 execute as @s[scores={Pundus_LogStr=22},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.overworld_fauna.name","underlined":true}]
 
+#Streak 23 - 300 PC
+execute as @s[scores={Pundus_LogStr=15},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 300
+execute as @s[scores={Pundus_LogStr=15},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"300 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
+
 
   
 

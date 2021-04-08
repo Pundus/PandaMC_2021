@@ -342,6 +342,17 @@
 						"italic": false
 					}]
 				}]
+			}, {
+				"type": "minecraft:item",
+				"name": "minecraft:goat_spawn_egg",
+				"functions": [{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"translate": "pundus.item.generic.spawn_egg",
+						"color": "gray",
+						"italic": false
+					}]
+				}]
 			}
 
 		]
