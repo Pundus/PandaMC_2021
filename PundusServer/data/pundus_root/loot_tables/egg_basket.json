@@ -1,0 +1,47 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:bundle",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_egg_basket:1b,EggBasketItems:0,CustomModelData:1042,pundus_checkbook:1b,pundus_shop_cost:3200,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_id:\"egg_basket\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.egg_basket.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.egg_basket.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.egg_basket.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.egg_basket.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.egg_basket.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

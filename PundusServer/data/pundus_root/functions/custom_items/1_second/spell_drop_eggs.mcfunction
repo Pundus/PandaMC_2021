@@ -4,7 +4,7 @@ execute as @e[limit=30] as @a[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_
 
 tag @e[tag=!Pundus_DroppedEgg,type=item,nbt={Item:{tag:{pundus_easter_egg:1b}}}] add Pundus_DroppedEgg
 
-execute as @e[type=minecraft:item,tag=!Pundus_DE_D,tag=Pundus_DroppedEgg] at @s run spreadplayers ~ ~ 8 32 false @s 
+execute as @e[type=minecraft:item,tag=!Pundus_DE_D,tag=Pundus_DroppedEgg] at @s run spreadplayers ~ ~ 4 16 false @s 
 
 execute as @e[type=minecraft:item,tag=!Pundus_DE_D,tag=Pundus_DroppedEgg] at @s run tp @s ~ 128 ~
 

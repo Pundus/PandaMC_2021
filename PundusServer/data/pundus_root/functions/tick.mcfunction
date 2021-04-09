@@ -2,8 +2,8 @@
 
 execute as @e[type=arrow] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
 execute as @e[type=tnt] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
+execute as @e[type=#pundus_root:undead_mobs] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
 
 #function pundus_root:devtools/price_hike
 
 function pundus_root:pseudo_keepinv/pki_item_looper
-

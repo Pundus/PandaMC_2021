@@ -83,6 +83,7 @@ scoreboard objectives add Pundus_CSHunger food
 
 scoreboard objectives add Pundus_DYDEHA minecraft.dropped:minecraft.iron_horse_armor
 scoreboard objectives add Pundus_DYDEH minecraft.dropped:minecraft.iron_helmet
+scoreboard objectives add Pundus_EBaskC dummy
 
 execute unless score %CurrentID Pundus_PlayerID = %CurrentID Pundus_PlayerID run scoreboard players set %CurrentID Pundus_PlayerID 0
 execute unless score %Server Pundus_Diamonds = %Server Pundus_Diamonds run scoreboard players set %Server Pundus_Diamonds 10000

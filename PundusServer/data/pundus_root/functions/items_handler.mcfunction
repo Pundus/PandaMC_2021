@@ -259,8 +259,16 @@ execute as @a[tag=lunarite_drill] run loot give @s loot pundus_root:moon_event/l
 tag @a[tag=lunarite_drill] remove lunarite_drill
 
 # cheese
-execute as @a[tag=cheese] run loot give @s loot pundus_root:cheese
+execute as @a[tag=cheese] run loot give @s loot pundus_root:food/cheese
 tag @a[tag=cheese] remove cheese
+
+# fried_egg
+execute as @a[tag=fried_egg] run loot give @s loot pundus_root:food/fried_egg
+tag @a[tag=fried_egg] remove fried_egg
+
+# egg_basket
+execute as @a[tag=egg_basket] run loot give @s loot pundus_root:egg_basket
+tag @a[tag=egg_basket] remove egg_basket
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
