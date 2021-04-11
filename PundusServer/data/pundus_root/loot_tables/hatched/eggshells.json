@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:dried_kelp",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1052,pundus_id:\"eggshells\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.eggshells.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.eggshells.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.eggshells.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.eggshells.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.eggshells.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

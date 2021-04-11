@@ -7,3 +7,8 @@ execute as @e[type=#pundus_root:undead_mobs] at @s if block ~ 319 ~ minecraft:st
 #function pundus_root:devtools/price_hike
 
 function pundus_root:pseudo_keepinv/pki_item_looper
+
+
+execute as @a[gamemode=!survival] at @s positioned ~ 61 ~ if block ~ ~ ~ minecraft:infested_cobblestone run effect give @s minecraft:levitation 1 4 true
+execute as @a[gamemode=!survival] at @s positioned ~ 61 ~ if block ~ ~ ~ minecraft:infested_stone run effect give @s minecraft:slow_falling 1 0 true
+execute as @a[gamemode=!survival] at @s positioned ~ 61 ~ if block ~ ~ ~ minecraft:infested_stone run effect clear @s minecraft:levitation

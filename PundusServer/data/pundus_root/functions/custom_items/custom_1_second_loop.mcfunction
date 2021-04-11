@@ -29,5 +29,10 @@ function pundus_root:custom_items/1_second_misc/1_second_misc_root
 
 ##
 
+execute as @a[predicate=pundus_root:skylands_portal] at @s run function pundus_root:skylands/detect_portal
+execute as @e[type=minecraft:area_effect_cloud,tag=Pundus_SLPortalMark] at @s unless block ~ ~ ~ water run kill @s
+
+##
+
 schedule function pundus_root:custom_items/custom_1_second_loop 1s
 

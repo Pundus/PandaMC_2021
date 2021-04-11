@@ -1,0 +1,47 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1045,pundus_id:\"debowner\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.debowner.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.debowner.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.debowner.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.debowner.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

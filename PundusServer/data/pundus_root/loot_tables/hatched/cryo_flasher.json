@@ -1,0 +1,59 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1044,pundus_id:\"cryo_flasher\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.cryo_flasher.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.cryo_flasher.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.cryo_flasher.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.cryo_flasher.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.cryo_flasher.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.cryo_flasher.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.cryo_flasher.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

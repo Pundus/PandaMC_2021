@@ -11,6 +11,7 @@ tag @a[predicate=!pundus_root:custom_items/5_tick/5_tick_offhand,tag=Pundus_CB_o
 tag @a[predicate=!pundus_root:custom_items/5_tick/5_tick_offhand,tag=Pundus_IFE_open] remove Pundus_IFE_open
 
 ##other go here
+function pundus_root:custom_items/5_tick_misc/5_tick_misc_root
 
 
 schedule function pundus_root:custom_items/custom_5_tick_loop 5t

@@ -1,0 +1,12 @@
+{
+"condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+		"item": "minecraft:bundle",
+        "nbt": "{pundus_egg_basket:1b}"
+      }
+    }
+  }
+}

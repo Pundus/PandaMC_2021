@@ -1,0 +1,55 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_chestplate",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:64,display:{color:1734695},pundus_custom_1sec:1b,RepairCost:9999,Unbreakable:1b,Enchantments:[{}],apoc_shirt:1b,pundus_id:\"apoc_shirt\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.apoc_shirt.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.apoc_shirt.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.apoc_shirt.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.apoc_shirt.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.apoc_shirt.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.unbreaking",
+					"color": "dark_green",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.apoc_shirt.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

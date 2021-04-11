@@ -1,0 +1,37 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "fluid": {
+        "fluid": "minecraft:water"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "fluid": {
+        "fluid": "minecraft:water"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 2,
+    "predicate": {
+      "block": {
+        "block": "minecraft:glowstone"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "block": "minecraft:glowstone"
+      }
+    }
+  }
+]

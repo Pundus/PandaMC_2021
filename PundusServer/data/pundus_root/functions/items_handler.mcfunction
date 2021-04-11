@@ -270,6 +270,50 @@ tag @a[tag=fried_egg] remove fried_egg
 execute as @a[tag=egg_basket] run loot give @s loot pundus_root:egg_basket
 tag @a[tag=egg_basket] remove egg_basket
 
+# apoc_shirt
+execute as @a[tag=apoc_shirt] run loot give @s loot pundus_root:undead_event/apoc_shirt
+tag @a[tag=apoc_shirt] remove apoc_shirt
+
+# cryo_flasher
+execute as @a[tag=cryo_flasher] run loot give @s loot pundus_root:hatched/cryo_flasher
+tag @a[tag=cryo_flasher] remove cryo_flasher
+
+# debowner
+execute as @a[tag=debowner] run loot give @s loot pundus_root:hatched/debowner
+tag @a[tag=debowner] remove debowner
+
+# obsidian_powder
+execute as @a[tag=obsidian_powder] run loot give @s loot pundus_root:hatched/obsidian_powder
+tag @a[tag=obsidian_powder] remove obsidian_powder
+
+# materwelon
+execute as @a[tag=materwelon] run loot give @s loot pundus_root:hatched/materwelon
+tag @a[tag=materwelon] remove materwelon
+
+# enchanted_eggplant
+execute as @a[tag=enchanted_eggplant] run loot give @s loot pundus_root:hatched/enchanted_eggplant
+tag @a[tag=enchanted_eggplant] remove enchanted_eggplant
+
+# gold_digger
+execute as @a[tag=gold_digger] run loot give @s loot pundus_root:hatched/gold_digger
+tag @a[tag=gold_digger] remove gold_digger
+
+# spell_bee_swarm
+execute as @a[tag=spell_bee_swarm] run loot give @s loot pundus_root:hatched/spell_bee_swarm
+tag @a[tag=spell_bee_swarm] remove spell_bee_swarm
+
+# cookies_and_cream
+execute as @a[tag=cookies_and_cream] run loot give @s loot pundus_root:hatched/cookies_and_cream
+tag @a[tag=cookies_and_cream] remove cookies_and_cream
+
+# spell_deep_dark
+execute as @a[tag=spell_deep_dark] run loot give @s loot pundus_root:hatched/spell_deep_dark
+tag @a[tag=spell_deep_dark] remove spell_deep_dark
+
+# eggshells
+execute as @a[tag=eggshells] run loot give @s loot pundus_root:hatched/eggshells
+tag @a[tag=eggshells] remove eggshells
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

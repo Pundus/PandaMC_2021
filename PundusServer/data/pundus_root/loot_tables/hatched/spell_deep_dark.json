@@ -1,0 +1,59 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1051,pundus_id:\"spell_deep_dark\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.mission_zone1",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.mission_zone2",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.spell_deep_dark.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.spell_deep_dark.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.spell_deep_dark.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.overworld_only",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.spell_deep_dark.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

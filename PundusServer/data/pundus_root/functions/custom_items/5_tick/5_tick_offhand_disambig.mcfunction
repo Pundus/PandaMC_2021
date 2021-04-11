@@ -6,5 +6,5 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"checkbook"}}]},tag=Pun
 
 
 
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"item_frame_editor"}}]},tag=!Pundus_IFE_open] at @s if entity @e[type=item_frame,sort=nearest,distance=..3] run function pundus_root:custom_items/5_tick/ife_menu
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"item_frame_editor"}}]},tag=Pundus_IFE_open,scores={Pundus_MenuVar=200..310}] at @s if entity @e[type=item_frame,sort=nearest,distance=..3] run function pundus_root:custom_items/5_tick/ife_commands
+execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"item_frame_editor"}}]},tag=!Pundus_IFE_open] at @s if entity @e[type=item_frame,sort=nearest,distance=..3] run function pundus_root:custom_items/5_tick/ife_menu
+execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"item_frame_editor"}}]},tag=Pundus_IFE_open,scores={Pundus_MenuVar=200..310}] at @s if entity @e[type=item_frame,sort=nearest,distance=..3] run function pundus_root:custom_items/5_tick/ife_commands

@@ -26,6 +26,7 @@ scoreboard objectives add Pundus_LogStr dummy
 scoreboard objectives add Pundus_DelayD dummy
 scoreboard objectives add Pundus_DelayL dummy
 scoreboard objectives add Pundus_MoonGrav dummy
+scoreboard objectives add Pundus_LogEvent dummy
 
 scoreboard objectives add Pundus_CheckBk dummy
 scoreboard objectives add Pundus_TempPKI dummy
@@ -42,6 +43,8 @@ scoreboard objectives add Pundus_ScptMTCD dummy
 scoreboard objectives add Pundus_ScptSSCD dummy
 scoreboard objectives add Pundus_ScptSSGM dummy
 scoreboard objectives add Pundus_HoFishCD dummy
+scoreboard objectives add Pundus_CnCiCCD dummy
+scoreboard objectives add Pundus_CnCiCBS dummy
 scoreboard objectives add Pundus_BQuivB minecraft.used:minecraft.bow
 scoreboard objectives add Pundus_BQuivCB minecraft.used:minecraft.crossbow
 
@@ -84,6 +87,7 @@ scoreboard objectives add Pundus_CSHunger food
 scoreboard objectives add Pundus_DYDEHA minecraft.dropped:minecraft.iron_horse_armor
 scoreboard objectives add Pundus_DYDEH minecraft.dropped:minecraft.iron_helmet
 scoreboard objectives add Pundus_EBaskC dummy
+scoreboard objectives add Pundus_EggOHW dummy
 
 execute unless score %CurrentID Pundus_PlayerID = %CurrentID Pundus_PlayerID run scoreboard players set %CurrentID Pundus_PlayerID 0
 execute unless score %Server Pundus_Diamonds = %Server Pundus_Diamonds run scoreboard players set %Server Pundus_Diamonds 10000

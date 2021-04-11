@@ -1,0 +1,42 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 0,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "block": "minecraft:glowstone"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "block": "minecraft:glowstone"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "block": "minecraft:glowstone"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "block": "minecraft:glowstone"
+      }
+    }
+  }
+]

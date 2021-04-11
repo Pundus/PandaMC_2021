@@ -1,0 +1,47 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:golden_shovel",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:efficiency\",lvl:5s}],pundus_id:\"gold_digger\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gold_digger.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gold_digger.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gold_digger.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.gold_digger.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

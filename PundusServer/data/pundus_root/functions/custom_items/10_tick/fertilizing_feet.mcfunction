@@ -25,4 +25,7 @@ fill ~-1 ~1 ~-1 ~1 ~1 ~1 minecraft:potatoes[age=3] replace minecraft:potatoes[ag
 fill ~-1 ~1 ~-1 ~1 ~1 ~1 minecraft:potatoes[age=2] replace minecraft:potatoes[age=1]
 fill ~-1 ~1 ~-1 ~1 ~1 ~1 minecraft:potatoes[age=1] replace minecraft:potatoes[age=0]
 
+particle minecraft:happy_villager ~ ~0.2 ~ 1 0.1 1 1 25 normal
+
+
 playsound sfx.fertilizer_eject player @a ~ ~ ~ 1 1 0

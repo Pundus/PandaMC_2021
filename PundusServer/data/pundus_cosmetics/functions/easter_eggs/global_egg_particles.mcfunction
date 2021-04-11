@@ -6,8 +6,8 @@ execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s run particle mine
 
 execute as @e[type=minecraft:item,nbt={Item:{tag:{pundus_easter_egg:1b}}}] at @s if data entity @s Item.tag.pundus_egg_serial run data modify entity @s Owner set from entity @p UUID 
 
-execute as @e[type=minecraft:item,tag=!Pundus_ShopItemDisplay,nbt={Item:{tag:{pundus_easter_egg:1b}}}] at @s if data entity @s Item.tag.pundus_egg_serial as @a[scores={Pundus_DYDEHA=1..},limit=1,sort=nearest,distance=..10] run function pundus_cosmetics:easter_eggs/egg_revenge
-execute as @e[type=minecraft:item,tag=!Pundus_ShopItemDisplay,nbt={Item:{tag:{pundus_easter_egg:1b}}}] at @s if data entity @s Item.tag.pundus_egg_serial as @a[scores={Pundus_DYDEH=1..},limit=1,sort=nearest,distance=..10] run function pundus_cosmetics:easter_eggs/egg_revenge
+execute as @e[type=minecraft:item,tag=!Pundus_ShopItemDisplay,nbt={Item:{tag:{pundus_easter_egg:1b}}}] at @s if data entity @s Item.tag.pundus_egg_serial as @a[scores={Pundus_DYDEHA=1..},limit=1,sort=nearest,distance=..10,predicate=!pundus_root:eggventory_management/egg_basket_mainhand] run function pundus_cosmetics:easter_eggs/egg_revenge
+execute as @e[type=minecraft:item,tag=!Pundus_ShopItemDisplay,nbt={Item:{tag:{pundus_easter_egg:1b}}}] at @s if data entity @s Item.tag.pundus_egg_serial as @a[scores={Pundus_DYDEH=1..},limit=1,sort=nearest,distance=..10,predicate=!pundus_root:eggventory_management/egg_basket_mainhand] run function pundus_cosmetics:easter_eggs/egg_revenge
 
 
 execute as @e[type=minecraft:item,tag=!Pundus_ShopItemDisplay,nbt={Item:{tag:{pundus_easter_egg:1b}}}] if data entity @s Item.tag.pundus_egg_serial run data modify entity @s PickupDelay set value 0

@@ -26,4 +26,4 @@ execute as @a[gamemode=survival,scores={Pundus_Armor=9..17}] at @s as @e[type=#p
 
 execute as @a[gamemode=survival,scores={Pundus_Armor=18..}] at @s as @e[type=#pundus_root:zombie_mobs,tag=Pundus_ZR_Set,distance=..25,tag=!Pundus_UR_Balanced] run function pundus_root:undead_rising/balancing/hard
 
-schedule function pundus_root:undead_rising/undead_looper 7t
+#schedule function pundus_root:undead_rising/undead_looper 7t

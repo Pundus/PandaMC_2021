@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "minecraft:golden_shovel",
+          "nbt": "{pundus_id:\"gold_digger\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:misc/gold_digger"
+  }
+}

@@ -101,11 +101,50 @@ execute as @s[scores={Pundus_LogStr=22},tag=!Pundus_DailyGiven] run tag @s add g
 execute as @s[scores={Pundus_LogStr=22},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.overworld_fauna.name","underlined":true}]
 
 #Streak 23 - 300 PC
-execute as @s[scores={Pundus_LogStr=15},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 300
-execute as @s[scores={Pundus_LogStr=15},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"300 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
+execute as @s[scores={Pundus_LogStr=23},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 300
+execute as @s[scores={Pundus_LogStr=23},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"300 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
+
+#Streak 24 - 350 PC
+execute as @s[scores={Pundus_LogStr=24},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 350
+execute as @s[scores={Pundus_LogStr=24},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"350 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
+
+#Streak 25 - 400 PC
+execute as @s[scores={Pundus_LogStr=25},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 400
+execute as @s[scores={Pundus_LogStr=25},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"350 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
+
+#Streak 26 - Zombie Head
+execute as @s[scores={Pundus_LogStr=26},tag=!Pundus_DailyGiven] run give @s zombie_head
+execute as @s[scores={Pundus_LogStr=26},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"block.minecraft.zombie_head","underlined":true}]
+
+#Streak 27 - distress beacon
+execute as @s[scores={Pundus_LogStr=27},tag=!Pundus_DailyGiven] run tag @s add distress_beacon
+execute as @s[scores={Pundus_LogStr=27},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.distress_beacon.name","underlined":true}]
+
+#Streak 28 - spell_drop_eggs
+execute as @s[scores={Pundus_LogStr=28},tag=!Pundus_DailyGiven] run tag @s add spell_drop_eggs
+execute as @s[scores={Pundus_LogStr=28},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.spell_drop_eggs.name","underlined":true}]
+
+#Streak 29 - wooden_logs
+execute as @s[scores={Pundus_LogStr=29},tag=!Pundus_DailyGiven] run tag @s add bp_wooden_logs
+execute as @s[scores={Pundus_LogStr=29},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.block_pack.wooden_logs.name","underlined":true}]
+
+#Streak 29 - nether_flora
+execute as @s[scores={Pundus_LogStr=30},tag=!Pundus_DailyGiven] run tag @s add bp_nether_flora
+execute as @s[scores={Pundus_LogStr=30},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.block_pack.nether_flora.name","underlined":true}]
+
+#Streak 31 - into_fire
+execute as @s[scores={Pundus_LogStr=31},tag=!Pundus_DailyGiven] run tag @s add bp_into_fire
+execute as @s[scores={Pundus_LogStr=31},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.block_pack.into_fire.name","underlined":true}]
+
+#Streak 32 - decor_model_rocket
+execute as @s[scores={Pundus_LogStr=32},tag=!Pundus_DailyGiven] run tag @s add decor_model_rocket
+execute as @s[scores={Pundus_LogStr=32},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.decor.model_rocket.name","underlined":true}]
 
 
-  
+
+
+
+
 
 #End 
 execute as @s[scores={Pundus_CurDaily=..2}] run tellraw @s [{"translate":"pundus.server.dailies.streak"},{"score":{"name":"@s","objective":"Pundus_LogStr"},"bold":true}]

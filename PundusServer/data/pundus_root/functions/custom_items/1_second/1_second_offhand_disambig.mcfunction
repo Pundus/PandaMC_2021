@@ -10,7 +10,7 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_crimson_fourfold:1b}}]},ta
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_crimson_fourfold:1b}}]},scores={Pundus_CrimFFCD=1..},tag=!Pundus_CrimSwap] at @s run function pundus_root:custom_items/1_second/crimson_fourfold_cooldown
 
 
-execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"reaping_scythe"}}]}] unless score @s Pundus_ReapSCD matches 1.. at @s run function pundus_root:custom_items/1_second/reaping_scythe_activate
+execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"reaping_scythe"}}]}] unless score @s Pundus_ReapSCD matches 1.. at @s if entity @e[type=#pundus_root:hostile_all_mobs,distance=..15] run function pundus_root:custom_items/1_second/reaping_scythe_activate
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"reaping_scythe"}}]}] if score @s Pundus_ReapSCD matches 1.. at @s run function pundus_root:custom_items/1_second/reaping_scythe_cooldown
 
 
@@ -40,5 +40,13 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"meggnet"}}]}] at @s if
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_drop_eggs"}}]}] at @s run function pundus_root:custom_items/1_second/spell_drop_eggs
 
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"cryo_flasher"}}]}] at @s run function pundus_root:custom_items/1_second/cryo_flasher
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"debowner"}}]}] at @s if entity @e[type=#pundus_root:bow_mobs,distance=..16] run function pundus_root:custom_items/1_second/debowner
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"obsidian_powder"}}]}] at @s run function pundus_root:custom_items/1_second/obsidian_powder
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_bee_swarm"}}]}] at @s run function pundus_root:custom_items/1_second/spell_bee_swarm
+execute as @s[tag=!Pundus_EatCnCiC,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"cookies_and_cream"}}]}] at @s run function pundus_root:custom_items/1_second/cookies_and_cream
+
+
+execute as @s[gamemode=!adventure,predicate=pundus_root:in_overworld,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_deep_dark"}}]}] at @s unless block ~ 319 ~ minecraft:structure_void run function pundus_root:custom_items/1_second/spell_deep_dark
 
 #other

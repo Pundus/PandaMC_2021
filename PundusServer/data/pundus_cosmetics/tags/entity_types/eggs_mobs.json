@@ -2,8 +2,17 @@
   "replace": false,
   "values": [
     "minecraft:zombie",
+    "minecraft:zombie_villager",
     "minecraft:drowned",
     "minecraft:husk",
+    "minecraft:stray",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:wither_skeleton",
+    "minecraft:pillager",
+    "minecraft:vindicator",
+    "minecraft:evoker",
+    "minecraft:vex",
     "minecraft:skeleton"
   ]
 }
