@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_shop_playcoin:1b,pundus_shop_cost:100,pundus_shop_sellable:1b,pundus_playcoin_sellable:1b,pundus_playcoin_value:100,Unbreakable:1b,pundus_id:\"hat_fallen_angel\",pundus_cosmetic:1b,pundus_custom:1b,pundus_data:1b,pundus_data_modified:0b,HideFlags:126,CustomModelData:5008,pundus_cosmetic_dyeable:1b,display:{color:16773491}}"
+				"tag": "{pundus_shop_playcoin:1b,pundus_shop_cost:100,pundus_shop_sellable:1b,pundus_playcoin_sellable:1b,pundus_playcoin_value:100,Unbreakable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"hat_fallen_angel\",pundus_cosmetic:1b,pundus_custom:1b,pundus_data:1b,pundus_data_modified:0b,HideFlags:126,CustomModelData:5008,pundus_cosmetic_dyeable:1b,display:{color:16773491}}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

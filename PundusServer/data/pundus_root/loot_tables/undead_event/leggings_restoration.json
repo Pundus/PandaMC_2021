@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_playcoin_sellable:1b,pundus_playcoin_value:400,pundus_custom_1sec:1b,RepairCost:9999,Unbreakable:1b,Enchantments:[{}],leggings_restoration:1b,pundus_id:\"leggings_restoration\"}"
+				"tag": "{pundus_playcoin_sellable:1b,pundus_playcoin_value:400,pundus_custom_1sec:1b,Unbreakable:1b,Enchantments:[{}],leggings_restoration:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"leggings_restoration\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [[{

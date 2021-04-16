@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:feather_falling\",lvl:64s}],lunar_boots:1b,pundus_id:\"lunar_boots\"}"
+				"tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:feather_falling\",lvl:64s}],lunar_boots:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"lunar_boots\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

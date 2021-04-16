@@ -78,6 +78,10 @@ scoreboard objectives add PQ_QuestComp dummy
 
 scoreboard objectives add Pundus_NPCInt minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add Pundus_NPC_ID dummy
+scoreboard objectives add Pundus_NPCID_C dummy
+scoreboard objectives add Pundus_NPCMenu trigger
+scoreboard objectives add Pundus_NPC_SFX dummy
+scoreboard objectives add Pundus_DummyHP dummy
 
 scoreboard objectives add Pundus_URKills minecraft.killed:minecraft.zombie
 scoreboard objectives add Pundus_URKillsD minecraft.killed:minecraft.drowned
@@ -88,6 +92,8 @@ scoreboard objectives add Pundus_DYDEHA minecraft.dropped:minecraft.iron_horse_a
 scoreboard objectives add Pundus_DYDEH minecraft.dropped:minecraft.iron_helmet
 scoreboard objectives add Pundus_EBaskC dummy
 scoreboard objectives add Pundus_EggOHW dummy
+
+function pundus_root:mission_scoreboards
 
 execute unless score %CurrentID Pundus_PlayerID = %CurrentID Pundus_PlayerID run scoreboard players set %CurrentID Pundus_PlayerID 0
 execute unless score %Server Pundus_Diamonds = %Server Pundus_Diamonds run scoreboard players set %Server Pundus_Diamonds 10000

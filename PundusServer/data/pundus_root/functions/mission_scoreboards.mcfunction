@@ -1,0 +1,6 @@
+#Misssion Scoreboards
+
+scoreboard objectives add PM_Lance_1 minecraft.mined:minecraft.deepslate_copper_ore
+scoreboard objectives add PM_Lance_1_CD dummy
+scoreboard objectives add PM_Lance_2 minecraft.killed:minecraft.silverfish
+scoreboard objectives add PM_Lance_2_CD dummy

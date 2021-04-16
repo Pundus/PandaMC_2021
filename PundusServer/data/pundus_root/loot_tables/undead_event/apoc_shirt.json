@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{HideFlags:64,display:{color:1734695},pundus_custom_1sec:1b,RepairCost:9999,Unbreakable:1b,Enchantments:[{}],apoc_shirt:1b,pundus_id:\"apoc_shirt\"}"
+				"tag": "{HideFlags:64,display:{color:1734695},pundus_custom_1sec:1b,Unbreakable:1b,Enchantments:[{}],apoc_shirt:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"apoc_shirt\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

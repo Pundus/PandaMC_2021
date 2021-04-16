@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:efficiency\",lvl:5s}],pundus_id:\"gold_digger\"}"
+				"tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:5s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"gold_digger\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{Unbreakable:1b,pundus_id:\"fegg_sculk\",pundus_easter_egg:1b,RepairCost:9999,pundus_custom:1b,pundus_data_modified:0b,HideFlags:126,CustomModelData:5171}"
+				"tag": "{Unbreakable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"fegg_sculk\",pundus_easter_egg:1b,pundus_custom:1b,pundus_data_modified:0b,HideFlags:126,CustomModelData:5171}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

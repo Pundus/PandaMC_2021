@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_custom_1sec:1b,pundus_crimson_fourfold:1b,pundus_crimson_mode:1b,CustomModelData:1012,RepairCost:9999,Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:unbreaking\",lvl:5s}],crimson_sword:1b,pundus_id:\"crimson_sword\"}"
+				"tag": "{pundus_custom_1sec:1b,pundus_crimson_fourfold:1b,pundus_crimson_mode:1b,CustomModelData:1012,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:unbreaking\",lvl:5s}],crimson_sword:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"crimson_sword\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

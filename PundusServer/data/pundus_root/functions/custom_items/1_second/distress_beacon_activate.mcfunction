@@ -4,7 +4,7 @@ execute as @s at @e[type=area_effect_cloud,tag=Pundus_DistressBeacon,limit=1] ru
 
 playsound minecraft:entity.enderman.teleport player @s ~ ~ ~ 1 1 1
 
-tag @s add Pundus_Temp_PKI
+tag @s[tag=!Pundus_PKI] add Pundus_Temp_PKI
 tag @s add Pundus_PKI
 
 scoreboard players set @s Pundus_MenuVar 0

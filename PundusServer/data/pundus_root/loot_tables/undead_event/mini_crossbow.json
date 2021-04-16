@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:1018,RepairCost:9999,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:piercing\",lvl:1s}],pundus_id:\"mini_crossbow\"}"
+				"tag": "{CustomModelData:1018,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:piercing\",lvl:1s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"mini_crossbow\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

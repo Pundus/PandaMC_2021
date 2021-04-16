@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:1026,buyout_token_ur:1b,pundus_id:\"buyout_token_ur\"}"
+				"tag": "{CustomModelData:1026,buyout_token_ur:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"buyout_token_ur\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

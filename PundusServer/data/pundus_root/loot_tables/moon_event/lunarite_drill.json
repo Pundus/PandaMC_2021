@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:1040,RepairCost:9999,Enchantments:[{id:\"minecraft:fortune\",lvl:5s},{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:5s}],pundus_id:\"lunarite_drill\"}"
+				"tag": "{CustomModelData:1040,Enchantments:[{id:\"minecraft:fortune\",lvl:5s},{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:5s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"lunarite_drill\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

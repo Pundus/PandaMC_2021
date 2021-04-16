@@ -2,7 +2,7 @@
 
 #egg drop
 
-execute as @a as @e[limit=5] as @a at @s run function pundus_cosmetics:easter_eggs/egg_drop
+execute as @a[predicate=pundus_root:in_overworld] as @e[limit=5] as @a[predicate=pundus_root:in_overworld] at @s run function pundus_cosmetics:easter_eggs/egg_drop
 
 tag @e[tag=!Pundus_DroppedEgg,type=item,nbt={Item:{tag:{pundus_easter_egg:1b}}}] add Pundus_DroppedEgg
 

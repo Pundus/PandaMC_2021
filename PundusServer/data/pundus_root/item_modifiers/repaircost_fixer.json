@@ -1,0 +1,6 @@
+[ 
+{
+		"function": "set_nbt",
+		"tag": "{pundus_realm_custom:1b,RepairCost:-9999}"
+	}
+]

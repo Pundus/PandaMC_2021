@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_custom_5tick:1b,CustomModelData:1038,pundus_item_frame_editor:1b,pundus_shop_cost:100,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_id:\"item_frame_editor\"}"
+				"tag": "{pundus_custom_5tick:1b,CustomModelData:1038,pundus_realm_custom:1b,RepairCost:-9999,pundus_item_frame_editor:1b,pundus_shop_cost:100,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"item_frame_editor\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

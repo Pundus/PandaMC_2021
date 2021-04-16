@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{Enchantments:[{}],pundus_disable_pki:1b,CustomModelData:1001,lunarite_crystal:1b,pundus_id:\"lunarite_crystal\"}"
+				"tag": "{Enchantments:[{}],pundus_disable_pki:1b,CustomModelData:1001,lunarite_crystal:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"lunarite_crystal\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

@@ -110,7 +110,7 @@ execute as @s[scores={Pundus_LogStr=24},tag=!Pundus_DailyGiven] run tellraw @s [
 
 #Streak 25 - 400 PC
 execute as @s[scores={Pundus_LogStr=25},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 400
-execute as @s[scores={Pundus_LogStr=25},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"350 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
+execute as @s[scores={Pundus_LogStr=25},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"400 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
 
 #Streak 26 - Zombie Head
 execute as @s[scores={Pundus_LogStr=26},tag=!Pundus_DailyGiven] run give @s zombie_head
@@ -128,7 +128,7 @@ execute as @s[scores={Pundus_LogStr=28},tag=!Pundus_DailyGiven] run tellraw @s [
 execute as @s[scores={Pundus_LogStr=29},tag=!Pundus_DailyGiven] run tag @s add bp_wooden_logs
 execute as @s[scores={Pundus_LogStr=29},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.block_pack.wooden_logs.name","underlined":true}]
 
-#Streak 29 - nether_flora
+#Streak 30 - nether_flora
 execute as @s[scores={Pundus_LogStr=30},tag=!Pundus_DailyGiven] run tag @s add bp_nether_flora
 execute as @s[scores={Pundus_LogStr=30},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.block_pack.nether_flora.name","underlined":true}]
 
@@ -140,7 +140,21 @@ execute as @s[scores={Pundus_LogStr=31},tag=!Pundus_DailyGiven] run tellraw @s [
 execute as @s[scores={Pundus_LogStr=32},tag=!Pundus_DailyGiven] run tag @s add decor_model_rocket
 execute as @s[scores={Pundus_LogStr=32},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.decor.model_rocket.name","underlined":true}]
 
+#Streak 33 - distress beacon
+execute as @s[scores={Pundus_LogStr=33},tag=!Pundus_DailyGiven] run tag @s add distress_beacon
+execute as @s[scores={Pundus_LogStr=33},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.distress_beacon.name","underlined":true}]
 
+#Streak 34 - Recall device
+execute as @s[scores={Pundus_LogStr=34},tag=!Pundus_DailyGiven] run tag @s add recall_device
+execute as @s[scores={Pundus_LogStr=34},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.recall_device.name","underlined":true}]
+
+#Streak 35 - 500 PC
+execute as @s[scores={Pundus_LogStr=35},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 500
+execute as @s[scores={Pundus_LogStr=35},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"500 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
+
+#Streak 36 - Gashapon Orb: Cosmetic 1
+execute as @s[scores={Pundus_LogStr=36},tag=!Pundus_DailyGiven] run tag @s add gorb_cosmetic_1
+execute as @s[scores={Pundus_LogStr=36},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.cosmetic_1.name","underlined":true}]
 
 
 

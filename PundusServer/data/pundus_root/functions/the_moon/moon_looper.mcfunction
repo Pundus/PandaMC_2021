@@ -1,7 +1,7 @@
 #Deal with the low grav moon
 
-execute in pundus_root:the_moon as @e[distance=0..] run function pundus_root:the_moon/star_particles
-execute in pundus_root:the_moon as @e[distance=0..,tag=!Pundus_MoonGravApp,type=#pundus_root:moon_gravity] run function pundus_root:the_moon/entity_moon_gravity
+execute in pundus_root:the_moon as @a[distance=0..] run function pundus_root:the_moon/star_particles
+execute in pundus_root:the_moon as @e[distance=0..,tag=!Pundus_MoonGravApp,tag=!Pundus_DroppedEgg,type=#pundus_root:moon_gravity] run function pundus_root:the_moon/entity_moon_gravity
 scoreboard players add @e[tag=Pundus_MoonGravApp,type=#pundus_root:moon_gravity,scores={Pundus_MoonGrav=..60}] Pundus_MoonGrav 1
 execute in pundus_root:the_moon as @e[distance=0..,tag=Pundus_MoonGravApp,type=#pundus_root:moon_gravity,scores={Pundus_MoonGrav=60..}] run function pundus_root:the_moon/entity_moon_fallback
 

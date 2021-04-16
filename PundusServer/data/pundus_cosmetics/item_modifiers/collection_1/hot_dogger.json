@@ -61,6 +61,6 @@
 		}
 	}, {
 		"function": "set_nbt",
-		"tag": "{pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_playcoin_sellable:1b,Unbreakable:1b,pundus_id:\"hat_hot_dogger\",pundus_cosmetic:1b,pundus_custom:1b,pundus_data:1b,pundus_data_modified:1b,HideFlags:126,CustomModelData:5001,pundus_cosmetic_dyeable:1b,display:{color:9838624}}"
+		"tag": "{pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_playcoin_sellable:1b,Unbreakable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"hat_hot_dogger\",pundus_cosmetic:1b,pundus_custom:1b,pundus_data:1b,pundus_data_modified:1b,HideFlags:126,CustomModelData:5001,pundus_cosmetic_dyeable:1b,display:{color:9838624}}"
 	}
 ]

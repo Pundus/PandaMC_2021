@@ -30,7 +30,10 @@ function pundus_root:custom_items/1_second_misc/1_second_misc_root
 ##
 
 execute as @a[predicate=pundus_root:skylands_portal] at @s run function pundus_root:skylands/detect_portal
+execute as @a[predicate=pundus_root:skylands_falling,predicate=pundus_root:in_skylands] at @s run function pundus_root:skylands/fall_out
+execute as @a[predicate=pundus_root:overworld_flying,predicate=pundus_root:in_overworld] at @s run function pundus_root:skylands/enter_skylands
 execute as @e[type=minecraft:area_effect_cloud,tag=Pundus_SLPortalMark] at @s unless block ~ ~ ~ water run kill @s
+execute as @e[type=bee] at @s if block ~ ~ ~ water run kill @s
 
 ##
 
