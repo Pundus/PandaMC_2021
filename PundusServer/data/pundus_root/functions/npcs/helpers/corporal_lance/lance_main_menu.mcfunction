@@ -10,4 +10,4 @@ tellraw @s [{"color":"green","translate":"pundus.npc.help_moon.response.lunarite
 tellraw @s[tag=!PQA_LanceMine,tag=!PQA_LanceFight] [{"color":"aqua","translate":"pundus.npc.help_moon.response.quest","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 5"}}]
 tellraw @s[tag=PQA_LanceMine] [{"color":"aqua","translate":"pundus.npc.help_moon.response.quest_progress","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 5"}}]
 tellraw @s[tag=PQA_LanceFight] [{"color":"aqua","translate":"pundus.npc.help_moon.response.quest_progress","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 5"}}]
-tellraw @s [{"color":"red","translate":"pundus.npc.generic.dialog.exit","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 9090909"}}]
+tellraw @s [{"color":"gold","translate":"pundus.npc.generic.dialog.exit","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 9090909"}}]

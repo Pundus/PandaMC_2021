@@ -8,5 +8,7 @@ data modify block 1 -64 1 Text1 set value '["",{"translate": "cosmetic.item.seri
 
 execute as @s run data modify block 0 -64 0 Items[0].tag.display.Lore[0] set from block 1 -64 1 Text1
 
+scoreboard players add @s PM_Wradin_1 1
+
 execute as @s run item entity @s weapon.mainhand copy block 0 -64 0 container.0
 

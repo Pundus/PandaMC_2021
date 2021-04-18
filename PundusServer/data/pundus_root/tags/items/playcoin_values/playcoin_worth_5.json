@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:iron_ingot",
     "minecraft:scute",
     "minecraft:nautilus_shell",
     "minecraft:prismarine_crystals",

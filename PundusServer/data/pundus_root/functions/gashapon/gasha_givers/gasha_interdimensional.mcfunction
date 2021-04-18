@@ -1,6 +1,6 @@
 #interdimensional eggs gasha
 
-give @s spawner	
+give @p spawner{BlockEntityTag:{SpawnData:{id:""},SpawnPotentials:[]}} 1
 loot give @s loot pundus_root:interdimensional_eggs
 
 playsound minecraft:ui.lootbox_rarity_5 master @s ~ ~ ~ 1 1 1

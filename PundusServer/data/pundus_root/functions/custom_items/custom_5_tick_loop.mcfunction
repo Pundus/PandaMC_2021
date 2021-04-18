@@ -4,8 +4,8 @@ execute as @a[predicate=pundus_root:custom_items/5_tick/5_tick_chest] at @s run 
 execute as @a[predicate=pundus_root:custom_items/5_tick/5_tick_feet] at @s run function pundus_root:custom_items/5_tick/5_tick_feet_disambig
 execute as @a[predicate=pundus_root:custom_items/5_tick/5_tick_head] at @s run function pundus_root:custom_items/5_tick/5_tick_head_disambig
 execute as @a[predicate=pundus_root:custom_items/5_tick/5_tick_legs] at @s run function pundus_root:custom_items/5_tick/5_tick_legs_disambig
-execute as @a[predicate=pundus_root:custom_items/5_tick/5_tick_mainhand] at @s run function pundus_root:custom_items/5_tick/5_tick_mainhand_disambig
-execute as @a[predicate=pundus_root:custom_items/5_tick/5_tick_offhand] at @s run function pundus_root:custom_items/5_tick/5_tick_offhand_disambig
+execute as @a[predicate=!pundus_root:item_binder/bound_modded_mainhand,predicate=pundus_root:custom_items/5_tick/5_tick_mainhand] at @s run function pundus_root:custom_items/5_tick/5_tick_mainhand_disambig
+execute as @a[predicate=!pundus_root:item_binder/bound_modded_offhand,predicate=pundus_root:custom_items/5_tick/5_tick_offhand] at @s run function pundus_root:custom_items/5_tick/5_tick_offhand_disambig
 
 tag @a[predicate=!pundus_root:custom_items/5_tick/5_tick_offhand,tag=Pundus_CB_open] remove Pundus_CB_open
 tag @a[predicate=!pundus_root:custom_items/5_tick/5_tick_offhand,tag=Pundus_IFE_open] remove Pundus_IFE_open

@@ -47,6 +47,7 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"segg_eggplant"}}]}] at
 tellraw @s[tag=!egg_hatched] {"translate":"pundus.special.easter.hatch_fail"}
 
 tag @s[tag=egg_hatched] add eggshells
+scoreboard players add @s[tag=egg_hatched] PM_Wradin_2 1
 item entity @s[tag=egg_hatched] weapon.offhand replace air
 
 tag @s remove egg_hatched

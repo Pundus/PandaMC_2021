@@ -6,4 +6,4 @@ execute as @s[tag=!Pundus_ArrowMS_Mod] store result entity @s Motion[2] double 0
 tag @s add Pundus_ArrowMS_Mod
 
 scoreboard players add @s[type=arrow,tag=Pundus_ArrowMS_Mod] Pundus_EntTrack 1
-kill @e[type=arrow,tag=Pundus_ArrowMS_Mod,scores={Pundus_EntTrack=300..}]
+kill @e[type=#pundus_root:arrows,tag=Pundus_ArrowMS_Mod,scores={Pundus_EntTrack=300..}]

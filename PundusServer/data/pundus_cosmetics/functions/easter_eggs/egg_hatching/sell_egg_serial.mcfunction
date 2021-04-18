@@ -5,6 +5,8 @@ execute at @s run playsound ui.sell_item master @s
 
 execute as @s at @s run function pundus_cosmetics:easter_eggs/egg_hatching/current_serial_values
 
+scoreboard players add @s PM_Wradin_3 1
+
 scoreboard players operation @s Pundus_Playcoins += @s Pundus_EggOHW
 scoreboard players operation %Server Pundus_Playcoins -= @s Pundus_EggOHW
 

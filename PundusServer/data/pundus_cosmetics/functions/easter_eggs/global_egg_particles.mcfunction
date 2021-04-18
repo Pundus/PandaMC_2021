@@ -15,5 +15,6 @@ execute as @e[type=minecraft:item,tag=!Pundus_ShopItemDisplay,nbt={Item:{tag:{pu
 scoreboard players set @a Pundus_DYDEHA 0
 scoreboard players set @a Pundus_DYDEH 0
 
+execute as @a[tag=Pundus_EggImmune] at @s as @e[type=item,tag=Pundus_DroppedEgg,distance=..5] at @s run function pundus_cosmetics:easter_eggs/egg_drop_poof
 
 schedule function pundus_cosmetics:easter_eggs/global_egg_particles 1t

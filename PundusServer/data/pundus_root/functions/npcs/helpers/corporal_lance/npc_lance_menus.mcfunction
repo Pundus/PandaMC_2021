@@ -37,6 +37,10 @@ execute as @s[tag=!PQA_LanceMine,tag=!PQA_LanceFight] at @s if score @s Pundus_N
 execute as @s[tag=!PQA_LanceMine,tag=!PQA_LanceFight] at @s if score @s Pundus_NPCMenu matches 9990002 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_started
 execute as @s[tag=!PQA_LanceMine,tag=!PQA_LanceFight] at @s if score @s Pundus_NPCMenu matches 9990002 run function pundus_root:custom_quest/lance/lance_start_quest_fight
 
+#Abort Quest
+execute as @s at @s if score @s Pundus_NPCMenu matches 9990999 run function pundus_root:custom_quest/lance/lance_quests_abort
+execute as @s at @s if score @s Pundus_NPCMenu matches 9990999 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_aborted
+
 #Submit Quest: Mine
 execute as @s[tag=PQA_LanceMine] at @s if score @s PM_Lance_1 matches 150.. if score @s Pundus_NPCMenu matches 8880001 run function pundus_root:custom_quest/lance/lance_finish_quest_mine
 

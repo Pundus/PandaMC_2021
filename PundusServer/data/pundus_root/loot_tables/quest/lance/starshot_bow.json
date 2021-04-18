@@ -1,0 +1,71 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:bow",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_custom_1tick:1b,CustomModelData:1054,Enchantments:[{id:\"minecraft:power\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:punch\",lvl:5s}],starshot_bow:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"starshot_bow\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.starshot_bow.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.starshot_bow.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.starshot_bow.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.starshot_bow.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.starshot_bow.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.starshot_bow.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.starshot_bow.lore7",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.starshot_bow.lore8",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.starshot_bow.lore9",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.starshot_bow.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 #This function will run every tick
 
-execute as @e[type=arrow] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
+execute as @e[type=#pundus_root:arrows] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
 execute as @e[type=tnt] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
 execute as @e[type=#pundus_root:undead_mobs] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
 

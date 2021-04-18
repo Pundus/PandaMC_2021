@@ -314,6 +314,14 @@ tag @a[tag=spell_deep_dark] remove spell_deep_dark
 execute as @a[tag=eggshells] run loot give @s loot pundus_root:hatched/eggshells
 tag @a[tag=eggshells] remove eggshells
 
+# starshot_bow
+execute as @a[tag=starshot_bow] run loot give @s loot pundus_root:quest/lance/starshot_bow
+tag @a[tag=starshot_bow] remove starshot_bow
+
+# proto_lunarite_drill
+execute as @a[tag=proto_lunarite_drill] run loot give @s loot pundus_root:quest/lance/proto_lunarite_drill
+tag @a[tag=proto_lunarite_drill] remove proto_lunarite_drill
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

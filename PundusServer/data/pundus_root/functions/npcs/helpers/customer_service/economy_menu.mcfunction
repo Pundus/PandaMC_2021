@@ -8,4 +8,4 @@ tellraw @s [{"color":"green","translate":"pundus.npc.help_generic.response.econo
 tellraw @s [{"color":"green","translate":"pundus.npc.help_generic.response.economy.pda","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 13"}}]
 tellraw @s [{"color":"green","translate":"pundus.npc.help_generic.response.economy.trade","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 14"}}]
 tellraw @s [{"color":"yellow","translate":"pundus.npc.generic.dialog.back","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 9999"}}]
-tellraw @s [{"color":"red","translate":"pundus.npc.generic.dialog.exit","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 9090909"}}]
+tellraw @s [{"color":"gold","translate":"pundus.npc.generic.dialog.exit","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 9090909"}}]

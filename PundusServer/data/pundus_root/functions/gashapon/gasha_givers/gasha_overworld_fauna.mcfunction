@@ -1,6 +1,6 @@
 #passive eggs gasha
 
-give @s spawner	
+give @p spawner{BlockEntityTag:{SpawnData:{id:""},SpawnPotentials:[]}} 1
 loot give @s loot pundus_root:passive_eggs
 
 playsound minecraft:ui.lootbox_rarity_3 master @s ~ ~ ~ 1 1 1

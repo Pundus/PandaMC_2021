@@ -10,8 +10,11 @@ execute as @s at @s if score @s Pundus_NPCMenu matches 9090909 run scoreboard pl
 #disambig further
 execute as @s at @s if score @s Pundus_NPCID_C matches 1 run function pundus_root:npcs/helpers/customer_service/npc_cs_menus
 
-#disambig further
 execute as @s at @s if score @s Pundus_NPCID_C matches 2 run function pundus_root:npcs/helpers/corporal_lance/npc_lance_menus
+
+execute as @s at @s if score @s Pundus_NPCID_C matches 3 run function pundus_root:npcs/helpers/dr_wradin/npc_wradin_menus
+
+execute as @s at @s if score @s Pundus_NPCID_C matches 4 run function pundus_root:npcs/helpers/croupier_olim/npc_olim_menus
 
 #SFX
 execute as @s at @s run function pundus_root:npcs/npc_sfx

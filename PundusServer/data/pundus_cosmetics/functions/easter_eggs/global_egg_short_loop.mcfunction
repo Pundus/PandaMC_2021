@@ -13,4 +13,5 @@ execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s run data modify e
 
 execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s if block ~ ~1 ~ air run function pundus_cosmetics:easter_eggs/egg_hop
 
+
 schedule function pundus_cosmetics:easter_eggs/global_egg_short_loop 61t

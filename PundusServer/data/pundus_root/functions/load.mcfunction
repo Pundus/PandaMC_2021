@@ -40,6 +40,7 @@ schedule function pundus_root:custom_items/custom_10_tick_loop 12t
 schedule function pundus_root:custom_items/custom_1_second_loop 13t
 schedule function pundus_root:npcs/detect_interact 16t
 schedule function pundus_root:custom_quest/global_quest_1sec_loop 17t
+schedule function pundus_root:bound_items_handler 13t
 
 #schedule function pundus_root:undead_rising/undead_init 17t
 

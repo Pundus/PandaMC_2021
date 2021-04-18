@@ -5,7 +5,7 @@ title @s times 10 60 10
 title @s title {"color":"aqua","translate":"pundus.custom_quest.complete"}
 title @s subtitle {"color":"dark_aqua","translate":"pundus.custom_quest.lance.fight.name"}
 
-tag @s add fried_egg
+tag @s add starshot_bow
 
 scoreboard players set @s PM_Lance_2_CD 72000
 
