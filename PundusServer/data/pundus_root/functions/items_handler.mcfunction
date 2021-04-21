@@ -322,6 +322,10 @@ tag @a[tag=starshot_bow] remove starshot_bow
 execute as @a[tag=proto_lunarite_drill] run loot give @s loot pundus_root:quest/lance/proto_lunarite_drill
 tag @a[tag=proto_lunarite_drill] remove proto_lunarite_drill
 
+# dev_remote
+execute as @a[tag=dev_remote] run loot give @s loot pundus_root:dev_remote
+tag @a[tag=dev_remote] remove dev_remote
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

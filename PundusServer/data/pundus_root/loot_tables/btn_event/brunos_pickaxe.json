@@ -1,0 +1,54 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:diamond_pickaxe",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:1061,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"brunos_pickaxe\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.brunos_pickaxe.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.brunos_pickaxe.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.brunos_pickaxe.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.brunos_pickaxe.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.enchantable",
+					"color": "dark_green",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.brunos_pickaxe.name",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

@@ -34,6 +34,7 @@ execute as @a[predicate=pundus_root:skylands_falling,predicate=pundus_root:in_sk
 execute as @a[predicate=pundus_root:overworld_flying,predicate=pundus_root:in_overworld] at @s run function pundus_root:skylands/enter_skylands
 execute as @e[type=minecraft:area_effect_cloud,tag=Pundus_SLPortalMark] at @s unless block ~ ~ ~ water run kill @s
 execute as @e[type=bee] at @s if block ~ ~ ~ water run kill @s
+execute as @e[type=bee,tag=!Pundus_BeeSwarm,nbt=!{Health:1f}] at @s run data modify entity @s Health set value 1f
 
 ##
 

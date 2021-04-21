@@ -14,5 +14,7 @@ execute as @s[nbt={SelectedItem:{tag:{pundus_id:"scepter_mindless_translocation"
 
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"reaping_scythe"}}}] if score @s Pundus_ReapSCD matches 1.. at @s run function pundus_root:custom_items/1_second/reaping_scythe_cooldown
 
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"dev_remote"}}}] if score @s Pundus_DRUse matches 1.. at @s run function pundus_root:custom_items/1_second/dev_remote
+
 
 #other

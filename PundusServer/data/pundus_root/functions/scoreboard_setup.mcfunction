@@ -48,6 +48,8 @@ scoreboard objectives add Pundus_CnCiCBS dummy
 scoreboard objectives add Pundus_BQuivB minecraft.used:minecraft.bow
 scoreboard objectives add Pundus_BQuivCB minecraft.used:minecraft.crossbow
 
+scoreboard objectives add Pundus_DRUse minecraft.used:minecraft.carrot_on_a_stick
+
 scoreboard objectives add Pundus_Armor armor
 scoreboard objectives add Pundus_URCount dummy
 
@@ -92,6 +94,42 @@ scoreboard objectives add Pundus_DYDEHA minecraft.dropped:minecraft.iron_horse_a
 scoreboard objectives add Pundus_DYDEH minecraft.dropped:minecraft.iron_helmet
 scoreboard objectives add Pundus_EBaskC dummy
 scoreboard objectives add Pundus_EggOHW dummy
+
+scoreboard objectives add Pundus_LightLvl dummy
+
+# OutOfCombat
+scoreboard objectives add POOC_1 minecraft.custom:minecraft.damage_absorbed
+scoreboard objectives add POOC_2 minecraft.custom:minecraft.damage_blocked_by_shield
+scoreboard objectives add POOC_3 minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add POOC_5 minecraft.custom:minecraft.damage_dealt_absorbed
+scoreboard objectives add POOC_4 minecraft.custom:minecraft.damage_dealt_resisted
+scoreboard objectives add POOC_6 minecraft.custom:minecraft.damage_resisted
+scoreboard objectives add POOC_7 minecraft.custom:minecraft.damage_taken
+scoreboard objectives add POOC_8 minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add POOC_9 minecraft.custom:minecraft.swim_one_cm
+scoreboard objectives add POOC_10 minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add POOC_11 minecraft.custom:minecraft.walk_on_water_one_cm
+scoreboard objectives add POOC_Track dummy
+
+#Skylands
+scoreboard objectives add PSOB_Coal minecraft.mined:minecraft.coal_ore
+scoreboard objectives add PSOB_Copper minecraft.mined:minecraft.copper_ore
+scoreboard objectives add PSOB_Iron minecraft.mined:minecraft.iron_ore
+scoreboard objectives add PSOB_Gold minecraft.mined:minecraft.gold_ore
+scoreboard objectives add PSOB_Lapis minecraft.mined:minecraft.lapis_ore
+scoreboard objectives add PSOB_Redstone minecraft.mined:minecraft.redstone_ore
+scoreboard objectives add PSOB_Emerald minecraft.mined:minecraft.emerald_ore
+scoreboard objectives add PSOB_Diamond minecraft.mined:minecraft.diamond_ore
+scoreboard objectives add PSOB_DSCoal minecraft.mined:minecraft.deepslate_coal_ore
+scoreboard objectives add PSOB_DSCopper minecraft.mined:minecraft.deepslate_copper_ore
+scoreboard objectives add PSOB_DSIron minecraft.mined:minecraft.deepslate_iron_ore
+scoreboard objectives add PSOB_DSGold minecraft.mined:minecraft.deepslate_gold_ore
+scoreboard objectives add PSOB_DSLapis minecraft.mined:minecraft.deepslate_lapis_ore
+scoreboard objectives add PSOB_DSRedstone minecraft.mined:minecraft.deepslate_redstone_ore
+scoreboard objectives add PSOB_DSEmerald minecraft.mined:minecraft.deepslate_emerald_ore
+scoreboard objectives add PSOB_DSDiamond minecraft.mined:minecraft.deepslate_diamond_ore
+
+
 
 function pundus_root:mission_scoreboards
 

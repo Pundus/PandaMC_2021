@@ -1,0 +1,39 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:carrot_on_a_stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Unbreakable:1b,HideFlags:4,pundus_custom_1sec:1b,CustomModelData:1075,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"dev_remote\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.click_use",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.dev_remote.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.dev_remote.lore2",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.dev_remote.name",
+					"color": "red",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

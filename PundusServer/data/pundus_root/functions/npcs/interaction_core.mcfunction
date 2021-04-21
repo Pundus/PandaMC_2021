@@ -9,11 +9,13 @@ execute as @s at @s store result score @s Pundus_NPCID_C run scoreboard players 
 execute as @s at @s run function pundus_root:npcs/npc_sfx
 
 #show introductory menu
-execute as @s if score @s Pundus_NPCID_C matches 1 run function pundus_root:npcs/helpers/customer_service/main_menu
+execute as @s if score @s Pundus_NPCID_C matches 1 run function pundus_root:npcs/helpers/customer_service/cs_main_menu
 
 execute as @s if score @s Pundus_NPCID_C matches 2 run function pundus_root:npcs/helpers/corporal_lance/lance_main_menu
 
 execute as @s if score @s Pundus_NPCID_C matches 3 run function pundus_root:npcs/helpers/dr_wradin/wradin_main_menu
 
 execute as @s if score @s Pundus_NPCID_C matches 4 run function pundus_root:npcs/helpers/croupier_olim/olim_main_menu
+
+execute as @s if score @s Pundus_NPCID_C matches 6 run function pundus_root:npcs/one_liners/lysander_dialog
 
