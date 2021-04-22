@@ -14,8 +14,9 @@ tag @a[predicate=!pundus_root:custom_items/5_tick/5_tick_offhand,tag=Pundus_IFE_
 function pundus_root:custom_items/5_tick_misc/5_tick_misc_root
 
 execute as @a[predicate=!pundus_root:held_custom_item] if data entity @s SelectedItem.tag.pundus_id run function pundus_root:custom_items_fixer
-execute as @a[predicate=pundus_root:ban_grindstoning/bangrind_custom_item,predicate=!pundus_root:ban_grindstoning/bangrind_repair_cost] at @s run playsound minecraft:entity.item.break player @s ~ ~ ~ 1 1 1
-execute as @a[predicate=pundus_root:ban_grindstoning/bangrind_custom_item,predicate=!pundus_root:ban_grindstoning/bangrind_repair_cost] at @s run item entity @s weapon.mainhand replace air
+execute as @a[predicate=pundus_root:ban_grindstoning/bangrind_custom_item,predicate=!pundus_root:ban_grindstoning/bangrind_repair_cost,predicate=!pundus_root:ban_grindstoning/bandgrind_exception] at @s run playsound minecraft:entity.item.break player @s ~ ~ ~ 1 1 1
+execute as @a[predicate=pundus_root:ban_grindstoning/bangrind_custom_item,predicate=!pundus_root:ban_grindstoning/bangrind_repair_cost,predicate=!pundus_root:ban_grindstoning/bandgrind_exception] at @s run item entity @s weapon.mainhand replace air
+
 
 
 schedule function pundus_root:custom_items/custom_5_tick_loop 5t

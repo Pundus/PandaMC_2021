@@ -12,4 +12,7 @@ execute as @a[predicate=!pundus_root:item_binder/bound_modded_offhand,predicate=
 execute as @e[type=#pundus_root:arrows,tag=Pundus_ArrowMS] run function pundus_root:custom_items/1_tick/moonshot_arrow
 execute as @e[type=#pundus_root:arrows,tag=Pundus_ArrowSS] run function pundus_root:custom_items/1_tick/starshot_arrow
 
+
+#execute as @e[type=snow_golem,tag=Pundus_Golem_CF] at @s run fill ~1 ~ ~1 ~-1 ~ ~-1 air replace snow
+
 schedule function pundus_root:custom_items/custom_1_tick_loop 1t

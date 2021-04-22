@@ -315,16 +315,40 @@ execute as @a[tag=eggshells] run loot give @s loot pundus_root:hatched/eggshells
 tag @a[tag=eggshells] remove eggshells
 
 # starshot_bow
-execute as @a[tag=starshot_bow] run loot give @s loot pundus_root:quest/lance/starshot_bow
-tag @a[tag=starshot_bow] remove starshot_bow
+#execute as @a[tag=starshot_bow] run loot give @s loot pundus_root:quest/lance/starshot_bow
+#tag @a[tag=starshot_bow] remove starshot_bow
 
 # proto_lunarite_drill
-execute as @a[tag=proto_lunarite_drill] run loot give @s loot pundus_root:quest/lance/proto_lunarite_drill
-tag @a[tag=proto_lunarite_drill] remove proto_lunarite_drill
+#execute as @a[tag=proto_lunarite_drill] run loot give @s loot pundus_root:quest/lance/proto_lunarite_drill
+#tag @a[tag=proto_lunarite_drill] remove proto_lunarite_drill
 
 # dev_remote
 execute as @a[tag=dev_remote] run loot give @s loot pundus_root:dev_remote
 tag @a[tag=dev_remote] remove dev_remote
+
+# eyric_carapace
+execute as @a[tag=eyric_carapace] run loot give @s loot pundus_root:btn_event/eyric_carapace
+tag @a[tag=eyric_carapace] remove eyric_carapace
+
+# etheric_essence
+execute as @a[tag=etheric_essence] run loot give @s loot pundus_root:btn_event/etheric_essence
+tag @a[tag=etheric_essence] remove etheric_essence
+
+# ethereal_ingot
+execute as @a[tag=ethereal_ingot] run loot give @s loot pundus_root:btn_event/ethereal_ingot
+tag @a[tag=ethereal_ingot] remove ethereal_ingot
+
+# aegis_shield
+execute as @a[tag=aegis_shield] run loot give @s loot pundus_root:btn_event/aegis_shield
+tag @a[tag=aegis_shield] remove aegis_shield
+
+# lore_inscribe
+execute as @a[tag=lore_inscribe] run loot give @s loot pundus_root:lore_inscribe
+tag @a[tag=lore_inscribe] remove lore_inscribe
+
+# lore_redact
+execute as @a[tag=lore_redact] run loot give @s loot pundus_root:lore_redact
+tag @a[tag=lore_redact] remove lore_redact
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

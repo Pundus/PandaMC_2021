@@ -10,15 +10,23 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:1055,eyric_carapace:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"eyric_carapace\"}"
+				"tag": "{Enchantments:[{}],CustomModelData:1056,ethereal_ingot:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"ethereal_ingot\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
-					"translate": "pundus.item.eyric_carapace.lore1",
+					"translate": "pundus.item.ethereal_ingot.lore1",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.eyric_carapace.lore2",
+					"translate": "pundus.item.ethereal_ingot.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_ingot.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_ingot.lore4",
 					"color": "gray",
 					"italic": false
 				},{
@@ -37,8 +45,8 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.eyric_carapace.name",
-					"color": "white",
+					"translate": "pundus.item.ethereal_ingot.name",
+					"color": "aqua",
 					"italic": false
 				}
 			}]

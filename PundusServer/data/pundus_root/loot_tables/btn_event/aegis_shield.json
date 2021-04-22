@@ -1,0 +1,54 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:shield",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{BlockEntityTag: {Patterns: [{Pattern: \"mr\", Color: 11}, {Pattern: \"mc\", Color: 3}, {Pattern: \"sc\", Color: 3}, {Pattern: \"flo\", Color: 0}, {Pattern: \"cbo\", Color: 0}], Base: 0},HideFlags:32,Enchantments:[{id:\"minecraft:knockback\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.8,Operation:0,UUID:[I;-190512356,-2008136874,-1892211303,1831429652],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.8,Operation:0,UUID:[I;527369894,517686024,-1296341981,1342299211],Slot:\"offhand\"}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"aegis_shield\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.aegis_shield.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.aegis_shield.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.aegis_shield.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.aegis_shield.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.aegis_shield.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.aegis_shield.name",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,67 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_rc_exception:1b,HideFlags:127,pundus_shop_cost:300,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,CustomModelData:1057,pundus_realm_custom:1b,pundus_id:\"lore_inscribe\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.throw",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.rename",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_inscribe.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_inscribe.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_inscribe.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_inscribe.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_inscribe.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_inscribe.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_inscribe.lore7",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.lore_inscribe.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

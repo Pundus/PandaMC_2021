@@ -1,4 +1,4 @@
-#custom item 1 second
+#custom item 10tick
 
 execute as @a[predicate=pundus_root:custom_items/10_tick/10_tick_chest] at @s run function pundus_root:custom_items/10_tick/10_tick_chest_disambig
 execute as @a[predicate=pundus_root:custom_items/10_tick/10_tick_feet] at @s run function pundus_root:custom_items/10_tick/10_tick_feet_disambig
@@ -8,7 +8,9 @@ execute as @a[predicate=!pundus_root:item_binder/bound_modded_mainhand,predicate
 execute as @a[predicate=!pundus_root:item_binder/bound_modded_offhand,predicate=pundus_root:custom_items/10_tick/10_tick_offhand] at @s run function pundus_root:custom_items/10_tick/10_tick_offhand_disambig
 
 
-#other
+
+##other go here
+function pundus_root:custom_items/10_tick_misc/10_tick_misc_root
 
 execute as @e[type=endermite,name=KillAS] at @s run function pundus_root:devtools/kill_closest_as
 

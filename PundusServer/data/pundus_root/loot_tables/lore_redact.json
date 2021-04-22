@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_shop_cost:150,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,CustomModelData:1058,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"lore_redact\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.throw",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_redact.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_redact.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_redact.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lore_redact.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.lore_redact.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

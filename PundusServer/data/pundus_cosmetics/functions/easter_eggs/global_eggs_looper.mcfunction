@@ -4,7 +4,7 @@
 
 execute as @a[predicate=pundus_root:in_overworld] as @e[limit=5] as @a[predicate=pundus_root:in_overworld] at @s run function pundus_cosmetics:easter_eggs/egg_drop
 
-tag @e[tag=!Pundus_DroppedEgg,type=item,nbt={Item:{tag:{pundus_easter_egg:1b}}}] add Pundus_DroppedEgg
+execute as @e[tag=!Pundus_DroppedEgg,type=item,nbt={Item:{tag:{pundus_easter_egg:1b}}}] unless data entity @s Item.tag.pundus_egg_serial run tag @s add Pundus_DroppedEgg
 
 execute as @e[type=minecraft:item,tag=!Pundus_DE_D,tag=Pundus_DroppedEgg] at @s run spreadplayers ~ ~ 16 48 false @s 
 

@@ -96,6 +96,7 @@ scoreboard objectives add Pundus_EBaskC dummy
 scoreboard objectives add Pundus_EggOHW dummy
 
 scoreboard objectives add Pundus_LightLvl dummy
+scoreboard objectives add Pundus_InvSpace dummy
 
 # OutOfCombat
 scoreboard objectives add POOC_1 minecraft.custom:minecraft.damage_absorbed
@@ -132,6 +133,7 @@ scoreboard objectives add PSOB_DSDiamond minecraft.mined:minecraft.deepslate_dia
 
 
 function pundus_root:mission_scoreboards
+function pundus_root:emoji_scoreboards
 
 execute unless score %CurrentID Pundus_PlayerID = %CurrentID Pundus_PlayerID run scoreboard players set %CurrentID Pundus_PlayerID 0
 execute unless score %Server Pundus_Diamonds = %Server Pundus_Diamonds run scoreboard players set %Server Pundus_Diamonds 10000
