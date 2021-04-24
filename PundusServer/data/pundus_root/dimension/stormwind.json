@@ -1,0 +1,31 @@
+{
+  "type": "pundus_root:stock_overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": -239791523,
+    "settings": {
+      "biome": "minecraft:ocean",
+      "layers": [
+        {
+          "block": "minecraft:barrier",
+          "height": 1
+        },
+        {
+          "block": "minecraft:snow",
+          "height": 1
+        },
+        {
+          "block": "minecraft:sea_lantern",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 64
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

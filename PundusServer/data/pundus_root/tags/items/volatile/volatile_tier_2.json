@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:golden_boots",
+    "minecraft:golden_chestplate",
+    "minecraft:golden_leggings",
+    "minecraft:golden_helmet",
+    "minecraft:iron_boots",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_leggings",
+    "minecraft:iron_helmet",
+    "minecraft:golden_sword",
+    "minecraft:golden_axe",
+    "minecraft:golden_pickaxe",
+    "minecraft:golden_hoe",
+    "minecraft:golden_shovel",
+    "minecraft:iron_sword",
+    "minecraft:iron_axe",
+    "minecraft:iron_pickaxe",
+    "minecraft:iron_hoe",
+    "minecraft:iron_shovel",
+    "minecraft:crossbow"
+  ]
+}

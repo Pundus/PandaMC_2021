@@ -1,6 +1,6 @@
 # streak!
 
-scoreboard players reset @s Pundus_VorpalB
+#scoreboard players reset @s Pundus_VorpalB
 scoreboard players add @s Pundus_VorpStr 1
 execute as @s[scores={Pundus_VorpStr=2..8}] at @s run playsound sfx.vorpal_absorb player @a ~ ~ ~ 1 1 0
 execute as @s[scores={Pundus_VorpStr=9..}] at @s run playsound sfx.vorpal_release player @a ~ ~ ~ 1 1 0

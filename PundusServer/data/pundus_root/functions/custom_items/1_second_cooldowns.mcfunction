@@ -18,6 +18,9 @@ execute as @a[tag=Pundus_SpiritShifted] at @s if score @s Pundus_ScptSSGM matche
 
 execute as @a[tag=Pundus_SpiritShifted] at @s if block ~ 319 ~ minecraft:structure_void run function pundus_root:custom_items/1_second/scepter_spirit_shift_disable
 
+
+scoreboard players reset @a[scores={Pundus_DRUse=1..}] Pundus_DRUse
+
 ##
 
 

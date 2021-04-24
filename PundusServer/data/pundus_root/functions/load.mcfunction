@@ -45,6 +45,8 @@ schedule function pundus_root:light_level_calc 15t
 schedule function pundus_root:combat_check 17t
 schedule function pundus_root:walk_check 18t
 
+schedule function pundus_root:btn_event/sell_volatile_init 7t
+
 schedule function pundus_root:emoji/emoji_loop 11t
 schedule function pundus_root:emoji/enable_emoji_all_entities 10t
 

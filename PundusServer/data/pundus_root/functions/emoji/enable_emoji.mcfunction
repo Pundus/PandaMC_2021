@@ -31,6 +31,9 @@ scoreboard players enable @a e_tongue
 scoreboard players enable @a e_tongue_closed
 scoreboard players enable @a e_yum
 scoreboard players enable @a e_zipper_mouth
+scoreboard players enable @a e_triumph
+scoreboard players enable @a e_sob
+scoreboard players enable @a e_smile
 
 #other
 scoreboard players enable @a e_christmas_tree
@@ -56,5 +59,10 @@ scoreboard players enable @a e_thumbs_down
 scoreboard players enable @a e_thumbs_up
 scoreboard players enable @a e_vulcan_salute
 scoreboard players enable @a e_eyelipseye
+scoreboard players enable @a e_astronaut
+scoreboard players enable @a e_point_right
+scoreboard players enable @a e_point_left
+scoreboard players enable @a e_simp
+scoreboard players enable @a e_finger_touch
 
 

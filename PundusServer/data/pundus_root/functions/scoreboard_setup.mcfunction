@@ -45,10 +45,13 @@ scoreboard objectives add Pundus_ScptSSGM dummy
 scoreboard objectives add Pundus_HoFishCD dummy
 scoreboard objectives add Pundus_CnCiCCD dummy
 scoreboard objectives add Pundus_CnCiCBS dummy
-scoreboard objectives add Pundus_BQuivB minecraft.used:minecraft.bow
-scoreboard objectives add Pundus_BQuivCB minecraft.used:minecraft.crossbow
+#scoreboard objectives add Pundus_BQuivB minecraft.used:minecraft.bow
+#scoreboard objectives add Pundus_BQuivCB minecraft.used:minecraft.crossbow
 
-scoreboard objectives add Pundus_DRUse minecraft.used:minecraft.carrot_on_a_stick
+#scoreboard objectives add Pundus_DRUse minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add P_CoaSUsed_1s minecraft.used:minecraft.carrot_on_a_stick
+
+scoreboard objectives add Pundus_CTB minecraft.custom:minecraft.fall_one_cm
 
 scoreboard objectives add Pundus_Armor armor
 scoreboard objectives add Pundus_URCount dummy
@@ -67,8 +70,13 @@ scoreboard players set %Math_10 Pundus_VanValue 10
 
 scoreboard objectives add Pundus_Unstuck trigger
 
-scoreboard objectives add Pundus_Moonshot minecraft.used:minecraft.bow
-scoreboard objectives add Pundus_VorpalB minecraft.used:minecraft.iron_sword
+scoreboard objectives add P_BowUsed_1t minecraft.used:minecraft.bow
+scoreboard objectives add P_CBowUsed_1t minecraft.used:minecraft.crossbow
+scoreboard objectives add P_BowUsed_1s minecraft.used:minecraft.bow
+scoreboard objectives add P_CBowUsed_1s minecraft.used:minecraft.crossbow
+scoreboard objectives add P_ISwdUsed_1s minecraft.used:minecraft.iron_sword
+#scoreboard objectives add Pundus_Moonshot minecraft.used:minecraft.bow
+#scoreboard objectives add Pundus_VorpalB minecraft.used:minecraft.iron_sword
 scoreboard objectives add Pundus_VorpStr dummy
 
 scoreboard objectives add Pundus_Deaths deathCount {"translate":"pundus.server.leaderboards.deaths"}

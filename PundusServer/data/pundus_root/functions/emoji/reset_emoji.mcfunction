@@ -31,6 +31,9 @@ scoreboard players set @a e_tongue 0
 scoreboard players set @a e_tongue_closed 0
 scoreboard players set @a e_yum 0
 scoreboard players set @a e_zipper_mouth 0
+scoreboard players set @a e_triumph 0
+scoreboard players set @a e_sob 0
+scoreboard players set @a e_smile 0
 
 #other
 scoreboard players set @a e_christmas_tree 0
@@ -56,5 +59,10 @@ scoreboard players set @a e_thumbs_down 0
 scoreboard players set @a e_thumbs_up 0
 scoreboard players set @a e_vulcan_salute 0
 scoreboard players set @a e_eyelipseye 0
+scoreboard players set @a e_astronaut 0
+scoreboard players set @a e_point_right 0
+scoreboard players set @a e_point_left 0
+scoreboard players set @a e_simp 0
+scoreboard players set @a e_finger_touch 0
 
 

@@ -31,6 +31,9 @@ execute as @a if score @s e_tongue matches 1 run tag @s add Pundus_JustSentEmoji
 execute as @a if score @s e_tongue_closed matches 1 run tag @s add Pundus_JustSentEmoji
 execute as @a if score @s e_yum matches 1 run tag @s add Pundus_JustSentEmoji
 execute as @a if score @s e_zipper_mouth matches 1 run tag @s add Pundus_JustSentEmoji
+execute as @a if score @s e_triumph matches 1 run tag @s add Pundus_JustSentEmoji
+execute as @a if score @s e_sob matches 1 run tag @s add Pundus_JustSentEmoji
+execute as @a if score @s e_smile matches 1 run tag @s add Pundus_JustSentEmoji
 
 #other
 execute as @a if score @s e_christmas_tree matches 1 run tag @s add Pundus_JustSentEmoji
@@ -56,12 +59,18 @@ execute as @a if score @s e_thumbs_down matches 1 run tag @s add Pundus_JustSent
 execute as @a if score @s e_thumbs_up matches 1 run tag @s add Pundus_JustSentEmoji
 execute as @a if score @s e_vulcan_salute matches 1 run tag @s add Pundus_JustSentEmoji
 execute as @a if score @s e_eyelipseye matches 1 run tag @s add Pundus_JustSentEmoji
+execute as @a if score @s e_astronaut matches 1 run tag @s add Pundus_JustSentEmoji
+execute as @a if score @s e_point_right matches 1 run tag @s add Pundus_JustSentEmoji
+execute as @a if score @s e_point_left matches 1 run tag @s add Pundus_JustSentEmoji
+execute as @a if score @s e_simp matches 1 run tag @s add Pundus_JustSentEmoji
+execute as @a if score @s e_finger_touch matches 1 run tag @s add Pundus_JustSentEmoji
 
 
 
 ############
-execute as @a[tag=Pundus_JustSentEmoji] function pundus_root:emoji/enable_emoji
-execute as @a[tag=Pundus_JustSentEmoji] function pundus_root:emoji/reset_emoji
+execute as @a[tag=Pundus_JustSentEmoji] run function pundus_root:emoji/send_emoji
+execute as @a[tag=Pundus_JustSentEmoji] run function pundus_root:emoji/enable_emoji
+execute as @a[tag=Pundus_JustSentEmoji] run function pundus_root:emoji/reset_emoji
 
 tag @a[tag=Pundus_JustSentEmoji] remove Pundus_JustSentEmoji
 

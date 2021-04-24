@@ -1,7 +1,7 @@
 # chestplate_satiation
 
-scoreboard players set @s Pundus_BQuivB 0
-scoreboard players set @s Pundus_BQuivCB 0
+#scoreboard players set @s Pundus_BQuivB 0
+#scoreboard players set @s Pundus_BQuivCB 0
 
 give @s arrow 1
 

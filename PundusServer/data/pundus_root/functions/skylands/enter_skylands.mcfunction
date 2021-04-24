@@ -6,4 +6,4 @@ tag @s add pundus_just_entered_skylands
 
 tellraw @s {"translate":"pundus.skylands.welcome","color":"green"}
 
-schedule function pundus_root:skylands/schedule_create_portal 1s
+schedule function pundus_root:skylands/schedule_create_portal 3s

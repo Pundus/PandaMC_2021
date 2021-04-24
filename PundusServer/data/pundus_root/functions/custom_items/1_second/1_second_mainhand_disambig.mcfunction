@@ -1,6 +1,6 @@
 # Mainhand
 
-execute as @s[scores={Pundus_VorpalB=1..},nbt={SelectedItem:{tag:{pundus_id:"vorpal_blade"}}}] run function pundus_root:custom_items/1_second/vorpal_blade
+execute as @s[scores={P_ISwdUsed_1s=1..},nbt={SelectedItem:{tag:{pundus_id:"vorpal_blade"}}}] run function pundus_root:custom_items/1_second/vorpal_blade
 
 execute as @s[nbt={SelectedItem:{tag:{pundus_crimson_fourfold:1b}}}] run function pundus_root:custom_items/1_second/crimson_fourfold_mainhand_kill
 
@@ -14,7 +14,7 @@ execute as @s[nbt={SelectedItem:{tag:{pundus_id:"scepter_mindless_translocation"
 
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"reaping_scythe"}}}] if score @s Pundus_ReapSCD matches 1.. at @s run function pundus_root:custom_items/1_second/reaping_scythe_cooldown
 
-execute as @s[nbt={SelectedItem:{tag:{pundus_id:"dev_remote"}}}] if score @s Pundus_DRUse matches 1.. at @s run function pundus_root:custom_items/1_second/dev_remote
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"dev_remote"}}}] if score @s P_CoaSUsed_1s matches 1.. at @s run function pundus_root:custom_items/1_second/dev_remote
 
 
 #other

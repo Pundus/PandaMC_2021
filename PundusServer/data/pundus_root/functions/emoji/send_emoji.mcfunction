@@ -31,6 +31,9 @@ execute as @a if score @s e_tongue matches 1.. run tellraw @a [{"translate":"pun
 execute as @a if score @s e_tongue_closed matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.faces.tongue_closed","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_tongue_closed"}]}}]
 execute as @a if score @s e_yum matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.faces.yum","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_yum"}]}}]
 execute as @a if score @s e_zipper_mouth matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.faces.zipper_mouth","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_zipper_mouth"}]}}]
+execute as @a if score @s e_triumph matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.faces.triumph","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_triumph"}]}}]
+execute as @a if score @s e_sob matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.faces.sob","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_sob"}]}}]
+execute as @a if score @s e_smile matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.faces.smile","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_smile"}]}}]
 
 
 #other
@@ -58,6 +61,10 @@ execute as @a if score @s e_thumbs_up matches 1.. run tellraw @a [{"translate":"
 execute as @a if score @s e_vulcan_salute matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.people.vulcan_salute","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_vulcan_salute"}]}}]
 execute as @a if score @s e_eyelipseye matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.people.eyelipseye","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_eyelipseye"}]}}]
 execute as @a if score @s e_astronaut matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.people.astronaut","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_astronaut"}]}}]
+execute as @a if score @s e_point_right matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.people.point_right","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_point_right"}]}}]
+execute as @a if score @s e_point_left matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.people.point_left","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_point_left"}]}}]
+execute as @a if score @s e_simp matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.people.simp","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_simp"}]}}]
+execute as @a if score @s e_finger_touch matches 1.. run tellraw @a [{"translate":"pundus.emoji.chat.prefix","with":[{"selector":"@s"}]},{"translate":"pundus.emoji.people.finger_touch","font":"minecraft:emoji","hoverEvent":{"action":"show_text","contents":[{"text":"e_finger_touch"}]}}]
 
 
 

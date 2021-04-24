@@ -37,6 +37,12 @@ execute as @e[type=minecraft:area_effect_cloud,tag=Pundus_SLPortalMark] at @s un
 execute as @e[type=bee] at @s if block ~ ~ ~ water run kill @s
 execute as @e[type=bee,tag=!Pundus_BeeSwarm,nbt=!{Health:1f}] at @s run data modify entity @s Health set value 1f
 
+
+scoreboard players set @a[scores={P_BowUsed_1s=1..}] P_BowUsed_1s 0
+scoreboard players set @a[scores={P_CBowUsed_1s=1..}] P_CBowUsed_1s 0
+scoreboard players set @a[scores={P_ISwdUsed_1s=1..}] P_ISwdUsed_1s 0
+scoreboard players set @a[scores={P_CoaSUsed_1s=1..}] P_CoaSUsed_1s 0
+
 ##
 
 schedule function pundus_root:custom_items/custom_1_second_loop 1s

@@ -182,6 +182,31 @@ tag @a[tag=leggings_restoration] remove leggings_restoration
 execute as @a[tag=zombie_brain] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
 tag @a[tag=zombie_brain] remove zombie_brain
 
+#zombie_brain_x1
+execute as @a[tag=zombie_brain_x1] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x1] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x1] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+tag @a[tag=zombie_brain_x1] remove zombie_brain_x1
+#zombie_brain_x2
+execute as @a[tag=zombie_brain_x2] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x2] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x2] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x2] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x2] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+tag @a[tag=zombie_brain_x2] remove zombie_brain_x2
+#zombie_brain_x3
+execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
+tag @a[tag=zombie_brain_x3] remove zombie_brain_x3
+
 #Crimson Sword
 execute as @a[tag=crimson_sword] run loot give @s loot pundus_root:undead_event/crimson_sword
 tag @a[tag=crimson_sword] remove crimson_sword

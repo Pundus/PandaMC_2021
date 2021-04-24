@@ -31,6 +31,9 @@ scoreboard objectives add e_tongue trigger
 scoreboard objectives add e_tongue_closed trigger
 scoreboard objectives add e_yum trigger
 scoreboard objectives add e_zipper_mouth trigger
+scoreboard objectives add e_triumph trigger
+scoreboard objectives add e_sob trigger
+scoreboard objectives add e_smile trigger
 
 #other
 scoreboard objectives add e_christmas_tree trigger
@@ -56,5 +59,10 @@ scoreboard objectives add e_thumbs_down trigger
 scoreboard objectives add e_thumbs_up trigger
 scoreboard objectives add e_vulcan_salute trigger
 scoreboard objectives add e_eyelipseye trigger
+scoreboard objectives add e_astronaut trigger
+scoreboard objectives add e_point_right trigger
+scoreboard objectives add e_point_left trigger
+scoreboard objectives add e_simp trigger
+scoreboard objectives add e_finger_touch trigger
 
 
