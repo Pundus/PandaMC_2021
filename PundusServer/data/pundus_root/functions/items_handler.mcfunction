@@ -375,6 +375,46 @@ tag @a[tag=lore_inscribe] remove lore_inscribe
 execute as @a[tag=lore_redact] run loot give @s loot pundus_root:lore_redact
 tag @a[tag=lore_redact] remove lore_redact
 
+# ring_btn
+execute as @a[tag=ring_btn] run loot give @s loot pundus_root:btn_event/ring_btn
+tag @a[tag=ring_btn] remove ring_btn
+
+# luminaire
+execute as @a[tag=luminaire] run loot give @s loot pundus_root:btn_event/luminaire
+tag @a[tag=luminaire] remove luminaire
+
+# scepter_rising_sun
+execute as @a[tag=scepter_rising_sun] run loot give @s loot pundus_root:btn_event/scepter_rising_sun
+tag @a[tag=scepter_rising_sun] remove scepter_rising_sun
+
+# first_new_breath
+execute as @a[tag=first_new_breath] run loot give @s loot pundus_root:btn_event/first_new_breath
+tag @a[tag=first_new_breath] remove first_new_breath
+
+# spell_life_tempus
+execute as @a[tag=spell_life_tempus] run loot give @s loot pundus_root:btn_event/spell_life_tempus
+tag @a[tag=spell_life_tempus] remove spell_life_tempus
+
+# spell_angels_fear
+execute as @a[tag=spell_angels_fear] run loot give @s loot pundus_root:btn_event/spell_angels_fear
+tag @a[tag=spell_angels_fear] remove spell_angels_fear
+
+# crimson_dagger
+execute as @a[tag=crimson_dagger] run loot give @s loot pundus_root:btn_event/crimson_dagger
+tag @a[tag=crimson_dagger] remove crimson_dagger
+
+# elite_assault_golems
+execute as @a[tag=elite_assault_golems] run loot give @s loot pundus_root:btn_event/elite_assault_golems
+tag @a[tag=elite_assault_golems] remove elite_assault_golems
+
+# windforce
+execute as @a[tag=windforce] run loot give @s loot pundus_root:btn_event/windforce
+tag @a[tag=windforce] remove windforce
+
+# skybound
+execute as @a[tag=skybound] run loot give @s loot pundus_root:btn_event/skybound
+tag @a[tag=skybound] remove skybound
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

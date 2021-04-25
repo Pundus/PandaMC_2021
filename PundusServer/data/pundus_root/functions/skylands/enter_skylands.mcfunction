@@ -6,4 +6,7 @@ tag @s add pundus_just_entered_skylands
 
 tellraw @s {"translate":"pundus.skylands.welcome","color":"green"}
 
+
+execute as @s run function pundus_root:skylands/carapace_handler/reset_carapace_scores
+
 schedule function pundus_root:skylands/schedule_create_portal 3s

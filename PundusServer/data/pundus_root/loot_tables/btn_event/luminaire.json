@@ -1,0 +1,63 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:crossbow",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_custom_1tick:1b,CustomModelData:1062,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"luminaire\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.need_arrows",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.need_torch",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.luminaire.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.luminaire.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.luminaire.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.luminaire.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.luminaire.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.luminaire.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.luminaire.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

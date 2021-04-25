@@ -12,10 +12,14 @@ function pundus_root:custom_items/1_tick_misc/1_tick_misc_root
 
 execute as @e[type=#pundus_root:arrows,tag=Pundus_ArrowMS] run function pundus_root:custom_items/1_tick/moonshot_arrow
 execute as @e[type=#pundus_root:arrows,tag=Pundus_ArrowSS] run function pundus_root:custom_items/1_tick/starshot_arrow
+execute as @e[type=#pundus_root:arrows,tag=Pundus_ArrowLum,nbt={Fire:-1s}] at @s run data modify entity @s Fire set value 2400s
+execute as @e[type=#pundus_root:arrows,tag=Pundus_ArrowLum,nbt={inGround:1b}] at @s run function pundus_root:custom_items/1_tick/luminaire_arrow
+execute as @e[type=#pundus_root:arrows,tag=Pundus_ArrowLum] at @s if block ~ ~ ~ #pundus_root:fluids run kill @s
 
 
 scoreboard players set @a[scores={P_BowUsed_1t=1..}] P_BowUsed_1t 0
 scoreboard players set @a[scores={P_CBowUsed_1t=1..}] P_CBowUsed_1t 0
+scoreboard players set @a[scores={P_TKC_1t=1..}] P_TKC_1t 0
 
 #execute as @e[type=snow_golem,tag=Pundus_Golem_CF] at @s run fill ~1 ~ ~1 ~-1 ~ ~-1 air replace snow
 

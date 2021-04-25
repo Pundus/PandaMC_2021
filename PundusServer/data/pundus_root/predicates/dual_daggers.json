@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "nbt": "{pundus_dagger:1b}"
+      },
+      "offhand": {
+        "nbt": "{pundus_dagger:1b}"
+      }
+    }
+  }
+}

@@ -10,15 +10,15 @@
 					"function": "minecraft:set_lore",
 					"lore": [{
 						"translate": "pundus.item.generic.volatile1",
-						"color": "dark_red",
+						"color": "red",
 						"italic": false
 					}, {
 						"translate": "pundus.item.generic.volatile2",
-						"color": "dark_red",
+						"color": "red",
 						"italic": false
 					}, {
 						"translate": "pundus.item.generic.volatile3",
-						"color": "dark_red",
+						"color": "red",
 						"italic": false
 					}, {
 						"translate": "pundus.item.generic.volatile4",

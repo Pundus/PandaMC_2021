@@ -5,23 +5,23 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"marker_beacon"}}]}] ru
 
 execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"distress_beacon"}}]}] at @s unless entity @e[type=area_effect_cloud,tag=Pundus_DistressBeacon,limit=1] run function pundus_root:custom_items/1_second/distress_beacon_set
 
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_crimson_fourfold:1b}}]},tag=!Pundus_CrimSwap] unless score @s Pundus_CrimFFCD matches 1.. at @s run function pundus_root:custom_items/1_second/crimson_fourfold
+execute as @s[predicate=!pundus_root:dagger_main,nbt={Inventory:[{Slot:-106b,tag:{pundus_crimson_fourfold:1b}}]},tag=!Pundus_CrimSwap] unless score @s Pundus_CrimFFCD matches 1.. at @s run function pundus_root:custom_items/1_second/crimson_fourfold
 
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_crimson_fourfold:1b}}]},scores={Pundus_CrimFFCD=1..},tag=!Pundus_CrimSwap] at @s run function pundus_root:custom_items/1_second/crimson_fourfold_cooldown
+execute as @s[predicate=!pundus_root:dagger_main,nbt={Inventory:[{Slot:-106b,tag:{pundus_crimson_fourfold:1b}}]},tag=!Pundus_CrimSwap] if score @s Pundus_CrimFFCD matches 1.. at @s run function pundus_root:custom_items/1_second/crimson_fourfold_cooldown
 
 
-execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"reaping_scythe"}}]}] unless score @s Pundus_ReapSCD matches 1.. at @s if entity @e[type=#pundus_root:hostile_all_mobs,distance=..15] run function pundus_root:custom_items/1_second/reaping_scythe_activate
+execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"reaping_scythe"}}]}] unless score @s Pundus_ReapSCD matches 1.. at @s if entity @e[type=#pundus_root:hostile_all_mobs,distance=..16] run function pundus_root:custom_items/1_second/reaping_scythe_activate
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"reaping_scythe"}}]}] if score @s Pundus_ReapSCD matches 1.. at @s run function pundus_root:custom_items/1_second/reaping_scythe_cooldown
 
 
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_mindless_translocation"}}]}] unless score @s Pundus_ScptMTCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_mindless_translocation
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_mindless_translocation"}}]}] at @s if entity @e[type=#pundus_root:undead_mobs,distance=..16] unless score @s Pundus_ScptMTCD matches 1.. run function pundus_root:custom_items/1_second/scepter_mindless_translocation
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_mindless_translocation"}}]}] if score @s Pundus_ScptMTCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_mindless_translocation_cooldown
 
 execute as @s[predicate=!pundus_root:in_nether,gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_spirit_shift"}}]}] unless score @s Pundus_ScptSSCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_spirit_shift
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_spirit_shift"}}]}] if score @s Pundus_ScptSSCD matches 1.. if score @s Pundus_ScptSSGM matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_spirit_shift_timeleft
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_spirit_shift"}}]}] if score @s Pundus_ScptSSCD matches 1.. unless score @s Pundus_ScptSSGM matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_spirit_shift_cooldown
 
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_dead_men_walking"}}]}] at @s run function pundus_root:custom_items/1_second/spell_dead_men_walking
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_dead_men_walking"}}]}] at @s if entity @e[type=#pundus_root:undead_mobs,distance=..16] run function pundus_root:custom_items/1_second/spell_dead_men_walking
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"zombosoda"}}]}] at @s run function pundus_root:custom_items/1_second/zombosoda
 
@@ -31,11 +31,12 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"history_of_fish"}}]}] 
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"golem_reinforcements"}}]}] at @s run function pundus_root:custom_items/1_second/golem_reinforcements
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"golem_cannon_fodder"}}]}] at @s run function pundus_root:custom_items/1_second/golem_cannon_fodder
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"elite_assault_golems"}}]}] at @s run function pundus_root:custom_items/1_second/elite_assault_golems
 
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"eggdar"}}]}] at @s if entity @e[type=item,tag=Pundus_DroppedEgg,distance=..32] run function pundus_root:custom_items/1_second/eggdar
 
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"meggnet"}}]}] at @s if entity @e[type=item,tag=Pundus_DroppedEgg,distance=..5] run function pundus_root:custom_items/1_second/meggnet
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"meggnet"}}]}] at @s if entity @e[type=item,tag=Pundus_DroppedEgg,distance=..8] run function pundus_root:custom_items/1_second/meggnet
 
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_drop_eggs"}}]}] at @s run function pundus_root:custom_items/1_second/spell_drop_eggs
@@ -48,5 +49,15 @@ execute as @s[tag=!Pundus_EatCnCiC,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"c
 
 
 execute as @s[gamemode=!adventure,predicate=pundus_root:in_overworld,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_deep_dark"}}]}] at @s unless block ~ 319 ~ minecraft:structure_void run function pundus_root:custom_items/1_second/spell_deep_dark
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_life_tempus"}}]}] at @s run function pundus_root:custom_items/1_second/spell_life_tempus
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_angels_fear"}}]}] at @s if entity @e[type=vex,distance=..16] run function pundus_root:custom_items/1_second/spell_angels_fear
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"ring_btn"}}]}] at @s run function pundus_root:custom_items/1_second/ring_btn
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_rising_sun"}}]}] at @s if entity @e[type=#pundus_root:undead_mobs,distance=..16] unless score @s Pundus_ScptRSCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_rising_sun
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_rising_sun"}}]}] if score @s Pundus_ScptRSCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_rising_sun_cooldown
+
 
 #other

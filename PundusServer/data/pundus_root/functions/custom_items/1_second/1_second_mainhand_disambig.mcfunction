@@ -12,9 +12,12 @@ execute as @s[nbt={SelectedItem:{tag:{pundus_id:"scepter_spirit_shift"}}}] if sc
 
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"scepter_mindless_translocation"}}}] if score @s Pundus_ScptMTCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_mindless_translocation_cooldown
 
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"scepter_rising_sun"}}}] if score @s Pundus_ScptRSCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_rising_sun_cooldown
+
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"reaping_scythe"}}}] if score @s Pundus_ReapSCD matches 1.. at @s run function pundus_root:custom_items/1_second/reaping_scythe_cooldown
 
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"dev_remote"}}}] if score @s P_CoaSUsed_1s matches 1.. at @s run function pundus_root:custom_items/1_second/dev_remote
 
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"skybound"}}}] at @s run function pundus_root:custom_items/1_second/skybound_kill
 
 #other

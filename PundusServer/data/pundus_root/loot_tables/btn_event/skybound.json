@@ -1,0 +1,67 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:bow",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_skybound_level:1b,pundus_custom_1tick:1b,pundus_custom_1sec:1b,CustomModelData:1070,Enchantments:[{id:\"minecraft:power\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s}],pundus_skybound:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"skybound\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.mainhand_only",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.skybound.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.skybound.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.skybound.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.skybound.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.skybound.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.skybound.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.arrows_destroyed",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.no_spectral",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.skybound.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

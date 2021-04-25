@@ -1,0 +1,59 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:diamond_sword",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1.0,Operation:0,UUID:[I;-190512356,-2008136874,-1892211303,1831429652],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.9,Operation:0,UUID:[I;191204919,-835302606,-2038583727,-319974933],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-1802165248,-992657335,-1295894423,-11689076],Slot:\"mainhand\"}],CustomModelData:1069,Enchantments:[{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:knockback\",lvl:6s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:sweeping\",lvl:3s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"windforce\",HideFlags:2}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.windforce.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.windforce.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.windforce.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.windforce.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.windforce.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.windforce.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.windforce.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

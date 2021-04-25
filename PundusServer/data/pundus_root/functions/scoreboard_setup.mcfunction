@@ -42,9 +42,12 @@ scoreboard objectives add Pundus_ReapSCD dummy
 scoreboard objectives add Pundus_ScptMTCD dummy
 scoreboard objectives add Pundus_ScptSSCD dummy
 scoreboard objectives add Pundus_ScptSSGM dummy
+scoreboard objectives add Pundus_ScptRSCD dummy
 scoreboard objectives add Pundus_HoFishCD dummy
 scoreboard objectives add Pundus_CnCiCCD dummy
 scoreboard objectives add Pundus_CnCiCBS dummy
+scoreboard objectives add Pundus_SB_Str dummy
+scoreboard objectives add Pundus_SB_CD dummy
 #scoreboard objectives add Pundus_BQuivB minecraft.used:minecraft.bow
 #scoreboard objectives add Pundus_BQuivCB minecraft.used:minecraft.crossbow
 
@@ -72,6 +75,8 @@ scoreboard objectives add Pundus_Unstuck trigger
 
 scoreboard objectives add P_BowUsed_1t minecraft.used:minecraft.bow
 scoreboard objectives add P_CBowUsed_1t minecraft.used:minecraft.crossbow
+scoreboard objectives add P_TKC_1t totalKillCount
+scoreboard objectives add P_TKC_1s totalKillCount
 scoreboard objectives add P_BowUsed_1s minecraft.used:minecraft.bow
 scoreboard objectives add P_CBowUsed_1s minecraft.used:minecraft.crossbow
 scoreboard objectives add P_ISwdUsed_1s minecraft.used:minecraft.iron_sword
@@ -137,6 +142,7 @@ scoreboard objectives add PSOB_DSLapis minecraft.mined:minecraft.deepslate_lapis
 scoreboard objectives add PSOB_DSRedstone minecraft.mined:minecraft.deepslate_redstone_ore
 scoreboard objectives add PSOB_DSEmerald minecraft.mined:minecraft.deepslate_emerald_ore
 scoreboard objectives add PSOB_DSDiamond minecraft.mined:minecraft.deepslate_diamond_ore
+scoreboard objectives add PSOB_Kills totalKillCount
 
 
 

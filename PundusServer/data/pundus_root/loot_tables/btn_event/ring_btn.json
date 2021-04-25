@@ -41,10 +41,6 @@
 					"translate": "pundus.item.ring_btn.lore6",
 					"color": "gray",
 					"italic": false
-				},{
-					"translate": "pundus.item.generic.consumed",
-					"color": "red",
-					"italic": false
 				}]
 			}, {
 				"function": "set_name",

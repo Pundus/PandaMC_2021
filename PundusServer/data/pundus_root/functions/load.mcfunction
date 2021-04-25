@@ -52,6 +52,8 @@ schedule function pundus_root:emoji/enable_emoji_all_entities 10t
 
 #schedule function pundus_root:undead_rising/undead_init 17t
 
+schedule function pundus_root:skylands/carapace_handler/carapace_loops 7t
+
 
 schedule function pundus_root:block_packs/bp_offhand_determination_init 19t
 

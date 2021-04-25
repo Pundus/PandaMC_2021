@@ -26,6 +26,10 @@
 					"color": "gray",
 					"italic": false
 				},{
+					"translate": "pundus.item.generic.mission_zone",
+					"color": "red",
+					"italic": false
+				},{
 					"translate": "pundus.item.generic.consumed",
 					"color": "red",
 					"italic": false

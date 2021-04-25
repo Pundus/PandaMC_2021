@@ -4,7 +4,8 @@
   "predicate": {
     "equipment": {
       "offhand": {
-        "tag": "pundus_root:volatile/volatile_tier_2"
+        "tag": "pundus_root:volatile/volatile_tier_2",
+		 "nbt": "{pundus_volatile:1b}"
       }
     }
   }

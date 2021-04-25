@@ -1,26 +1,34 @@
 {
-  "type": "pundus_root:stock_overworld",
+  "type": "pundus_root:stormwind_evening",
   "generator": {
     "type": "minecraft:flat",
     "seed": -239791523,
     "settings": {
-      "biome": "minecraft:ocean",
+      "biome": "minecraft:the_void",
       "layers": [
         {
-          "block": "minecraft:barrier",
+          "block": "minecraft:bedrock",
           "height": 1
         },
+		{
+          "block": "minecraft:water",
+          "height": 8
+        },
         {
-          "block": "minecraft:snow",
-          "height": 1
+          "block": "minecraft:air",
+          "height": 64
         },
         {
           "block": "minecraft:sea_lantern",
           "height": 1
         },
         {
-          "block": "minecraft:air",
-          "height": 64
+          "block": "minecraft:snow_block",
+          "height": 1
+        },
+        {
+          "block": "minecraft:barrier",
+          "height": 1
         }
       ],
       "structures": {

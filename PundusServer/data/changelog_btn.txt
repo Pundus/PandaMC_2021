@@ -1,0 +1,59 @@
+**Server change log XX/04/2021-A**
+
+> Gameplay Changes
++ Added an internal check for combat status.
+Being [In Combat] requires ANY of the following 3 predicates to be met:
+Player has recently dealt damage
+Player has recently received damage
+There are hostile mobs within a 5 block radius.
+
++ Undead mobs and Pillagers now spawn with Volatile Equipment.
+Volatile Equipment comes in every flavour (leather/wood, stone/chainmail, iron, gold, diamond, netherrite).
+They have an 8.5% chance of dropping (affected by looting).
+Volatile Equipment (armor, tools and weapons) can be used like normal equipment, but they cannot be repaired.
+Grindstoning Volatile Equipment will give you the XP, but the item will be destroyed once held and cannot be sold.
+They can be sold for Zombie Brains (varying amount depending on rarity of material) by placing it in your offhand and crouching (there is no chat prompt).
+
++ Eyric Carapaces now drop when mining ores or killing mobs in the Skylands.
+When mining ores, a crack and particle now appears, and (an) Eyric Carapace(s) drops.
+Number of Carapaces that drop vary depending on rarity of ore mined (up to 3).
+Killing mobs in the Skylands drops an Eyric Carapace at your location.
+
++ Using the Lunar Express Ticket no longer deposits you at 0,0 on the Moon. It will now use your relative coordinates in the Overworld.
+
+> World Changes
+
+> Economy Changes
+++ More Vanilla Minecraft items are now sellable.
+++ Changed the price of some of the utilities in the Spawn Shop.
+
+> Item Changes
++ Added the Lore Inscription Plate and the Lore Redacter.
+Purchaseable for 300 and 150 respectively.
+The Lore Inscription Plate can be used with any vanilla non-server item to append custom lore to the item.
+The Lore Redacter removes all lines of lore from any vanilla non-server item.
+Read their item's descriptions for more information and instructions.
+(Due to technical reasons, lore will always appear as purple and italicized).
+
++ The Scepter of Spirit Shifting has been nerfed.
+No longer works in the Nether (the Nether is already used for fast travel, and to prevent ceiling breaking).
+Now requires player to be out of combat to be used.
+Cooldown increased to 5 minutes.
+Players no longer gain invulnerability for a few seconds after exiting Spirit Shift mode.
+Shifted time reduced to 5 seconds (given that you can drastically increase speed while Shifted).
+
+- You can now only use the Lunar Express Ticket in the Overworld.
+This is to prevent the Nether Subspace Bubble from depositing you far outside the World Border when going to the moon.
+
+> Technical Changes
++ Internal disambiguation of certain scoreboards to track items.
+
+> Graphical Changes
+- Removed the fancy chunk rendering shader.
+It doesn't play well with certain aspects that I'd like kept for the Skylands.
+
+> Bug Fixes
+= Increased detection time of Skylands Portals to prevent further false negatives.
+= Added failsafe to ensure no Skylands Portals are auto-generated in the Overworld.
+= Added lore specifying the Recall Device does not work in Mission Zones.
+= Fixed the Meggnet requiring a dropped Egg <5 blocks away to activate, when the activation range is 8 blocks.

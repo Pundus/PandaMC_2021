@@ -1,6 +1,6 @@
 # lore inscribe
 
-tag @e[type=item,nbt={OnGround:1b,Item:{tag:{pundus_id:"lore_inscribe"}}}] add Pundus_LoreInscribe
+tag @e[type=item,nbt={OnGround:1b,Item:{tag:{pundus_id:"lore_inscribe"}}},nbt=!{Item:{tag:{display:{Name: '{"italic":false,"color":"white","translate":"pundus.item.lore_inscribe.name"}'}}}}] add Pundus_LoreInscribe
 
 execute as @e[type=item,tag=Pundus_LoreInscribe] at @s as @e[tag=!Pundus_LoreInscribe,type=item,nbt={OnGround:1b},limit=1,sort=nearest,distance=..2] unless data entity @s Item.tag.pundus_realm_custom at @s run tag @s add Pundus_LoreScribed
 

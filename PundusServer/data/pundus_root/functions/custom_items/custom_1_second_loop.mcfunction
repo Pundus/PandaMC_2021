@@ -18,9 +18,7 @@ execute as @a[scores={Pundus_MenuVar=1337}] if entity @e[type=area_effect_cloud,
 
 execute as @a[tag=Pundus_Temp_PKI] run function pundus_root:custom_items/1_second/distress_beacon_temp_pki
 
-execute as @e[type=iron_golem,tag=Pundus_Golem_Summon] run function pundus_root:custom_items/1_second/golems_loop
-execute as @e[type=snow_golem,tag=Pundus_Golem_Summon] run function pundus_root:custom_items/1_second/golems_loop
-execute as @e[type=cow,tag=Pundus_Golem_Mount] run function pundus_root:custom_items/1_second/golems_loop
+execute as @e[type=#pundus_root:golem_related,tag=Pundus_Golem_Summon] run function pundus_root:custom_items/1_second/golems_loop
 
 execute as @e[type=#minecraft:raiders,tag=!PillagerFuck,limit=5] at @s run function pundus_root:custom_items/pillager
 
@@ -37,11 +35,14 @@ execute as @e[type=minecraft:area_effect_cloud,tag=Pundus_SLPortalMark] at @s un
 execute as @e[type=bee] at @s if block ~ ~ ~ water run kill @s
 execute as @e[type=bee,tag=!Pundus_BeeSwarm,nbt=!{Health:1f}] at @s run data modify entity @s Health set value 1f
 
+execute as @a[predicate=pundus_root:dual_daggers] at @s run effect give @s minecraft:strength 2 1 true
+
 
 scoreboard players set @a[scores={P_BowUsed_1s=1..}] P_BowUsed_1s 0
 scoreboard players set @a[scores={P_CBowUsed_1s=1..}] P_CBowUsed_1s 0
 scoreboard players set @a[scores={P_ISwdUsed_1s=1..}] P_ISwdUsed_1s 0
 scoreboard players set @a[scores={P_CoaSUsed_1s=1..}] P_CoaSUsed_1s 0
+scoreboard players set @a[scores={P_TKC_1s=1..}] P_TKC_1s 0
 
 ##
 
