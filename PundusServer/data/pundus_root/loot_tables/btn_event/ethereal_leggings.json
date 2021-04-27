@@ -1,0 +1,67 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:iron_leggings",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Damage:-1024,pundus_custom_1sec:1b,HideFlags:64,pundus_ethereal_armor:1b,CustomModelData:1078,display:{color:13034228},Enchantments:[{id:\"minecraft:projectile_protection\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:32s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;-1645281211,1999587677,-2139168514,-103803265],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-924051247,-883539329,-1529372404,1313222318],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1404652957,-1967895866,-1619202548,-265278792],Slot:\"legs\"}],ethereal_chestplate:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"ethereal_leggings\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore7",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore8",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.ethereal_leggings.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

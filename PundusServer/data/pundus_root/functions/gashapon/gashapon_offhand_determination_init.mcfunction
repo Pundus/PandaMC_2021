@@ -12,7 +12,7 @@ execute as @a[tag=Pundus_Gasha_Scrolling] at @s run function pundus_root:gashapo
 
 #scroll force end
 
-execute as @a[tag=Pundus_Gasha_Scrolling,predicate=pundus_root:crouching] at @s run stopsound @s master minecraft:ui.lootbox_scrolling
-execute as @a[tag=Pundus_Gasha_Scrolling,predicate=pundus_root:crouching] at @s run scoreboard players set @s Pundus_GshpScrl 0
+execute as @a[tag=Pundus_Gasha_Scrolling,predicate=pundus_root:generic/crouching] at @s run stopsound @s master minecraft:ui.lootbox_scrolling
+execute as @a[tag=Pundus_Gasha_Scrolling,predicate=pundus_root:generic/crouching] at @s run scoreboard players set @s Pundus_GshpScrl 0
 
 schedule function pundus_root:gashapon/gashapon_offhand_determination_init 3t

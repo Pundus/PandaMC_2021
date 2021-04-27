@@ -7,6 +7,13 @@ execute as @s[nbt={Inventory:[{Slot:102b,tag:{IBU_Updated:1b}}]}] at @s if block
 execute as @s[nbt={Inventory:[{Slot:102b,tag:{pundus_id:"basic_quiver"}}]}] at @s if score @s P_BowUsed_1s matches 1.. run function pundus_root:custom_items/1_second/basic_quiver
 execute as @s[nbt={Inventory:[{Slot:102b,tag:{pundus_id:"basic_quiver"}}]}] at @s if score @s P_CBowUsed_1s matches 1.. run function pundus_root:custom_items/1_second/basic_quiver
 
+execute as @s[nbt={Inventory:[{Slot:102b,tag:{pundus_id:"spectral_quiver"}}]}] at @s if score @s P_BowUsed_1s matches 1.. run function pundus_root:custom_items/1_second/spectral_quiver
+execute as @s[nbt={Inventory:[{Slot:102b,tag:{pundus_id:"spectral_quiver"}}]}] at @s if score @s P_CBowUsed_1s matches 1.. run function pundus_root:custom_items/1_second/spectral_quiver
+
 
 execute as @s[nbt={Inventory:[{Slot:102b,tag:{pundus_id:"apoc_shirt"}}]}] at @s if score @s Pundus_CSHunger matches ..19 run function pundus_root:custom_items/1_second/chestplate_satiation
 execute as @s[nbt={Inventory:[{Slot:102b,tag:{pundus_id:"apoc_shirt"}}]}] at @s if score @s Pundus_Health matches ..19 run function pundus_root:custom_items/1_second/leggings_restoration
+
+execute as @s[nbt={Inventory:[{Slot:102b,tag:{pundus_id:"apoc_shirt"}}]}] at @s if score @s Pundus_Health matches ..19 run function pundus_root:custom_items/1_second/leggings_restoration
+
+execute as @s[predicate=pundus_root:ethereal_armor/ethereal_chestplate] at @s unless predicate pundus_root:ethereal_armor/dye_ethereal_chestplate run function pundus_root:custom_items/1_second/ethereal_armor_cc

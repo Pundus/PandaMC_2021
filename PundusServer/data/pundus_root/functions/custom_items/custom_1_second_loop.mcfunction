@@ -12,7 +12,7 @@ execute as @a[predicate=!pundus_root:item_binder/bound_modded_offhand,predicate=
 execute as @e[type=area_effect_cloud,tag=Pundus_QFS] at @s unless block ~ ~ ~ end_portal_frame run setblock ~ ~1 ~ air
 execute as @e[type=area_effect_cloud,tag=Pundus_QFS] at @s unless block ~ ~ ~ end_portal_frame run kill @s
 
-execute as @e[type=item,nbt={OnGround:1b,Item:{tag:{pundus_id:"marker_beacon"}}}] at @s if block ~ ~ ~ end_portal_frame[eye=false] run function pundus_root:custom_items/1_second/qfs_loop
+execute as @e[type=item,predicate=pundus_root:generic/on_ground,nbt={Item:{tag:{pundus_id:"marker_beacon"}}}] at @s if block ~ ~ ~ end_portal_frame[eye=false] run function pundus_root:custom_items/1_second/qfs_loop
 
 execute as @a[scores={Pundus_MenuVar=1337}] if entity @e[type=area_effect_cloud,tag=Pundus_DistressBeacon,limit=1] run function pundus_root:custom_items/1_second/distress_beacon_activate
 
@@ -41,6 +41,7 @@ execute as @a[predicate=pundus_root:dual_daggers] at @s run effect give @s minec
 scoreboard players set @a[scores={P_BowUsed_1s=1..}] P_BowUsed_1s 0
 scoreboard players set @a[scores={P_CBowUsed_1s=1..}] P_CBowUsed_1s 0
 scoreboard players set @a[scores={P_ISwdUsed_1s=1..}] P_ISwdUsed_1s 0
+scoreboard players set @a[scores={P_SSwdUsed_1s=1..}] P_SSwdUsed_1s 0
 scoreboard players set @a[scores={P_CoaSUsed_1s=1..}] P_CoaSUsed_1s 0
 scoreboard players set @a[scores={P_TKC_1s=1..}] P_TKC_1s 0
 

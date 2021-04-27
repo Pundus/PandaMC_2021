@@ -1,0 +1,67 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:iron_boots",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Damage:-1024,pundus_custom_1sec:1b,HideFlags:64,pundus_ethereal_armor:1b,CustomModelData:1080,display:{color:13034228},Enchantments:[{id:\"minecraft:projectile_protection\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:32s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;171396579,-1310572291,-1087945099,-1208083994],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-1003352521,1417692699,-1665577231,11672863],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;2079192271,1886929622,-1986724119,549026845],Slot:\"feet\"}],ethereal_chestplate:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"ethereal_boots\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore7",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore8",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.ethereal_boots.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

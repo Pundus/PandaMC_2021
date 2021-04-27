@@ -1,0 +1,63 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stone_sword",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_dagger:1b,HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.5,Operation:0,UUID:[I;-2083151909,-1778954255,-1583868811,-1865677941],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-1802165248,-992657335,-1295894423,-11689076],Slot:\"mainhand\"}],pundus_custom_1sec:1b,CustomModelData:1076,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:sharpness\",lvl:2s}],vorpal_blade:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"vorpal_dagger\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.vorpal_blade.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.vorpal_blade.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.vorpal_blade.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.vorpal_blade.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.vorpal_blade.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.daggers1",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.daggers2",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.vorpal_dagger.name",
+					"color": "light_purple",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

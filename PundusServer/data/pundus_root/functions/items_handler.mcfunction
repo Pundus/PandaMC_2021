@@ -40,6 +40,10 @@ tag @a[tag=gorb_interdimensional] remove gorb_interdimensional
 execute as @a[tag=lb_undead_rising] run loot give @s loot pundus_root:gashapon/lb_undead_rising
 tag @a[tag=lb_undead_rising] remove lb_undead_rising
 
+#Lockbox Beyond the Night
+execute as @a[tag=lb_btn] run loot give @s loot pundus_root:gashapon/lb_btn
+tag @a[tag=lb_btn] remove lb_btn
+
 #Decor - Model Rocket
 execute as @a[tag=decor_model_rocket] run loot give @s loot pundus_root:decor/model_rocket
 tag @a[tag=decor_model_rocket] remove decor_model_rocket
@@ -55,6 +59,14 @@ tag @a[tag=decor_trans_bee] remove decor_trans_bee
 #Decor - Bee
 execute as @a[tag=decor_bee] run loot give @s loot pundus_root:decor/model_bee
 tag @a[tag=decor_bee] remove decor_bee
+
+#model_pundus
+execute as @a[tag=decor_model_pundus] run loot give @s loot pundus_root:decor/model_pundus
+tag @a[tag=decor_model_pundus] remove decor_model_pundus
+
+#Dmodel_solstice
+execute as @a[tag=decor_model_solstice] run loot give @s loot pundus_root:decor/model_solstice
+tag @a[tag=decor_model_solstice] remove decor_model_solstice
 
 #Block Pack: Typical Stones
 execute as @a[tag=bp_typical_stones] run loot give @s loot pundus_root:block_pack/bp_typical_stones
@@ -414,6 +426,54 @@ tag @a[tag=windforce] remove windforce
 # skybound
 execute as @a[tag=skybound] run loot give @s loot pundus_root:btn_event/skybound
 tag @a[tag=skybound] remove skybound
+
+# counter_thrust_boots
+execute as @a[tag=counter_thrust_boots] run loot give @s loot pundus_root:btn_event/counter_thrust_boots
+tag @a[tag=counter_thrust_boots] remove counter_thrust_boots
+
+# magnetized_leggings
+execute as @a[tag=magnetized_leggings] run loot give @s loot pundus_root:btn_event/magnetized_leggings
+tag @a[tag=magnetized_leggings] remove magnetized_leggings
+
+# spectral_quiver
+execute as @a[tag=spectral_quiver] run loot give @s loot pundus_root:btn_event/spectral_quiver
+tag @a[tag=spectral_quiver] remove spectral_quiver
+
+# lunarite_dust
+execute as @a[tag=lunarite_dust] run loot give @s loot pundus_root:btn_event/lunarite_dust
+tag @a[tag=lunarite_dust] remove lunarite_dust
+
+# brunos_pickaxe
+execute as @a[tag=brunos_pickaxe] run loot give @s loot pundus_root:btn_event/brunos_pickaxe
+tag @a[tag=brunos_pickaxe] remove brunos_pickaxe
+
+# vorpal_dagger
+execute as @a[tag=vorpal_dagger] run loot give @s loot pundus_root:btn_event/vorpal_dagger
+tag @a[tag=vorpal_dagger] remove vorpal_dagger
+
+# ethereal_apple
+execute as @a[tag=ethereal_apple] run loot give @s loot pundus_root:btn_event/ethereal_apple
+tag @a[tag=ethereal_apple] remove ethereal_apple
+
+# ethereal_dagger
+execute as @a[tag=ethereal_dagger] run loot give @s loot pundus_root:btn_event/ethereal_dagger
+tag @a[tag=ethereal_dagger] remove ethereal_dagger
+
+# ethereal_chestplate
+execute as @a[tag=ethereal_chestplate] run loot give @s loot pundus_root:btn_event/ethereal_chestplate
+tag @a[tag=ethereal_chestplate] remove ethereal_chestplate
+
+# ethereal_leggings
+execute as @a[tag=ethereal_leggings] run loot give @s loot pundus_root:btn_event/ethereal_leggings
+tag @a[tag=ethereal_leggings] remove ethereal_leggings
+
+# ethereal_boots
+execute as @a[tag=ethereal_boots] run loot give @s loot pundus_root:btn_event/ethereal_boots
+tag @a[tag=ethereal_boots] remove ethereal_boots
+
+# buyout_token_btn
+execute as @a[tag=buyout_token_btn] run loot give @s loot pundus_root:btn_event/buyout_token_btn
+tag @a[tag=buyout_token_btn] remove buyout_token_btn
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

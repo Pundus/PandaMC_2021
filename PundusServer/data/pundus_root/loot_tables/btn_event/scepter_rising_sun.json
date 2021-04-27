@@ -35,6 +35,10 @@
 					"italic": false
 				},{
 					"translate": "pundus.item.scepter_rising_sun.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.scepter_rising_sun.lore6",
 					"color": "red",
 					"italic": false
 				}]
@@ -42,7 +46,7 @@
 				"function": "set_name",
 				"name": {
 					"translate": "pundus.item.scepter_rising_sun.name",
-					"color": "yellow",
+					"color": "aqua",
 					"italic": false
 				}
 			}]

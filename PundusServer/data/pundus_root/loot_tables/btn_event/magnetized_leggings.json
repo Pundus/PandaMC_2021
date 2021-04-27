@@ -1,0 +1,59 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:iron_leggings",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:1073,pundus_playcoin_sellable:1b,pundus_playcoin_value:600,pundus_custom_1sec:1b,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:5s}],magnetized_leggings:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"magnetized_leggings\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [[{
+				"translate": "pundus.item.generic.value",
+				"color": "white",
+				"italic": false
+			}, {
+				"text": "600",
+				"color": "white",
+				"italic": false
+			}, {
+				"translate": "pundus.item.generic.playcoin_suffix",
+				"color": "white",
+				"italic": false
+			}],{
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.magnetized_leggings.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.magnetized_leggings.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.magnetized_leggings.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.magnetized_leggings.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

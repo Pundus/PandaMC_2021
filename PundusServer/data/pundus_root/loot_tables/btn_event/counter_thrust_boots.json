@@ -1,0 +1,71 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:iron_boots",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:1071,pundus_playcoin_sellable:1b,pundus_playcoin_value:400,pundus_custom_1tick:1b,pundus_custom_1sec:1b,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:feather_falling\",lvl:10s}],counter_thrust_boots:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"counter_thrust_boots\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [[{
+				"translate": "pundus.item.generic.value",
+				"color": "white",
+				"italic": false
+			}, {
+				"text": "400",
+				"color": "white",
+				"italic": false
+			}, {
+				"translate": "pundus.item.generic.playcoin_suffix",
+				"color": "white",
+				"italic": false
+			}],{
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.counter_thrust_boots.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.counter_thrust_boots.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.counter_thrust_boots.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.counter_thrust_boots.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.counter_thrust_boots.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.counter_thrust_boots.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.counter_thrust_boots.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

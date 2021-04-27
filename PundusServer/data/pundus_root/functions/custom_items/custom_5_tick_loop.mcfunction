@@ -22,6 +22,11 @@ execute as @a[predicate=pundus_root:ban_grindstoning/bangrind_custom_item,predic
 execute as @a[predicate=pundus_root:ban_grindstoning/offhand_bangrind_custom_item,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost_old,predicate=!pundus_root:ban_grindstoning/offhand_bandgrind_exception] at @s run playsound minecraft:entity.item.break player @s ~ ~ ~ 1 1 1
 execute as @a[predicate=pundus_root:ban_grindstoning/offhand_bangrind_custom_item,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost_old,predicate=!pundus_root:ban_grindstoning/offhand_bandgrind_exception] at @s run item entity @s weapon.offhand replace air
 
+execute as @a[nbt={SelectedItem:{tag:{pundus_id:"cheese"}}},nbt=!{SelectedItem:{tag:{pundus_foodpriced:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/food_prices
+execute as @a[nbt={SelectedItem:{tag:{pundus_id:"fried_egg"}}},nbt=!{SelectedItem:{tag:{pundus_foodpriced:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/food_prices
+
+
+execute as @a store result score @s Pundus_Fall run data get entity @s FallDistance
 
 
 schedule function pundus_root:custom_items/custom_5_tick_loop 5t

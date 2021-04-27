@@ -1,4 +1,4 @@
-# chestplate_satiation
+# basic_quiver
 
 #scoreboard players set @s Pundus_BQuivB 0
 #scoreboard players set @s Pundus_BQuivCB 0

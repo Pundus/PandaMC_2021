@@ -20,13 +20,15 @@ Number of Carapaces that drop vary depending on rarity of ore mined (up to 3).
 Killing mobs in the Skylands drops an Eyric Carapace at your location.
 
 + Using the Lunar Express Ticket no longer deposits you at 0,0 on the Moon. It will now use your relative coordinates in the Overworld.
++ Every time the server is reloaded, all players online gain 10 seconds of invulnerability (in case an admin reloads during combat).
 
 > World Changes
 
 > Economy Changes
-++ More Vanilla Minecraft items are now sellable.
++ More Vanilla Minecraft items are now sellable.
+Honeycomb, Ominous Banners.
 ++ Changed the price of some of the utilities in the Spawn Shop.
-
+`
 > Item Changes
 + Added the Lore Inscription Plate and the Lore Redacter.
 Purchaseable for 300 and 150 respectively.
@@ -45,6 +47,12 @@ Shifted time reduced to 5 seconds (given that you can drastically increase speed
 - You can now only use the Lunar Express Ticket in the Overworld.
 This is to prevent the Nether Subspace Bubble from depositing you far outside the World Border when going to the moon.
 
++ The Spell of Dead Men Walking and the Scepter of Mindless Translocation now require valid targets within their respective AoE radii to activate
+This is to prevent accidental activation, and brings it in line with other AoE attacks like the Reaping Scythe's functionality.
+
++ The Vorpal Blade's Vorpal Charge display on the HUD now displays more information and not just a loading bar.
++ Buffed the Meggnet (Radius of effect increased to 16 blocks, from 8).
+
 > Technical Changes
 + Internal disambiguation of certain scoreboards to track items.
 
@@ -52,8 +60,13 @@ This is to prevent the Nether Subspace Bubble from depositing you far outside th
 - Removed the fancy chunk rendering shader.
 It doesn't play well with certain aspects that I'd like kept for the Skylands.
 
++ Retextured the Vorpal Blade to be more Lunarite-y
+
+> Egg Changes
++ Added a sound effect when Eggs disintegrate.
+
 > Bug Fixes
 = Increased detection time of Skylands Portals to prevent further false negatives.
 = Added failsafe to ensure no Skylands Portals are auto-generated in the Overworld.
 = Added lore specifying the Recall Device does not work in Mission Zones.
-= Fixed the Meggnet requiring a dropped Egg <5 blocks away to activate, when the activation range is 8 blocks.
+= Fixed the Meggnet requiring a dropped Egg <5 blocks away to activate, when the activation range is ~~8~~ 16 blocks.

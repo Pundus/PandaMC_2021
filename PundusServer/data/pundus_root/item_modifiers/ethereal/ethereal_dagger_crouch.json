@@ -1,0 +1,6 @@
+[ 
+{
+		"function": "set_nbt",
+		"tag": "{pundus_ethdag_kb:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:knockback\",lvl:5s}]}"
+	}
+]

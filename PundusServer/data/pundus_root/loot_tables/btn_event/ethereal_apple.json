@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:golden_apple",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1077,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"ethereal_apple\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.ethereal_apple.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_apple.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_apple.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_apple.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.ethereal_apple.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

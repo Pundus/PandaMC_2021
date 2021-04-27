@@ -19,6 +19,8 @@ forceload add 0 0
 setblock 0 -64 0 chest
 setblock 1 -64 1 oak_sign
 
+#invuln 5 sec
+effect give @a minecraft:resistance 10 9 true
 
 #Schedule functions
 function pundus_root:devtools/current_game_settings
