@@ -6,6 +6,7 @@ worldborder set 1024 0
 gamerule mobGriefing true
 gamerule commandBlockOutput false
 gamerule playersSleepingPercentage 50
+gamerule sendCommandFeedback false
 
 team add Admin {"translate":"pundus.special.admin","color":"red"}
 team modify Admin prefix  {"translate":"pundus.special.admin.prefix","color":"red"}

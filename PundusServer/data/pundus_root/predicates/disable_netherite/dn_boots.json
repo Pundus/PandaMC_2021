@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "feet": {
+        "item": "minecraft:netherite_boots",
+        "nbt": "{pundus_disable_netherite:1b}"
+      }
+    }
+  }
+}

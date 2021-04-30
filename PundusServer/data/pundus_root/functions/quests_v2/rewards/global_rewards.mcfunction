@@ -11,5 +11,10 @@ tellraw @s [{"translate":"pundus.server.quests.reward_global","color":"aqua"}]
 # tag @s add ticket_moon
 
 # Undead Rising
+#tellraw @s [{"text":"1x ","color":"yellow"},{"translate":"block.minecraft.zombie_head","color":"yellow"}]
+#give @s minecraft:zombie_head
+
+# BtN
 tellraw @s [{"text":"1x ","color":"yellow"},{"translate":"block.minecraft.zombie_head","color":"yellow"}]
 give @s minecraft:zombie_head
+tag @s add etheric_essence

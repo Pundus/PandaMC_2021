@@ -44,6 +44,29 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"segg_eggplant"}}]}] at
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"segg_eggplant"}}]}] at @s run tag @s add egg_hatched
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"segg_eggplant"}}]}] at @s run playsound minecraft:ui.hatch_egg.rare master @s ~ ~ ~ 1 1 1
 
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"fegg_yoshi"}}]}] at @s run tag @s add yoshi_head
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"fegg_yoshi"}}]}] at @s run tag @s add faberge_stand
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"fegg_yoshi"}}]}] at @s run tag @s add egg_hatched
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"fegg_yoshi"}}]}] at @s run playsound minecraft:ui.hatch_egg.epic master @s ~ ~ ~ 1 1 1
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"segg_eyrie"}}]}] at @s run tag @s add etheric_essence
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"segg_eyrie"}}]}] at @s run tag @s add egg_hatched
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"segg_eyrie"}}]}] at @s run playsound minecraft:ui.hatch_egg.rare master @s ~ ~ ~ 1 1 1
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_sand"}}]}] at @s run tag @s add pocket_sand
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_sand"}}]}] at @s run tag @s add egg_hatched
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_sand"}}]}] at @s run playsound minecraft:ui.hatch_egg.normal master @s ~ ~ ~ 1 1 1
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_emerald"}}]}] at @s run tag @s add charitable_spray
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_emerald"}}]}] at @s run tag @s add egg_hatched
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_emerald"}}]}] at @s run playsound minecraft:ui.hatch_egg.normal master @s ~ ~ ~ 1 1 1
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_gold"}}]}] at @s run tag @s add libido_enhancer
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_gold"}}]}] at @s run tag @s add egg_hatched
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_gold"}}]}] at @s run playsound minecraft:ui.hatch_egg.normal master @s ~ ~ ~ 1 1 1
+
+execute as @s run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.hatched","color":"gray","italic":true,"with":[{"selector":"@s"},{"nbt":"Inventory[{Slot:-106b}].tag.display.Name","interpret":true,"entity":"@s"}]}
+
 tellraw @s[tag=!egg_hatched] {"translate":"pundus.special.easter.hatch_fail"}
 
 tag @s[tag=egg_hatched] add eggshells

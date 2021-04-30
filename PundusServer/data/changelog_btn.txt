@@ -1,13 +1,30 @@
 **Server change log XX/04/2021-A**
 
-> Gameplay Changes
-+ Added an internal check for combat status.
-Being [In Combat] requires ANY of the following 3 predicates to be met:
-Player has recently dealt damage
-Player has recently received damage
-There are hostile mobs within a 5 block radius.
+> Beyond the Night Update Changes
+The Beyond the Night update incorporates aspects of past and future events.
 
-+ Undead mobs and Pillagers now spawn with Volatile Equipment.
++ Added 2 new item types:
+Daggers-
+Daggers are a new class of melee weapon. When dual wielding any two daggers, you gain a damage boost.
+
+Rings-
+Rings are placed in your offhand and give you a passive effect.
+
++ Added new sub-currencies, Eyric Carapace, Etheric Essence and Ethereal Ingots.
+
++ Added the Beyond the Night Event Trader
+Trade in Eyric Carapaces and Lunarite Crystals for Etheric Essence.
+Trade in Etheric Essences and Gold Blocks for Ethereal Ingots.
+Trade in Ethereal Ingots for Ethereal Equipment or an Aegis Shield.
+Trade in Ethereal Ingots and Zombie Heads for the Beyond the Night Lockbox!
+
++ Added the Ethereal Equipment Set.
+A set of armor more protective than Netherite, and a dagger with a special alt attack unlocked when you wear the full set of armor.
+
++ Added the Aegis Shield
+A defensive shield enchanted with Knockback and with 80% knockback resistance.
+
++ Undead mobs and Pillagers now spawn with *Volatile Equipment*.
 Volatile Equipment comes in every flavour (leather/wood, stone/chainmail, iron, gold, diamond, netherrite).
 They have an 8.5% chance of dropping (affected by looting).
 Volatile Equipment (armor, tools and weapons) can be used like normal equipment, but they cannot be repaired.
@@ -19,17 +36,56 @@ When mining ores, a crack and particle now appears, and (an) Eyric Carapace(s) d
 Number of Carapaces that drop vary depending on rarity of ore mined (up to 3).
 Killing mobs in the Skylands drops an Eyric Carapace at your location.
 
++ Added the Beyond the Night Lockbox. It will always contain 1 Beyond the Night Buyout Token. It can contain one of the following 17 items:
+[Ring] Beyond the Night
+Bruno's Invisible Pickaxe
+Luminaire
+Scepter of A Rising Sun
+First New Breath
+Spell of Life Tempus
+Crimson Dagger of the Fourfold Powers
+Spell of Where Angels Fear To Tread
+Elite Assault Golems
+Windforce
+Skybound
+Counter-Thrust Boots
+Quiver of the Light
+Magnetized Leggings
+Lunarite Dust
+Vorpal Dagger of the Astral Fire
+Ethereal Apple
+For details on contents, refer to the attached image.
+
+
+> Gameplay Changes
++ Added an internal check for combat status.
+Being [In Combat] requires ANY of the following 3 predicates to be met:
+Player has recently dealt damage
+Player has recently received damage
+There are hostile mobs within a 5 block radius.
+
 + Using the Lunar Express Ticket no longer deposits you at 0,0 on the Moon. It will now use your relative coordinates in the Overworld.
 + Every time the server is reloaded, all players online gain 10 seconds of invulnerability (in case an admin reloads during combat).
++ Items that fall out of the Skylands now return to the Overworld instead of being destroyed.
++ Added Emojis! You can get an Emoji Keyboard for free at the Spawn Shop, or type /trigger e_<emoji> into chat (it can autofill for you).
 
 > World Changes
++ Added the S.S. *Aegis* to spawn. You can find the Beyond the Night Event traders there.
++ Added NPCs! Currently, only the Customer Service NPC is interactable. Click on him to open a chat dialog!
+The remaining NPCs will be enabled once the Quests system is in place.
 
 > Economy Changes
-+ More Vanilla Minecraft items are now sellable.
-Honeycomb, Ominous Banners.
-++ Changed the price of some of the utilities in the Spawn Shop.
-`
-> Item Changes
++ More Vanilla Minecraft items are now sellable:
+Honeycomb, Ink Sacs, Ominous Banners.
++ Changed the price of some of the utilities in the Spawn Shop.
+
++ Custom food items (Fried Egg, Cheese) can now be sold for Playcoins.
+If old and new food items don't stack, hold them and their metadata will update.
+
+> Item Additions
++ Added the Scepter of Fast Travel
+Only useable in certain situations, and in non-combat. Purchaseable for 25k
+
 + Added the Lore Inscription Plate and the Lore Redacter.
 Purchaseable for 300 and 150 respectively.
 The Lore Inscription Plate can be used with any vanilla non-server item to append custom lore to the item.
@@ -37,6 +93,21 @@ The Lore Redacter removes all lines of lore from any vanilla non-server item.
 Read their item's descriptions for more information and instructions.
 (Due to technical reasons, lore will always appear as purple and italicized).
 
++ Added 4 new hatchables:
+Pocket Sand
+Yoshi Head
+Charitable Spray
+Libido Enhancer
+
++ Added the Fabergé Egg Stand, obtained when hatching Fabergé Eggs and can be traded with the Easter Event Trader for rarer items!
+
++ Added Egg Packs in Normal, Special and Fabergé Egg varities.
+These function like lootboxes. They will give you 1 Egg of the specified tier, and can be bought with Eggshells from the Easter Event Trader.
+
++ Added the Eggsterminator.
+If you already have too many Eggs, holding this in your offhand will exterminate any Eggs from Egg Drops!
+
+> Item Changes
 + The Scepter of Spirit Shifting has been nerfed.
 No longer works in the Nether (the Nether is already used for fast travel, and to prevent ceiling breaking).
 Now requires player to be out of combat to be used.
@@ -55,6 +126,8 @@ This is to prevent accidental activation, and brings it in line with other AoE a
 
 > Technical Changes
 + Internal disambiguation of certain scoreboards to track items.
++ Command feedback no longer appears to players, and is now internally tracked by Admins.
+This should make it so you no longer get alerts for triggering objectives.
 
 > Graphical Changes
 - Removed the fancy chunk rendering shader.
@@ -64,9 +137,16 @@ It doesn't play well with certain aspects that I'd like kept for the Skylands.
 
 > Egg Changes
 + Added a sound effect when Eggs disintegrate.
++ The following Eggs are now hatchable:
+Sandy Egg of Shoals
+Egg of the Eyrie
+Yoshi Fabergé Egg
+Golden Egg of Fertility
+Emerald Egg of Wealth
 
 > Bug Fixes
 = Increased detection time of Skylands Portals to prevent further false negatives.
 = Added failsafe to ensure no Skylands Portals are auto-generated in the Overworld.
-= Added lore specifying the Recall Device does not work in Mission Zones.
 = Fixed the Meggnet requiring a dropped Egg <5 blocks away to activate, when the activation range is ~~8~~ 16 blocks.
+= Added lore specifying the Recall Device does not work in Mission Zones. Not retroactive visually.
+= Fixed bug where Zombified Piglins would not visually wear Eggs.

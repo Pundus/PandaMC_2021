@@ -1,5 +1,7 @@
 #starter gasha
 
+tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.unbox_unknown","color":"gray","italic":true,"with":[{"selector":"@s"},{"translate":"pundus.item.gashapon.starter.name"}]}
+
 
 loot spawn ~ ~ ~ loot minecraft:chests/spawn_bonus_chest
 loot spawn ~ ~ ~ loot minecraft:chests/village/village_weaponsmith

@@ -1,0 +1,75 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_custom_1sec:1b,CustomModelData:1059,pundus_realm_custom:1b,RepairCost:-9999,scepter_fast_travel:1b,pundus_shop_cost:25000,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"scepter_fast_travel\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.combat",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.stand_still",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.mission_zone1",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.mission_zone2",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.ground",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.scepter_fast_travel.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.scepter_fast_travel.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.scepter_fast_travel.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.scepter_fast_travel.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.scepter_fast_travel.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.scepter_fast_travel.lore6",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.scepter_fast_travel.name",
+					"color": "light_purple",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

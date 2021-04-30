@@ -24,6 +24,12 @@
 
 
 #Easter
-execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow"},{"translate":"pundus.server.events.easter.title"}]
-execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"text":" (","color":"gold"},{"translate":"pundus.server.events.easter.details"},{"text":")"}]
-execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add lb_undead_rising
+#execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow"},{"translate":"pundus.server.events.easter.title"}]
+#execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"text":" (","color":"gold"},{"translate":"pundus.server.events.easter.details"},{"text":")"}]
+#execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add lb_undead_rising
+
+#btn
+execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow"},{"translate":"pundus.server.events.btn.title"}]
+execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"text":" (","color":"gold"},{"translate":"pundus.server.events.btn.details"},{"text":")"}]
+execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add lb_btn
+execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add ethereal_ingot

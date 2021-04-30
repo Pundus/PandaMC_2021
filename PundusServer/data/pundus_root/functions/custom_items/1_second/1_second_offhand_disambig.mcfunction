@@ -17,7 +17,7 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"reaping_scythe"}}]}] i
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_mindless_translocation"}}]}] at @s if entity @e[type=#pundus_root:undead_mobs,distance=..16] unless score @s Pundus_ScptMTCD matches 1.. run function pundus_root:custom_items/1_second/scepter_mindless_translocation
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_mindless_translocation"}}]}] if score @s Pundus_ScptMTCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_mindless_translocation_cooldown
 
-execute as @s[predicate=!pundus_root:in_nether,tag=!Pundus_InProtA,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_spirit_shift"}}]}] unless score @s Pundus_ScptSSCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_spirit_shift
+execute as @s[predicate=!pundus_root:dimension_check/in_nether,tag=!Pundus_InProtA,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_spirit_shift"}}]}] unless score @s Pundus_ScptSSCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_spirit_shift
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_spirit_shift"}}]}] if score @s Pundus_ScptSSCD matches 1.. if score @s Pundus_ScptSSGM matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_spirit_shift_timeleft
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_spirit_shift"}}]}] if score @s Pundus_ScptSSCD matches 1.. unless score @s Pundus_ScptSSGM matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_spirit_shift_cooldown
 
@@ -48,7 +48,7 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_bee_swarm"}}]}] 
 execute as @s[tag=!Pundus_EatCnCiC,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"cookies_and_cream"}}]}] at @s run function pundus_root:custom_items/1_second/cookies_and_cream
 
 
-execute as @s[tag=!Pundus_InProtA,predicate=pundus_root:in_overworld,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_deep_dark"}}]}] at @s unless block ~ 319 ~ minecraft:structure_void run function pundus_root:custom_items/1_second/spell_deep_dark
+execute as @s[tag=!Pundus_InProtA,predicate=pundus_root:dimension_check/in_overworld,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_deep_dark"}}]}] at @s unless block ~ 319 ~ minecraft:structure_void run function pundus_root:custom_items/1_second/spell_deep_dark
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_life_tempus"}}]}] at @s run function pundus_root:custom_items/1_second/spell_life_tempus
 
@@ -65,6 +65,16 @@ execute as @s[predicate=!pundus_root:dagger_main,nbt={Inventory:[{Slot:-106b,tag
 
 execute as @s[predicate=!pundus_root:dagger_main,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"ethereal_dagger"}}]}] if score @s Pundus_EL_CD matches 1.. at @s if predicate pundus_root:ethereal_armor/ethereal_boots if predicate pundus_root:ethereal_armor/ethereal_leggings if predicate pundus_root:ethereal_armor/ethereal_chestplate run function pundus_root:custom_items/1_second/etheric_lift_cooldown
 
+execute as @s[tag=!Pundus_Walkin,tag=!Scepter_FT_Menu_Open,gamemode=!adventure,tag=!Pundus_InProtA,predicate=!pundus_root:dimension_check/in_moon,predicate=pundus_root:generic/on_ground,tag=!Pundus_InCombat,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_fast_travel"}}]}] at @s unless score @s Pundus_ScptFTCD matches 1.. run function pundus_root:custom_items/1_second/scepter_fast_travel_menu
 
+execute as @s[tag=!Pundus_Walkin,tag=Scepter_FT_Menu_Open,gamemode=!adventure,tag=!Pundus_InProtA,predicate=!pundus_root:dimension_check/in_moon,predicate=pundus_root:generic/on_ground,tag=!Pundus_InCombat,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_fast_travel"}}]}] at @s unless score @s Pundus_ScptFTCD matches 1.. if score @s Pundus_MenuVar matches 1031001..1031004 run function pundus_root:custom_items/1_second/scepter_fast_travel_commands
+
+execute as @s[tag=!Pundus_Walkin,predicate=pundus_root:generic/crouching,tag=Scepter_FT_Menu_Open,gamemode=!adventure,tag=!Pundus_InProtA,predicate=!pundus_root:dimension_check/in_moon,predicate=pundus_root:generic/on_ground,tag=!Pundus_InCombat,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_fast_travel"}}]}] at @s unless score @s Pundus_ScptFTCD matches 1.. run scoreboard players set @s Pundus_MenuVar 1031001
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"libido_enhancer"}}]}] at @s if entity @e[type=#pundus_root:breedable_mobs,distance=..8] run function pundus_root:custom_items/1_second/libido_enhancer
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"eggsterminator"}}]}] at @s if entity @e[type=item,tag=Pundus_DroppedEgg,distance=..8] run function pundus_root:custom_items/1_second/eggsterminator
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"charitable_spray"}}]}] at @s run function pundus_root:custom_items/1_second/charitable_spray
 
 #other

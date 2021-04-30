@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "chest": {
+        "item": "minecraft:netherite_chestplate",
+        "nbt": "{pundus_disable_netherite:1b}"
+      }
+    }
+  }
+}

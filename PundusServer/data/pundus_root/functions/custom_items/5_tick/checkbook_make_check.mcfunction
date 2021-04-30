@@ -2,6 +2,8 @@
 
 loot spawn ~ ~ ~ loot pundus_root:filled_check
 
+tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.write_check","color":"gray","italic":true,"with":[{"selector":"@s"},{"color":"white","score":{"name":"@s","objective":"Pundus_CheckBk"}}]}
+
 tag @s add Pundus_GenCheck
 
 data modify entity @e[type=item,limit=1,distance=..1,sort=nearest] PickupDelay set value -32768
@@ -20,6 +22,8 @@ data modify entity @e[type=item,limit=1,distance=..1,sort=nearest] Item.tag.disp
 scoreboard players operation @s Pundus_Playcoins -= @s Pundus_CheckBk
 
 data modify entity @e[type=item,limit=1,tag=!Pundus_ShopItemDisplay,distance=..1,sort=nearest] PickupDelay set value 0
+
+
 
 tag @s remove Pundus_GenCheck
 

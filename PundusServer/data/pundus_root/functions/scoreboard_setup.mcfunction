@@ -43,6 +43,7 @@ scoreboard objectives add Pundus_ScptMTCD dummy
 scoreboard objectives add Pundus_ScptSSCD dummy
 scoreboard objectives add Pundus_ScptSSGM dummy
 scoreboard objectives add Pundus_ScptRSCD dummy
+scoreboard objectives add Pundus_ScptFTCD dummy
 scoreboard objectives add Pundus_HoFishCD dummy
 scoreboard objectives add Pundus_CnCiCCD dummy
 scoreboard objectives add Pundus_CnCiCBS dummy
@@ -62,6 +63,7 @@ scoreboard objectives add Pundus_Armor armor
 scoreboard objectives add Pundus_URCount dummy
 
 scoreboard objectives add Pundus_VanValue dummy
+scoreboard objectives add Pundus_VanCnt dummy
 
 scoreboard players set %Math_2 Pundus_VanValue 2
 scoreboard players set %Math_3 Pundus_VanValue 3

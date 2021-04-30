@@ -1,0 +1,47 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1087,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"libido_enhancer\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.libido_enhancer.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.libido_enhancer.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.libido_enhancer.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.libido_enhancer.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

@@ -14,6 +14,8 @@ scoreboard players remove @a[scores={Pundus_ScptRSCD=1..}] Pundus_ScptRSCD 1
 
 scoreboard players remove @a[scores={Pundus_HoFishCD=1..}] Pundus_HoFishCD 1
 
+scoreboard players remove @a[scores={Pundus_ScptFTCD=1..}] Pundus_ScptFTCD 1
+
 scoreboard players remove @a[scores={Pundus_EL_CD=1..}] Pundus_EL_CD 1
 
 scoreboard players remove @a[scores={Pundus_ScptSSCD=1..}] Pundus_ScptSSCD 1

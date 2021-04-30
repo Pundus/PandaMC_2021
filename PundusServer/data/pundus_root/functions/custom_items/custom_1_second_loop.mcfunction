@@ -29,13 +29,15 @@ function pundus_root:custom_items/1_second_misc/1_second_misc_root
 ##
 
 execute as @a[predicate=pundus_root:skylands_portal] at @s run function pundus_root:skylands/detect_portal
-execute as @a[predicate=pundus_root:skylands_falling,predicate=pundus_root:in_skylands] at @s run function pundus_root:skylands/fall_out
-execute as @a[predicate=pundus_root:overworld_flying,predicate=pundus_root:in_overworld] at @s run function pundus_root:skylands/enter_skylands
+
+execute as @a[predicate=pundus_root:overworld_flying,predicate=pundus_root:dimension_check/in_overworld] at @s run function pundus_root:skylands/enter_skylands
 execute as @e[type=minecraft:area_effect_cloud,tag=Pundus_SLPortalMark] at @s unless block ~ ~ ~ water run kill @s
 execute as @e[type=bee] at @s if block ~ ~ ~ water run kill @s
 execute as @e[type=bee,tag=!Pundus_BeeSwarm,nbt=!{Health:1f}] at @s run data modify entity @s Health set value 1f
 
 execute as @a[predicate=pundus_root:dual_daggers] at @s run effect give @s minecraft:strength 2 1 true
+
+tag @a[tag=Scepter_FT_Menu_Open,nbt=!{Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_fast_travel"}}]}] remove Scepter_FT_Menu_Open
 
 
 scoreboard players set @a[scores={P_BowUsed_1s=1..}] P_BowUsed_1s 0

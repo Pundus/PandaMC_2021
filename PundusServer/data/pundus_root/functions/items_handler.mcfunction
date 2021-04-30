@@ -44,6 +44,18 @@ tag @a[tag=lb_undead_rising] remove lb_undead_rising
 execute as @a[tag=lb_btn] run loot give @s loot pundus_root:gashapon/lb_btn
 tag @a[tag=lb_btn] remove lb_btn
 
+#ep_normal
+execute as @a[tag=ep_normal] run loot give @s loot pundus_root:gashapon/ep_normal
+tag @a[tag=ep_normal] remove ep_normal
+
+#ep_special
+execute as @a[tag=ep_special] run loot give @s loot pundus_root:gashapon/ep_special
+tag @a[tag=ep_special] remove ep_special
+
+#ep_faberge
+execute as @a[tag=ep_faberge] run loot give @s loot pundus_root:gashapon/ep_faberge
+tag @a[tag=ep_faberge] remove ep_faberge
+
 #Decor - Model Rocket
 execute as @a[tag=decor_model_rocket] run loot give @s loot pundus_root:decor/model_rocket
 tag @a[tag=decor_model_rocket] remove decor_model_rocket
@@ -474,6 +486,34 @@ tag @a[tag=ethereal_boots] remove ethereal_boots
 # buyout_token_btn
 execute as @a[tag=buyout_token_btn] run loot give @s loot pundus_root:btn_event/buyout_token_btn
 tag @a[tag=buyout_token_btn] remove buyout_token_btn
+
+# scepter_fast_travel
+execute as @a[tag=scepter_fast_travel] run loot give @s loot pundus_root:scepter_fast_travel
+tag @a[tag=scepter_fast_travel] remove scepter_fast_travel
+
+# faberge_stand
+execute as @a[tag=faberge_stand] run loot give @s loot pundus_root:hatched/faberge_stand
+tag @a[tag=faberge_stand] remove faberge_stand
+
+# pocket_sand
+execute as @a[tag=pocket_sand] run loot give @s loot pundus_root:hatched/pocket_sand
+tag @a[tag=pocket_sand] remove pocket_sand
+
+# yoshi_head
+execute as @a[tag=yoshi_head] run loot give @s loot pundus_root:hatched/yoshi_head
+tag @a[tag=yoshi_head] remove yoshi_head
+
+# libido_enhancer
+execute as @a[tag=libido_enhancer] run loot give @s loot pundus_root:hatched/libido_enhancer
+tag @a[tag=libido_enhancer] remove libido_enhancer
+
+# eggsterminator
+execute as @a[tag=eggsterminator] run loot give @s loot pundus_root:eggsterminator
+tag @a[tag=eggsterminator] remove eggsterminator
+
+# charitable_spray
+execute as @a[tag=charitable_spray] run loot give @s loot pundus_root:hatched/charitable_spray
+tag @a[tag=charitable_spray] remove charitable_spray
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#pundus_root:arrows",
+    "minecraft:firework_rocket",
+    "minecraft:snowball"
+  ]
+}

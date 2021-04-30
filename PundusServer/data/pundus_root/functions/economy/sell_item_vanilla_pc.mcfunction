@@ -1,5 +1,6 @@
 #Selling item for playcoin
 
+execute store result score @s Pundus_VanCnt run data get entity @s Inventory[{Slot: -106b}].Count 1
 execute store result score @s Pundus_VanValue run data get entity @s Inventory[{Slot: -106b}].Count 1
 
 execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_2] run scoreboard players operation @s Pundus_VanValue *= %Math_2 Pundus_VanValue
@@ -16,6 +17,10 @@ execute as @s[predicate=pundus_root:playcoin_values/playcoin_worth_pennies] run 
 
 
 execute at @s run playsound ui.sell_item master @s
+
+
+execute as @s run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.sold","color":"gray","italic":true,"with":[{"selector":"@s"},{"score":{"name":"@s","objective":"Pundus_VanCnt"}},{"nbt":"Inventory[{Slot:-106b}].id","entity":"@s"},{"score":{"name":"@s","objective":"Pundus_VanValue"}}]}
+
 
 
 

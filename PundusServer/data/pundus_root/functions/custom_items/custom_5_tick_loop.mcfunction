@@ -11,6 +11,9 @@ tag @a[predicate=!pundus_root:custom_items/5_tick/5_tick_offhand,tag=Pundus_CB_o
 tag @a[predicate=!pundus_root:custom_items/5_tick/5_tick_offhand,tag=Pundus_IFE_open] remove Pundus_IFE_open
 
 ##other go here
+
+execute as @e[type=#pundus_root:skylands_fallers,predicate=pundus_root:skylands_falling,predicate=pundus_root:dimension_check/in_skylands] at @s run function pundus_root:skylands/fall_out
+
 function pundus_root:custom_items/5_tick_misc/5_tick_misc_root
 
 execute as @a[predicate=!pundus_root:held_custom_item] if data entity @s SelectedItem.tag.pundus_id run function pundus_root:custom_items_fixer

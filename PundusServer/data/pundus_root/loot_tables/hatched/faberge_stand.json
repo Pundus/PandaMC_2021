@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1084,pundus_realm_custom:1b,faberge_stand:1b,RepairCost:-9999,pundus_id:\"faberge_stand\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.faberge_stand.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.faberge_stand.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.faberge_stand.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.faberge_stand.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.faberge_stand.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

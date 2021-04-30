@@ -25,8 +25,12 @@ tellraw @s [{"text":" "}]
 
 
 #easter
-tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.easter.title","bold":false}]
-tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.easter.info","bold":false}]
+#tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.easter.title","bold":false}]
+#tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.easter.info","bold":false}]
+
+#btn
+tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.btn.title","bold":false}]
+tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.btn.info","bold":false}]
 
 
 

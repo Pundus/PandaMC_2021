@@ -27,4 +27,8 @@ execute as @s[predicate=!pundus_root:generic/crouching,nbt={SelectedItem:{tag:{p
 
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"ethereal_dagger"}}}] if score @s Pundus_EL_CD matches 1.. at @s if predicate pundus_root:ethereal_armor/ethereal_boots if predicate pundus_root:ethereal_armor/ethereal_leggings if predicate pundus_root:ethereal_armor/ethereal_chestplate run function pundus_root:custom_items/1_second/etheric_lift_cooldown
 
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"scepter_fast_travel"}}}] if score @s Pundus_ScptFTCD matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_fast_travel_cooldown
+
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"yoshi_head"}}}] if score @s P_CoaSUsed_1s matches 1.. at @s run function pundus_root:custom_items/1_second/yoshi_head
+
 #other

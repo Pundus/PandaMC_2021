@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:snowball",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pocket_sand:1b,CustomModelData:1085,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"pocket_sand\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.pocket_sand.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.pocket_sand.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.pocket_sand.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.pocket_sand.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.pocket_sand.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

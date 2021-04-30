@@ -3,13 +3,13 @@
 
 
 
-title @s[scores={Pundus_ScptSSCD=54..}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"██████████","color":"red"}]
-title @s[scores={Pundus_ScptSSCD=48..53}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"█████████░","color":"red"}]
-title @s[scores={Pundus_ScptSSCD=42..47}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"████████░░","color":"red"}]
-title @s[scores={Pundus_ScptSSCD=36..41}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"███████░░░","color":"red"}]
-title @s[scores={Pundus_ScptSSCD=30..35}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"██████░░░░","color":"red"}]
-title @s[scores={Pundus_ScptSSCD=24..29}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"█████░░░░░","color":"red"}]
-title @s[scores={Pundus_ScptSSCD=18..23}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"████░░░░░░","color":"red"}]
-title @s[scores={Pundus_ScptSSCD=12..17}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"███░░░░░░░","color":"red"}]
-title @s[scores={Pundus_ScptSSCD=6..11}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"██░░░░░░░░","color":"red"}]
-title @s[scores={Pundus_ScptSSCD=..5}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"█░░░░░░░░░","color":"red"}]
+title @s[scores={Pundus_ScptSSCD=270..}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"██████████","color":"red"}]
+title @s[scores={Pundus_ScptSSCD=240..269}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"█████████░","color":"red"}]
+title @s[scores={Pundus_ScptSSCD=210..239}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"████████░░","color":"red"}]
+title @s[scores={Pundus_ScptSSCD=180..209}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"███████░░░","color":"red"}]
+title @s[scores={Pundus_ScptSSCD=150..179}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"██████░░░░","color":"red"}]
+title @s[scores={Pundus_ScptSSCD=120..149}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"█████░░░░░","color":"red"}]
+title @s[scores={Pundus_ScptSSCD=90..119}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"████░░░░░░","color":"red"}]
+title @s[scores={Pundus_ScptSSCD=60..89}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"███░░░░░░░","color":"red"}]
+title @s[scores={Pundus_ScptSSCD=30..59}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"██░░░░░░░░","color":"red"}]
+title @s[scores={Pundus_ScptSSCD=..29}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"█░░░░░░░░░","color":"red"}]
