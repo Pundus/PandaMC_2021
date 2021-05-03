@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "pundus.advancement.come_fly.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.come_fly.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pundus_root:skylands/ethereal_armor",
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_challenge"
+  }
+}

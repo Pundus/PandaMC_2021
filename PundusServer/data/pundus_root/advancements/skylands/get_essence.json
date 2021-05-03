@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+          "nbt": "{CustomModelData:1063}"
+    },
+    "title": {
+      "translate": "pundus.advancement.get_essence.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.get_essence.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"parent": "pundus_root:skylands/get_carapace",
+  "criteria": {
+    "get_essence": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:wandering_trader",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        },
+        "item": {
+          "item": "minecraft:stick",
+          "nbt": "{CustomModelData:1063}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_essence"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_task"
+  }
+}

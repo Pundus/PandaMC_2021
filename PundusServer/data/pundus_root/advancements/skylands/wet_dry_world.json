@@ -1,0 +1,127 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "pundus.advancement.wet_dry_world.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.wet_dry_world.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pundus_root:skylands/up_and_away",
+  "criteria": {
+    "ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:ocean",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    },
+    "deep_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_ocean",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    },
+    "cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:cold_ocean",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    },
+    "warm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:warm_ocean",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    },
+    "frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:frozen_ocean",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    },
+    "lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:lukewarm_ocean",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    },
+    "deep_cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_cold_ocean",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    },
+    "deep_warm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_warm_ocean",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    },
+    "deep_frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_frozen_ocean",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    },
+    "deep_lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_lukewarm_ocean",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ocean",
+      "deep_ocean",
+      "cold_ocean",
+      "frozen_ocean",
+      "warm_ocean",
+      "lukewarm_ocean",
+      "deep_cold_ocean",
+      "deep_frozen_ocean",
+      "deep_warm_ocean",
+      "deep_lukewarm_ocean"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_task"
+  }
+}

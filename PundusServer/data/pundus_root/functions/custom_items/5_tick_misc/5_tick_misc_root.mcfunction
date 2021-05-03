@@ -1,6 +1,6 @@
 # 5tmiscroot
 
-execute as @e[type=item,nbt=!{Fire:-1s},nbt={Item:{id:"minecraft:egg"}}] at @s run function pundus_root:custom_items/5_tick_misc/cook_egg
+#execute as @e[type=item,nbt=!{Fire:-1s},nbt={Item:{id:"minecraft:egg"}}] at @s if block ~ ~ ~ fire run function pundus_root:custom_items/5_tick_misc/cook_egg
 execute as @e[type=item,nbt={Item:{id:"minecraft:egg"}}] at @s if block ~ ~ ~ #minecraft:campfires run function pundus_root:custom_items/5_tick_misc/cook_egg
 
 

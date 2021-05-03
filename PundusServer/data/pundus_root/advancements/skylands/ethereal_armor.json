@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_chestplate",
+			"nbt": "{CustomModelData:1078}"
+    },
+    "title": {
+      "translate": "pundus.advancement.ethereal_armor.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.ethereal_armor.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"parent": "pundus_root:skylands/get_armor",
+  "criteria": {
+    "ethereal_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_chestplate",
+			"nbt": "{CustomModelData:1078}"
+          }
+        ]
+      }
+    },
+    "ethereal_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_leggings",
+			"nbt": "{CustomModelData:1079}"
+          }
+        ]
+      }
+    },
+    "ethereal_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_boots",
+			"nbt": "{CustomModelData:1080}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+
+     ["ethereal_chestplate"],
+	 ["ethereal_leggings"],
+	 ["ethereal_boots"]
+
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_goal"
+  }
+}

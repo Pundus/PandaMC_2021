@@ -30,7 +30,9 @@ function pundus_root:custom_items/1_second_misc/1_second_misc_root
 
 execute as @a[predicate=pundus_root:skylands_portal] at @s run function pundus_root:skylands/detect_portal
 
+
 execute as @a[predicate=pundus_root:overworld_flying,predicate=pundus_root:dimension_check/in_overworld] at @s run function pundus_root:skylands/enter_skylands
+
 execute as @e[type=minecraft:area_effect_cloud,tag=Pundus_SLPortalMark] at @s unless block ~ ~ ~ water run kill @s
 execute as @e[type=bee] at @s if block ~ ~ ~ water run kill @s
 execute as @e[type=bee,tag=!Pundus_BeeSwarm,nbt=!{Health:1f}] at @s run data modify entity @s Health set value 1f

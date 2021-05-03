@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+            "item": "minecraft:stick",
+            "nbt": "{CustomModelData:1055}"
+    },
+    "title": {
+      "translate": "pundus.advancement.get_carapace.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.get_carapace.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"parent": "pundus_root:skylands/root",
+  "criteria": {
+    "carapace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "pundus_root:skylands"
+          }
+        },
+        "items": [
+          {
+            "item": "minecraft:stick",
+            "nbt": "{CustomModelData:1055}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "carapace"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_task"
+  }
+}

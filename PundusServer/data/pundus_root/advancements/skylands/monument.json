@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine"
+    },
+    "title": {
+      "translate": "pundus.advancement.monument.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.monument.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pundus_root:skylands/wet_dry_world",
+  "criteria": {
+    "monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+          "feature": "monument",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "monument"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_challenge"
+  }
+}

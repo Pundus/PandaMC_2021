@@ -11,6 +11,7 @@
     "#pundus_root:playcoin_values/playcoin_worth_7",
     "#pundus_root:playcoin_values/playcoin_worth_8",
     "#pundus_root:playcoin_values/playcoin_worth_9",
-    "#pundus_root:playcoin_values/playcoin_worth_10"
+    "#pundus_root:playcoin_values/playcoin_worth_10",
+    "#pundus_root:playcoin_values/playcoin_worth_100"
   ]
 }

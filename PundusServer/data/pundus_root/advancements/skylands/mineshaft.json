@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rail"
+    },
+    "title": {
+      "translate": "pundus.advancement.mineshaft.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.mineshaft.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pundus_root:skylands/up_and_away",
+  "criteria": {
+    "mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": {
+              "min": -64,
+              "max": 0
+            }
+          },
+          "feature": "mineshaft",
+          "dimension": "pundus_root:skylands"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mineshaft"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_task"
+  }
+}

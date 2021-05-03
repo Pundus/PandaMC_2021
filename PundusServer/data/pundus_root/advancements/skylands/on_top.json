@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "pundus.advancement.on_top.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.on_top.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pundus_root:skylands/enter_height",
+  "criteria": {
+    "on_top": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": {
+              "min": 319,
+              "max": 330
+            }
+          }
+        },
+          "dimension": "pundus_root:skylands"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "on_top"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_challenge"
+  }
+}

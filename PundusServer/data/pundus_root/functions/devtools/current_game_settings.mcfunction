@@ -1,7 +1,7 @@
 # Current default settings
 
 worldborder warning distance 0
-worldborder set 1024 0
+worldborder set 1280 0
 
 gamerule mobGriefing true
 gamerule commandBlockOutput false

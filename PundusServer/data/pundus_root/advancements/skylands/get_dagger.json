@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+            "item": "minecraft:stone_sword",
+            "nbt": "{CustomModelData:1081}"
+    },
+    "title": {
+      "translate": "pundus.advancement.get_dagger.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.get_dagger.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"parent": "pundus_root:skylands/get_ingot",
+  "criteria": {
+    "get_dagger": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:wandering_trader",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        },
+        "item": {
+"item": "minecraft:stone_sword",
+            "nbt": "{CustomModelData:1081}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_dagger"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_goal"
+  }
+}

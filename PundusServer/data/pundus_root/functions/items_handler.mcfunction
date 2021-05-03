@@ -208,24 +208,12 @@ tag @a[tag=zombie_brain] remove zombie_brain
 
 #zombie_brain_x1
 execute as @a[tag=zombie_brain_x1] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x1] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x1] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
 tag @a[tag=zombie_brain_x1] remove zombie_brain_x1
 #zombie_brain_x2
 execute as @a[tag=zombie_brain_x2] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
 execute as @a[tag=zombie_brain_x2] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x2] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x2] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x2] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
 tag @a[tag=zombie_brain_x2] remove zombie_brain_x2
 #zombie_brain_x3
-execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
-execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
 execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
 execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual
 execute as @a[tag=zombie_brain_x3] run loot give @s loot pundus_root:undead_event/zombie_brain_manual

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "pundus.advancement.death_in_heaven.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.death_in_heaven.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pundus_root:skylands/up_and_away",
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "location": {
+            "dimension": "pundus_root:skylands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_mob"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_task"
+  }
+}

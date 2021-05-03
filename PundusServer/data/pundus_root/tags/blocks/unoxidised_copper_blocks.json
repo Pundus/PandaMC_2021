@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:copper_block",
+	"minecraft:exposed_copper",
+	"minecraft:weathered_copper",
+	"minecraft:cut_copper",
+	"minecraft:exposed_cut_copper",
+    "minecraft:weathered_cut_copper"
+  ]
+}

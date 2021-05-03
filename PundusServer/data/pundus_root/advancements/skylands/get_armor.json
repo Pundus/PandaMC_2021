@@ -1,0 +1,77 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_leggings",
+			"nbt": "{CustomModelData:1079}"
+    },
+    "title": {
+      "translate": "pundus.advancement.get_armor.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.get_armor.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+"parent": "pundus_root:skylands/get_ingot",
+  "criteria": {
+    "get_chestplate": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:wandering_trader",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        },
+        "item": {
+            "item": "minecraft:diamond_chestplate",
+			"nbt": "{CustomModelData:1078}"
+        }
+      }
+    },
+	"get_boots": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:wandering_trader",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        },
+        "item": {
+            "item": "minecraft:diamond_boots",
+			"nbt": "{CustomModelData:1080}"
+        }
+      }
+    },
+	"get_leggings": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:wandering_trader",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        },
+        "item": {
+            "item": "minecraft:diamond_leggings",
+			"nbt": "{CustomModelData:1079}"
+        }
+      }
+    }
+  },
+  "requirements": [
+
+     ["get_chestplate",
+	 "get_leggings",
+	 "get_boots"]
+
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_goal"
+  }
+}

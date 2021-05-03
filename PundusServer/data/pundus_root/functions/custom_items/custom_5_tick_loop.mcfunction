@@ -14,6 +14,8 @@ tag @a[predicate=!pundus_root:custom_items/5_tick/5_tick_offhand,tag=Pundus_IFE_
 
 execute as @e[type=#pundus_root:skylands_fallers,predicate=pundus_root:skylands_falling,predicate=pundus_root:dimension_check/in_skylands] at @s run function pundus_root:skylands/fall_out
 
+execute as @e[type=!#pundus_root:skylands_fallers,predicate=pundus_root:skylands_falling,predicate=pundus_root:dimension_check/in_skylands] at @s run kill @s
+
 function pundus_root:custom_items/5_tick_misc/5_tick_misc_root
 
 execute as @a[predicate=!pundus_root:held_custom_item] if data entity @s SelectedItem.tag.pundus_id run function pundus_root:custom_items_fixer
@@ -25,8 +27,12 @@ execute as @a[predicate=pundus_root:ban_grindstoning/bangrind_custom_item,predic
 execute as @a[predicate=pundus_root:ban_grindstoning/offhand_bangrind_custom_item,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost_old,predicate=!pundus_root:ban_grindstoning/offhand_bandgrind_exception] at @s run playsound minecraft:entity.item.break player @s ~ ~ ~ 1 1 1
 execute as @a[predicate=pundus_root:ban_grindstoning/offhand_bangrind_custom_item,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost_old,predicate=!pundus_root:ban_grindstoning/offhand_bandgrind_exception] at @s run item entity @s weapon.offhand replace air
 
+clear @a #pundus_root:volatile/volatile_all{RepairCost:0}
+
 execute as @a[nbt={SelectedItem:{tag:{pundus_id:"cheese"}}},nbt=!{SelectedItem:{tag:{pundus_foodpriced:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/food_prices
 execute as @a[nbt={SelectedItem:{tag:{pundus_id:"fried_egg"}}},nbt=!{SelectedItem:{tag:{pundus_foodpriced:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/food_prices
+
+execute as @a[nbt={SelectedItem:{tag:{pundus_id:"scepter_spirit_shift"}}},nbt=!{SelectedItem:{tag:{scepter_spirit_shift_nerf:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/scepter_spirit_shift
 
 
 execute as @a store result score @s Pundus_Fall run data get entity @s FallDistance

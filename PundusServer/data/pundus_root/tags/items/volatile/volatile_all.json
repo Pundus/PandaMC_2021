@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#pundus_root:volatile/volatile_tier_1",
+    "#pundus_root:volatile/volatile_tier_2",
+    "#pundus_root:volatile/volatile_tier_3"
+  ]
+}
