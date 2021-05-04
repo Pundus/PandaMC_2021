@@ -4,10 +4,10 @@
       "item": "minecraft:bedrock"
     },
     "title": {
-      "translate": "pundus.advancement.over_the_edge.name"
+      "translate": "pundus.advancement.skylands.over_the_edge.name"
     },
     "description": {
-      "translate": "pundus.advancement.over_the_edge.desc"
+      "translate": "pundus.advancement.skylands.over_the_edge.desc"
     },
     "frame": "goal",
     "show_toast": true,

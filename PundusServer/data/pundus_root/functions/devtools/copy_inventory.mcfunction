@@ -13,7 +13,7 @@ item block ~ ~ ~ container.8 copy entity @a[tag=INV_Target,limit=1] inventory.8
 item block ~ ~ ~ container.9 copy entity @a[tag=INV_Target,limit=1] inventory.9
 item block ~ ~ ~ container.10 copy entity @a[tag=INV_Target,limit=1] inventory.10
 item block ~ ~ ~ container.11 copy entity @a[tag=INV_Target,limit=1] inventory.11
-item block ~ ~ ~ container.12 copy entity @a[tag=INV_Target,limit=1] inventory.13
+item block ~ ~ ~ container.12 copy entity @a[tag=INV_Target,limit=1] inventory.12
 item block ~ ~ ~ container.13 copy entity @a[tag=INV_Target,limit=1] inventory.13
 item block ~ ~ ~ container.14 copy entity @a[tag=INV_Target,limit=1] inventory.14
 item block ~ ~ ~ container.15 copy entity @a[tag=INV_Target,limit=1] inventory.15

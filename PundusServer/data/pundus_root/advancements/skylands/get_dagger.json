@@ -5,10 +5,10 @@
             "nbt": "{CustomModelData:1081}"
     },
     "title": {
-      "translate": "pundus.advancement.get_dagger.name"
+      "translate": "pundus.advancement.skylands.get_dagger.name"
     },
     "description": {
-      "translate": "pundus.advancement.get_dagger.desc"
+      "translate": "pundus.advancement.skylands.get_dagger.desc"
     },
     "frame": "goal",
     "show_toast": true,

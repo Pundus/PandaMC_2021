@@ -4,10 +4,10 @@
       "item": "minecraft:phantom_membrane"
     },
     "title": {
-      "translate": "pundus.advancement.come_fly.name"
+      "translate": "pundus.advancement.skylands.come_fly.name"
     },
     "description": {
-      "translate": "pundus.advancement.come_fly.desc"
+      "translate": "pundus.advancement.skylands.come_fly.desc"
     },
     "frame": "challenge",
     "show_toast": true,

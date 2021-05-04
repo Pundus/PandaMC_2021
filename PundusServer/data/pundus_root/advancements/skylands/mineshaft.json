@@ -4,17 +4,17 @@
       "item": "minecraft:rail"
     },
     "title": {
-      "translate": "pundus.advancement.mineshaft.name"
+      "translate": "pundus.advancement.skylands.mineshaft.name"
     },
     "description": {
-      "translate": "pundus.advancement.mineshaft.desc"
+      "translate": "pundus.advancement.skylands.mineshaft.desc"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "pundus_root:skylands/up_and_away",
+  "parent": "pundus_root:skylands/up_under",
   "criteria": {
     "mineshaft": {
       "trigger": "minecraft:location",

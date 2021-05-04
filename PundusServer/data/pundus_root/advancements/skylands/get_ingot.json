@@ -5,10 +5,10 @@
           "nbt": "{CustomModelData:1056}"
     },
     "title": {
-      "translate": "pundus.advancement.get_ingot.name"
+      "translate": "pundus.advancement.skylands.get_ingot.name"
     },
     "description": {
-      "translate": "pundus.advancement.get_ingot.desc"
+      "translate": "pundus.advancement.skylands.get_ingot.desc"
     },
     "frame": "task",
     "show_toast": true,

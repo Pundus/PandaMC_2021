@@ -5,10 +5,10 @@
       "nbt": "{CustomModelData:1063}"
     },
     "title": {
-      "translate": "pundus.advancement.up_and_away.name"
+      "translate": "pundus.advancement.skylands.up_and_away.name"
     },
     "description": {
-      "translate": "pundus.advancement.up_and_away.desc"
+      "translate": "pundus.advancement.skylands.up_and_away.desc"
     },
     "frame": "task",
     "show_toast": true,

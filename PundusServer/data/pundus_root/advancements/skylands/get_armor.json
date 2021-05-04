@@ -5,10 +5,10 @@
 			"nbt": "{CustomModelData:1079}"
     },
     "title": {
-      "translate": "pundus.advancement.get_armor.name"
+      "translate": "pundus.advancement.skylands.get_armor.name"
     },
     "description": {
-      "translate": "pundus.advancement.get_armor.desc"
+      "translate": "pundus.advancement.skylands.get_armor.desc"
     },
     "frame": "goal",
     "show_toast": true,

@@ -5,10 +5,10 @@
       "nbt": "{CustomModelData:1071}"
     },
     "title": {
-      "translate": "pundus.advancement.infinite_abyss.name"
+      "translate": "pundus.advancement.skylands.infinite_abyss.name"
     },
     "description": {
-      "translate": "pundus.advancement.infinite_abyss.desc"
+      "translate": "pundus.advancement.skylands.infinite_abyss.desc"
     },
     "frame": "task",
     "show_toast": true,

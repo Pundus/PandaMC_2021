@@ -1,18 +1,10 @@
+[ 
 {
-	"pools": [{
-		"rolls": 1,
-		"entries": [{
-			"type": "item",
-			"weight": 1,
-			"name": "minecraft:diamond_boots",
-			"functions": [{
-				"function": "set_count",
-				"count": 1
-			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_rc_exception:1b,pundus_etheral_updated:1b,pundus_custom_1sec:1b,HideFlags:64,pundus_ethereal_armor:1b,CustomModelData:1080,display:{color:13034228},Enchantments:[{id:\"minecraft:projectile_protection\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:32s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;171396579,-1310572291,-1087945099,-1208083994],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-1003352521,1417692699,-1665577231,11672863],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;2079192271,1886929622,-1986724119,549026845],Slot:\"feet\"}],ethereal_chestplate:1b,pundus_realm_custom:1b,RepairCost:0,pundus_id:\"ethereal_boots\"}"
+				"tag": "{pundus_rc_exception:1b,pundus_etheral_updated:1b,RepairCost:0}"
 			}, {
 				"function": "minecraft:set_lore",
+				"replace": true,
 				"lore": [{
 					"translate": "",
 					"color": "dark_gray",
@@ -58,14 +50,5 @@
 					"color": "red",
 					"italic": false
 				}]
-			}, {
-				"function": "set_name",
-				"name": {
-					"translate": "pundus.item.ethereal_boots.name",
-					"color": "aqua",
-					"italic": false
-				}
-			}]
-		}]
-	}]
-}
+			}
+]

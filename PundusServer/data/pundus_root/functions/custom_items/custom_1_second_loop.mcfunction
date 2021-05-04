@@ -22,7 +22,7 @@ execute as @e[type=#pundus_root:golem_related,tag=Pundus_Golem_Summon] run funct
 
 execute as @e[type=#minecraft:raiders,tag=!PillagerFuck,limit=5] at @s run function pundus_root:custom_items/pillager
 
-function pundus_root:custom_items/1_second_cooldowns
+execute as @a run function pundus_root:custom_items/1_second_cooldowns
 
 function pundus_root:custom_items/1_second_misc/1_second_misc_root
 

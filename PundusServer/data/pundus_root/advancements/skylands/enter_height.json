@@ -4,10 +4,10 @@
       "item": "minecraft:firework_rocket"
     },
     "title": {
-      "translate": "pundus.advancement.enter_height.name"
+      "translate": "pundus.advancement.skylands.enter_height.name"
     },
     "description": {
-      "translate": "pundus.advancement.enter_height.desc"
+      "translate": "pundus.advancement.skylands.enter_height.desc"
     },
     "frame": "challenge",
     "show_toast": true,

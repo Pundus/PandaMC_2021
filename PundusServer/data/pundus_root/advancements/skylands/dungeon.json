@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "title": {
+      "translate": "pundus.advancement.skylands.dungeon.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.skylands.dungeon.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pundus_root:skylands/up_under",
+  "criteria": {
+    "dungeon": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "pundus_root:skylands"
+          }
+        },
+        "loot_table": "minecraft:chests/simple_dungeon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dungeon"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_challenge"
+  }
+}

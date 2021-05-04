@@ -25,7 +25,7 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_dead_men_walking
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"zombosoda"}}]}] at @s run function pundus_root:custom_items/1_second/zombosoda
 
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"history_of_fish"}}]}] unless score @s Pundus_HoFishCD matches 1.. at @s run function pundus_root:custom_items/1_second/history_of_fish
+execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"history_of_fish"}}]}] unless score @s Pundus_HoFishCD matches 1.. at @s if entity @e[type=#pundus_root:aquatic_mobs,distance=..32] run function pundus_root:custom_items/1_second/history_of_fish
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"history_of_fish"}}]}] if score @s Pundus_HoFishCD matches 1.. at @s run function pundus_root:custom_items/1_second/history_of_fish_cooldown
 
 

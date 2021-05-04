@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chain"
+    },
+    "title": {
+      "translate": "pundus.advancement.skylands.chain.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.skylands.chain.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pundus_root:skylands/mineshaft",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "feature": "mineshaft",
+            "block": {
+              "block": "minecraft:chain"
+            }
+          }
+        },
+        "location": {
+          "dimension": "pundus_root:skylands",
+          "block": {
+            "block": "minecraft:chain"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "pundus_root:advancements/skylands/skylands_goal"
+  }
+}

@@ -24,16 +24,16 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_diorite"}}]}] at @
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_diorite"}}]}] at @s run tag @s add egg_hatched
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_diorite"}}]}] at @s run playsound minecraft:ui.hatch_egg.normal master @s ~ ~ ~ 1 1 1
 
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_copper"}}]}] at @s run give @s lightning_rod
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_copper"}}]}] at @s run tag @s add egg_hatched
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_copper"}}]}] at @s run playsound minecraft:ui.hatch_egg.normal master @s ~ ~ ~ 1 1 1
+#execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_copper"}}]}] at @s run give @s lightning_rod
+#execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_copper"}}]}] at @s run tag @s add egg_hatched
+#execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_copper"}}]}] at @s run playsound minecraft:ui.hatch_egg.normal master @s ~ ~ ~ 1 1 1
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_iron"}}]}] at @s run tag @s add golem_reinforcements
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_iron"}}]}] at @s run tag @s add egg_hatched
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_iron"}}]}] at @s run playsound minecraft:ui.hatch_egg.normal master @s ~ ~ ~ 1 1 1
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_dirt"}}]}] at @s run tag @s add gold_digger
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_dirt"}}]}] at @s run tag @s add egg_hatched
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_	"}}]}] at @s run tag @s add egg_hatched
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_dirt"}}]}] at @s run playsound minecraft:ui.hatch_egg.normal master @s ~ ~ ~ 1 1 1
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_melon"}}]}] at @s run tag @s add materwelon

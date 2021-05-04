@@ -46,6 +46,7 @@ schedule function pundus_root:bound_items_handler 13t
 schedule function pundus_root:light_level_calc 15t
 schedule function pundus_root:combat_check 17t
 schedule function pundus_root:walk_check 18t
+schedule function pundus_root:advancements/manual/advancement_manual_looper 14
 
 schedule function pundus_root:btn_event/sell_volatile_init 7t
 

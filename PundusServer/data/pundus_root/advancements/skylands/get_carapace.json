@@ -5,10 +5,10 @@
             "nbt": "{CustomModelData:1055}"
     },
     "title": {
-      "translate": "pundus.advancement.get_carapace.name"
+      "translate": "pundus.advancement.skylands.get_carapace.name"
     },
     "description": {
-      "translate": "pundus.advancement.get_carapace.desc"
+      "translate": "pundus.advancement.skylands.get_carapace.desc"
     },
     "frame": "task",
     "show_toast": true,

@@ -27,12 +27,15 @@ execute as @a[predicate=pundus_root:ban_grindstoning/bangrind_custom_item,predic
 execute as @a[predicate=pundus_root:ban_grindstoning/offhand_bangrind_custom_item,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost_old,predicate=!pundus_root:ban_grindstoning/offhand_bandgrind_exception] at @s run playsound minecraft:entity.item.break player @s ~ ~ ~ 1 1 1
 execute as @a[predicate=pundus_root:ban_grindstoning/offhand_bangrind_custom_item,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost,predicate=!pundus_root:ban_grindstoning/offhand_bangrind_repair_cost_old,predicate=!pundus_root:ban_grindstoning/offhand_bandgrind_exception] at @s run item entity @s weapon.offhand replace air
 
-clear @a #pundus_root:volatile/volatile_all{RepairCost:0}
+clear @a #pundus_root:volatile/volatile_all{pundus_volatile:1b,RepairCost:0}
 
 execute as @a[nbt={SelectedItem:{tag:{pundus_id:"cheese"}}},nbt=!{SelectedItem:{tag:{pundus_foodpriced:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/food_prices
 execute as @a[nbt={SelectedItem:{tag:{pundus_id:"fried_egg"}}},nbt=!{SelectedItem:{tag:{pundus_foodpriced:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/food_prices
 
-execute as @a[nbt={SelectedItem:{tag:{pundus_id:"scepter_spirit_shift"}}},nbt=!{SelectedItem:{tag:{scepter_spirit_shift_nerf:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/scepter_spirit_shift
+
+execute as @a[nbt={SelectedItem:{tag:{pundus_ethereal_armor:1b}}},nbt=!{SelectedItem:{tag:{pundus_etheral_updated:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/ethereal_armor
+
+execute as @a[nbt={SelectedItem:{tag:{pundus_id:"scepter_spirit_shift"}}},nbt=!{SelectedItem:{tag:{scepter_spirit_shift_nerf:2b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/scepter_spirit_shift
 
 
 execute as @a store result score @s Pundus_Fall run data get entity @s FallDistance

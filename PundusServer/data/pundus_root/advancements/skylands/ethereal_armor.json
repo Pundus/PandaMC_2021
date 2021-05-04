@@ -5,10 +5,10 @@
 			"nbt": "{CustomModelData:1078}"
     },
     "title": {
-      "translate": "pundus.advancement.ethereal_armor.name"
+      "translate": "pundus.advancement.skylands.ethereal_armor.name"
     },
     "description": {
-      "translate": "pundus.advancement.ethereal_armor.desc"
+      "translate": "pundus.advancement.skylands.ethereal_armor.desc"
     },
     "frame": "goal",
     "show_toast": true,

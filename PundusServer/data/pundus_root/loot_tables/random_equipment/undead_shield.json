@@ -17,15 +17,15 @@
 					"text": " ",
 					"color": "gray",
 					"italic": false
-				},{
+				}, {
 					"translate": "pundus.item.undead_shield.lore1",
 					"color": "gray",
 					"italic": false
-				},{
+				}, {
 					"translate": "pundus.item.undead_shield.lore2",
 					"color": "gray",
 					"italic": false
-				},{
+				}, {
 					"translate": "pundus.item.generic.repair",
 					"color": "red",
 					"italic": false
@@ -36,6 +36,14 @@
 					"translate": "pundus.item.undead_shield.name",
 					"italic": false
 				}
+			}]
+		}, {
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:totem_of_undying",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
 			}]
 		}]
 	}]

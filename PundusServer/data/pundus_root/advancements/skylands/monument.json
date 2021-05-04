@@ -4,10 +4,10 @@
       "item": "minecraft:prismarine"
     },
     "title": {
-      "translate": "pundus.advancement.monument.name"
+      "translate": "pundus.advancement.skylands.monument.name"
     },
     "description": {
-      "translate": "pundus.advancement.monument.desc"
+      "translate": "pundus.advancement.skylands.monument.desc"
     },
     "frame": "challenge",
     "show_toast": true,

@@ -5,10 +5,10 @@
           "nbt": "{CustomModelData:1063}"
     },
     "title": {
-      "translate": "pundus.advancement.get_essence.name"
+      "translate": "pundus.advancement.skylands.get_essence.name"
     },
     "description": {
-      "translate": "pundus.advancement.get_essence.desc"
+      "translate": "pundus.advancement.skylands.get_essence.desc"
     },
     "frame": "task",
     "show_toast": true,

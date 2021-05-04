@@ -4,10 +4,10 @@
       "item": "minecraft:water_bucket"
     },
     "title": {
-      "translate": "pundus.advancement.wet_dry_world.name"
+      "translate": "pundus.advancement.skylands.wet_dry_world.name"
     },
     "description": {
-      "translate": "pundus.advancement.wet_dry_world.desc"
+      "translate": "pundus.advancement.skylands.wet_dry_world.desc"
     },
     "frame": "task",
     "show_toast": true,

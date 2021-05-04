@@ -1,39 +1,40 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:elytra"
     },
     "title": {
-      "translate": "pundus.advancement.skylands.on_top.name"
+      "translate": "pundus.advancement.skylands.elytra.name"
     },
     "description": {
-      "translate": "pundus.advancement.skylands.on_top.desc"
+      "translate": "pundus.advancement.skylands.elytra.desc"
     },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "pundus_root:skylands/enter_height",
+  "parent": "pundus_root:skylands/on_top",
   "criteria": {
-    "on_top": {
+    "requirement": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "position": {
-            "y": {
-              "min": 319,
-              "max": 330
+        "player": {
+          "equipment": {
+            "chest": {
+              "item": "minecraft:elytra"
             }
           }
         },
+        "location": {
           "dimension": "pundus_root:skylands"
+        }
       }
     }
   },
   "requirements": [
     [
-      "on_top"
+      "requirement"
     ]
   ],
   "rewards": {

@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:location_check",
+  "offsetY": -1,
+  "predicate": {
+    "dimension": "pundus_root:skylands",
+    "block": {
+      "block": "minecraft:budding_amethyst"
+    }
+  }
+}
