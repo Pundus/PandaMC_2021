@@ -37,7 +37,6 @@ scoreboard objectives add Pundus_GenMathZ dummy
 scoreboard objectives add Pundus_EntTrack dummy
 
 scoreboard objectives add Pundus_CrimFFCD dummy
-scoreboard objectives add Pundus_CrimKill totalKillCount
 scoreboard objectives add Pundus_ReapSCD dummy
 scoreboard objectives add Pundus_ScptMTCD dummy
 scoreboard objectives add Pundus_ScptSSCD dummy

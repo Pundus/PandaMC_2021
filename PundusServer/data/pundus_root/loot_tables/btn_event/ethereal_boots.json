@@ -54,6 +54,10 @@
 					"color": "dark_green",
 					"italic": false
 				},{
+					"translate": "pundus.item.generic.unenchantable",
+					"color": "red",
+					"italic": false
+				},{
 					"translate": "pundus.item.generic.netherite",
 					"color": "red",
 					"italic": false

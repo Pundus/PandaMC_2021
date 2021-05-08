@@ -1,6 +1,6 @@
 [ 
 {
 		"function": "set_nbt",
-		"tag": "{pundus_crimson_mode:4b,Enchantments:[{id:\"minecraft:looting\",lvl:8s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+		"tag": "{pundus_crimson_mode:4b,crimson_just_swapped:1b,Enchantments:[{id:\"minecraft:looting\",lvl:8s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
 	}
 ]

@@ -13,6 +13,7 @@ title @s[predicate=pundus_root:dimension_check/in_skylands,scores={Pundus_ScptSS
 title @s[predicate=pundus_root:dimension_check/in_skylands,scores={Pundus_ScptSSGM=3}] actionbar [{"translate":"pundus.special.cooldown.time_left","color":"green"},{"text":"███░░░░░░░","color":"green"}]
 title @s[predicate=pundus_root:dimension_check/in_skylands,scores={Pundus_ScptSSGM=2}] actionbar [{"translate":"pundus.special.cooldown.time_left","color":"green"},{"text":"██░░░░░░░░","color":"green"}]
 title @s[predicate=pundus_root:dimension_check/in_skylands,scores={Pundus_ScptSSGM=1}] actionbar [{"translate":"pundus.special.cooldown.time_left","color":"green"},{"text":"█░░░░░░░░░","color":"green"}]
+title @s[predicate=pundus_root:dimension_check/in_skylands,scores={Pundus_ScptSSGM=0}] actionbar [{"translate":"pundus.special.cooldown.time_left","color":"green"},{"text":"░░░░░░░░░░","color":"green"}]
 
 title @s[predicate=!pundus_root:dimension_check/in_skylands,scores={Pundus_ScptSSGM=6}] actionbar [{"translate":"pundus.special.cooldown.time_left","color":"green"},{"text":"██████████","color":"green"}]
 title @s[predicate=!pundus_root:dimension_check/in_skylands,scores={Pundus_ScptSSGM=5}] actionbar [{"translate":"pundus.special.cooldown.time_left","color":"green"},{"text":"████████░░","color":"green"}]

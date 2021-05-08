@@ -1,6 +1,6 @@
 [ 
 {
 		"function": "set_nbt",
-		"tag": "{pundus_playcoin_sellable:1b,pundus_playcoin_value:1,pundus_foodpriced:1b}"
+		"tag": "{pundus_playcoin_sellable:1b,pundus_playcoin_value:1,pundus_commodity:1b,pundus_foodpriced:2b}"
 	}
 ]

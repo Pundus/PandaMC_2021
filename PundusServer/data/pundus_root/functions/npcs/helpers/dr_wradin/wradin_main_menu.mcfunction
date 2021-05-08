@@ -8,7 +8,7 @@ tellraw @s [{"color":"green","translate":"pundus.npc.eggologist.response.egg_inf
 
 #tellraw @s [{"color":"green","translate":"pundus.npc.eggologist.response.quest","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 3"}}]
 
-tellraw @s[tag=!PQA_WradinCollect,tag=!PQA_WradinHatch,tag=!PQA_WradinSerial] [{"color":"aqua","translate":"pundus.npc.eggologist.response.quest","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 3"}}]
+tellraw @s[team=Admin,tag=!PQA_WradinCollect,tag=!PQA_WradinHatch,tag=!PQA_WradinSerial] [{"color":"aqua","translate":"pundus.npc.eggologist.response.quest","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 3"}}]
 
 tellraw @s[tag=PQA_WradinCollect] [{"color":"aqua","translate":"pundus.npc.eggologist.response.quest_progress","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 3"}}]
 tellraw @s[tag=PQA_WradinHatch] [{"color":"aqua","translate":"pundus.npc.eggologist.response.quest_progress","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 3"}}]

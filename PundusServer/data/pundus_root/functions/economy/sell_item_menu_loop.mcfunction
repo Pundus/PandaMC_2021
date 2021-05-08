@@ -5,7 +5,10 @@ execute as @a[predicate=pundus_root:playcoin_sellable_offhand,tag=!sim_playcoin_
 
 #execute as @a[predicate=pundus_root:playcoin_sellable_offhand,tag=sim_playcoin_open,predicate=pundus_root:generic/crouching] run scoreboard players set @s Pundus_MenuVar 401
 
+execute as @a[predicate=pundus_root:playcoin_sellable_offhand,tag=sim_playcoin_open,predicate=pundus_root:generic/crouching,predicate=pundus_root:generic/offhand_commodity] run scoreboard players set @s Pundus_MenuVar 401
+
 execute as @a[predicate=pundus_root:playcoin_sellable_offhand,tag=sim_playcoin_open,scores={Pundus_MenuVar=401}] run function pundus_root:economy/sell_item_playcoin
+
 
 scoreboard players reset @a[scores={Pundus_MenuVar=401}] Pundus_MenuVar
 
@@ -29,6 +32,7 @@ execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_Menu
 execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=102}] if score @s Pundus_Playcoins > %ExchangeRate Pundus_EconMath run function pundus_root:economy/exchange_playcoin_to_diamond
 execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=103,Pundus_Diamonds=1..}] run function pundus_root:economy/withdraw_diamond
 execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=104,Pundus_DmdCount=1..}] run function pundus_root:economy/deposit_diamond
+execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=1041,Pundus_DmdCount=1..}] run function pundus_root:economy/deposit_diamond_all
 
 scoreboard players enable @a[tag=pda_open] Pundus_MenuVar
 scoreboard players reset @a[scores={Pundus_MenuVar=101..104}] Pundus_MenuVar
@@ -39,7 +43,7 @@ tag @a[predicate=!pundus_root:pda_offhand,tag=pda_open] remove pda_open
 
 
 #Sell Vanilla items For Playcoins
-execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=!sim_playcoin_vanilla] at @s run function pundus_root:economy/sell_item_menu_vanilla_pc
+execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=!sim_playcoin_vanilla,predicate=!pundus_root:generic/offhand_custom_item] at @s run function pundus_root:economy/sell_item_menu_vanilla_pc
 execute as @a[predicate=pundus_root:playcoin_values/ominous_banner_offhand,tag=!sim_playcoin_vanilla] at @s run function pundus_root:economy/sell_item_menu_vanilla_pc
 
 execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=sim_playcoin_vanilla,predicate=pundus_root:generic/crouching] run scoreboard players set @s Pundus_MenuVar 501

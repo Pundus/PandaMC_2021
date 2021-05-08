@@ -4,9 +4,13 @@
 execute as @a[tag=hat_the_og] run loot give @s loot pundus_cosmetics:special/the_og
 tag @a[tag=hat_the_og] remove hat_the_og
 
-#hat_the_og
+#hat_astronaut_helmet
 execute as @a[tag=hat_astronaut_helmet] run loot give @s loot pundus_cosmetics:special/astronaut_helmet
 tag @a[tag=hat_astronaut_helmet] remove hat_astronaut_helmet
+
+#hat_mini_mortarboard
+execute as @a[tag=hat_mini_mortarboard] run loot give @s loot pundus_cosmetics:special/mini_mortarboard
+tag @a[tag=hat_mini_mortarboard] remove hat_mini_mortarboard
 
 
 execute as @a[predicate=pundus_cosmetics:cosmetic_helmet_fresh_held] run function pundus_cosmetics:cosmetics_reset

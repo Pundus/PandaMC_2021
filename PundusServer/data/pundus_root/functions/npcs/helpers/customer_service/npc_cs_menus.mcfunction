@@ -5,6 +5,7 @@
 execute as @s at @s if score @s Pundus_NPCMenu matches 9999 run function pundus_root:npcs/helpers/customer_service/cs_main_menu
 execute as @s at @s if score @s Pundus_NPCMenu matches 9998 run function pundus_root:npcs/helpers/customer_service/cs_economy_menu
 execute as @s at @s if score @s Pundus_NPCMenu matches 9997 run function pundus_root:npcs/helpers/customer_service/cs_issue_menu
+execute as @s at @s if score @s Pundus_NPCMenu matches 9996 run function pundus_root:npcs/helpers/customer_service/cs_credits_menu
 
 #Economy
 execute as @s at @s if score @s Pundus_NPCMenu matches 1 run function pundus_root:npcs/helpers/customer_service/cs_economy_menu
@@ -50,4 +51,19 @@ execute as @s at @s if score @s Pundus_NPCMenu matches 46 run function pundus_ro
 
 #Issue.Other
 execute as @s at @s if score @s Pundus_NPCMenu matches 47 run function pundus_root:npcs/helpers/customer_service/issues/cs_other
+
+#Credits
+execute as @s at @s if score @s Pundus_NPCMenu matches 5 run function pundus_root:npcs/helpers/customer_service/cs_credits_menu
+
+#Credits.Textures
+execute as @s at @s if score @s Pundus_NPCMenu matches 51 run function pundus_root:npcs/helpers/customer_service/credits/cs_textures
+
+#Credits.Sound
+execute as @s at @s if score @s Pundus_NPCMenu matches 52 run function pundus_root:npcs/helpers/customer_service/credits/cs_sound
+
+#Credits.Music
+execute as @s at @s if score @s Pundus_NPCMenu matches 53 run function pundus_root:npcs/helpers/customer_service/credits/cs_music
+
+#Credits.Team
+execute as @s at @s if score @s Pundus_NPCMenu matches 54 run function pundus_root:npcs/helpers/customer_service/credits/cs_team
 

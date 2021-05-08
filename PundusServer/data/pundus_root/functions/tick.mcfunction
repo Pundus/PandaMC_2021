@@ -5,6 +5,8 @@ execute as @e[type=tnt] at @s if block ~ 319 ~ minecraft:structure_void run kill
 execute as @e[type=#pundus_root:undead_mobs] at @s if block ~ 319 ~ minecraft:structure_void run tp @s ~ -100 ~
 execute as @e[type=#minecraft:raiders] at @s if block ~ 319 ~ minecraft:structure_void run tp @s -3 65 -138
 
+execute as @a[predicate=pundus_root:generic/bubble_column_down] at @s run tp @s ~ ~-0.2 ~
+
 #function pundus_root:devtools/price_hike
 
 function pundus_root:pseudo_keepinv/pki_item_looper

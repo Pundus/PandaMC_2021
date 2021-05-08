@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_horse_armor",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{display:{color:65280},CustomModelData:1092,Enchantments:[{id:\"minecraft:knockback\",lvl:8s}],laser_sword:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"prop_laser_sword\",HideFlags:64}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.prop_laser_sword.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.prop_laser_sword.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.prop_laser_sword.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.prop_laser_sword.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.unbreaking",
+					"color": "dark_green",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.prop_laser_sword.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

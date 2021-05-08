@@ -12,4 +12,5 @@ title @s[scores={Pundus_HoFishCD=48..59}] actionbar [{"translate":"pundus.specia
 title @s[scores={Pundus_HoFishCD=36..47}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"████░░░░░░","color":"red"}]
 title @s[scores={Pundus_HoFishCD=24..35}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"███░░░░░░░","color":"red"}]
 title @s[scores={Pundus_HoFishCD=12..23}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"██░░░░░░░░","color":"red"}]
-title @s[scores={Pundus_HoFishCD=..11}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"█░░░░░░░░░","color":"red"}]
+title @s[scores={Pundus_HoFishCD=2..11}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"█░░░░░░░░░","color":"red"}]
+title @s[scores={Pundus_HoFishCD=1}] actionbar [{"translate":"pundus.special.cooldown.prefix","color":"red"},{"text":"░░░░░░░░░░","color":"red"}]

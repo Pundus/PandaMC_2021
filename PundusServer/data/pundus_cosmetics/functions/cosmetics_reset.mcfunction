@@ -3,6 +3,7 @@
 #special
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_the_og"}}}] weapon.mainhand modify pundus_cosmetics:special/the_og
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_astronaut_helmet"}}}] weapon.mainhand modify pundus_cosmetics:special/astronaut_helmet
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_mini_mortarboard"}}}] weapon.mainhand modify pundus_cosmetics:special/mini_mortarboard
 
 #collection 1
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_hot_dogger"}}}] weapon.mainhand modify pundus_cosmetics:collection_1/hot_dogger

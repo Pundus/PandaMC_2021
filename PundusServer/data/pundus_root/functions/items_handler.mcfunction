@@ -503,6 +503,14 @@ tag @a[tag=eggsterminator] remove eggsterminator
 execute as @a[tag=charitable_spray] run loot give @s loot pundus_root:hatched/charitable_spray
 tag @a[tag=charitable_spray] remove charitable_spray
 
+# laser_sword
+execute as @a[tag=laser_sword] run loot give @s loot pundus_root:may_fourth/laser_sword
+tag @a[tag=laser_sword] remove laser_sword
+
+# prop_laser_sword
+execute as @a[tag=prop_laser_sword] run loot give @s loot pundus_root:may_fourth/prop_laser_sword
+tag @a[tag=prop_laser_sword] remove prop_laser_sword
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

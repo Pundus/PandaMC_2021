@@ -11,4 +11,4 @@ scoreboard players set @s Pundus_ScptSSGM 6
 scoreboard players set @s[predicate=pundus_root:dimension_check/in_skylands] Pundus_ScptSSGM 10
 
 #scoreboard players set @s Pundus_ScptSSCD 60
-scoreboard players set @s Pundus_ScptSSCD 300
+scoreboard players set @s Pundus_ScptSSCD 180

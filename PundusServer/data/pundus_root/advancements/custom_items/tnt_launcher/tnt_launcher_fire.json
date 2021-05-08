@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "item": "minecraft:crossbow",
+          "nbt": "{tnt_launcher:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/tnt_launcher/tnt_launcher_fire"
+  }
+}

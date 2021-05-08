@@ -16,4 +16,4 @@ execute as @s[nbt={Inventory:[{Slot:102b,tag:{pundus_id:"apoc_shirt"}}]}] at @s 
 
 execute as @s[nbt={Inventory:[{Slot:102b,tag:{pundus_id:"apoc_shirt"}}]}] at @s if score @s Pundus_Health matches ..19 run function pundus_root:custom_items/1_second/leggings_restoration
 
-execute as @s[predicate=pundus_root:ethereal_armor/ethereal_chestplate] at @s unless predicate pundus_root:ethereal_armor/dye_ethereal_chestplate run function pundus_root:custom_items/1_second/ethereal_armor_cc
+execute as @s[predicate=pundus_root:ethereal_armor/ethereal_chestplate,nbt=!{Inventory:[{Slot:102b,tag:{display:{Name:'{"italic":false,"color":"aqua","translate":"pundus.item.ethereal_chestplate.name"}'}}}]}] at @s run function pundus_root:custom_items/1_second/ethereal_armor_enchant/eae_chest
