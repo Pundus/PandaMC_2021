@@ -1,0 +1,65 @@
+[ 
+{
+				"function": "set_nbt",
+				"tag": "{pundus_rc_exception:1b,pundus_etheral_updated:2b,RepairCost:4,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:32s}]}"
+			}, {
+                "function": "set_name",
+                "name": {
+                    "translate": "pundus.item.ethereal_chestplate.name",
+                    "color": "aqua",
+                    "italic": false
+                }
+            }, {
+				"function": "minecraft:set_lore",
+				"replace": true,
+				"lore": [{
+					"translate": "",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore7",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ethereal_armor.lore8",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repairable_diamond",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.unenchantable",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.netherite",
+					"color": "red",
+					"italic": false
+				}]
+			}
+]

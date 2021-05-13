@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1060,pundus_ring_btn:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"ring_btn\"}"
+				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1060,pundus_ring_btn:1b,pundus_ring_btn_fix:1b,pundus_ring_fx:\"btn\",pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"ring_btn\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

@@ -18,6 +18,8 @@ tellraw @s [{"translate":"pundus.economy.sell.preface"},{"nbt":"Inventory[{Slot:
 
 tellraw @s[predicate=!pundus_root:generic/offhand_commodity] [{"color":"green","underlined":true,"translate":"pundus.economy.sell.confirm.no_crouch","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 401"}}]
 
-tellraw @s[predicate=pundus_root:generic/offhand_commodity] [{"color":"green","underlined":true,"translate":"pundus.economy.sell.confirm","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 401"}}]
+execute unless score @s SET_CrouchSell matches 1.. run tellraw @s[predicate=pundus_root:generic/offhand_commodity] [{"color":"green","underlined":true,"translate":"pundus.economy.sell.confirm","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 401"}}]
+
+execute if score @s SET_CrouchSell matches 1.. run tellraw @s[predicate=pundus_root:generic/offhand_commodity] [{"color":"green","underlined":true,"translate":"pundus.economy.sell.confirm.no_crouch","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 401"}}]
 
 

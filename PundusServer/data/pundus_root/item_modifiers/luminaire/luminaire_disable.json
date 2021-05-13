@@ -1,0 +1,6 @@
+[ 
+{
+		"function": "set_nbt",
+		"tag": "{luminaire_enabled:0b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+	}
+]

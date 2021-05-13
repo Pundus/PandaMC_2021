@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_custom_1tick:1b,CustomModelData:1062,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"luminaire\"}"
+				"tag": "{luminaire_updated:1b,Charged:0b,CustomModelData:1062,Enchantments:[{id:\"minecraft:quick_charge\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"luminaire\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

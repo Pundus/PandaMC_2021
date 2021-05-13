@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "item": "minecraft:crossbow",
+              "nbt": "{pundus_id:\"luminaire\",Charged:0b}"
+            },
+            "offhand": {
+              "item": "minecraft:torch"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/luminaire/luminaire_enable_loading"
+  }
+}

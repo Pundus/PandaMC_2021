@@ -1,3 +1,3 @@
 # eae_legs
 
-item entity @s armor.feet modify pundus_root:outdated_fixers/ethereal_armor
+item entity @s armor.feet modify pundus_root:ethereal/ethereal_feet

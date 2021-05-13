@@ -72,6 +72,14 @@ tag @a[tag=decor_trans_bee] remove decor_trans_bee
 execute as @a[tag=decor_bee] run loot give @s loot pundus_root:decor/model_bee
 tag @a[tag=decor_bee] remove decor_bee
 
+#Decor - enBee
+execute as @a[tag=decor_enbee] run loot give @s loot pundus_root:decor/model_nbee
+tag @a[tag=decor_enbee] remove decor_enbee
+
+#Decor - b
+execute as @a[tag=decor_naked_bee] run loot give @s loot pundus_root:decor/model_b
+tag @a[tag=decor_naked_bee] remove decor_naked_bee
+
 #model_pundus
 execute as @a[tag=decor_model_pundus] run loot give @s loot pundus_root:decor/model_pundus
 tag @a[tag=decor_model_pundus] remove decor_model_pundus
@@ -510,6 +518,14 @@ tag @a[tag=laser_sword] remove laser_sword
 # prop_laser_sword
 execute as @a[tag=prop_laser_sword] run loot give @s loot pundus_root:may_fourth/prop_laser_sword
 tag @a[tag=prop_laser_sword] remove prop_laser_sword
+
+# disco_phaser
+execute as @a[tag=disco_phaser] run loot give @s loot pundus_root:disco_phaser/disco_phaser
+tag @a[tag=disco_phaser] remove disco_phaser
+
+# deploy_spawner
+execute as @a[tag=deploy_spawner] run loot give @s loot pundus_root:deploy_spawner
+tag @a[tag=deploy_spawner] remove deploy_spawner
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

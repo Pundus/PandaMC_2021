@@ -27,3 +27,5 @@ particle minecraft:snowflake ~ ~ ~ 0 0 0 0.1 100
 item entity @s weapon.offhand replace air
 
 playsound minecraft:sfx.snowman_emerge neutral @a ~ ~ ~ 2 1 0
+
+advancement revoke @s only pundus_root:custom_items/golem_summoners/golem_cannon_fodder

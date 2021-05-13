@@ -6,6 +6,10 @@ scoreboard objectives add Pundus_EconMath dummy
 scoreboard objectives add Pundus_IndivMath dummy
 scoreboard objectives add Pundus_ItemValue dummy
 scoreboard objectives add Pundus_ItemSell dummy
+scoreboard objectives add Pundus_SalePct dummy
+scoreboard objectives add Pundus_SaleMath dummy
+scoreboard objectives add Pundus_SaleValue dummy
+scoreboard players set %MaxPercent Pundus_SaleMath 100
 scoreboard objectives add Pundus_MenuVar trigger
 scoreboard objectives add Pundus_ShopVar trigger
 scoreboard objectives add Pundus_BPVar trigger
@@ -27,6 +31,12 @@ scoreboard objectives add Pundus_DelayD dummy
 scoreboard objectives add Pundus_DelayL dummy
 scoreboard objectives add Pundus_MoonGrav dummy
 scoreboard objectives add Pundus_LogEvent dummy
+
+scoreboard objectives add Pundus_MobTrk1 dummy
+
+scoreboard objectives add Pundus_Pos_X dummy
+scoreboard objectives add Pundus_Pos_Y dummy
+scoreboard objectives add Pundus_Pos_Z dummy
 
 scoreboard objectives add Pundus_CheckBk dummy
 scoreboard objectives add Pundus_TempPKI dummy
@@ -147,6 +157,9 @@ scoreboard objectives add PSOB_DSRedstone minecraft.mined:minecraft.deepslate_re
 scoreboard objectives add PSOB_DSEmerald minecraft.mined:minecraft.deepslate_emerald_ore
 scoreboard objectives add PSOB_DSDiamond minecraft.mined:minecraft.deepslate_diamond_ore
 scoreboard objectives add PSOB_Kills totalKillCount
+
+#Settings
+scoreboard objectives add SET_CrouchSell trigger
 
 
 

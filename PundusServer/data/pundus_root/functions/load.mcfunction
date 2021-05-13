@@ -62,6 +62,6 @@ schedule function pundus_root:block_packs/bp_offhand_determination_init 19t
 
 schedule function pundus_root:eggventory_management/egg_basket_init 16t
 
-
+effect give @e[type=minecraft:villager,tag=Pundus_NPC] minecraft:invisibility 1000000 0 true
 
 #schedule function pundus_root:generic_loops/generic_5_second_loop 14t

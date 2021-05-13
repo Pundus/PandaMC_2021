@@ -1,6 +1,6 @@
 [ 
 {
 		"function": "set_nbt",
-		"tag": "{pundus_ring_btn:1b}"
+		"tag": "{pundus_ring_btn:1b,pundus_ring_btn_fix:1b,pundus_ring_fx:\"btn\"}"
 	}
 ]

@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{disco_phaser_mode:\"stun\",CustomModelData:1094,disco_phaser_justswap:1b}"
+  }
+]

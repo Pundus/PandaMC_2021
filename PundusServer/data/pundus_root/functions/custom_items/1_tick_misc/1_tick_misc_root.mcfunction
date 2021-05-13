@@ -9,3 +9,6 @@ execute as @e[type=minecraft:falling_block,tag=PocketSand_Particle] at @s run pa
 execute as @e[type=minecraft:tnt,tag=Pundus_TNTProjectile] at @s run function pundus_root:custom_items/1_tick_misc/tnt_projectile
 
 execute as @e[type=#pundus_root:arrows,tag=Arrow_DoI,nbt={inGround:1b}] run kill @s
+
+
+execute as @e[type=#pundus_root:arrows,tag=Pundus_ArrowLum,nbt={inGround:1b}] at @s run function pundus_root:custom_items/1_tick_misc/luminaire_arrow

@@ -1,0 +1,55 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1096,pundus_realm_custom:1b,deploy_spawner:1b,RepairCost:-9999,pundus_id:\"deploy_spawner\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.deploy_spawner.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.deploy_spawner.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.deploy_spawner.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.deploy_spawner.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.deploy_spawner.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.deploy_spawner.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

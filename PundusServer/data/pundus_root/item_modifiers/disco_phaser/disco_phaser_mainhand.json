@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{disco_phaser_justswap:0b}"
+  }
+]

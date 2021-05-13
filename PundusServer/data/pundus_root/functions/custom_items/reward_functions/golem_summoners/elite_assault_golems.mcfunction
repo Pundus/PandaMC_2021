@@ -12,3 +12,5 @@ particle minecraft:lava ~ ~ ~ 0 0 0 1 50
 item entity @s weapon.offhand replace air
 
 playsound minecraft:sfx.elite_assault_golems_teleport neutral @a ~ ~ ~ 2 1 0
+
+advancement revoke @s only pundus_root:custom_items/golem_summoners/elite_assault_golems

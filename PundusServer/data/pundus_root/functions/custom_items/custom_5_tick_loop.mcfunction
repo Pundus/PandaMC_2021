@@ -32,6 +32,8 @@ clear @a #pundus_root:volatile/volatile_all{pundus_volatile:1b,RepairCost:0}
 execute as @a[nbt={SelectedItem:{tag:{pundus_id:"cheese"}}},nbt=!{SelectedItem:{tag:{pundus_foodpriced:2b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/food_prices
 execute as @a[nbt={SelectedItem:{tag:{pundus_id:"fried_egg"}}},nbt=!{SelectedItem:{tag:{pundus_foodpriced:2b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/food_prices
 
+execute as @a[nbt={SelectedItem:{tag:{pundus_id:"luminaire"}}},nbt=!{SelectedItem:{tag:{luminaire_updated:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/luminaire
+
 
 execute as @a[nbt={SelectedItem:{tag:{pundus_ethereal_armor:1b}}},nbt=!{SelectedItem:{tag:{pundus_etheral_updated:2b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/ethereal_armor
 
@@ -39,7 +41,7 @@ execute as @a[nbt={SelectedItem:{tag:{pundus_crimson_fourfold:1b}}},nbt=!{Select
 
 execute as @a[nbt={SelectedItem:{tag:{pundus_id:"scepter_spirit_shift"}}},nbt=!{SelectedItem:{tag:{scepter_spirit_shift_nerf:2b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/scepter_spirit_shift
 
-execute as @a[nbt={SelectedItem:{tag:{pundus_id:"ring_btn"}}},nbt=!{SelectedItem:{tag:{pundus_ring_btn:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/ring_btn
+execute as @a[nbt={SelectedItem:{tag:{pundus_id:"ring_btn"}}},nbt=!{SelectedItem:{tag:{pundus_ring_btn_fix:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/ring_btn
 
 
 execute as @a store result score @s Pundus_Fall run data get entity @s FallDistance

@@ -14,6 +14,7 @@ tellraw @s [{"translate":"pundus.economy.check.preface"},{"score":{"name":"*","o
 
 tellraw @s {"text":""}
 
-tellraw @s [{"color":"green","underlined":true,"translate":"pundus.economy.sell.confirm","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 901"}}]
+execute unless score @s SET_CrouchSell matches 1.. run tellraw @s [{"color":"green","underlined":true,"translate":"pundus.economy.sell.confirm","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 901"}}]
+execute if score @s SET_CrouchSell matches 1.. run tellraw @s [{"color":"green","underlined":true,"translate":"pundus.economy.sell.confirm.no_crouch","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 901"}}]
 
 

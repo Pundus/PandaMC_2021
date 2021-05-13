@@ -10,8 +10,14 @@ execute as @e[type=area_effect_cloud,tag=Pundus_ShopAEC] at @s if block ~ ~ ~ ai
 execute as @e[type=area_effect_cloud,tag=Pundus_ShopAEC] at @s if entity @a[distance=..1.5,scores={Pundus_ShopVar=1}] if score @s Pundus_ShopValue <= @a[distance=..1.5,scores={Pundus_ShopVar=1},limit=1,sort=nearest] Pundus_Playcoins run function pundus_root:economy/shops_handler/bought_item_generate
 execute as @e[type=area_effect_cloud,tag=Pundus_ShopAEC] at @s if entity @a[distance=..1.5,scores={Pundus_ShopVar=2}] if score @s Pundus_ShopValue <= @a[distance=..1.5,scores={Pundus_ShopVar=2},limit=1,sort=nearest] Pundus_Diamonds run function pundus_root:economy/shops_handler/bought_item_generate
 
+execute as @e[type=area_effect_cloud,tag=Pundus_ShopAEC] at @s if entity @a[distance=..1.5,scores={Pundus_ShopVar=11}] if score @s Pundus_ShopValue <= @a[distance=..1.5,scores={Pundus_ShopVar=11},limit=1,sort=nearest] Pundus_Playcoins run function pundus_root:economy/shops_handler/bought_item_generate
+execute as @e[type=area_effect_cloud,tag=Pundus_ShopAEC] at @s if entity @a[distance=..1.5,scores={Pundus_ShopVar=21}] if score @s Pundus_ShopValue <= @a[distance=..1.5,scores={Pundus_ShopVar=21},limit=1,sort=nearest] Pundus_Diamonds run function pundus_root:economy/shops_handler/bought_item_generate
+
 execute as @e[type=area_effect_cloud,tag=Pundus_ShopAEC] at @s if entity @a[distance=..1.5,scores={Pundus_ShopVar=1}] if score @s Pundus_ShopValue <= @a[distance=..1.5,scores={Pundus_ShopVar=1},limit=1,sort=nearest] Pundus_Playcoins run function pundus_root:economy/shops_handler/deduct_currency
 execute as @e[type=area_effect_cloud,tag=Pundus_ShopAEC] at @s if entity @a[distance=..1.5,scores={Pundus_ShopVar=2}] if score @s Pundus_ShopValue <= @a[distance=..1.5,scores={Pundus_ShopVar=2},limit=1,sort=nearest] Pundus_Diamonds run function pundus_root:economy/shops_handler/deduct_currency
+
+execute as @e[type=area_effect_cloud,tag=Pundus_ShopAEC] at @s if entity @a[distance=..1.5,scores={Pundus_ShopVar=11}] if score @s Pundus_ShopValue <= @a[distance=..1.5,scores={Pundus_ShopVar=11},limit=1,sort=nearest] Pundus_Playcoins run function pundus_root:economy/shops_handler/deduct_currency
+execute as @e[type=area_effect_cloud,tag=Pundus_ShopAEC] at @s if entity @a[distance=..1.5,scores={Pundus_ShopVar=21}] if score @s Pundus_ShopValue <= @a[distance=..1.5,scores={Pundus_ShopVar=21},limit=1,sort=nearest] Pundus_Diamonds run function pundus_root:economy/shops_handler/deduct_currency
 
 tag @a[tag=Pundus_CallShoppingMenu] remove Pundus_CallShoppingMenu
 

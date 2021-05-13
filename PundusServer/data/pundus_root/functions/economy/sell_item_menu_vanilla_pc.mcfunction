@@ -29,6 +29,7 @@ tellraw @s[predicate=!pundus_root:playcoin_values/ominous_banner_offhand] [{"tra
 
 tellraw @s[predicate=pundus_root:playcoin_values/ominous_banner_offhand] [{"translate":"pundus.economy.sell.preface"},{"nbt":"Inventory[{Slot:-106b}].tag.display.Name","interpret":true,"entity":"@s","underlined":true},{"translate":"pundus.economy.sell.context"},{"score":{"name":"@s","objective":"Pundus_VanValue"},"color":"yellow","bold":true},{"translate":"pundus.economy.sell.question"}]
 
-tellraw @s [{"color":"green","underlined":true,"translate":"pundus.economy.sell.confirm","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 501"}}]
+execute unless score @s SET_CrouchSell matches 1.. run tellraw @s [{"color":"green","underlined":true,"translate":"pundus.economy.sell.confirm","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 501"}}]
+execute if score @s SET_CrouchSell matches 1.. run tellraw @s [{"color":"green","underlined":true,"translate":"pundus.economy.sell.confirm.no_crouch","clickEvent":{"action":"run_command","value":"/trigger Pundus_MenuVar set 501"}}]
 
 kill @e[type=item,tag=Pundus_VanItemSell,limit=1,sort=nearest]

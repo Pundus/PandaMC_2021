@@ -42,6 +42,11 @@ execute as @a[predicate=pundus_root:dual_daggers] at @s run effect give @s minec
 
 tag @a[tag=Scepter_FT_Menu_Open,nbt=!{Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_fast_travel"}}]}] remove Scepter_FT_Menu_Open
 
+execute as @e[type=wandering_trader,predicate=!pundus_root:generic/no_ai] at @s unless entity @a[distance=..20,predicate=pundus_root:generic/mainhand_emerald] run item entity @s weapon.mainhand replace air
+
+execute as @e[type=#pundus_root:hostile_all_mobs,predicate=pundus_root:generic/has_luck_1] run scoreboard players set @s Pundus_MobTrk1 12
+execute as @e[type=#pundus_root:hostile_all_mobs,scores={Pundus_MobTrk1=1..}] at @s run function pundus_root:custom_items/luck_stunner
+
 
 scoreboard players set @a[scores={P_BowUsed_1s=1..}] P_BowUsed_1s 0
 scoreboard players set @a[scores={P_CBowUsed_1s=1..}] P_CBowUsed_1s 0
@@ -49,6 +54,11 @@ scoreboard players set @a[scores={P_ISwdUsed_1s=1..}] P_ISwdUsed_1s 0
 scoreboard players set @a[scores={P_SSwdUsed_1s=1..}] P_SSwdUsed_1s 0
 scoreboard players set @a[scores={P_CoaSUsed_1s=1..}] P_CoaSUsed_1s 0
 scoreboard players set @a[scores={P_TKC_1s=1..}] P_TKC_1s 0
+
+# Settings
+
+scoreboard players enable @a SET_CrouchSell
+execute as @e[type=#pundus_root:passive_animal_mobs,team=!Friendly] run team join Friendly @s
 
 ##
 

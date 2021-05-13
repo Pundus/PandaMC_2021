@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "minecraft:emerald",
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore",
     "minecraft:creeper_banner_pattern",
     "minecraft:bell",
     "minecraft:golden_apple"

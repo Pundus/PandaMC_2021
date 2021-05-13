@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{disco_phaser_mode:\"kill\",CustomModelData:1095,disco_phaser_justswap:1b}"
+  }
+]
