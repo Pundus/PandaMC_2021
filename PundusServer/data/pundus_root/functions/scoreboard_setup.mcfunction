@@ -19,6 +19,12 @@ scoreboard objectives add Pundus_PlayerID dummy
 scoreboard objectives add Pundus_PKIID dummy
 scoreboard objectives add Pundus_GshpScrl dummy
 scoreboard objectives add Pundus_ShopInt minecraft.custom:minecraft.open_chest
+scoreboard objectives add Pundus_ShopOwner trigger
+scoreboard objectives add Pundus_PShopInt minecraft.custom:minecraft.trigger_trapped_chest
+scoreboard objectives add Pundus_PSStored dummy
+scoreboard objectives add Pundus_PSMath dummy
+scoreboard objectives add Pundus_PSCount dummy
+
 
 scoreboard objectives add Pundus_DeathTrk deathCount 
 scoreboard objectives add Pundus_PlyrLeave minecraft.custom:minecraft.leave_game

@@ -25,3 +25,5 @@ particle minecraft:falling_nectar ~ ~2.5 ~ 1 0 1 1 50
 playsound minecraft:sfx.nicolas_cage_bees neutral @a ~ ~ ~ 1 1 0
 
 item entity @s weapon.offhand replace air
+
+advancement revoke @s only pundus_root:custom_items/spells/spell_bee_swarm

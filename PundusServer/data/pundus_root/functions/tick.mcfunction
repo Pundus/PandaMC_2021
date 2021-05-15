@@ -12,7 +12,7 @@ execute as @a[predicate=pundus_root:generic/bubble_column_down] at @s run tp @s 
 function pundus_root:pseudo_keepinv/pki_item_looper
 
 
-
+tag @a[tag=Pundus_GenericJustCrouched,predicate=!pundus_root:generic/crouching] remove Pundus_GenericJustCrouched
 
 execute as @a[gamemode=!survival] at @s positioned ~ 61 ~ if block ~ ~ ~ minecraft:infested_cobblestone run effect give @s minecraft:levitation 1 4 true
 execute as @a[gamemode=!survival] at @s positioned ~ 61 ~ if block ~ ~ ~ minecraft:infested_stone run effect give @s minecraft:slow_falling 1 0 true

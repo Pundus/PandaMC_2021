@@ -527,6 +527,10 @@ tag @a[tag=disco_phaser] remove disco_phaser
 execute as @a[tag=deploy_spawner] run loot give @s loot pundus_root:deploy_spawner
 tag @a[tag=deploy_spawner] remove deploy_spawner
 
+# pundus_csu
+execute as @a[tag=pundus_csu] run loot give @s loot pundus_root:pundus_csu
+tag @a[tag=pundus_csu] remove pundus_csu
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

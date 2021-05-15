@@ -19,8 +19,6 @@ execute as @s[predicate=!pundus_root:dimension_check/in_nether,tag=!Pundus_InCom
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_spirit_shift"}}]}] if score @s Pundus_ScptSSCD matches 1.. if score @s Pundus_ScptSSGM matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_spirit_shift_timeleft
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_spirit_shift"}}]}] if score @s Pundus_ScptSSCD matches 1.. unless score @s Pundus_ScptSSGM matches 1.. at @s run function pundus_root:custom_items/1_second/scepter_spirit_shift_cooldown
 
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_dead_men_walking"}}]}] at @s if entity @e[type=#pundus_root:undead_mobs,distance=..16] run function pundus_root:custom_items/1_second/spell_dead_men_walking
-
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"zombosoda"}}]}] at @s run function pundus_root:custom_items/1_second/zombosoda
 
 execute as @s[gamemode=!adventure,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"history_of_fish"}}]}] unless score @s Pundus_HoFishCD matches 1.. at @s if entity @e[type=#pundus_root:aquatic_mobs,distance=..32] run function pundus_root:custom_items/1_second/history_of_fish
@@ -31,21 +29,11 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"eggdar"}}]}] at @s if 
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"meggnet"}}]}] at @s if entity @e[type=item,tag=Pundus_DroppedEgg,distance=..16] run function pundus_root:custom_items/1_second/meggnet
 
-
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_drop_eggs"}}]}] at @s run function pundus_root:custom_items/1_second/spell_drop_eggs
-
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"cryo_flasher"}}]}] at @s run function pundus_root:custom_items/1_second/cryo_flasher
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"debowner"}}]}] at @s if entity @e[type=#pundus_root:bow_mobs,distance=..16] run function pundus_root:custom_items/1_second/debowner
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"obsidian_powder"}}]}] at @s run function pundus_root:custom_items/1_second/obsidian_powder
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_bee_swarm"}}]}] at @s run function pundus_root:custom_items/1_second/spell_bee_swarm
 execute as @s[tag=!Pundus_EatCnCiC,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"cookies_and_cream"}}]}] at @s run function pundus_root:custom_items/1_second/cookies_and_cream
 
-
-execute as @s[tag=!Pundus_InProtA,predicate=pundus_root:dimension_check/in_overworld,nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_deep_dark"}}]}] at @s unless block ~ 319 ~ minecraft:structure_void run function pundus_root:custom_items/1_second/spell_deep_dark
-
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_life_tempus"}}]}] at @s run function pundus_root:custom_items/1_second/spell_life_tempus
-
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"spell_angels_fear"}}]}] at @s if entity @e[type=vex,distance=..16] run function pundus_root:custom_items/1_second/spell_angels_fear
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_ring_btn:1b}}]}] at @s run function pundus_root:custom_items/1_second/ring_btn
 

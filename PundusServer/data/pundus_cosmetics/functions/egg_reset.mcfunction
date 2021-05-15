@@ -83,6 +83,7 @@ item entity @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_beacon"}}}] weapon.mainha
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_wither"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/faberge/fegg_wither
 
 scoreboard players add @s Pundus_Playcoins 10
+scoreboard players remove %Server Pundus_Playcoins 10
 
 title @s actionbar {"translate":"pundus.special.easter.egg_identified","color":"white","underlined":true}
 execute at @s run playsound minecraft:ui.egg_identify master @s ~ ~ ~

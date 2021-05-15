@@ -7,7 +7,7 @@
           "equipment": {
             "mainhand": {
               "item": "minecraft:crossbow",
-              "nbt": "{disco_phaser:1b,disco_phaser_mode:\"stun\"}"
+              "nbt": "{disco_phaser:1b,disco_phaser_mode:\"stun\",Charged:0b}"
             },
             "offhand": {
               "item": "minecraft:amethyst_shard"

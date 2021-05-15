@@ -15,3 +15,5 @@ execute as @e[type=minecraft:item,tag=!Pundus_DE_D,tag=Pundus_DroppedEgg] at @s 
 playsound sfx.drop_eggs player @a ~ ~ ~ 1 1 0
 
 item entity @s weapon.offhand replace air
+
+advancement revoke @s only pundus_root:custom_items/spells/spell_drop_eggs

@@ -3,7 +3,7 @@
 tag @s add Pundus_TNTArrow
 
 
-execute as @p at @s anchored eyes positioned ^ ^ ^2 run summon tnt ~ ~-0.5 ~ {NoGravity:1b,Fuse:100,Tags:["Pundus_TNTProjectile","Pundus_TNTProjUnMod"]}
+execute as @p[distance=..2] at @s anchored eyes positioned ^ ^ ^2 run summon tnt ~ ~-0.5 ~ {NoGravity:1b,Fuse:100,Tags:["Pundus_TNTProjectile","Pundus_TNTProjUnMod"]}
 
 
 execute as @s store result score @s Pundus_GenMathX run data get entity @s Motion[0] 1000000

@@ -39,6 +39,8 @@
     "minecraft:deepslate_emerald_ore",
     "minecraft:iron_ore",
     "minecraft:deepslate_iron_ore",
+    "minecraft:nether_wart_block",
+    "minecraft:warped_wart_block",
     "#minecraft:leaves",
     "#pundus_root:playcoin_values/tall_flowers",
     "minecraft:soul_soil"

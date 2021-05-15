@@ -14,9 +14,9 @@ team modify Admin prefix  {"translate":"pundus.special.admin.prefix","color":"re
 team modify Admin color red
 team modify Admin nametagVisibility never
 
-team add Friendly {"translate":"pundus.special.friendly","color":"green"}
-team modify Friendly prefix  {"translate":"pundus.special.friendly.prefix","color":"green"}
-team modify Friendly color green
+team add Friendly {"translate":"pundus.special.friendly","color":"yellow"}
+team modify Friendly prefix  {"translate":"pundus.special.friendly.prefix","color":"yellow"}
+team modify Friendly color yellow
 team modify Friendly collisionRule pushOwnTeam 
 
 scoreboard objectives setdisplay belowName Pundus_Deaths

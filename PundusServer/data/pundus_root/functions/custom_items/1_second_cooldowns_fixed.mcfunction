@@ -20,4 +20,4 @@ execute as @s[scores={Pundus_SB_CD=0,Pundus_SB_Str=2..}] run scoreboard players 
 ##
 
 
-execute as @e[type=#pundus_root:undead_mobs,tag=Pundus_DMWFrozen] run function pundus_root:custom_items/1_second/spell_dead_men_walking_loop
+execute as @e[type=#pundus_root:undead_mobs,tag=Pundus_DMWFrozen] run function pundus_root:custom_items/1_second_misc/spell_dead_men_walking_loop
