@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Enchantments:[{}],CustomModelData:1097,probability_pearl:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"probability_pearl\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.probability_pearl.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.probability_pearl.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.probability_pearl.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.probability_pearl.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.probability_pearl.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

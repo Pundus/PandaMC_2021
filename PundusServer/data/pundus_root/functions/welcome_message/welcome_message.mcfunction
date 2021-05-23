@@ -32,7 +32,7 @@ tellraw @s [{"text":" "}]
 tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.btn.title","bold":false}]
 tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.btn.info","bold":false}]
 
-
+team join Players @s[team=!Admin,team=!Players]
 
 
 

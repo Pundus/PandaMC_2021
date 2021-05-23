@@ -102,12 +102,12 @@ execute if score %GorbVal Pundus_RNG matches 20 run function pundus_root:gashapo
 execute if score %GorbVal Pundus_RNG matches 20 run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.bonus_generic","color":"gray","italic":true,"with":[{"selector":"@s"},{"translate":"pundus.item.lunarite_crystal_full.name","color":"yellow"},{"translate":"pundus.item.gashapon.cosmetic_1.name"}]}
 
 execute if score %GorbVal Pundus_RNG matches 21 run loot give @s loot pundus_root:head_giver
-execute if score %GorbVal Pundus_RNG matches 21 run function pundus_root:gashapon/gasha_givers/gasha_cosmetic_1
 execute if score %GorbVal Pundus_RNG matches 21 as @s run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.bonus_generic","color":"gray","italic":true,"with":[{"selector":"@s"},{"translate":"block.minecraft.player_head"},{"translate":"pundus.item.gashapon.cosmetic_1.name"}]}
+execute if score %GorbVal Pundus_RNG matches 21 run function pundus_root:gashapon/gasha_givers/gasha_cosmetic_1
 
 execute if score %GorbVal Pundus_RNG matches 22 run function pundus_root:gashapon/gasha_givers/gasha_cosmetic_1
 
-function pundus_root:gashapon/gasha_givers/cosmetic_bonus_lunarite
+function pundus_root:gashapon/gasha_givers/general_bonus_probability
 
 
 

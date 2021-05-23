@@ -18,9 +18,11 @@ execute as @a[scores={Pundus_MenuVar=1337}] if entity @e[type=area_effect_cloud,
 
 execute as @a[tag=Pundus_Temp_PKI] run function pundus_root:custom_items/1_second/distress_beacon_temp_pki
 
-execute as @e[type=#pundus_root:golem_related,tag=Pundus_Golem_Summon] run function pundus_root:custom_items/1_second/golems_loop
+execute as @e[type=#pundus_root:golem_related,tag=Pundus_Golem_Summon] run function pundus_root:custom_items/1_second_misc/golems_loop
 
 execute as @e[type=#minecraft:raiders,tag=!PillagerFuck,limit=5] at @s run function pundus_root:custom_items/pillager
+
+execute as @e[type=zombified_piglin] at @s if entity @e[type=!player,type=!#pundus_root:undead_mobs,distance=..24] run function pundus_root:custom_items/zombie_piglin
 
 execute as @a run function pundus_root:custom_items/1_second_cooldowns
 execute as @a run function pundus_root:custom_items/1_second_cooldowns_fixed
@@ -40,7 +42,7 @@ execute as @e[type=bee,tag=!Pundus_BeeSwarm,nbt=!{Health:1f}] at @s run data mod
 
 execute as @a[predicate=pundus_root:dual_daggers] at @s run effect give @s minecraft:strength 2 1 true
 
-tag @a[tag=Scepter_FT_Menu_Open,nbt=!{Inventory:[{Slot:-106b,tag:{pundus_id:"scepter_fast_travel"}}]}] remove Scepter_FT_Menu_Open
+tag @a[tag=Scepter_FT_Menu_Open,predicate=!pundus_root:specific_custom_items/scepter_fast_travel_offhand] remove Scepter_FT_Menu_Open
 
 execute as @e[type=wandering_trader,predicate=!pundus_root:generic/no_ai,predicate=!pundus_root:generic/mainhand_potion,predicate=!pundus_root:generic/mainhand_milk] at @s unless entity @a[distance=..20,predicate=pundus_root:generic/mainhand_emerald] run item entity @s weapon.mainhand replace air
 
@@ -59,6 +61,7 @@ scoreboard players set @a[scores={P_TKC_1s=1..}] P_TKC_1s 0
 # Settings
 
 scoreboard players enable @a SET_CrouchSell
+scoreboard players enable @a SET_CombatNotif
 execute as @e[type=#pundus_root:passive_animal_mobs,team=!Friendly] run team join Friendly @s
 
 ##

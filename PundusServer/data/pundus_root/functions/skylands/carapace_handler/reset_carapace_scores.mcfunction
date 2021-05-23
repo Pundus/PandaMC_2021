@@ -16,4 +16,4 @@ scoreboard players set @s PSOB_DSLapis 0
 scoreboard players set @s PSOB_DSRedstone 0
 scoreboard players set @s PSOB_DSEmerald 0
 scoreboard players set @s PSOB_DSDiamond 0
-scoreboard players set @s PSOB_Kills 0
+scoreboard players set @s[scores={PSOB_Kills=10..}] PSOB_Kills 0

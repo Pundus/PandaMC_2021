@@ -18,3 +18,4 @@ execute in minecraft:overworld as @s if score @s Pundus_MenuVar matches 1031004 
 scoreboard players set @s Pundus_ScptFTCD 300
 
 scoreboard players set @s Pundus_MenuVar 0
+

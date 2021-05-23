@@ -42,15 +42,11 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus1",
+					"translate": "pundus.item.gashapon.probability_bonus1",
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus2",
-					"color": "dark_green",
-					"italic": false
-				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus3",
+					"translate": "pundus.item.gashapon.probability_bonus2",
 					"color": "dark_green",
 					"italic": false
 				},{

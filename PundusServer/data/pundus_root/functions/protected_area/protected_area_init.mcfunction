@@ -9,7 +9,7 @@ execute as @a at @s as @e[type=#pundus_root:struck_mobs,distance=..5] at @s if b
 execute as @a at @s as @e[type=#pundus_root:struck_mobs,distance=..5] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
 
 
-execute as @a[scores={Pundus_Unstuck=1..}] at @s if block ~ 319 ~ minecraft:structure_void run spreadplayers ~ ~ 15 3 under 128 false @s
+execute as @a[scores={Pundus_Unstuck=1..}] at @s if block ~ 319 ~ minecraft:structure_void unless block ~ 318 ~ minecraft:structure_void run spreadplayers ~ ~ 15 3 under 128 false @s
 scoreboard players reset @a[scores={Pundus_Unstuck=1..}] Pundus_Unstuck
 scoreboard players enable @a Pundus_Unstuck
 

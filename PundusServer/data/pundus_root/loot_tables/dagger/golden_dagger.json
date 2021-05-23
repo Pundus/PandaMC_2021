@@ -1,0 +1,23 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:golden_sword",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:1104,pundus_dagger:1b,pundus_realm_custom:1b,pundus_rc_exception:1b,pundus_id:\"golden_dagger\",HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.25,Operation:0,UUID:[I;1881004374,2036221796,-1928023953,-442793415],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-1459482077,1493319887,-1598947427,1701350232],Slot:\"mainhand\"}]}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.dagger.gold.name",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"Scepter_FT_Menu_Open\"]}",
+          "flags": {
+            "is_sneaking": true
+          },
+          "equipment": {
+            "offhand": {
+              "nbt": "{pundus_id:\"scepter_fast_travel\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/scepter/other/scepter_fast_travel_crouched"
+  }
+}

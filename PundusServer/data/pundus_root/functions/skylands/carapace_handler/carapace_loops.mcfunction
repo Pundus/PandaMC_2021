@@ -23,7 +23,7 @@ execute as @a[predicate=pundus_root:dimension_check/in_skylands] at @s if score 
 execute as @a[predicate=pundus_root:dimension_check/in_skylands] at @s if score @s PSOB_DSEmerald matches 1.. run function pundus_root:skylands/carapace_handler/carapace_givers/carapace_give_x3
 
 
-execute as @a[predicate=pundus_root:dimension_check/in_skylands] at @s if score @s PSOB_Kills matches 1.. run loot spawn ~ ~ ~ loot pundus_root:btn_event/eyric_carapace
+execute as @a[predicate=pundus_root:dimension_check/in_skylands] at @s if score @s PSOB_Kills matches 10.. run loot spawn ~ ~ ~ loot pundus_root:btn_event/eyric_carapace
 
 
 execute as @a[predicate=pundus_root:dimension_check/in_skylands] run function pundus_root:skylands/carapace_handler/reset_carapace_scores

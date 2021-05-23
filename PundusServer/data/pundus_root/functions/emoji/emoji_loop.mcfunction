@@ -74,4 +74,4 @@ execute as @a[tag=Pundus_JustSentEmoji] run function pundus_root:emoji/reset_emo
 
 tag @a[tag=Pundus_JustSentEmoji] remove Pundus_JustSentEmoji
 
-schedule function pundus_root:emoji/emoji_loop 11t
+#schedule function pundus_root:emoji/emoji_loop 11t

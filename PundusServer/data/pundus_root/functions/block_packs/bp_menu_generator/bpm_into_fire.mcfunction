@@ -9,3 +9,4 @@ tellraw @s [{"color":"green","translate":"block.minecraft.soul_soil","clickEvent
 tellraw @s [{"color":"green","translate":"block.minecraft.glowstone","clickEvent":{"action":"run_command","value":"/trigger Pundus_BPVar set 505"}}]
 tellraw @s [{"color":"green","translate":"block.minecraft.magma_block","clickEvent":{"action":"run_command","value":"/trigger Pundus_BPVar set 506"}}]
 tellraw @s [{"color":"green","translate":"block.minecraft.blackstone","clickEvent":{"action":"run_command","value":"/trigger Pundus_BPVar set 507"}}]
+tellraw @s [{"color":"green","translate":"block.minecraft.quartz_block","clickEvent":{"action":"run_command","value":"/trigger Pundus_BPVar set 508"}}]

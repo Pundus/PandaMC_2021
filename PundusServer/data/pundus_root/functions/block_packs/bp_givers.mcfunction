@@ -34,6 +34,7 @@ give @s[scores={Pundus_BPVar=504}] soul_soil 64
 give @s[scores={Pundus_BPVar=505}] glowstone 64
 give @s[scores={Pundus_BPVar=506}] magma_block 64
 give @s[scores={Pundus_BPVar=507}] blackstone 64
+give @s[scores={Pundus_BPVar=508}] quartz_block 64
 
 give @s[scores={Pundus_BPVar=601}] acacia_log 64
 give @s[scores={Pundus_BPVar=602}] birch_log 64

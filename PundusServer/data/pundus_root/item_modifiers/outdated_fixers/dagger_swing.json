@@ -1,0 +1,6 @@
+[ 
+{
+				"function": "set_nbt",
+				"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;1881004374,2036221796,-1928023953,-442793415],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;-961174380,1897284647,-1215531875,-800444079],Slot:\"mainhand\"}]}"
+			}
+]

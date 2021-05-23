@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_gasha_id:9,CustomModelData:10009,pundus_gashapon:1b,pundus_shop_cost:32,pundus_shop_diamond:1b,pundus_shop_sellable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"gorb_interdimensional\"}"
+				"tag": "{pundus_gasha_id:9,CustomModelData:10009,pundus_gashapon:1b,pundus_shop_cost:56,pundus_shop_diamond:1b,pundus_shop_sellable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"gorb_interdimensional\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -52,6 +52,14 @@
 				},{
 					"translate": "pundus.item.gashapon.spawner.warning3",
 					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.probability_bonus1",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.probability_bonus2",
+					"color": "dark_green",
 					"italic": false
 				}]
 			}, {

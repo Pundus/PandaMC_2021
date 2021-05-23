@@ -41,8 +41,14 @@ execute as @a[nbt={SelectedItem:{tag:{pundus_crimson_fourfold:1b}}},nbt=!{Select
 
 execute as @a[nbt={SelectedItem:{tag:{pundus_id:"scepter_spirit_shift"}}},nbt=!{SelectedItem:{tag:{scepter_spirit_shift_nerf:2b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/scepter_spirit_shift
 
+
 execute as @a[nbt={SelectedItem:{tag:{pundus_id:"ring_btn"}}},nbt=!{SelectedItem:{tag:{pundus_ring_btn_fix:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/ring_btn
 
+
+execute as @a[nbt={SelectedItem:{tag:{pundus_id:"scepter_spirit_shift"}}},nbt=!{SelectedItem:{tag:{pundus_item_cooldown_mod:1b}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/item_cooldown
+
+
+execute as @a[nbt={SelectedItem:{tag:{pundus_dagger:1b}}},nbt=!{SelectedItem:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_speed",Amount:1}]}}}] run item entity @s weapon.mainhand modify pundus_root:outdated_fixers/dagger_swing
 
 execute as @a store result score @s Pundus_Fall run data get entity @s FallDistance
 

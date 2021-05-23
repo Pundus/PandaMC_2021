@@ -7,6 +7,8 @@ tag @s add deploy_spawner
 
 loot give @s loot pundus_root:passive_eggs
 
+function pundus_root:gashapon/gasha_givers/general_bonus_probability
+
 playsound minecraft:ui.lootbox_rarity_3 master @s ~ ~ ~ 1 1 1
 
 

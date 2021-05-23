@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_gasha_id:6,CustomModelData:10006,pundus_gashapon:1b,pundus_shop_cost:5,pundus_shop_diamond:1b,pundus_shop_sellable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"gorb_ebook_high\"}"
+				"tag": "{pundus_gasha_id:6,CustomModelData:10006,pundus_gashapon:1b,pundus_shop_cost:10,pundus_shop_diamond:1b,pundus_shop_sellable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"gorb_ebook_high\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -34,11 +34,11 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus_nocrystal1",
+					"translate": "pundus.item.gashapon.probability_bonus1",
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "pundus.item.gashapon.lunarite_bonus_nocrystal2",
+					"translate": "pundus.item.gashapon.probability_bonus2",
 					"color": "dark_green",
 					"italic": false
 				}]

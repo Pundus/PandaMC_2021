@@ -36,6 +36,14 @@ tag @a[tag=gorb_monsters] remove gorb_monsters
 execute as @a[tag=gorb_interdimensional] run loot give @s loot pundus_root:gashapon/orb_interdimensional
 tag @a[tag=gorb_interdimensional] remove gorb_interdimensional
 
+#Gashapon - Bastion Treasure
+execute as @a[tag=gorb_bastion_treasure] run loot give @s loot pundus_root:gashapon/orb_bastion_treasure
+tag @a[tag=gorb_bastion_treasure] remove gorb_bastion_treasure
+
+#Gashapon - Dungeon
+execute as @a[tag=gorb_dungeon] run loot give @s loot pundus_root:gashapon/orb_dungeon
+tag @a[tag=gorb_dungeon] remove gorb_dungeon
+
 #Lockbox Undead Rising
 execute as @a[tag=lb_undead_rising] run loot give @s loot pundus_root:gashapon/lb_undead_rising
 tag @a[tag=lb_undead_rising] remove lb_undead_rising
@@ -530,6 +538,49 @@ tag @a[tag=deploy_spawner] remove deploy_spawner
 # pundus_csu
 execute as @a[tag=pundus_csu] run loot give @s loot pundus_root:pundus_csu
 tag @a[tag=pundus_csu] remove pundus_csu
+
+# pundus_csu_flesh
+execute as @a[tag=pundus_csu_flesh] run loot give @s loot pundus_root:pundus_csu_flesh
+tag @a[tag=pundus_csu_flesh] remove pundus_csu_flesh
+
+# probability_pearl
+execute as @a[tag=probability_pearl] run loot give @s loot pundus_root:probability/probability_pearl
+tag @a[tag=probability_pearl] remove probability_pearl
+
+# probability_pearl_x2
+execute as @a[tag=probability_pearl_x2] run loot give @s loot pundus_root:probability/probability_pearl
+execute as @a[tag=probability_pearl_x2] run loot give @s loot pundus_root:probability/probability_pearl
+tag @a[tag=probability_pearl_x2] remove probability_pearl_x2
+
+# probability_pearl_x3
+execute as @a[tag=probability_pearl_x3] run loot give @s loot pundus_root:probability/probability_pearl
+execute as @a[tag=probability_pearl_x3] run loot give @s loot pundus_root:probability/probability_pearl
+execute as @a[tag=probability_pearl_x3] run loot give @s loot pundus_root:probability/probability_pearl
+tag @a[tag=probability_pearl_x3] remove probability_pearl_x3
+
+# wooden_dagger
+execute as @a[tag=wooden_dagger] run loot give @s loot pundus_root:dagger/wooden_dagger
+tag @a[tag=wooden_dagger] remove wooden_dagger
+
+# stone_dagger
+execute as @a[tag=stone_dagger] run loot give @s loot pundus_root:dagger/stone_dagger
+tag @a[tag=stone_dagger] remove stone_dagger
+
+# iron_dagger
+execute as @a[tag=iron_dagger] run loot give @s loot pundus_root:dagger/iron_dagger
+tag @a[tag=iron_dagger] remove iron_dagger
+
+# golden_dagger
+execute as @a[tag=golden_dagger] run loot give @s loot pundus_root:dagger/golden_dagger
+tag @a[tag=golden_dagger] remove golden_dagger
+
+# diamond_dagger
+execute as @a[tag=diamond_dagger] run loot give @s loot pundus_root:dagger/diamond_dagger
+tag @a[tag=diamond_dagger] remove diamond_dagger
+
+# netherite_dagger
+execute as @a[tag=netherite_dagger] run loot give @s loot pundus_root:dagger/netherite_dagger
+tag @a[tag=netherite_dagger] remove netherite_dagger
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

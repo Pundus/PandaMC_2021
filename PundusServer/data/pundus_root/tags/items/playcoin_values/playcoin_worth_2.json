@@ -22,7 +22,6 @@
     "minecraft:soul_sand",
     "minecraft:red_sand",
     "minecraft:nether_wart",
-    "minecraft:spider_eye",
     "minecraft:bone_block",
     "minecraft:lapis_lazuli",
     "minecraft:lapis_ore",
@@ -43,6 +42,8 @@
     "minecraft:warped_wart_block",
     "#minecraft:leaves",
     "#pundus_root:playcoin_values/tall_flowers",
+    "minecraft:prismarine_crystals",
+    "minecraft:prismarine_shard",
     "minecraft:soul_soil"
   ]
 }

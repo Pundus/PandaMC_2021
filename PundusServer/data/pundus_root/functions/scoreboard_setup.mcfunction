@@ -27,6 +27,7 @@ scoreboard objectives add Pundus_PSCount dummy
 
 
 scoreboard objectives add Pundus_DeathTrk deathCount 
+scoreboard objectives add POOC_Deaths deathCount 
 scoreboard objectives add Pundus_PlyrLeave minecraft.custom:minecraft.leave_game
 
 
@@ -43,6 +44,8 @@ scoreboard objectives add Pundus_MobTrk1 dummy
 scoreboard objectives add Pundus_Pos_X dummy
 scoreboard objectives add Pundus_Pos_Y dummy
 scoreboard objectives add Pundus_Pos_Z dummy
+scoreboard objectives add P_Rot_Yaw dummy
+scoreboard objectives add P_Rot_Pitch dummy
 
 scoreboard objectives add Pundus_CheckBk dummy
 scoreboard objectives add Pundus_TempPKI dummy
@@ -166,6 +169,7 @@ scoreboard objectives add PSOB_Kills totalKillCount
 
 #Settings
 scoreboard objectives add SET_CrouchSell trigger
+scoreboard objectives add SET_CombatNotif trigger
 
 
 

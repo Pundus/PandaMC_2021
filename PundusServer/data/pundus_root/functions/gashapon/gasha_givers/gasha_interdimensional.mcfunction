@@ -4,6 +4,8 @@ tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.unbox_u
 
 tag @s add deploy_spawner
 
+function pundus_root:gashapon/gasha_givers/general_bonus_probability
+
 loot give @s loot pundus_root:interdimensional_eggs
 
 playsound minecraft:ui.lootbox_rarity_5 master @s ~ ~ ~ 1 1 1

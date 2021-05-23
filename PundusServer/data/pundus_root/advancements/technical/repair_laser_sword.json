@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          },
+          "equipment": {
+            "mainhand": {
+              "nbt": "{pundus_id:\"laser_sword\"}"
+            },
+            "offhand": {
+              "nbt": "{pundus_id:\"crystallic_power_cell\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "minecraft:temoporart"
+  }
+}
