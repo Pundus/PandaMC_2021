@@ -26,4 +26,4 @@ playsound minecraft:sfx.nicolas_cage_bees neutral @a ~ ~ ~ 1 1 0
 
 item entity @s weapon.offhand replace air
 
-advancement revoke @s only pundus_root:custom_items/spells/spell_bee_swarm
+advancement revoke @a only pundus_root:custom_items/spells/spell_bee_swarm

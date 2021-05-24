@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_custom_1sec:1b,CustomModelData:1014,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:sweeping\",lvl:10s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}],crimson_sword:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"reaping_scythe\",AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.7,Operation:0,UUID:[I;191204919,-835302606,-2038583727,-319974933],Slot:\"mainhand\"}],HideFlags:2}"
+				"tag": "{pundus_item_has_cooldown:1b,pundus_item_cooldown_mod:1b,pundus_custom_1sec:1b,CustomModelData:1014,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:sweeping\",lvl:10s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}],crimson_sword:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"reaping_scythe\",AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.7,Operation:0,UUID:[I;191204919,-835302606,-2038583727,-319974933],Slot:\"mainhand\"}],HideFlags:2}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

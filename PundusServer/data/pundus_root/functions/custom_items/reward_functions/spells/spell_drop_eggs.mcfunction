@@ -16,4 +16,4 @@ playsound sfx.drop_eggs player @a ~ ~ ~ 1 1 0
 
 item entity @s weapon.offhand replace air
 
-advancement revoke @s only pundus_root:custom_items/spells/spell_drop_eggs
+advancement revoke @a only pundus_root:custom_items/spells/spell_drop_eggs

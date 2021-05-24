@@ -23,4 +23,4 @@ execute as @s[tag=Pundus_SpiritShifted] at @s if block ~ 319 ~ minecraft:structu
 
 execute as @s[tag=Pundus_SpiritShifted] at @s if score @s Pundus_ScptSSGM matches 0 run function pundus_root:custom_items/reward_functions/scepter/other/scepter_spirit_shift_disable
 
-advancement revoke @s only pundus_root:custom_items/scepter/scepter_spirit_shift_timeleft
+advancement revoke @a only pundus_root:custom_items/scepter/scepter_spirit_shift_timeleft

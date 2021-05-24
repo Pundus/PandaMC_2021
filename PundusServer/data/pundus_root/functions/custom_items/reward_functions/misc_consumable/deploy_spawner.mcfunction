@@ -6,4 +6,4 @@ execute if entity @s[gamemode=!adventure] run setblock ~ ~ ~ spawner{RequiredPla
 
 execute if entity @s[gamemode=!adventure] run item entity @s weapon.offhand replace air
 
-advancement revoke @s only pundus_root:custom_items/misc_consumable/deploy_spawner
+advancement revoke @a only pundus_root:custom_items/misc_consumable/deploy_spawner

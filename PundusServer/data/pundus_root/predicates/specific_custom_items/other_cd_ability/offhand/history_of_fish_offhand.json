@@ -1,0 +1,11 @@
+{
+"condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "nbt": "{pundus_id:\"history_of_fish\"}"
+      }
+    }
+  }
+}

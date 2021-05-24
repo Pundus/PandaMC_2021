@@ -2,7 +2,7 @@
 
 execute as @e[type=#pundus_root:projectiles] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
 execute as @e[type=tnt] at @s if block ~ 319 ~ minecraft:structure_void run kill @s
-execute as @e[type=#pundus_root:hostile_all_mobs,type=!#minecraft:raiders] at @s if block ~ 319 ~ minecraft:structure_void run tp @s 363 63 129
+execute as @e[type=#pundus_root:hostile_all_mobs,type=!#minecraft:raiders] at @s if block ~ 319 ~ minecraft:structure_void run tp @s 169 52 113
 execute as @e[type=#minecraft:raiders] at @s if block ~ 319 ~ minecraft:structure_void run tp @s -3 65 -138
 
 execute as @a[predicate=pundus_root:generic/bubble_column_down] at @s run tp @s ~ ~-0.2 ~

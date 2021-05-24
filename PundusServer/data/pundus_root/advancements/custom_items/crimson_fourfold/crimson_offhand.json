@@ -6,7 +6,7 @@
         "player": {
           "equipment": {
             "offhand": {
-              "nbt": "{crimson_just_swapped:0b,pundus_crimson_fourfold:1b}"
+              "nbt": "{pundus_crimson_fourfold:1b}"
             }
           }
         }

@@ -114,6 +114,11 @@ scoreboard objectives add Pundus_Health health {"translate":"pundus.server.leade
 scoreboard objectives add PQ_QuestID dummy
 scoreboard objectives add PQ_QuestComp dummy
 
+
+scoreboard objectives add IMF_Damage dummy
+scoreboard objectives add IMF_DamageX dummy
+scoreboard objectives add IMF_Count dummy
+
 scoreboard objectives add Pundus_NPCInt minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add Pundus_NPC_ID dummy
 scoreboard objectives add Pundus_NPCID_C dummy
@@ -124,7 +129,8 @@ scoreboard objectives add Pundus_DummyHP dummy
 scoreboard objectives add Pundus_URKills minecraft.killed:minecraft.zombie
 scoreboard objectives add Pundus_URKillsD minecraft.killed:minecraft.drowned
 scoreboard objectives add Pundus_URKillsH minecraft.killed:minecraft.husk
-scoreboard objectives add Pundus_CSHunger food 
+scoreboard objectives add Pundus_Hunger food 
+scoreboard objectives add Pundus_Air air 
 
 scoreboard objectives add Pundus_DYDEHA minecraft.dropped:minecraft.iron_horse_armor
 scoreboard objectives add Pundus_DYDEH minecraft.dropped:minecraft.iron_helmet

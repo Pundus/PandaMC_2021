@@ -10,4 +10,4 @@ item entity @s weapon.offhand replace air
 
 playsound minecraft:sfx.iron_golem_summon neutral @a ~ ~ ~ 2 1 0
 
-advancement revoke @s only pundus_root:custom_items/golem_summoners/golem_reinforcements
+advancement revoke @a only pundus_root:custom_items/golem_summoners/golem_reinforcements

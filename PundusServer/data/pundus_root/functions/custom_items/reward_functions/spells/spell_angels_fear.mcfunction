@@ -7,4 +7,4 @@ playsound minecraft:sfx.vex_combust hostile @a ~ ~ ~ 1 1 0
 
 item entity @s weapon.offhand replace air
 
-advancement revoke @s only pundus_root:custom_items/spells/spell_angels_fear
+advancement revoke @a only pundus_root:custom_items/spells/spell_angels_fear

@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1024,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"history_of_fish\"}"
+				"tag": "{pundus_item_has_cooldown:1b,pundus_item_cooldown_mod:1b,HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1024,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"history_of_fish\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

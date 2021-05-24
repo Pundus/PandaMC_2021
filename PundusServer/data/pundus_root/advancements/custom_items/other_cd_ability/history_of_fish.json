@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "nbt": "{pundus_id:\"history_of_fish\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/other_cd_ability/init/history_of_fish_init"
+  }
+}

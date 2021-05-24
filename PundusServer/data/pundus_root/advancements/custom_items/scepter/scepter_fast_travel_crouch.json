@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function": "pundus_root:custom_items/reward_functions/scepter/other/scepter_fast_travel_crouched"
+    "function": "pundus_root:custom_items/reward_functions/scepter/other/scepter_fast_travel_crouch"
   }
 }

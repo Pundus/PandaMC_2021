@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "nbt": "{pundus_id:\"ethereal_dagger\"}"
+            },
+            "chest": {
+              "nbt": "{pundus_ethereal_armor:1b}"
+            },
+            "legs": {
+              "nbt": "{pundus_ethereal_armor:1b}"
+            },
+            "feet": {
+              "nbt": "{pundus_ethereal_armor:1b}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/other_cd_ability/init/etheric_lift_init"
+  }
+}

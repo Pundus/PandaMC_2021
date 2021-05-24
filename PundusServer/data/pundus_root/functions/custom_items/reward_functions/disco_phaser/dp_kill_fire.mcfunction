@@ -6,4 +6,4 @@ tag @e[type=arrow,limit=1,sort=nearest] add Arrow_DoI
 data modify entity @e[type=arrow,limit=1,sort=nearest] Fire set value 1000s
 
 
-advancement revoke @s only pundus_root:custom_items/disco_phaser/disco_phaser_kill_fire
+advancement revoke @a only pundus_root:custom_items/disco_phaser/disco_phaser_kill_fire

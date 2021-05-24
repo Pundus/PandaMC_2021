@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{scepter_spirit_shift_nerf:2b,HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1017,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"scepter_spirit_shift\"}"
+				"tag": "{pundus_item_has_cooldown:1b,pundus_item_cooldown_mod:1b,scepter_spirit_shift_nerf:2b,HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1017,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"scepter_spirit_shift\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

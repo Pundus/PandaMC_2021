@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_ethdag_kb:0b,pundus_dagger:1b,HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.25,Operation:0,UUID:[I;1881004374,2036221796,-1928023953,-442793415],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-1802165248,-992657335,-1295894423,-11689076],Slot:\"mainhand\"}],pundus_custom_1sec:1b,CustomModelData:1081,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s}],ethereal_dagger:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"ethereal_dagger\"}"
+				"tag": "{pundus_item_has_cooldown:1b,pundus_item_cooldown_mod:1b,pundus_ethdag_kb:0b,pundus_dagger:1b,HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.25,Operation:0,UUID:[I;1881004374,2036221796,-1928023953,-442793415],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-1802165248,-992657335,-1295894423,-11689076],Slot:\"mainhand\"}],pundus_custom_1sec:1b,CustomModelData:1081,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s}],ethereal_dagger:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"ethereal_dagger\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

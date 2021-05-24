@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_custom_1sec:1b,pundus_crimson_fourfold:1b,pundus_crimson_mode:1b,CustomModelData:1013,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:unbreaking\",lvl:5s}],crimson_battleaxe:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"crimson_battleaxe\"}"
+				"tag": "{crimson_just_swapped:0b,pundus_item_has_cooldown:1b,pundus_item_cooldown_mod:1b,pundus_custom_1sec:1b,pundus_crimson_fourfold:1b,pundus_crimson_mode:1b,CustomModelData:1013,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:unbreaking\",lvl:5s}],crimson_battleaxe:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"crimson_battleaxe\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

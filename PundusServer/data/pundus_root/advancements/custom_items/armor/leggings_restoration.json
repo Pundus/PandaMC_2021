@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "legs": {
+              "nbt": "{pundus_id:\"leggings_restoration\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/armor/init/leggings_restoration_init"
+  }
+}

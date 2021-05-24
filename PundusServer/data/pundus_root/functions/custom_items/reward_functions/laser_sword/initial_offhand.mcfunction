@@ -7,4 +7,4 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{laser_sword_just_swapped:0b,laser
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{laser_sword_just_swapped:0b,laser_sword_mode:0b}}]}] at @s run item entity @s weapon.offhand modify pundus_root:laser_sword/laser_sword_on
 
 
-advancement revoke @s only pundus_root:custom_items/laser_sword/laser_sword_offhand
+advancement revoke @a only pundus_root:custom_items/laser_sword/laser_sword_offhand

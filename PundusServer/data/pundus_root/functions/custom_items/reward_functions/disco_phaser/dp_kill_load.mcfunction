@@ -4,4 +4,4 @@ item entity @s weapon.mainhand modify pundus_root:disco_phaser/disco_phaser_kill
 
 clear @s minecraft:amethyst_shard 1
 
-advancement revoke @s only pundus_root:custom_items/disco_phaser/disco_phaser_kill_load
+advancement revoke @a only pundus_root:custom_items/disco_phaser/disco_phaser_kill_load

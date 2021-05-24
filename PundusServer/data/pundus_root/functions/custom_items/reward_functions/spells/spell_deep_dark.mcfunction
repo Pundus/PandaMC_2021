@@ -7,4 +7,4 @@ playsound minecraft:sfx.teleport_beam_fires player @s ~ ~ ~ 10000 1 1
 
 item entity @s weapon.offhand replace air
 
-advancement revoke @s only pundus_root:custom_items/spells/spell_deep_dark
+advancement revoke @a only pundus_root:custom_items/spells/spell_deep_dark

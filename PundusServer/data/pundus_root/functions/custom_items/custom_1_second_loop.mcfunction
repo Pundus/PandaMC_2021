@@ -42,7 +42,7 @@ execute as @e[type=bee,tag=!Pundus_BeeSwarm,nbt=!{Health:1f}] at @s run data mod
 
 execute as @a[predicate=pundus_root:dual_daggers] at @s run effect give @s minecraft:strength 2 1 true
 
-tag @a[tag=Scepter_FT_Menu_Open,predicate=!pundus_root:specific_custom_items/scepter_fast_travel_offhand] remove Scepter_FT_Menu_Open
+tag @a[tag=Scepter_FT_Menu_Open,predicate=!pundus_root:specific_custom_items/scepters/offhand/scepter_fast_travel_offhand] remove Scepter_FT_Menu_Open
 
 execute as @e[type=wandering_trader,predicate=!pundus_root:generic/no_ai,predicate=!pundus_root:generic/mainhand_potion,predicate=!pundus_root:generic/mainhand_milk] at @s unless entity @a[distance=..20,predicate=pundus_root:generic/mainhand_emerald] run item entity @s weapon.mainhand replace air
 

@@ -8,4 +8,4 @@ data modify entity @e[type=arrow,limit=1,sort=nearest] damage set value -1.0
 data merge entity @e[type=arrow,limit=1,sort=nearest] {Color:56831,CustomPotionEffects:[{Id:26b,Amplifier:1b,Duration:50}]}
 
 
-advancement revoke @s only pundus_root:custom_items/disco_phaser/disco_phaser_stun_fire
+advancement revoke @a only pundus_root:custom_items/disco_phaser/disco_phaser_stun_fire

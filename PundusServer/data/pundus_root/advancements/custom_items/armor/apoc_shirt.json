@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "nbt": "{pundus_id:\"apoc_shirt\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/armor/init/apoc_shirt_init"
+  }
+}

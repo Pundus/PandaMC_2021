@@ -7,4 +7,4 @@ playsound sfx.drink_can player @a ~ ~ ~ 1 1 0
 
 item entity @s weapon.offhand replace air
 
-advancement revoke @s only pundus_root:custom_items/misc_consumable/zombosoda
+advancement revoke @a only pundus_root:custom_items/misc_consumable/zombosoda

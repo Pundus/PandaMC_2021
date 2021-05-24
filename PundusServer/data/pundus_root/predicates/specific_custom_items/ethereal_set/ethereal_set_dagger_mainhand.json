@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "nbt": "{pundus_id:\"ethereal_dagger\"}"
+      },
+      "chest": {
+        "nbt": "{pundus_ethereal_armor:1b}"
+      },
+      "legs": {
+        "nbt": "{pundus_ethereal_armor:1b}"
+      },
+      "feet": {
+        "nbt": "{pundus_ethereal_armor:1b}"
+      }
+    }
+  }
+}
