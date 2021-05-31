@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{Unbreakable:1b,HideFlags:4,pundus_custom_1sec:1b,CustomModelData:1086,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"yoshi_head\"}"
+				"tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:1086,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"yoshi_head\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

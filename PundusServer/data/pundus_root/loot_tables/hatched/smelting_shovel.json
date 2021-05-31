@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:golden_shovel",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:5s}],CustomModelData:1114,pundus_smelting_shovel:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"smelting_shovel\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.smelting_shovel.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.smelting_shovel.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.smelting_shovel.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.smelting_shovel.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.smelting_shovel.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

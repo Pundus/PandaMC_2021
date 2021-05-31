@@ -51,9 +51,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.diamond_sword",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -107,9 +116,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.netherite_sword",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -163,9 +181,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.iron_sword",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -219,9 +246,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.stone_sword",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -275,9 +311,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.wooden_sword",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -331,9 +376,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.golden_sword",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -386,9 +440,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.diamond_hoe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -442,9 +505,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.netherite_hoe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -498,9 +570,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.iron_hoe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -554,9 +635,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.stone_hoe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -610,9 +700,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.wooden_hoe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -666,9 +765,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.golden_hoe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -721,9 +829,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.diamond_axe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -777,9 +894,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.netherite_axe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -833,9 +959,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.iron_axe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -889,9 +1024,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.stone_axe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -945,9 +1089,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.wooden_axe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1001,9 +1154,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.golden_axe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1056,9 +1218,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.diamond_pickaxe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1112,9 +1283,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.netherite_pickaxe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1168,9 +1348,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.iron_pickaxe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1224,9 +1413,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.stone_pickaxe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1280,9 +1478,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.wooden_pickaxe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1336,9 +1543,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.golden_pickaxe",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1391,9 +1607,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.diamond_shovel",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1447,9 +1672,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.netherite_shovel",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1503,9 +1737,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.iron_shovel",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1559,9 +1802,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.stone_shovel",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1615,9 +1867,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.wooden_shovel",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1671,9 +1932,18 @@
 							"max": 39.0
 						},
 						"treasure": false
+					}, {
+						"function": "set_name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
+							"italic": false
+						},{
+							"color":"gold","translate": "item.minecraft.golden_shovel",
+							"italic": false
+						}]
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}
 				]
@@ -1728,14 +1998,17 @@
 						"treasure": false
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}, {
 						"function": "set_name",
-						"name": {
-							"translate": "pundus.item.dagger.wood.name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
 							"italic": false
-						}
+						},{
+							"color":"gold","translate": "pundus.item.dagger.wood.name",
+							"italic": false
+						}]
 					}
 				]
 			}, {
@@ -1789,14 +2062,17 @@
 						"treasure": false
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}, {
 						"function": "set_name",
-						"name": {
-							"translate": "pundus.item.dagger.gold.name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
 							"italic": false
-						}
+						},{
+							"color":"gold","translate": "pundus.item.dagger.gold.name",
+							"italic": false
+						}]
 					}
 				]
 			}, {
@@ -1850,14 +2126,17 @@
 						"treasure": false
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}, {
 						"function": "set_name",
-						"name": {
-							"translate": "pundus.item.dagger.stone.name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
 							"italic": false
-						}
+						},{
+							"color":"gold","translate": "pundus.item.dagger.stone.name",
+							"italic": false
+						}]
 					}
 				]
 			}, {
@@ -1911,14 +2190,17 @@
 						"treasure": false
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}, {
 						"function": "set_name",
-						"name": {
-							"translate": "pundus.item.dagger.iron.name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
 							"italic": false
-						}
+						},{
+							"color":"gold","translate": "pundus.item.dagger.iron.name",
+							"italic": false
+						}]
 					}
 				]
 			}, {
@@ -1972,14 +2254,17 @@
 						"treasure": false
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}, {
 						"function": "set_name",
-						"name": {
-							"translate": "pundus.item.dagger.diamond.name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
 							"italic": false
-						}
+						},{
+							"color":"gold","translate": "pundus.item.dagger.diamond.name",
+							"italic": false
+						}]
 					}
 				]
 			}, {
@@ -2033,14 +2318,17 @@
 						"treasure": false
 					},
 					{
-						"function": "set_count",
+						"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function":"minecraft:enchant_randomly","enchantments":["minecraft:aqua_affinity","minecraft:bane_of_arthropods","minecraft:binding_curse","minecraft:blast_protection","minecraft:channeling","minecraft:depth_strider","minecraft:efficiency","minecraft:feather_falling","minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:fortune","minecraft:frost_walker","minecraft:impaling","minecraft:soul_speed","minecraft:infinity","minecraft:knockback","minecraft:looting","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:lure","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:protection","minecraft:punch","minecraft:quick_charge","minecraft:riptide","minecraft:sharpness","minecraft:silk_touch","minecraft:smite","minecraft:sweeping","minecraft:thorns","minecraft:unbreaking","minecraft:vanishing_curse"]},{"function": "set_count",
 						"count": 1
 					}, {
 						"function": "set_name",
-						"name": {
-							"translate": "pundus.item.dagger.netherite.name",
+						"name": [{
+							"translate": "pundus.item.generic.volatile_prefix","color":"gold",
 							"italic": false
-						}
+						},{
+							"color":"gold","translate": "pundus.item.dagger.netherite.name",
+							"italic": false
+						}]
 					}
 				]
 			}

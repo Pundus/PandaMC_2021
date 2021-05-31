@@ -152,9 +152,9 @@ execute as @s[scores={Pundus_LogStr=34},tag=!Pundus_DailyGiven] run tellraw @s [
 execute as @s[scores={Pundus_LogStr=35},tag=!Pundus_DailyGiven] run scoreboard players add @s Pundus_Playcoins 500
 execute as @s[scores={Pundus_LogStr=35},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"text":"500 "},{"translate":"pundus.server.dailies.playcoin_text","underlined":true}]
 
-#Streak 36 - Gashapon Orb: Cosmetic 1
-execute as @s[scores={Pundus_LogStr=36},tag=!Pundus_DailyGiven] run tag @s add gorb_cosmetic_1
-execute as @s[scores={Pundus_LogStr=36},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.cosmetic_1.name","underlined":true}]
+#Streak 36.. - Gashapon Orb: Cosmetic 1
+execute as @s[scores={Pundus_LogStr=36..},tag=!Pundus_DailyGiven] run tag @s add gorb_cosmetic_1
+execute as @s[scores={Pundus_LogStr=36..},tag=!Pundus_DailyGiven] run tellraw @s [{"translate":"pundus.server.dailies.reward"},{"translate":"pundus.item.gashapon.cosmetic_1.name","underlined":true}]
 
 
 

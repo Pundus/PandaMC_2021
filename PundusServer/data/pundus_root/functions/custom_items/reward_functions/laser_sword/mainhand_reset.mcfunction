@@ -3,4 +3,4 @@
 item entity @s weapon.mainhand modify pundus_root:laser_sword/mainhand_reset
 
 
-advancement revoke @a only pundus_root:custom_items/laser_sword/laser_sword_mainhand
+advancement revoke @s only pundus_root:custom_items/laser_sword/laser_sword_mainhand

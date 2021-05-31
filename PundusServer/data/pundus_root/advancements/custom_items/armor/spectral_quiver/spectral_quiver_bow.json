@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"Pundus_InCombat\"]}",
+          "equipment": {
+            "chest": {
+              "nbt": "{pundus_id:\"spectral_quiver\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/armor/init/spectral_quiver_bow_init"
+  }
+}

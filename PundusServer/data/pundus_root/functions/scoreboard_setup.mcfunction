@@ -72,7 +72,7 @@ scoreboard objectives add Pundus_EL_CD dummy
 #scoreboard objectives add Pundus_BQuivCB minecraft.used:minecraft.crossbow
 
 #scoreboard objectives add Pundus_DRUse minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add P_CoaSUsed_1s minecraft.used:minecraft.carrot_on_a_stick
+#scoreboard objectives add P_CoaSUsed_1s minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard objectives add Pundus_Fall dummy
 scoreboard objectives add Pundus_CTB dummy
@@ -95,17 +95,22 @@ scoreboard players set %Math_10 Pundus_VanValue 10
 
 scoreboard objectives add Pundus_Unstuck trigger
 
+scoreboard objectives add P_Adv_NethSm dummy
+scoreboard objectives add P_AdvBreakAD minecraft.mined:minecraft.ancient_debris
+scoreboard objectives add P_AdvBowUsed minecraft.used:minecraft.bow
+scoreboard objectives add P_AdvCoaSUsed minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add P_BowUsed_1t minecraft.used:minecraft.bow
 scoreboard objectives add P_CBowUsed_1t minecraft.used:minecraft.crossbow
 scoreboard objectives add P_TKC_1t totalKillCount
 scoreboard objectives add P_TKC_1s totalKillCount
 scoreboard objectives add P_BowUsed_1s minecraft.used:minecraft.bow
 scoreboard objectives add P_CBowUsed_1s minecraft.used:minecraft.crossbow
-scoreboard objectives add P_ISwdUsed_1s minecraft.used:minecraft.iron_sword
-scoreboard objectives add P_SSwdUsed_1s minecraft.used:minecraft.stone_sword
+#scoreboard objectives add P_ISwdUsed_1s minecraft.used:minecraft.iron_sword
+#scoreboard objectives add P_SSwdUsed_1s minecraft.used:minecraft.stone_sword
 #scoreboard objectives add Pundus_Moonshot minecraft.used:minecraft.bow
 #scoreboard objectives add Pundus_VorpalB minecraft.used:minecraft.iron_sword
 scoreboard objectives add Pundus_VorpStr dummy
+scoreboard objectives add Pundus_IBUDelay dummy
 
 scoreboard objectives add Pundus_Deaths deathCount {"translate":"pundus.server.leaderboards.deaths"}
 scoreboard objectives add Pundus_Health health {"translate":"pundus.server.leaderboards.health"}
@@ -118,6 +123,7 @@ scoreboard objectives add PQ_QuestComp dummy
 scoreboard objectives add IMF_Damage dummy
 scoreboard objectives add IMF_DamageX dummy
 scoreboard objectives add IMF_Count dummy
+scoreboard objectives add IMF_CountX dummy
 
 scoreboard objectives add Pundus_NPCInt minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add Pundus_NPC_ID dummy

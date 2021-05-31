@@ -19,15 +19,23 @@
     "on_top": {
       "trigger": "minecraft:location",
       "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "pundus_root:skylands"
+            }
+          }
+        ],
         "location": {
           "position": {
             "y": {
               "min": 319,
               "max": 330
             }
-          }
-        },
+          },
           "dimension": "pundus_root:skylands"
+        }
       }
     }
   },

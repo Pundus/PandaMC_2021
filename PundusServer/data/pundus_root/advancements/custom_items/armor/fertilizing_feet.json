@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "block": "minecraft:farmland"
+            }
+          },
+          "equipment": {
+            "feet": {
+              "nbt": "{pundus_id:\"fertilizing_feet\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/armor/fertilizing_feet"
+  }
+}

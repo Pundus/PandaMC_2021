@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "feet": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:binding_curse"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:misc/lock_item/feet_lock"
+  }
+}

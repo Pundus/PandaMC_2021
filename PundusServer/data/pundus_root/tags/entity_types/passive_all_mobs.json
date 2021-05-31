@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#pundus_root:passive_animal_mobs",
+    "#pundus_root:passive_neutral_mobs",
+    "#pundus_root:passive_npc_mobs"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "player": {
+		          "nbt": "{Tags:[\"Pundus_InCombat\"]}",
+          "equipment": {
+            "chest": {
+              "nbt": "{pundus_id:\"basic_quiver\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/armor/basic_quiver"
+  }
+}

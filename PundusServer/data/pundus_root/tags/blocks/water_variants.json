@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:water",
+    "minecraft:bubble_column",
+    "minecraft:kelp_plant",
+    "minecraft:kelp"
+  ]
+}

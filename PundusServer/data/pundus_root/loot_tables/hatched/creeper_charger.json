@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1124,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"creeper_charger\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.creeper_charger.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.creeper_charger.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.creeper_charger.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

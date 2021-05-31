@@ -44,7 +44,7 @@ schedule function pundus_root:npcs/detect_interact 16t
 schedule function pundus_root:custom_quest/global_quest_1sec_loop 17t
 schedule function pundus_root:bound_items_handler 13t
 schedule function pundus_root:light_level_calc 15t
-schedule function pundus_root:combat_check 17t
+schedule function pundus_root:combat_check/combat_looper 17t
 schedule function pundus_root:walk_check 18t
 schedule function pundus_root:advancements/manual/advancement_manual_looper 14
 

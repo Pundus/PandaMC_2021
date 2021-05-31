@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:apple",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1135,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"chorus_relayer\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.chorus_relayer.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.chorus_relayer.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.chorus_relayer.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.chorus_relayer.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.chorus_relayer.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

@@ -18,4 +18,4 @@ execute as @s[predicate=!pundus_root:dagger_main,predicate=pundus_root:specific_
 
 
 
-advancement revoke @a only pundus_root:custom_items/cooldown_offhand
+advancement revoke @s only pundus_root:custom_items/cooldown_offhand

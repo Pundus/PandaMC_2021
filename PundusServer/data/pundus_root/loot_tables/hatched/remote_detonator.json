@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1112,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"remote_detonator\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.remote_detonator.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.remote_detonator.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.remote_detonator.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.cannot_protected",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.remote_detonator.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

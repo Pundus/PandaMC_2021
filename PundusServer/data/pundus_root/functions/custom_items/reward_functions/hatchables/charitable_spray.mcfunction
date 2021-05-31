@@ -6,4 +6,4 @@ effect give @s minecraft:hero_of_the_village 10 9 true
 
 item entity @s weapon.offhand replace air
 
-advancement revoke @a only pundus_root:custom_items/hatchables/charitable_spray
+advancement revoke @s only pundus_root:custom_items/hatchables/charitable_spray

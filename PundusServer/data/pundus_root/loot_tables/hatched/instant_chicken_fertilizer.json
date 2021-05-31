@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1109,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"instant_chicken_fertilizer\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.instant_chicken_fertilizer.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.instant_chicken_fertilizer.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.instant_chicken_fertilizer.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

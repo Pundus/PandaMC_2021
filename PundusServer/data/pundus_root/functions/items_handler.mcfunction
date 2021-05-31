@@ -120,6 +120,10 @@ tag @a[tag=bp_into_fire] remove bp_into_fire
 execute as @a[tag=bp_wooden_logs] run loot give @s loot pundus_root:block_pack/bp_wooden_logs
 tag @a[tag=bp_wooden_logs] remove bp_wooden_logs
 
+#Block Pack: Redstoner's Delight
+execute as @a[tag=bp_redstone] run loot give @s loot pundus_root:block_pack/bp_redstone
+tag @a[tag=bp_redstone] remove bp_redstone
+
 #Lunar Express Ticket
 execute as @a[tag=ticket_moon] run loot give @s loot pundus_root:moon_event/ticket_moon
 tag @a[tag=ticket_moon] remove ticket_moon
@@ -527,9 +531,9 @@ tag @a[tag=laser_sword] remove laser_sword
 execute as @a[tag=prop_laser_sword] run loot give @s loot pundus_root:may_fourth/prop_laser_sword
 tag @a[tag=prop_laser_sword] remove prop_laser_sword
 
-# disco_phaser
-execute as @a[tag=disco_phaser] run loot give @s loot pundus_root:disco_phaser/disco_phaser
-tag @a[tag=disco_phaser] remove disco_phaser
+# type_2_phaser
+execute as @a[tag=type_2_phaser] run loot give @s loot pundus_root:la_lockbox/type_2_phaser
+tag @a[tag=type_2_phaser] remove type_2_phaser
 
 # deploy_spawner
 execute as @a[tag=deploy_spawner] run loot give @s loot pundus_root:deploy_spawner
@@ -581,6 +585,118 @@ tag @a[tag=diamond_dagger] remove diamond_dagger
 # netherite_dagger
 execute as @a[tag=netherite_dagger] run loot give @s loot pundus_root:dagger/netherite_dagger
 tag @a[tag=netherite_dagger] remove netherite_dagger
+
+# shulker_chips
+execute as @a[tag=shulker_chips] run loot give @s loot pundus_root:hatched/shulker_chips
+tag @a[tag=shulker_chips] remove shulker_chips
+
+# instant_chicken_fertilizer
+execute as @a[tag=instant_chicken_fertilizer] run loot give @s loot pundus_root:hatched/instant_chicken_fertilizer
+tag @a[tag=instant_chicken_fertilizer] remove instant_chicken_fertilizer
+
+# adaptable_ball_gag
+execute as @a[tag=adaptable_ball_gag] run loot give @s loot pundus_root:hatched/adaptable_ball_gag
+tag @a[tag=adaptable_ball_gag] remove adaptable_ball_gag
+
+# tough_pill
+execute as @a[tag=tough_pill] run loot give @s loot pundus_root:hatched/tough_pill
+tag @a[tag=tough_pill] remove tough_pill
+
+# remote_detonator
+execute as @a[tag=remote_detonator] run loot give @s loot pundus_root:hatched/remote_detonator
+tag @a[tag=remote_detonator] remove remote_detonator
+
+# rgb_pickaxe
+execute as @a[tag=rgb_pickaxe] run loot give @s loot pundus_root:hatched/rgb_pickaxe
+tag @a[tag=rgb_pickaxe] remove rgb_pickaxe
+
+# smelting_shovel
+execute as @a[tag=smelting_shovel] run loot give @s loot pundus_root:hatched/smelting_shovel
+tag @a[tag=smelting_shovel] remove smelting_shovel
+
+# nether_eviscerator
+execute as @a[tag=nether_eviscerator] run loot give @s loot pundus_root:hatched/nether_eviscerator
+tag @a[tag=nether_eviscerator] remove nether_eviscerator
+
+# dinnerbone_tag
+execute as @a[tag=dinnerbone_tag] run loot give @s loot pundus_root:hatched/dinnerbone_tag
+tag @a[tag=dinnerbone_tag] remove dinnerbone_tag
+
+# jeb_tag
+execute as @a[tag=jeb_tag] run loot give @s loot pundus_root:hatched/jeb_tag
+tag @a[tag=jeb_tag] remove jeb_tag
+
+# iff_transcoder
+execute as @a[tag=iff_transcoder] run loot give @s loot pundus_root:hatched/iff_transcoder
+tag @a[tag=iff_transcoder] remove iff_transcoder
+
+# pumpkin_spice_spam
+execute as @a[tag=pumpkin_spice_spam] run loot give @s loot pundus_root:hatched/pumpkin_spice_spam
+tag @a[tag=pumpkin_spice_spam] remove pumpkin_spice_spam
+
+# deviled_egg
+execute as @a[tag=deviled_egg] run loot give @s loot pundus_root:food/deviled_egg
+tag @a[tag=deviled_egg] remove deviled_egg
+
+# netherite_smores
+execute as @a[tag=netherite_smores] run loot give @s loot pundus_root:hatched/netherite_smores
+tag @a[tag=netherite_smores] remove netherite_smores
+
+# deployable_fireball
+execute as @a[tag=deployable_fireball] run loot give @s loot pundus_root:hatched/deployable_fireball
+tag @a[tag=deployable_fireball] remove deployable_fireball
+
+# creeper_charger
+execute as @a[tag=creeper_charger] run loot give @s loot pundus_root:hatched/creeper_charger
+tag @a[tag=creeper_charger] remove creeper_charger
+
+# edible_gorb
+execute as @a[tag=edible_gorb] run loot give @s loot pundus_root:hatched/edible_gorb
+tag @a[tag=edible_gorb] remove edible_gorb
+
+# raw_classic_fish
+execute as @a[tag=raw_classic_fish] run loot give @s loot pundus_root:hatched/raw_classic_fish
+tag @a[tag=raw_classic_fish] remove raw_classic_fish
+
+# cooked_classic_fish
+execute as @a[tag=cooked_classic_fish] run loot give @s loot pundus_root:food/cooked_classic_fish
+tag @a[tag=cooked_classic_fish] remove cooked_classic_fish
+
+# water_vaporizer
+execute as @a[tag=water_vaporizer] run loot give @s loot pundus_root:hatched/water_vaporizer
+tag @a[tag=water_vaporizer] remove water_vaporizer
+
+# ice_skates
+execute as @a[tag=ice_skates] run loot give @s loot pundus_root:hatched/ice_skates
+tag @a[tag=ice_skates] remove ice_skates
+
+#spell_horsemen
+execute as @a[tag=spell_horsemen] run loot give @s loot pundus_root:hatched/spell_horsemen
+tag @a[tag=spell_horsemen] remove spell_horsemen
+
+#copper_patina
+execute as @a[tag=copper_patina] run loot give @s loot pundus_root:hatched/copper_patina
+tag @a[tag=copper_patina] remove copper_patina
+
+#chocolate_bar
+execute as @a[tag=chocolate_bar] run loot give @s loot pundus_root:hatched/chocolate_bar
+tag @a[tag=chocolate_bar] remove chocolate_bar
+
+#acetate_bomb
+execute as @a[tag=acetate_bomb] run loot give @s loot pundus_root:hatched/acetate_bomb
+tag @a[tag=acetate_bomb] remove acetate_bomb
+
+#celery_stick
+execute as @a[tag=celery_stick] run loot give @s loot pundus_root:hatched/celery_stick
+tag @a[tag=celery_stick] remove celery_stick
+
+#chorus_relayer
+execute as @a[tag=chorus_relayer] run loot give @s loot pundus_root:hatched/chorus_relayer
+tag @a[tag=chorus_relayer] remove chorus_relayer
+
+#gravel_brush
+execute as @a[tag=gravel_brush] run loot give @s loot pundus_root:hatched/gravel_brush
+tag @a[tag=gravel_brush] remove gravel_brush
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

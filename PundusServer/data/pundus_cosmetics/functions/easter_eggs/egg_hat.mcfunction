@@ -14,5 +14,9 @@ loot replace entity @s[type=#pundus_root:undead_mobs] weapon.offhand loot pundus
 
 data merge entity @s {ArmorDropChances:[0.085f,0.085f,0.085f,1.0f]}
 data merge entity @s {HandDropChances:[0.085f,-327.670f]}
+data merge entity @s[type=wandering_trader] {ArmorDropChances:[-327.670f,-327.670f,-327.670f,1.0f]}
+
+
+data modify entity @s[type=wandering_trader] ArmorItems[2].tag.Enchantments prepend value {id:"minecraft:thorns",lvl:16s}
 
 tag @s add Pundus_EggHatDone

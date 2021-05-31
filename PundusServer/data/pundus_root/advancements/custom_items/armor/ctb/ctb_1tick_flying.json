@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{OnGround:0b}",
+          "equipment": {
+            "feet": {
+              "nbt": "{pundus_id:\"counter_thrust_boots\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/armor/init/ctb_1tick_flying_init"
+  }
+}

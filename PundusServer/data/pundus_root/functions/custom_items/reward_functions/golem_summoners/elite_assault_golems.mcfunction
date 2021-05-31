@@ -13,4 +13,4 @@ item entity @s weapon.offhand replace air
 
 playsound minecraft:sfx.elite_assault_golems_teleport neutral @a ~ ~ ~ 2 1 0
 
-advancement revoke @a only pundus_root:custom_items/golem_summoners/elite_assault_golems
+advancement revoke @s only pundus_root:custom_items/golem_summoners/elite_assault_golems

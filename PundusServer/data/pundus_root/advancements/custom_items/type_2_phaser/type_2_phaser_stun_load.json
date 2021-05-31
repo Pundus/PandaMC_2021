@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "item": "minecraft:crossbow",
+              "nbt": "{disco_phaser:1b,disco_phaser_mode:\"stun\",Charged:0b}"
+            },
+            "offhand": {
+              "item": "minecraft:amethyst_shard"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/type_2_phaser/dp_stun_load"
+  }
+}

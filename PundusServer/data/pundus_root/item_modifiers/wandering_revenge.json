@@ -1,0 +1,152 @@
+[
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:thorns": 50
+    }
+  }
+]

@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1133,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"acetate_bomb\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.acetate_bomb.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.acetate_bomb.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.acetate_bomb.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.cannot_protected",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.acetate_bomb.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

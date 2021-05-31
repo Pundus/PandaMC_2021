@@ -43,4 +43,12 @@ give @s[scores={Pundus_BPVar=604}] jungle_log 64
 give @s[scores={Pundus_BPVar=605}] oak_log 64
 give @s[scores={Pundus_BPVar=606}] spruce_log 64
 
+give @s[scores={Pundus_BPVar=1001}] observer 32
+give @s[scores={Pundus_BPVar=1002}] hopper 32
+give @s[scores={Pundus_BPVar=1003}] dispenser 32
+give @s[scores={Pundus_BPVar=1004}] dropper 32
+give @s[scores={Pundus_BPVar=1005}] piston 32
+give @s[scores={Pundus_BPVar=1006}] redstone_block 32
+give @s[scores={Pundus_BPVar=1007}] redstone_lamp 32
+
 item entity @s weapon.offhand replace air

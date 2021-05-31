@@ -20,4 +20,4 @@ execute as @s[predicate=pundus_root:specific_custom_items/other_cd_ability/mainh
 ### execute as @s[predicate=pundus_root:specific_custom_items/other_cd_ability/mainhand/crimson_weapon_mainhand] if score @s Pundus_CrimFFCD matches 1.. at @s run function pundus_root:custom_items/cooldowns/crimson_fourfold_cooldown
 
 
-advancement revoke @a only pundus_root:custom_items/cooldown_mainhand
+advancement revoke @s only pundus_root:custom_items/cooldown_mainhand

@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1045,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"debowner\"}"
+				"tag": "{HideFlags:127,CustomModelData:1045,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"debowner\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

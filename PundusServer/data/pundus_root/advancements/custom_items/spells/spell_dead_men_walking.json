@@ -14,6 +14,6 @@
     }
   },
   "rewards": {
-    "function": "pundus_root:custom_items/reward_functions/spells/spell_dead_men_walking"
+    "function": "pundus_root:custom_items/reward_functions/spells/init/spell_dead_men_walking_init"
   }
 }
