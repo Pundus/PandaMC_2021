@@ -44,6 +44,10 @@ tag @a[tag=gorb_bastion_treasure] remove gorb_bastion_treasure
 execute as @a[tag=gorb_dungeon] run loot give @s loot pundus_root:gashapon/orb_dungeon
 tag @a[tag=gorb_dungeon] remove gorb_dungeon
 
+#Gashapon - Dungeon
+execute as @a[tag=gorb_cosmetic_pride] run loot give @s loot pundus_root:gashapon/orb_cosmetic_pride
+tag @a[tag=gorb_cosmetic_pride] remove gorb_cosmetic_pride
+
 #Lockbox Undead Rising
 execute as @a[tag=lb_undead_rising] run loot give @s loot pundus_root:gashapon/lb_undead_rising
 tag @a[tag=lb_undead_rising] remove lb_undead_rising
@@ -697,6 +701,14 @@ tag @a[tag=chorus_relayer] remove chorus_relayer
 #gravel_brush
 execute as @a[tag=gravel_brush] run loot give @s loot pundus_root:hatched/gravel_brush
 tag @a[tag=gravel_brush] remove gravel_brush
+
+#power_cell_manifold
+execute as @a[tag=power_cell_manifold] run loot give @s loot pundus_root:commodities/power_cell_manifold
+tag @a[tag=power_cell_manifold] remove power_cell_manifold
+
+#crystallic_power_cell
+execute as @a[tag=crystallic_power_cell] run loot give @s loot pundus_root:commodities/crystallic_power_cell
+tag @a[tag=crystallic_power_cell] remove crystallic_power_cell
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

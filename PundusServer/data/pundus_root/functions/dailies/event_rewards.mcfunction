@@ -33,3 +33,4 @@ execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"translate":"pundus
 execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"text":" (","color":"gold"},{"translate":"pundus.server.events.btn.details"},{"text":")"}]
 execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add lb_btn
 execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add ethereal_ingot
+execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add gorb_cosmetic_pride

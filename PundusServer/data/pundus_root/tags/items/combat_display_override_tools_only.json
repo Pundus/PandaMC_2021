@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#pundus_root:tools/wooden_tools",
+    "#pundus_root:tools/stone_tools",
+    "#pundus_root:tools/iron_tools",
+    "#pundus_root:tools/golden_tools",
+    "#pundus_root:tools/diamond_tools",
+    "#pundus_root:tools/netherite_tools",
+    "#pundus_root:tools/misc_weapons"
+  ]
+}

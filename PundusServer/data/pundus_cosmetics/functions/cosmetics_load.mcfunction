@@ -7,6 +7,7 @@ scoreboard objectives add Pundus_EggLife dummy
 
 schedule function pundus_cosmetics:cosmetic_item_handlers/cosmetics_collection_1_items_handler 4t
 schedule function pundus_cosmetics:cosmetic_item_handlers/cosmetics_collection_2_items_handler 3t
+schedule function pundus_cosmetics:cosmetic_item_handlers/cosmetics_pride_items_handler 3t
 schedule function pundus_cosmetics:cosmetic_item_handlers/cosmetics_special_items_handler 6t
 schedule function pundus_cosmetics:cosmetic_item_handlers/egg_items_handler 7t
 schedule function pundus_cosmetics:easter_eggs/global_eggs_looper 9t

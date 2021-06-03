@@ -16,5 +16,10 @@ tellraw @s [{"translate":"pundus.server.quests.reward_global","color":"aqua"}]
 
 # BtN
 tellraw @s [{"text":"1x ","color":"yellow"},{"translate":"block.minecraft.zombie_head","color":"yellow"}]
+tellraw @s [{"text":"1x ","color":"yellow"},{"translate":"pundus.item.etheric_essence.name","color":"yellow"}]
 give @s minecraft:zombie_head
 tag @s add etheric_essence
+
+# GAAAAAAAAAAY
+tellraw @s [{"text":"1x ","color":"light_purple"},{"translate":"pundus.item.gashapon.cosmetic_pride.name","color":"light_purple"}]
+tag @s add gorb_cosmetic_pride

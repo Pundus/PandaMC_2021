@@ -44,7 +44,7 @@ scoreboard players set @a[scores={POOC_Deaths=1..}] POOC_Deaths 0
 tag @a[scores={POOC_Track=1..}] add Pundus_InCombat
 tag @a[tag=Pundus_InCombat,scores={POOC_Track=0}] remove Pundus_InCombat
 
-execute as @a[tag=Pundus_InCombat,predicate=!pundus_root:generic/mainhand_combat_display_override] run title @s actionbar [{"translate":"pundus.special.combat_time","color":"red"},{"score":{"name":"@s","objective":"POOC_Track"}}]
+execute as @a[tag=Pundus_InCombat,predicate=!pundus_root:generic/mainhand_combat_display_override,predicate=!pundus_root:generic/offhand_combat_display_override] run title @s actionbar [{"translate":"pundus.special.combat_time","color":"red"},{"score":{"name":"@s","objective":"POOC_Track"}}]
 
 execute if score %CombatGUI Pundus_DailyC matches 0 run bossbar set pundus_root:in_combat name [{"translate":"pundus.special.combat_alert","color":"red"}]
 execute if score %CombatGUI Pundus_DailyC matches 1 run bossbar set pundus_root:in_combat name [{"color":"red","text":"< "},{"translate":"pundus.special.combat_alert","color":"red"},{"color":"red","text":" >"}]

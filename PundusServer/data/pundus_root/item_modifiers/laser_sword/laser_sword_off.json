@@ -2,5 +2,53 @@
 {
 		"function": "set_nbt",
 		"tag": "{laser_sword_mode:0b,laser_sword_just_swapped:1b,CustomModelData:1091,Enchantments:[],AttributeModifiers:[]}"
-	}
+	}, {
+				"function": "minecraft:set_lore",
+    "replace": true,
+				"lore": [{
+					"translate": "pundus.item.generic.offhand_toggle",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore6",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore7",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore8",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore9",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore10",
+					"color": "dark_green",
+					"italic": false
+				}]
+			}
 ]

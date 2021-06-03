@@ -1,0 +1,31 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_helmet",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_shop_playcoin:1b,pundus_shop_cost:100,pundus_shop_sellable:1b,pundus_playcoin_sellable:1b,pundus_playcoin_value:0,Unbreakable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"hat_allied_amulet\",pundus_cosmetic:1b,pundus_custom:1b,pundus_data:1b,pundus_data_modified:0b,HideFlags:126,CustomModelData:5207,pundus_cosmetic_dyeable:1b,display:{color:8947848}}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "cosmetic.item.generic.lore",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "cosmetic.item.allied_amulet.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

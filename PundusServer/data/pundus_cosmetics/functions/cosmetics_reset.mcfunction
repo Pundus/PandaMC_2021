@@ -30,6 +30,15 @@ item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_a_toymakers_toy"}}}] weapo
 #collection 2
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_zombie_pal"}}}] weapon.mainhand modify pundus_cosmetics:collection_2/zombie_pal
 
+#pride
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_transglasses"}}}] weapon.mainhand modify pundus_cosmetics:pride/transglasses
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_ace_audio"}}}] weapon.mainhand modify pundus_cosmetics:pride/ace_audio
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_lgbt_flag"}}}] weapon.mainhand modify pundus_cosmetics:pride/lgbt_flag
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_pan_sweatband"}}}] weapon.mainhand modify pundus_cosmetics:pride/pan_sweatband
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_enbee_pin"}}}] weapon.mainhand modify pundus_cosmetics:pride/enbee_pin
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_bi_bandana"}}}] weapon.mainhand modify pundus_cosmetics:pride/bi_bandana
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_allied_amulet"}}}] weapon.mainhand modify pundus_cosmetics:pride/allied_amulet
+
 
 item entity @s weapon.mainhand modify pundus_cosmetics:cosmetics_armor_modifier
 #econ reset

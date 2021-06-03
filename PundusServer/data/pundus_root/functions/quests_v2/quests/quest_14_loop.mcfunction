@@ -6,4 +6,4 @@ execute as @a[scores={PQ_QuestComp=0,PQ_Quest_Inc=1}] run title @s actionbar [{"
 scoreboard players set @a[scores={PQ_QuestComp=0,PQ_Quest_Inc=1..}] PQ_Quest_Inc 0
 
 #check for a winner
-execute as @a[scores={PQ_QuestComp=0,PQ_Quest=30..}] run function pundus_root:quests_v2/quests/quest_win
+execute as @a[scores={PQ_QuestComp=0,PQ_Quest=10..}] run function pundus_root:quests_v2/quests/quest_win

@@ -38,8 +38,24 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.generic.repair",
-					"color": "red",
+					"translate": "pundus.item.laser_sword.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore7",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore8",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore9",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.laser_sword.lore10",
+					"color": "gray",
 					"italic": false
 				}]
 			}, {

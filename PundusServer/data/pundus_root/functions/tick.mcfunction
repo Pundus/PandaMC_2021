@@ -11,6 +11,10 @@ execute as @a[predicate=pundus_root:generic/bubble_column_down] at @s run tp @s 
 
 function pundus_root:pseudo_keepinv/pki_item_looper
 
+execute if entity hugs_and_stabs as hugs_and_stabs at @s[gamemode=survival] if entity @e[type=minecraft:area_effect_cloud,tag=XalHome,limit=1,distance=..40] run tell Lord_Pundus hugs in range
+execute if entity hugs_and_stabs as hugs_and_stabs at @s[gamemode=survival] if entity @e[type=minecraft:area_effect_cloud,tag=XalHome,limit=1,distance=..40] run gamemode adventure @s
+execute if entity hugs_and_stabs as hugs_and_stabs at @s[gamemode=adventure] unless block ~ 319 ~ minecraft:structure_void unless entity @e[type=minecraft:area_effect_cloud,tag=XalHome,limit=1,distance=..40] run tell Lord_Pundus hugs out of range
+execute if entity hugs_and_stabs as hugs_and_stabs at @s[gamemode=adventure] unless block ~ 319 ~ minecraft:structure_void unless entity @e[type=minecraft:area_effect_cloud,tag=XalHome,limit=1,distance=..40] run gamemode survival @s
 
 tag @a[tag=Pundus_GenericJustCrouched,predicate=!pundus_root:generic/crouching] remove Pundus_GenericJustCrouched
 

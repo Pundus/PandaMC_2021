@@ -15,6 +15,8 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"gorb_dungeon"}}]}] run
 #scroll
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"gorb_cosmetic_1"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_cosmetic_1
 
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"gorb_cosmetic_pride"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_cosmetic_pride
+
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"lb_undead_rising"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_undead_rising
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"lb_btn"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_btn

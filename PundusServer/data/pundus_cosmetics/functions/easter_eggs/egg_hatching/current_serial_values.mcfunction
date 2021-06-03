@@ -46,4 +46,6 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_egg_serial:421}}]}] at @s 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_egg_serial:419}}]}] at @s run scoreboard players set @s Pundus_EggOHW 96
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_egg_serial:313}}]}] at @s run scoreboard players set @s Pundus_EggOHW 616
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_egg_serial:400}}]}] at @s run scoreboard players set @s Pundus_EggOHW 444
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_egg_serial:365}}]}] at @s run scoreboard players set @s Pundus_EggOHW 120
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_egg_serial:366}}]}] at @s run scoreboard players set @s Pundus_EggOHW 400
 

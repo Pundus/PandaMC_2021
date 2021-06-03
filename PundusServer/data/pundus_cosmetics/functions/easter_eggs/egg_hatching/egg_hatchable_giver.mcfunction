@@ -186,6 +186,10 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"fegg_wither"}}]}] at @
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"fegg_wither"}}]}] at @s run tag @s add egg_hatched
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"fegg_wither"}}]}] at @s run playsound minecraft:ui.hatch_egg.epic master @s ~ ~ ~ 1 1 1
 
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_amethyst"}}]}] at @s run tag @s add crystallic_power_cell
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_amethyst"}}]}] at @s run tag @s add egg_hatched
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"egg_amethyst"}}]}] at @s run playsound minecraft:ui.hatch_egg.normal master @s ~ ~ ~ 1 1 1
+
 execute as @s run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.hatched","color":"gray","italic":true,"with":[{"selector":"@s"},{"nbt":"Inventory[{Slot:-106b}].tag.display.Name","interpret":true,"entity":"@s"}]}
 
 tellraw @s[tag=!egg_hatched] {"translate":"pundus.special.easter.hatch_fail"}

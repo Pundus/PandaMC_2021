@@ -1,6 +1,6 @@
 #menu generate 
 
-tellraw @s {"translate":"Which stack of blocks would you like?","color":"yellow"}
+tellraw @s {"translate":"pundus.item.block_pack.menu.title","color":"yellow"}
 
 tellraw @s [{"color":"green","translate":"block.minecraft.acacia_log","clickEvent":{"action":"run_command","value":"/trigger Pundus_BPVar set 601"}}]
 tellraw @s [{"color":"green","translate":"block.minecraft.birch_log","clickEvent":{"action":"run_command","value":"/trigger Pundus_BPVar set 602"}}]

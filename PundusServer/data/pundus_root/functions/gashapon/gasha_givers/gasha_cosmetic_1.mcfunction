@@ -5,7 +5,7 @@ tag @s remove Pundus_Gasha_Scrolling
 
 playsound minecraft:ui.lootbox_rarity_3 master @s ~ ~ ~ 1 1 1
 
-scoreboard players set %Modulo Pundus_RNG 23
+scoreboard players set %Modulo Pundus_RNG 21
 scoreboard players set %C Pundus_RNG 4096
 function pundus_root:rng
 
@@ -97,15 +97,9 @@ execute if score %GorbVal Pundus_RNG matches 19 run tag @s add hat_a_toymakers_t
 execute if score %GorbVal Pundus_RNG matches 19 run title @s subtitle {"translate":"cosmetic.item.a_toymakers_toy.name","color":"yellow"}
 execute if score %GorbVal Pundus_RNG matches 19 as @s run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.unbox","color":"gray","italic":true,"with":[{"selector":"@s"},{"translate":"cosmetic.item.a_toymakers_toy.name","color":"yellow"},{"translate":"pundus.item.gashapon.cosmetic_1.name"}]}
 
-execute if score %GorbVal Pundus_RNG matches 20 run tag @s add lunarite_crystal_full
+execute if score %GorbVal Pundus_RNG matches 20 run loot give @s loot pundus_root:head_giver
+execute if score %GorbVal Pundus_RNG matches 20 as @s run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.bonus_generic","color":"gray","italic":true,"with":[{"selector":"@s"},{"translate":"block.minecraft.player_head"},{"translate":"pundus.item.gashapon.cosmetic_1.name"}]}
 execute if score %GorbVal Pundus_RNG matches 20 run function pundus_root:gashapon/gasha_givers/gasha_cosmetic_1
-execute if score %GorbVal Pundus_RNG matches 20 run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.bonus_generic","color":"gray","italic":true,"with":[{"selector":"@s"},{"translate":"pundus.item.lunarite_crystal_full.name","color":"yellow"},{"translate":"pundus.item.gashapon.cosmetic_1.name"}]}
-
-execute if score %GorbVal Pundus_RNG matches 21 run loot give @s loot pundus_root:head_giver
-execute if score %GorbVal Pundus_RNG matches 21 as @s run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.bonus_generic","color":"gray","italic":true,"with":[{"selector":"@s"},{"translate":"block.minecraft.player_head"},{"translate":"pundus.item.gashapon.cosmetic_1.name"}]}
-execute if score %GorbVal Pundus_RNG matches 21 run function pundus_root:gashapon/gasha_givers/gasha_cosmetic_1
-
-execute if score %GorbVal Pundus_RNG matches 22 run function pundus_root:gashapon/gasha_givers/gasha_cosmetic_1
 
 function pundus_root:gashapon/gasha_givers/general_bonus_probability
 
