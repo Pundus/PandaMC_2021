@@ -6,6 +6,7 @@
         "player": {
           "equipment": {
             "offhand": {
+			"tag": "pundus_root:offhand_functional_items",
               "nbt": "{pundus_id:\"acetate_bomb\"}"
             }
           }

@@ -1,8 +1,8 @@
 # eggparticles
 
 
-execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s run particle dust 5 5 5 1.0 ~ ~0.3 ~ 0.1 0.1 0.1 1 3 force @a[distance=..32]
-execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s run particle minecraft:end_rod ~ ~0.4 ~ 0 0 0 0 1 force @a[distance=..32]
+execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s run particle dust 5 5 5 1.0 ~ ~0.3 ~ 0.1 0.1 0.1 1 3 normal @a[distance=..32]
+execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s run particle minecraft:end_rod ~ ~0.4 ~ 0 0 0 0 1 normal @a[distance=..32]
 
 execute as @e[type=minecraft:item,nbt={Item:{tag:{pundus_easter_egg:1b}}}] at @s if data entity @s Item.tag.pundus_egg_serial run data modify entity @s Owner set from entity @p UUID 
 

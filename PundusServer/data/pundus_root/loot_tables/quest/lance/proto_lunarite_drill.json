@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{Damage:220,pundus_repair_banned:1b,CustomModelData:1053,Enchantments:[{id:\"minecraft:fortune\",lvl:5s},{id:\"minecraft:efficiency\",lvl:10s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"proto_lunarite_drill\"}"
+				"tag": "{pundus_bound_item:1b,Damage:220,pundus_repair_banned:1b,CustomModelData:1053,Enchantments:[{id:\"minecraft:fortune\",lvl:5s},{id:\"minecraft:efficiency\",lvl:10s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"proto_lunarite_drill\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{

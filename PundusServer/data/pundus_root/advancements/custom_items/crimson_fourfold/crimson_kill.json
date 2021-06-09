@@ -6,6 +6,7 @@
         "player": {
           "equipment": {
             "mainhand": {
+			"tag": "pundus_root:offhand_functional_items",
               "nbt": "{crimson_just_swapped:0b,pundus_crimson_fourfold:1b}"
             }
           }

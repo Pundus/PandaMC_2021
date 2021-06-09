@@ -16,6 +16,8 @@ execute as @s at @s if score @s Pundus_NPCID_C matches 3 run function pundus_roo
 
 execute as @s at @s if score @s Pundus_NPCID_C matches 4 run function pundus_root:npcs/helpers/croupier_olim/npc_olim_menus
 
+execute as @s at @s if score @s Pundus_NPCID_C matches 5 run function pundus_root:npcs/helpers/mindarus/npc_mindarus_menus
+
 #SFX
 execute as @s at @s run function pundus_root:npcs/npc_sfx
 

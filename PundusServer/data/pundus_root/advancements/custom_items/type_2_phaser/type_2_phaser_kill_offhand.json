@@ -6,6 +6,7 @@
         "player": {
           "equipment": {
             "offhand": {
+			"tag": "pundus_root:offhand_functional_items",
               "nbt": "{disco_phaser:1b,disco_phaser_justswap:0b,disco_phaser_mode:\"kill\"}"
             }
           }

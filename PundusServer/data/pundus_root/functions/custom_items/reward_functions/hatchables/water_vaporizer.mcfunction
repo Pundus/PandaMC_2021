@@ -10,3 +10,4 @@ particle minecraft:campfire_cosy_smoke ~ ~ ~ 3 3 3 0.01 256 force @a[distance=..
 
 playsound sfx.evaporate player @a ~ ~ ~ 1 1 0
 
+tag @s remove Pundus_OH_Custom_Consumable

@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "tag": "pundus_root:offhand_functional_items",
+        "nbt": "{pundus_realm_custom:1b}"
+      }
+    }
+  }
+}

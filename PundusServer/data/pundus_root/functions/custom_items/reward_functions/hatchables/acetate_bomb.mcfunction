@@ -8,3 +8,4 @@ fill ~3 ~3 ~3 ~-3 ~-3 ~-3 frosted_ice replace water
 
 playsound sfx.acetate_reacts player @a ~ ~ ~ 1 1 0
 
+tag @s add Pundus_OH_Custom_Consumable

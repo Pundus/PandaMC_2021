@@ -13,3 +13,5 @@ fill ~2 ~ ~2 ~-2 ~ ~-2 minecraft:exposed_copper replace minecraft:copper_block
 fill ~2 ~ ~2 ~-2 ~ ~-2 minecraft:oxidized_cut_copper replace minecraft:weathered_cut_copper
 fill ~2 ~ ~2 ~-2 ~ ~-2 minecraft:weathered_cut_copper replace minecraft:exposed_cut_copper
 fill ~2 ~ ~2 ~-2 ~ ~-2 minecraft:exposed_cut_copper replace minecraft:cut_copper
+
+tag @s add Pundus_OH_Custom_Consumable

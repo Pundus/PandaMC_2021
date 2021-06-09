@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:white_banner",
+        "item": {
+          "nbt": "{BlockEntityTag:{Patterns:[{Pattern:\"gru\",Color:15},{Pattern:\"dls\",Color:0},{Pattern:\"hhb\",Color: 14},{Pattern:\"bo\",Color:14}]}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:misc/red_banner_location"
+  }
+}

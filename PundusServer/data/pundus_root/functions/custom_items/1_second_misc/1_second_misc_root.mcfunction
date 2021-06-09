@@ -8,3 +8,6 @@ execute as @e[type=armor_stand,predicate=pundus_root:custom_items/magnetized_leg
 execute as @a[predicate=pundus_root:disable_netherite/dn_boots] run function pundus_root:custom_items/1_second_misc/nd_boots_replace
 execute as @a[predicate=pundus_root:disable_netherite/dn_chestplate] run function pundus_root:custom_items/1_second_misc/nd_chestplate_replace
 execute as @a[predicate=pundus_root:disable_netherite/dn_leggings] run function pundus_root:custom_items/1_second_misc/nd_leggings_replace
+
+#execute as @a at @s if entity @e[type=minecraft:villager,distance=..10,tag=!Pundus_Enslaved] as @e[type=minecraft:villager,distance=..10,tag=!Pundus_Enslaved] at @s run function pundus_root:misc/villager_slaves/enslavement_check
+

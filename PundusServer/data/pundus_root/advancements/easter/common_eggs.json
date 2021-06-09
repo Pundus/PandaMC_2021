@@ -1,0 +1,448 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_helmet",
+			"nbt": "{CustomModelData:5101}"
+		},
+		"title": {
+			"translate": "pundus.advancement.easter.common.name"
+		},
+		"description": {
+			"translate": "pundus.advancement.easter.common.desc"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "pundus_root:easter/root",
+	"criteria": {
+		"egg_dirt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_dirt\"}"
+				}]
+			}
+		},
+		"egg_tuff": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_tuff\"}"
+				}]
+			}
+		},
+		"egg_magma": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_magma\"}"
+				}]
+			}
+		},
+		"egg_cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_cobblestone\"}"
+				}]
+			}
+		},
+		"egg_lava": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_lava\"}"
+				}]
+			}
+		},
+		"egg_water": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_water\"}"
+				}]
+			}
+		},
+		"egg_oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_oak\"}"
+				}]
+			}
+		},
+		"egg_netherrack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_netherrack\"}"
+				}]
+			}
+		},
+		"egg_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_terracotta\"}"
+				}]
+			}
+		},
+		"egg_obsidian": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_obsidian\"}"
+				}]
+			}
+		},
+		"egg_basalt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_basalt\"}"
+				}]
+			}
+		},
+		"egg_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_gold\"}"
+				}]
+			}
+		},
+		"egg_sand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_sand\"}"
+				}]
+			}
+		},
+		"egg_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_stone\"}"
+				}]
+			}
+		},
+		"egg_prismarine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_prismarine\"}"
+				}]
+			}
+		},
+		"egg_leaf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_leaf\"}"
+				}]
+			}
+		},
+		"egg_amethyst": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_amethyst\"}"
+				}]
+			}
+		},
+		"egg_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_diamond\"}"
+				}]
+			}
+		},
+		"egg_pumpkin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_pumpkin\"}"
+				}]
+			}
+		},
+		"egg_cactus": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_cactus\"}"
+				}]
+			}
+		},
+		"egg_melon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_melon\"}"
+				}]
+			}
+		},
+		"egg_glowstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_glowstone\"}"
+				}]
+			}
+		},
+		"egg_ice": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_ice\"}"
+				}]
+			}
+		},
+		"egg_slime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_slime\"}"
+				}]
+			}
+		},
+		"egg_iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_iron\"}"
+				}]
+			}
+		},
+		"egg_emerald": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_emerald\"}"
+				}]
+			}
+		},
+		"egg_honeycomb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_honeycomb\"}"
+				}]
+			}
+		},
+		"egg_chorus": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_chorus\"}"
+				}]
+			}
+		},
+		"egg_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_copper\"}"
+				}]
+			}
+		},
+		"egg_warped": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_warped\"}"
+				}]
+			}
+		},
+		"egg_blackstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_blackstone\"}"
+				}]
+			}
+		},
+		"egg_dripstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_dripstone\"}"
+				}]
+			}
+		},
+		"egg_diorite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_diorite\"}"
+				}]
+			}
+		},
+		"egg_coal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_coal\"}"
+				}]
+			}
+		},
+		"egg_gravel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_gravel\"}"
+				}]
+			}
+		},
+		"egg_clay": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_clay\"}"
+				}]
+			}
+		},
+		"egg_soulsand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_soulsand\"}"
+				}]
+			}
+		},
+		"egg_bone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_bone\"}"
+				}]
+			}
+		},
+		"egg_deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_deepslate\"}"
+				}]
+			}
+		},
+		"egg_mycelium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_mycelium\"}"
+				}]
+			}
+		},
+		"egg_moss": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_moss\"}"
+				}]
+			}
+		},
+		"egg_purpur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"egg_purpur\"}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+
+		["egg_dirt"],
+		["egg_tuff"],
+		["egg_magma"],
+		["egg_cobblestone"],
+		["egg_lava"],
+		["egg_water"],
+		["egg_oak"],
+		["egg_netherrack"],
+		["egg_terracotta"],
+		["egg_obsidian"],
+		["egg_basalt"],
+		["egg_gold"],
+		["egg_sand"],
+		["egg_stone"],
+		["egg_prismarine"],
+		["egg_leaf"],
+		["egg_amethyst"],
+		["egg_diamond"],
+		["egg_pumpkin"],
+		["egg_cactus"],
+		["egg_melon"],
+		["egg_glowstone"],
+		["egg_ice"],
+		["egg_slime"],
+		["egg_iron"],
+		["egg_emerald"],
+		["egg_honeycomb"],
+		["egg_chorus"],
+		["egg_copper"],
+		["egg_warped"],
+		["egg_blackstone"],
+		["egg_dripstone"],
+		["egg_diorite"],
+		["egg_coal"],
+		["egg_gravel"],
+		["egg_clay"],
+		["egg_soulsand"],
+		["egg_bone"],
+		["egg_deepslate"],
+		["egg_mycelium"],
+		["egg_moss"],
+		["egg_purpur"]
+
+	],
+	"rewards": {
+		"function": "pundus_root:advancements/easter/common_eggs"
+	}
+}

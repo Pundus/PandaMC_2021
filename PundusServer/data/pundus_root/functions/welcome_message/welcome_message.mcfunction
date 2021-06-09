@@ -37,6 +37,7 @@ team join Players @s[team=!Admin,team=!Players]
 
 
 
+execute as @a at @s run function pundus_root:bound_items/equipped_bound_item/return_bound_item
 
 
 

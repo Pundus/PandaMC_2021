@@ -17,5 +17,7 @@ execute as @s if score @s Pundus_NPCID_C matches 3 run function pundus_root:npcs
 
 execute as @s if score @s Pundus_NPCID_C matches 4 run function pundus_root:npcs/helpers/croupier_olim/olim_main_menu
 
+execute as @s if score @s Pundus_NPCID_C matches 5 run function pundus_root:npcs/helpers/mindarus/mindarus_main_menu
+
 execute as @s if score @s Pundus_NPCID_C matches 6 run function pundus_root:npcs/one_liners/lysander_dialog
 

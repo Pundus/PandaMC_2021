@@ -1,0 +1,146 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_helmet",
+			"nbt": "{CustomModelData:5169}"
+		},
+		"title": {
+			"translate": "pundus.advancement.easter.faberge.name"
+		},
+		"description": {
+			"translate": "pundus.advancement.easter.faberge.desc"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "pundus_root:easter/special_eggs",
+	"criteria": {
+		"fegg_dragon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_dragon\"}"
+				}]
+			}
+		},
+		"fegg_podzol": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_podzol\"}"
+				}]
+			}
+		},
+		"fegg_blaze": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_blaze\"}"
+				}]
+			}
+		},
+		"fegg_creeper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_creeper\"}"
+				}]
+			}
+		},
+		"fegg_pillager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_pillager\"}"
+				}]
+			}
+		},
+		"fegg_yoshi": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_yoshi\"}"
+				}]
+			}
+		},
+		"fegg_sculk": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_sculk\"}"
+				}]
+			}
+		},
+		"fegg_redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_redstone\"}"
+				}]
+			}
+		},
+		"fegg_music": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_music\"}"
+				}]
+			}
+		},
+		"fegg_netherrite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_netherrite\"}"
+				}]
+			}
+		},
+		"fegg_beacon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_beacon\"}"
+				}]
+			}
+		},
+		"fegg_wither": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"fegg_wither\"}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		["fegg_dragon"],
+        ["fegg_podzol"],
+        ["fegg_blaze"],
+        ["fegg_creeper"],
+        ["fegg_pillager"],
+        ["fegg_yoshi"],
+        ["fegg_sculk"],
+        ["fegg_redstone"],
+        ["fegg_music"],
+        ["fegg_netherrite"],
+        ["fegg_beacon"],
+        ["fegg_wither"]
+	],
+	"rewards": {
+		"function": "pundus_root:advancements/easter/faberge_eggs"
+	}
+}

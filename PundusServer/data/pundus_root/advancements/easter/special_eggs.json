@@ -1,0 +1,248 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_helmet",
+			"nbt": "{CustomModelData:5151}"
+		},
+		"title": {
+			"translate": "pundus.advancement.easter.special.name"
+		},
+		"description": {
+			"translate": "pundus.advancement.easter.special.desc"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "pundus_root:easter/common_eggs",
+	"criteria": {
+		"segg_darkness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_darkness\"}"
+				}]
+			}
+		},
+		"segg_eggpocalypse": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_eggpocalypse\"}"
+				}]
+			}
+		},
+		"segg_dinneggbone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_dinneggbone\"}"
+				}]
+			}
+		},
+		"segg_the_end": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_the_end\"}"
+				}]
+			}
+		},
+		"segg_chocolate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_chocolate\"}"
+				}]
+			}
+		},
+		"segg_eggstraterrestrial": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_eggstraterrestrial\"}"
+				}]
+			}
+		},
+		"segg_tricolor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_tricolor\"}"
+				}]
+			}
+		},
+		"segg_rainbow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_rainbow\"}"
+				}]
+			}
+		},
+		"segg_angel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_angel\"}"
+				}]
+			}
+		},
+		"segg_formal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_formal\"}"
+				}]
+			}
+		},
+		"segg_crown": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_crown\"}"
+				}]
+			}
+		},
+		"segg_spongy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_spongy\"}"
+				}]
+			}
+		},
+		"segg_mars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_mars\"}"
+				}]
+			}
+		},
+		"segg_eggsplosive": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_eggsplosive\"}"
+				}]
+			}
+		},
+		"segg_eggplant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_eggplant\"}"
+				}]
+			}
+		},
+		"segg_eyrie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_eyrie\"}"
+				}]
+			}
+		},
+		"segg_twilight": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_twilight\"}"
+				}]
+			}
+		},
+		"segg_monochrome": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_monochrome\"}"
+				}]
+			}
+		},
+		"segg_coral": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_coral\"}"
+				}]
+			}
+		},
+		"segg_eggvalanche": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_eggvalanche\"}"
+				}]
+			}
+		},
+		"segg_jeb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_jeb\"}"
+				}]
+			}
+		},
+		"segg_spectrum": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"segg_spectrum\"}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+
+		["segg_darkness"],
+		["segg_eggpocalypse"],
+		["segg_dinneggbone"],
+		["segg_the_end"],
+		["segg_chocolate"],
+		["segg_eggstraterrestrial"],
+		["segg_tricolor"],
+		["segg_rainbow"],
+		["segg_angel"],
+		["segg_formal"],
+		["segg_crown"],
+		["segg_spongy"],
+		["segg_mars"],
+		["segg_eggsplosive"],
+		["segg_eggplant"],
+		["segg_eyrie"],
+		["segg_twilight"],
+		["segg_monochrome"],
+		["segg_coral"],
+		["segg_eggvalanche"],
+		["segg_jeb"],
+		["segg_spectrum"]
+
+	],
+	"rewards": {
+		"function": "pundus_root:advancements/easter/special_eggs"
+	}
+}

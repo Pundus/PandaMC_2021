@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stick",
+    "minecraft:flower_banner_pattern",
+    "minecraft:enchanted_book",
+    "minecraft:stone_sword",
+    "minecraft:iron_sword",
+    "minecraft:crossbow",
+    "minecraft:iron_axe"
+  ]
+}

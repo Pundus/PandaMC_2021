@@ -20,3 +20,4 @@ data merge entity @s[type=wandering_trader] {ArmorDropChances:[-327.670f,-327.67
 data modify entity @s[type=wandering_trader] ArmorItems[2].tag.Enchantments prepend value {id:"minecraft:thorns",lvl:16s}
 
 tag @s add Pundus_EggHatDone
+

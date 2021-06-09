@@ -3,6 +3,9 @@
 
 tell @a[team=Admin] Pundus Server Systems loaded
 
+tag @e[type=villager,tag=Pundus_Enslaved] remove Pundus_Enslaved
+
+
 #Load scoreboards.
 
 function pundus_root:scoreboard_setup

@@ -15,4 +15,6 @@ execute as @e[type=minecraft:item,tag=!Pundus_DE_D,tag=Pundus_DroppedEgg] at @s 
 execute as @e[type=minecraft:item,tag=!Pundus_DE_D,tag=Pundus_DroppedEgg] at @s run data modify entity @s Invulnerable set value 1b
 
 
+tag @e[type=villager,tag=Pundus_Enslaved] remove Pundus_Enslaved
+
 schedule function pundus_cosmetics:easter_eggs/global_eggs_looper 180s

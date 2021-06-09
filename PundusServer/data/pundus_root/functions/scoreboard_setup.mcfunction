@@ -25,6 +25,8 @@ scoreboard objectives add Pundus_PSStored dummy
 scoreboard objectives add Pundus_PSMath dummy
 scoreboard objectives add Pundus_PSCount dummy
 
+scoreboard objectives add P_BoundItem_ID dummy
+
 
 scoreboard objectives add Pundus_DeathTrk deathCount 
 scoreboard objectives add POOC_Deaths deathCount 

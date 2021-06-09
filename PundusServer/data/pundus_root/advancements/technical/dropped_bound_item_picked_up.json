@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "nbt": "{pundus_bound_item:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:bound_items/dropped_bound_item_picked_up"
+  }
+}
