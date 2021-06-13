@@ -21,3 +21,6 @@ execute as @s if score @s Pundus_NPCID_C matches 5 run function pundus_root:npcs
 
 execute as @s if score @s Pundus_NPCID_C matches 6 run function pundus_root:npcs/one_liners/lysander_dialog
 
+execute as @s[tag=Pundus_Contributed_Items] if score @s Pundus_NPCID_C matches 7 run function pundus_root:npcs/helpers/community_manager/cm_main_menu
+execute as @s[tag=!Pundus_Contributed_Items] if score @s Pundus_NPCID_C matches 7 run function pundus_root:npcs/helpers/community_manager/cm_main_menu_no_items
+

@@ -21,6 +21,8 @@ scoreboard objectives add Pundus_GshpScrl dummy
 scoreboard objectives add Pundus_ShopInt minecraft.custom:minecraft.open_chest
 scoreboard objectives add Pundus_ShopOwner trigger
 scoreboard objectives add Pundus_PShopInt minecraft.custom:minecraft.trigger_trapped_chest
+scoreboard objectives add Pundus_PShopID dummy
+scoreboard objectives add Pundus_PSValue dummy
 scoreboard objectives add Pundus_PSStored dummy
 scoreboard objectives add Pundus_PSMath dummy
 scoreboard objectives add Pundus_PSCount dummy
@@ -131,6 +133,7 @@ scoreboard objectives add Pundus_NPCInt minecraft.custom:minecraft.talked_to_vil
 scoreboard objectives add Pundus_NPC_ID dummy
 scoreboard objectives add Pundus_NPCID_C dummy
 scoreboard objectives add Pundus_NPCMenu trigger
+scoreboard objectives add Pundus_HMItem trigger
 scoreboard objectives add Pundus_NPC_SFX dummy
 scoreboard objectives add Pundus_DummyHP dummy
 

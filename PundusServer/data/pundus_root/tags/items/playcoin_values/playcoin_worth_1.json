@@ -12,7 +12,6 @@
     "minecraft:netherrack",
     "#minecraft:logs",
     "#minecraft:wool",
-    "#pundus_root:playcoin_values/small_flowers",
     "minecraft:leather",
     "minecraft:clay_ball",
     "minecraft:porkchop",
@@ -29,6 +28,7 @@
     "minecraft:honeycomb",
     "minecraft:feather",
     "minecraft:spider_eye",
+    "#pundus_root:playcoin_values/tall_flowers",
     "minecraft:ink_sac"
   ]
 }

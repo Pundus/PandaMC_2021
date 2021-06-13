@@ -10,3 +10,5 @@ scoreboard objectives add PM_Wradin_2 dummy
 scoreboard objectives add PM_Wradin_2_CD dummy
 scoreboard objectives add PM_Wradin_3 dummy
 scoreboard objectives add PM_Wradin_3_CD dummy
+
+scoreboard objectives add PM_CMClaim_CD dummy

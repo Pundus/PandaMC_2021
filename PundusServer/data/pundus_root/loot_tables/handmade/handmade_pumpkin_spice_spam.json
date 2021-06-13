@@ -1,0 +1,61 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_bound_item:1b,pundus_handmade:1b,HideFlags:127,CustomModelData:1119,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"pumpkin_spice_spam\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.handmade.lore1",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.handmade.lore2",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.pumpkin_spice_spam.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.pumpkin_spice_spam.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.pumpkin_spice_spam.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.pumpkin_spice_spam.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.consumed",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": [{"translate":"pundus.item.generic.handmade.name",
+					"italic": false,
+					"color": "green","with":[{
+					"translate": "pundus.item.pumpkin_spice_spam.name",
+					"color": "green",
+					"italic": false
+				}]}]
+			}]
+		}]
+	}]
+}

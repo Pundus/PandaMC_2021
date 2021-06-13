@@ -2,6 +2,8 @@
 
 scoreboard players set * PQ_QuestComp 0
 
+scoreboard players set * PM_CMClaim_CD 0
+
 tellraw @a {"color":"green","translate":"pundus.server.quests.new"}
 
 bossbar remove pundus_root:quest_info

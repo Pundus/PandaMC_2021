@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "minecraft:emerald",
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore",
     "minecraft:slime_ball",
     "minecraft:ender_pearl",
     "minecraft:vine",

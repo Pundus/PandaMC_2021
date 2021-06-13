@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Enchantments:[{}],CustomModelData:1140,probability_cube:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"probability_cube\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.probability_cube.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.probability_cube.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.probability_cube.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.probability_cube.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.probability_cube.name",
+					"color": "light_purple",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

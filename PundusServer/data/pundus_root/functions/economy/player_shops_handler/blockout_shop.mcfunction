@@ -1,5 +1,6 @@
 # Fill all non-essential slots with barriers
 
+loot replace block ~ ~ ~ container.1 loot pundus_root:chest_barrier
 loot replace block ~ ~ ~ container.2 loot pundus_root:chest_barrier
 loot replace block ~ ~ ~ container.3 loot pundus_root:chest_barrier
 loot replace block ~ ~ ~ container.4 loot pundus_root:chest_barrier

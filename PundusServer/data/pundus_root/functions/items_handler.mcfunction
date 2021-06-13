@@ -92,6 +92,18 @@ tag @a[tag=decor_enbee] remove decor_enbee
 execute as @a[tag=decor_naked_bee] run loot give @s loot pundus_root:decor/model_b
 tag @a[tag=decor_naked_bee] remove decor_naked_bee
 
+#Decor - Boo-Bee
+execute as @a[tag=decor_boobee] run loot give @s loot pundus_root:decor/model_boobee
+tag @a[tag=decor_boobee] remove decor_boobee
+
+#Decor - RhinoBred
+execute as @a[tag=decor_rhinobred] run loot give @s loot pundus_root:decor/model_rhinobred
+tag @a[tag=decor_rhinobred] remove decor_rhinobred
+
+#Decor - LGBeeT
+execute as @a[tag=decor_lgbeet] run loot give @s loot pundus_root:decor/model_lgbeet
+tag @a[tag=decor_lgbeet] remove decor_lgbeet
+
 #model_pundus
 execute as @a[tag=decor_model_pundus] run loot give @s loot pundus_root:decor/model_pundus
 tag @a[tag=decor_model_pundus] remove decor_model_pundus
@@ -709,6 +721,10 @@ tag @a[tag=power_cell_manifold] remove power_cell_manifold
 #crystallic_power_cell
 execute as @a[tag=crystallic_power_cell] run loot give @s loot pundus_root:commodities/crystallic_power_cell
 tag @a[tag=crystallic_power_cell] remove crystallic_power_cell
+
+#probability_cube
+execute as @a[tag=probability_cube] run loot give @s loot pundus_root:probability/probability_cube
+tag @a[tag=probability_cube] remove probability_cube
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

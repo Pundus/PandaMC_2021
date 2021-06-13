@@ -32,7 +32,9 @@ execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_Menu
 execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=102}] if score @s Pundus_Playcoins > %ExchangeRate Pundus_EconMath run function pundus_root:economy/exchange_playcoin_to_diamond
 execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=103,Pundus_Diamonds=1..}] run function pundus_root:economy/withdraw_diamond
 execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=1031,Pundus_Diamonds=1..}] run function pundus_root:economy/withdraw_diamond_x10
-execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=1032,Pundus_Diamonds=10..}] run function pundus_root:economy/withdraw_diamond_x10
+execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=1033,Pundus_Diamonds=100..}] run function pundus_root:economy/withdraw_diamond_x100
+execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=1032,Pundus_Diamonds=100..}] run function pundus_root:economy/withdraw_diamond_x100
+execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=1032,Pundus_Diamonds=10..99}] run function pundus_root:economy/withdraw_diamond_x10
 execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=1032,Pundus_Diamonds=..9}] run function pundus_root:economy/withdraw_diamond
 execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=104,Pundus_DmdCount=1..}] run function pundus_root:economy/deposit_diamond
 execute as @a[predicate=pundus_root:pda_offhand,tag=pda_open,scores={Pundus_MenuVar=1041,Pundus_DmdCount=1..}] run function pundus_root:economy/deposit_diamond_all

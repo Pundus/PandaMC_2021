@@ -4,7 +4,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "item": {
-          "nbt": "{pundus_bound_item:1b}"
+          "nbt": "{pundus_playerbound:1b}"
         }
       }
     }
