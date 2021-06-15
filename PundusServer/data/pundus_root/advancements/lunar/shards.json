@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_copper_ore"
+    },
+    "title": {
+      "translate": "pundus.advancement.lunar.shards.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.lunar.shards.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pundus_root:lunar/beneath",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "pundus_root:the_moon"
+            }
+          }
+        ],
+        "items": [
+          {
+            "nbt": "{CustomModelData:1001}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:advancements/lunar/lunar_task"
+  }
+}

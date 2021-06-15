@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "title": {
+      "translate": "pundus.advancement.lunar.beneath.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.lunar.beneath.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pundus_root:lunar/enter",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "dimension": "pundus_root:the_moon",
+          "block": {
+            "block":  "minecraft:cave_air"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:advancements/lunar/lunar_task"
+  }
+}

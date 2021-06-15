@@ -1,0 +1,64 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_boots"
+		},
+		"title": {
+			"translate": "pundus.advancement.lunar.all_biomes.name"
+		},
+		"description": {
+			"translate": "pundus.advancement.lunar.all_biomes.desc"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "pundus_root:lunar/crater",
+	"criteria": {
+		"plains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "pundus_root:lunar_plains",
+					"dimension": "pundus_root:the_moon"
+				}
+			}
+		},
+		"cracked": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "pundus_root:lunar_cracked",
+					"dimension": "pundus_root:the_moon"
+				}
+			}
+		},
+		"mountains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "pundus_root:lunar_mountains",
+					"dimension": "pundus_root:the_moon"
+				}
+			}
+		},
+		"crater": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "pundus_root:lunar_crater",
+					"dimension": "pundus_root:the_moon"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["plains"],
+		["cracked"],
+		["mountains"],
+		["crater"]
+	],
+	"rewards": {
+		"function": "pundus_root:advancements/lunar/lunar_challenge"
+	}
+}

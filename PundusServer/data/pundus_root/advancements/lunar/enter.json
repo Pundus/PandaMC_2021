@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{CustomModelData:1002}"
+    },
+    "title": {
+      "translate": "pundus.advancement.lunar.enter.name"
+    },
+    "description": {
+      "translate": "pundus.advancement.lunar.enter.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pundus_root:lunar/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "pundus_root:the_moon"
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:advancements/lunar/lunar_task"
+  }
+}

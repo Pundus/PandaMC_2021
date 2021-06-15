@@ -1,0 +1,63 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:golden_sword",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2.5,Operation:0,UUID:[I;349216116,-131971263,-1688226253,-1387448232],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;310351139,374950351,-1648708352,252895877],Slot:\"mainhand\"}],CustomModelData:1107,Enchantments:[{id:\"minecraft:knockback\",lvl:1s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"stun_stick\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.stun_stick.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.stun_stick.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.stun_stick.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.stun_stick.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.stun_stick.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.stun_stick.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.stun_stick.lore7",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.stun_stick.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

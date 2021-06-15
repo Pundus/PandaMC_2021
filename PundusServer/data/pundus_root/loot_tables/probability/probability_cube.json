@@ -14,6 +14,14 @@
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
+					"translate": "pundus.item.generic.fake_block.lore1",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.fake_block.lore2",
+					"color": "dark_gray",
+					"italic": false
+				},{
 					"translate": "pundus.item.probability_cube.lore1",
 					"color": "gray",
 					"italic": false

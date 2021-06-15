@@ -136,6 +136,10 @@ tag @a[tag=bp_into_fire] remove bp_into_fire
 execute as @a[tag=bp_wooden_logs] run loot give @s loot pundus_root:block_pack/bp_wooden_logs
 tag @a[tag=bp_wooden_logs] remove bp_wooden_logs
 
+#Block Pack: Watery Depths
+execute as @a[tag=bp_watery_depths] run loot give @s loot pundus_root:block_pack/bp_watery_depths
+tag @a[tag=bp_watery_depths] remove bp_watery_depths
+
 #Block Pack: Redstoner's Delight
 execute as @a[tag=bp_redstone] run loot give @s loot pundus_root:block_pack/bp_redstone
 tag @a[tag=bp_redstone] remove bp_redstone
@@ -312,11 +316,11 @@ execute as @a[tag=buyout_token_ur] run loot give @s loot pundus_root:undead_even
 tag @a[tag=buyout_token_ur] remove buyout_token_ur
 
 # eggdar
-execute as @a[tag=eggdar] run loot give @s loot pundus_root:eggdar
+execute as @a[tag=eggdar] run loot give @s loot pundus_root:easter_event/eggdar
 tag @a[tag=eggdar] remove eggdar
 
 # meggnet
-execute as @a[tag=meggnet] run loot give @s loot pundus_root:meggnet
+execute as @a[tag=meggnet] run loot give @s loot pundus_root:easter_event/meggnet
 tag @a[tag=meggnet] remove meggnet
 
 # item_frame_editor
@@ -324,7 +328,7 @@ execute as @a[tag=item_frame_editor] run loot give @s loot pundus_root:item_fram
 tag @a[tag=item_frame_editor] remove item_frame_editor
 
 # spell_drop_eggs
-execute as @a[tag=spell_drop_eggs] run loot give @s loot pundus_root:spell_drop_eggs
+execute as @a[tag=spell_drop_eggs] run loot give @s loot pundus_root:easter_event/spell_drop_eggs
 tag @a[tag=spell_drop_eggs] remove spell_drop_eggs
 
 # lunarite_drill
@@ -340,7 +344,7 @@ execute as @a[tag=fried_egg] run loot give @s loot pundus_root:food/fried_egg
 tag @a[tag=fried_egg] remove fried_egg
 
 # egg_basket
-execute as @a[tag=egg_basket] run loot give @s loot pundus_root:egg_basket
+execute as @a[tag=egg_basket] run loot give @s loot pundus_root:easter_event/egg_basket
 tag @a[tag=egg_basket] remove egg_basket
 
 # apoc_shirt
@@ -532,7 +536,7 @@ execute as @a[tag=libido_enhancer] run loot give @s loot pundus_root:hatched/lib
 tag @a[tag=libido_enhancer] remove libido_enhancer
 
 # eggsterminator
-execute as @a[tag=eggsterminator] run loot give @s loot pundus_root:eggsterminator
+execute as @a[tag=eggsterminator] run loot give @s loot pundus_root:easter_event/eggsterminator
 tag @a[tag=eggsterminator] remove eggsterminator
 
 # charitable_spray
@@ -548,7 +552,7 @@ execute as @a[tag=prop_laser_sword] run loot give @s loot pundus_root:may_fourth
 tag @a[tag=prop_laser_sword] remove prop_laser_sword
 
 # type_2_phaser
-execute as @a[tag=type_2_phaser] run loot give @s loot pundus_root:la_lockbox/type_2_phaser
+execute as @a[tag=type_2_phaser] run loot give @s loot pundus_root:lockbox_la/type_2_phaser
 tag @a[tag=type_2_phaser] remove type_2_phaser
 
 # deploy_spawner
@@ -725,6 +729,22 @@ tag @a[tag=crystallic_power_cell] remove crystallic_power_cell
 #probability_cube
 execute as @a[tag=probability_cube] run loot give @s loot pundus_root:probability/probability_cube
 tag @a[tag=probability_cube] remove probability_cube
+
+#lunarite_block
+execute as @a[tag=lunarite_block] run loot give @s loot pundus_root:moon_event/lunarite_block
+tag @a[tag=lunarite_block] remove lunarite_block
+
+#stun_stick
+execute as @a[tag=stun_stick] run loot give @s loot pundus_root:lockbox_la/stun_stick
+tag @a[tag=stun_stick] remove stun_stick
+
+#darkheart
+execute as @a[tag=darkheart] run loot give @s loot pundus_root:lockbox_la/darkheart
+tag @a[tag=darkheart] remove darkheart
+
+#ring_la
+execute as @a[tag=ring_la] run loot give @s loot pundus_root:lockbox_la/ring_la
+tag @a[tag=ring_la] remove ring_la
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

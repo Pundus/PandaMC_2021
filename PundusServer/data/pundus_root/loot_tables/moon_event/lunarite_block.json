@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Enchantments:[{}],CustomModelData:1142,lunarite_block:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"lunarite_block\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.fake_block.lore1",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.fake_block.lore2",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lunarite_block.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lunarite_block.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lunarite_block.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.lunarite_block.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.lunarite_block.name",
+					"color": "light_purple",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

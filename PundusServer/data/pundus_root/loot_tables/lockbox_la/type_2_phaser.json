@@ -14,11 +14,11 @@
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
-					"translate": "pundus.item.generic.need_amethyst1",
+					"translate": "pundus.item.generic.need_cpc1",
 					"color": "dark_gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.generic.need_amethyst2",
+					"translate": "pundus.item.generic.need_cpc2",
 					"color": "dark_gray",
 					"italic": false
 				},{

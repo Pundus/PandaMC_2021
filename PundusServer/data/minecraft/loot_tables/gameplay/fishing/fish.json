@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 55,
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 13,
+          "name": "minecraft:pufferfish"
+        },
+		{
+			"type": "item",
+			"weight": 5,
+			"name": "minecraft:cod",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1126,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"raw_classic_fish\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.raw_classic_fish.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.raw_classic_fish.lore2",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.raw_classic_fish.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}
+      ]
+    }
+  ]
+}

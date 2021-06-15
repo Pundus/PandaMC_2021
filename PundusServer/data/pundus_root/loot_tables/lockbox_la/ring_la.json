@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1143,pundus_ring_fx:\"la\",pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"ring_la\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.place_in_offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ring_la.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ring_la.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ring_la.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ring_la.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.ring_la.lore5",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.ring_la.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

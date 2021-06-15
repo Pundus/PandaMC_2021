@@ -43,6 +43,20 @@ give @s[scores={Pundus_BPVar=604}] jungle_log 64
 give @s[scores={Pundus_BPVar=605}] oak_log 64
 give @s[scores={Pundus_BPVar=606}] spruce_log 64
 
+#rare earth 7
+
+#end of the line 8
+
+#watery depths 9
+give @s[scores={Pundus_BPVar=901}] sponge 32
+give @s[scores={Pundus_BPVar=902}] sea_lantern 32
+give @s[scores={Pundus_BPVar=903}] sea_pickle 32
+give @s[scores={Pundus_BPVar=904}] tube_coral_block 32
+give @s[scores={Pundus_BPVar=905}] brain_coral_block 32
+give @s[scores={Pundus_BPVar=906}] bubble_coral_block 32
+give @s[scores={Pundus_BPVar=907}] fire_coral_block 32
+give @s[scores={Pundus_BPVar=908}] horn_coral_block 32
+
 give @s[scores={Pundus_BPVar=1001}] observer 32
 give @s[scores={Pundus_BPVar=1002}] hopper 32
 give @s[scores={Pundus_BPVar=1003}] dispenser 32

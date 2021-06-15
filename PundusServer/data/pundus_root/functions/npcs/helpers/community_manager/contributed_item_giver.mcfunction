@@ -19,3 +19,7 @@ execute as @s[tag=hm_decor_boobee] at @s if score @s Pundus_HMItem matches 4 run
 #lgbeet
 execute as @s[tag=hm_decor_lgbeet] at @s if score @s Pundus_HMItem matches 5 run tag @s add handmade_decor_lgbeet
 execute as @s[tag=hm_decor_lgbeet] at @s if score @s Pundus_HMItem matches 5 run scoreboard players set @s Pundus_NPCMenu 4
+
+#lgbeet
+execute as @s[tag=hm_raw_classic_fish] at @s if score @s Pundus_HMItem matches 6 run tag @s add handmade_raw_classic_fish
+execute as @s[tag=hm_raw_classic_fish] at @s if score @s Pundus_HMItem matches 6 run scoreboard players set @s Pundus_NPCMenu 4

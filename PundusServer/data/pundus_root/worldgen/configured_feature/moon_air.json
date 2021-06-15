@@ -13,7 +13,7 @@
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
-                      "Name": "minecraft:air"
+                      "Name": "minecraft:cave_air"
                     }
                   }
                 ],

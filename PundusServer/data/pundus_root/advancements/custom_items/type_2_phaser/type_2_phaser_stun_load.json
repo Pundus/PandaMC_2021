@@ -6,11 +6,9 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "item": "minecraft:crossbow",
               "nbt": "{disco_phaser:1b,disco_phaser_mode:\"stun\",Charged:0b}"
             },
-            "offhand": {
-              "item": "minecraft:amethyst_shard"
+            "offhand": {              "nbt": "{pundus_id:\"crystallic_power_cell\"}"
             }
           }
         }

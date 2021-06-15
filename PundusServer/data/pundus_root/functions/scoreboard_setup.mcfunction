@@ -54,10 +54,15 @@ scoreboard objectives add P_Rot_Pitch dummy
 scoreboard objectives add Pundus_CheckBk dummy
 scoreboard objectives add Pundus_TempPKI dummy
 
+scoreboard objectives add Pundus_TempNPC dummy
+
 scoreboard objectives add Pundus_GenMathX dummy
 scoreboard objectives add Pundus_GenMathY dummy
 scoreboard objectives add Pundus_GenMathZ dummy
 scoreboard objectives add Pundus_EntTrack dummy
+
+scoreboard objectives add P_Ring_TLH_Cnt dummy
+scoreboard objectives add P_Ring_TLH_Lvl dummy
 
 scoreboard objectives add Pundus_CrimFFCD dummy
 scoreboard objectives add Pundus_ReapSCD dummy

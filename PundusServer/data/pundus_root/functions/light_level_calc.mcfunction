@@ -16,5 +16,3 @@ scoreboard players set @a[predicate=pundus_root:light_level/light_level_12] Pund
 scoreboard players set @a[predicate=pundus_root:light_level/light_level_13] Pundus_LightLvl 13
 scoreboard players set @a[predicate=pundus_root:light_level/light_level_14] Pundus_LightLvl 14
 scoreboard players set @a[predicate=pundus_root:light_level/light_level_15] Pundus_LightLvl 15
-
-schedule function pundus_root:light_level_calc 13t

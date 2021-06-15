@@ -1,0 +1,132 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:skeleton_skull"
+		},
+		"title": {
+			"translate": "pundus.advancement.lunar.menagerie.name"
+		},
+		"description": {
+			"translate": "pundus.advancement.lunar.menagerie.desc"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "pundus_root:lunar/skeleton",
+	"criteria": {
+		"skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "pundus_root:the_moon"
+						}
+					}
+				}],
+				"entity": {
+					"type": "minecraft:skeleton"
+				}
+			}
+		},
+		"bat": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "pundus_root:the_moon"
+						}
+					}
+				}],
+				"entity": {
+					"type": "minecraft:bat"
+				}
+			}
+		},
+		"silverfish": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "pundus_root:the_moon"
+						}
+					}
+				}],
+				"entity": {
+					"type": "minecraft:silverfish"
+				}
+			}
+		},
+		"enderman": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "pundus_root:the_moon"
+						}
+					}
+				}],
+				"entity": {
+					"type": "minecraft:enderman"
+				}
+			}
+		},
+		"phantom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "pundus_root:the_moon"
+						}
+					}
+				}],
+				"entity": {
+					"type": "minecraft:phantom"
+				}
+			}
+		},
+		"wither_skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "pundus_root:the_moon"
+						}
+					}
+				}],
+				"entity": {
+					"type": "minecraft:wither_skeleton"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["skeleton"],
+		["bat"],
+		["phantom"],
+		["enderman"],
+		["silverfish"],
+		["wither_skeleton"]
+	],
+	"rewards": {
+		"function": "pundus_root:advancements/lunar/lunar_challenge"
+	}
+}

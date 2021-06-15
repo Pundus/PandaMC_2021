@@ -38,9 +38,15 @@ tag @a[tag=handmade_decor_boobee] remove handmade_decor_boobee
 
 # handmade_decor_lgbeet
 execute as @a[tag=handmade_decor_lgbeet] at @s run tag @s add Pundus_SpawnedBoundItem
-execute as @a[tag=handmade_decor_lgbeet] at @s run loot spawn ~ ~ ~ loot pundus_root:handmade/handmade_decor_lgbeet
+execute as @a[tag=handmade_decor_lgbeet] at @s run loot spawn ~ ~ ~ loot pundus_root:handmade/handmade_model_lgbeet
 execute as @a[tag=handmade_decor_lgbeet] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
 tag @a[tag=handmade_decor_lgbeet] remove handmade_decor_lgbeet
+
+# handmade_raw_classic_fish
+execute as @a[tag=handmade_raw_classic_fish] at @s run tag @s add Pundus_SpawnedBoundItem
+execute as @a[tag=handmade_raw_classic_fish] at @s run loot spawn ~ ~ ~ loot pundus_root:handmade/handmade_raw_classic_fish
+execute as @a[tag=handmade_raw_classic_fish] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
+tag @a[tag=handmade_raw_classic_fish] remove handmade_raw_classic_fish
 
 execute as @e[tag=Pundus_BoundItemSpawn,type=item] at @s run function pundus_root:bound_items/item_binder
 
