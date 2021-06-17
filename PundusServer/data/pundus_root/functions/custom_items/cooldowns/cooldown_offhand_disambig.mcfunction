@@ -10,6 +10,8 @@ execute as @s[predicate=pundus_root:specific_custom_items/scepters/offhand/scept
 
 execute as @s[predicate=pundus_root:specific_custom_items/other_cd_ability/offhand/history_of_fish_offhand] if score @s Pundus_HoFishCD matches 1.. at @s run function pundus_root:custom_items/cooldowns/history_of_fish_cooldown
 
+execute as @s[predicate=pundus_root:specific_custom_items/other_cd_ability/offhand/comms_offhand] if score @s Pundus_CommsCD matches 1.. at @s run function pundus_root:custom_items/cooldowns/comms_cooldown
+
 execute as @s[predicate=pundus_root:specific_custom_items/other_cd_ability/offhand/reaping_scythe_offhand] if score @s Pundus_ReapSCD matches 1.. at @s run function pundus_root:custom_items/cooldowns/reaping_scythe_cooldown
 
 execute as @s[predicate=!pundus_root:dagger_main,predicate=pundus_root:specific_custom_items/ethereal_set/ethereal_set_dagger_offhand] if score @s Pundus_EL_CD matches 1.. at @s run function pundus_root:custom_items/cooldowns/etheric_lift_cooldown

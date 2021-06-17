@@ -17,6 +17,8 @@ scoreboard players remove @s[scores={Pundus_EL_CD=1..}] Pundus_EL_CD 1
 
 scoreboard players remove @s[scores={Pundus_ScptSSCD=1..}] Pundus_ScptSSCD 1
 
+scoreboard players remove @s[scores={Pundus_CommsCD=1..}] Pundus_CommsCD 1
+
 ##
 
 ##

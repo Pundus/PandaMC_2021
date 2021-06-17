@@ -51,6 +51,8 @@ schedule function pundus_root:combat_check/combat_looper 17t
 schedule function pundus_root:walk_check 18t
 schedule function pundus_root:advancements/manual/advancement_manual_looper 14
 
+schedule function pundus_root:pets/initiate_pets_looper 3t
+
 schedule function pundus_root:btn_event/sell_volatile_init 7t
 
 schedule function pundus_root:emoji/emoji_loop 11t

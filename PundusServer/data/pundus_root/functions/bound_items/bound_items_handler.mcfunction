@@ -48,6 +48,18 @@ execute as @a[tag=handmade_raw_classic_fish] at @s run loot spawn ~ ~ ~ loot pun
 execute as @a[tag=handmade_raw_classic_fish] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
 tag @a[tag=handmade_raw_classic_fish] remove handmade_raw_classic_fish
 
+# handmade_ring_tlh
+execute as @a[tag=handmade_ring_tlh] at @s run tag @s add Pundus_SpawnedBoundItem
+execute as @a[tag=handmade_ring_tlh] at @s run loot spawn ~ ~ ~ loot pundus_root:handmade/handmade_ring_tlh
+execute as @a[tag=handmade_ring_tlh] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
+tag @a[tag=handmade_ring_tlh] remove handmade_ring_tlh
+
+# handmade_sturgeon_striker
+execute as @a[tag=handmade_sturgeon_striker] at @s run tag @s add Pundus_SpawnedBoundItem
+execute as @a[tag=handmade_sturgeon_striker] at @s run loot spawn ~ ~ ~ loot pundus_root:handmade/handmade_sturgeon_striker
+execute as @a[tag=handmade_sturgeon_striker] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
+tag @a[tag=handmade_sturgeon_striker] remove handmade_sturgeon_striker
+
 execute as @e[tag=Pundus_BoundItemSpawn,type=item] at @s run function pundus_root:bound_items/item_binder
 
 execute as @e[type=item,predicate=pundus_root:generic/playerbound_item_entity] run data modify entity @s PickupDelay set value 0

@@ -10,6 +10,8 @@ execute as @s[predicate=pundus_root:specific_custom_items/scepters/mainhand/scep
 
 execute as @s[predicate=pundus_root:specific_custom_items/other_cd_ability/mainhand/history_of_fish_mainhand] if score @s Pundus_HoFishCD matches 1.. at @s run function pundus_root:custom_items/cooldowns/history_of_fish_cooldown
 
+execute as @s[predicate=pundus_root:specific_custom_items/other_cd_ability/mainhand/comms_mainhand] if score @s Pundus_CommsCD matches 1.. at @s run function pundus_root:custom_items/cooldowns/comms_cooldown
+
 ### Do not display weapon cooldown in mainhand, as they could be in combat and require the task tracker
 ### execute as @s[predicate=pundus_root:specific_custom_items/other_cd_ability/mainhand/reaping_scythe_mainhand] if score @s Pundus_ReapSCD matches 1.. at @s run function pundus_root:custom_items/cooldowns/reaping_scythe_cooldown
 

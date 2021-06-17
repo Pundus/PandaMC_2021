@@ -55,6 +55,7 @@ scoreboard objectives add Pundus_CheckBk dummy
 scoreboard objectives add Pundus_TempPKI dummy
 
 scoreboard objectives add Pundus_TempNPC dummy
+scoreboard objectives add Pundus_PetDS dummy
 
 scoreboard objectives add Pundus_GenMathX dummy
 scoreboard objectives add Pundus_GenMathY dummy
@@ -72,6 +73,7 @@ scoreboard objectives add Pundus_ScptSSGM dummy
 scoreboard objectives add Pundus_ScptRSCD dummy
 scoreboard objectives add Pundus_ScptFTCD dummy
 scoreboard objectives add Pundus_HoFishCD dummy
+scoreboard objectives add Pundus_CommsCD dummy
 scoreboard objectives add Pundus_CnCiCCD dummy
 scoreboard objectives add Pundus_CnCiCBS dummy
 scoreboard objectives add Pundus_SB_Str dummy

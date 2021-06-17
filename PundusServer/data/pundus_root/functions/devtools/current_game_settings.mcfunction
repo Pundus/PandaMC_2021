@@ -23,6 +23,10 @@ team add Players {"translate":"[Player] ","color":"aqua"}
 team modify Players prefix {"translate":"[Player] ","color":"aqua"}
 team modify Players color aqua
 
+team modify Admin seeFriendlyInvisibles false
+team modify Friendly seeFriendlyInvisibles false
+team modify Players seeFriendlyInvisibles false
+
 scoreboard objectives setdisplay belowName Pundus_Deaths
 scoreboard objectives setdisplay list Pundus_Health
 

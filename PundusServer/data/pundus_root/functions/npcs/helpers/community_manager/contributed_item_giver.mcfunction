@@ -20,6 +20,14 @@ execute as @s[tag=hm_decor_boobee] at @s if score @s Pundus_HMItem matches 4 run
 execute as @s[tag=hm_decor_lgbeet] at @s if score @s Pundus_HMItem matches 5 run tag @s add handmade_decor_lgbeet
 execute as @s[tag=hm_decor_lgbeet] at @s if score @s Pundus_HMItem matches 5 run scoreboard players set @s Pundus_NPCMenu 4
 
-#lgbeet
+#raw_classic_fish
 execute as @s[tag=hm_raw_classic_fish] at @s if score @s Pundus_HMItem matches 6 run tag @s add handmade_raw_classic_fish
 execute as @s[tag=hm_raw_classic_fish] at @s if score @s Pundus_HMItem matches 6 run scoreboard players set @s Pundus_NPCMenu 4
+
+#ring_tlh
+execute as @s[tag=hm_ring_tlh] at @s if score @s Pundus_HMItem matches 7 run tag @s add handmade_ring_tlh
+execute as @s[tag=hm_ring_tlh] at @s if score @s Pundus_HMItem matches 7 run scoreboard players set @s Pundus_NPCMenu 4
+
+#sturgeon_striker
+execute as @s[tag=hm_sturgeon_striker] at @s if score @s Pundus_HMItem matches 8 run tag @s add handmade_sturgeon_striker
+execute as @s[tag=hm_sturgeon_striker] at @s if score @s Pundus_HMItem matches 8 run scoreboard players set @s Pundus_NPCMenu 4

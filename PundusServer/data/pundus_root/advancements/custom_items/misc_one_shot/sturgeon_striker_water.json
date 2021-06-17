@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{pundus_id:\"sturgeon_striker\"}"
+            }
+          }
+        },
+        "location": {
+          "fluid": {
+            "tag": "minecraft:water"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/misc_one_shot/sturgeon_striker_water"
+  }
+}

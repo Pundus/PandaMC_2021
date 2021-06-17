@@ -746,6 +746,34 @@ tag @a[tag=darkheart] remove darkheart
 execute as @a[tag=ring_la] run loot give @s loot pundus_root:lockbox_la/ring_la
 tag @a[tag=ring_la] remove ring_la
 
+#ring_tlh
+execute as @a[tag=ring_tlh] run loot give @s loot pundus_root:lockbox_la/ring_tlh
+tag @a[tag=ring_tlh] remove ring_tlh
+
+#beacon_lunar_trader
+execute as @a[tag=beacon_lunar_trader] run loot give @s loot pundus_root:lockbox_la/beacon_lunar_trader
+tag @a[tag=beacon_lunar_trader] remove beacon_lunar_trader
+
+#comms_lunar_trader
+execute as @a[tag=comms_lunar_trader] run loot give @s loot pundus_root:lockbox_la/comms_lunar_trader
+tag @a[tag=comms_lunar_trader] remove comms_lunar_trader
+
+#sturgeon_striker
+execute as @a[tag=sturgeon_striker] run loot give @s loot pundus_root:lockbox_la/sturgeon_striker
+tag @a[tag=sturgeon_striker] remove sturgeon_striker
+
+#cosmic_cola
+execute as @a[tag=cosmic_cola] run loot give @s loot pundus_root:lockbox_la/cosmic_cola
+tag @a[tag=cosmic_cola] remove cosmic_cola
+
+#tnt_launcher
+execute as @a[tag=tnt_launcher] run loot give @s loot pundus_root:lockbox_la/tnt_launcher
+tag @a[tag=tnt_launcher] remove tnt_launcher
+
+#pet_lunar_mining_drone
+execute as @a[tag=pet_lunar_mining_drone] run loot give @s loot pundus_root:lockbox_la/lunar_mining_drone
+tag @a[tag=pet_lunar_mining_drone] remove pet_lunar_mining_drone
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pundus_shop_cost:1600,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,HideFlags:127,pundus_blockpack:1b,CustomModelData:1035,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"bp_watery_depths\"}"
+				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1149,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"pet_lunar_mining_drone\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -18,32 +18,32 @@
 					"color": "dark_gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.block_pack.global_half_lore1",
+					"translate": "pundus.item.lunar_mining_drone.lore1",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.block_pack.global_half_lore2",
+					"translate": "pundus.item.lunar_mining_drone.lore2",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.block_pack.watery_depths.list1",
-					"color": "white",
+					"translate": "pundus.item.lunar_mining_drone.lore3",
+					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.block_pack.watery_depths.list2",
-					"color": "white",
+					"translate": "pundus.item.lunar_mining_drone.lore4",
+					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.block_pack.watery_depths.list3",
-					"color": "white",
+					"translate": "pundus.item.lunar_mining_drone.lore5",
+					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.block_pack.watery_depths.list4",
-					"color": "white",
+					"translate": "pundus.item.lunar_mining_drone.lore6",
+					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.block_pack.watery_depths.list5",
-					"color": "white",
+					"translate": "pundus.item.lunar_mining_drone.lore7",
+					"color": "red",
 					"italic": false
 				},{
 					"translate": "pundus.item.generic.consumed",
@@ -53,7 +53,7 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.block_pack.watery_depths.name",
+					"translate": "pundus.item.lunar_mining_drone.name",
 					"color": "aqua",
 					"italic": false
 				}

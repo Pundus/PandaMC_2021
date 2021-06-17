@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{tnt_launcher:1b,Charged:0b}"
+            },
+            "offhand": {
+              "tag": "pundus_root:tnt_launcher_ammo"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/tnt_launcher/tnt_launcher_load"
+  }
+}

@@ -12,3 +12,9 @@ execute as @a[predicate=pundus_root:disable_netherite/dn_leggings] run function 
 #execute as @a at @s if entity @e[type=minecraft:villager,distance=..10,tag=!Pundus_Enslaved] as @e[type=minecraft:villager,distance=..10,tag=!Pundus_Enslaved] at @s run function pundus_root:misc/villager_slaves/enslavement_check
 
 execute as @e[type=wandering_trader,tag=Pundus_Temp_NPC] run function pundus_root:custom_items/1_second_misc/temp_npc_counter
+
+
+execute as @a[tag=Pundus_TLH_Active,predicate=!pundus_root:custom_items/ring_tlh] run function pundus_root:custom_items/reward_functions/rings/tlh_reset
+
+execute as @e[type=minecraft:armor_stand,tag=Pet_Lunar_Mining_Drone] at @s run playsound sfx.lunar_mining_drone_engine neutral @a ~ ~ ~ 1 1 0
+execute as @e[tag=Pundus_Pet,tag=Pet_Ridden,predicate=pundus_root:generic/pet_sitting] at @s run data modify entity @s Sitting set value 0b
