@@ -1,0 +1,35 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_decor:1b,CustomModelData:8012,pundus_shop_cost:500,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"model_bii\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.decor",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.decor.bii.lore1",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.decor.bii.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

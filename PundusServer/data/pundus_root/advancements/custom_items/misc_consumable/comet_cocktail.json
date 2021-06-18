@@ -7,7 +7,7 @@
           "equipment": {
             "offhand": {
 			"tag": "pundus_root:offhand_functional_items",
-              "nbt": "{pundus_id:\"beacon_lunar_trader\"}"
+              "nbt": "{pundus_id:\"comet_cocktail\"}"
             }
           }
         }
@@ -15,6 +15,6 @@
     }
   },
   "rewards": {
-    "function": "pundus_root:custom_items/reward_functions/contacts/lunar_trader/beacon_lunar_trader_init"
+    "function": "pundus_root:custom_items/reward_functions/misc_consumable/comet_cocktail"
   }
 }

@@ -22,4 +22,7 @@ execute as @s[tag=Pundus_Contributed_Items] at @s if score @s Pundus_NPCMenu mat
 #Claimables Page 2
 execute as @s[tag=Pundus_Contributed_Items] at @s if score @s Pundus_NPCMenu matches 31 unless score @s PM_CMClaim_CD matches 1.. run function pundus_root:npcs/helpers/community_manager/contributed_item_menu/cim_page_2
 
+#Claimables Page 3
+execute as @s[tag=Pundus_Contributed_Items] at @s if score @s Pundus_NPCMenu matches 32 unless score @s PM_CMClaim_CD matches 1.. run function pundus_root:npcs/helpers/community_manager/contributed_item_menu/cim_page_3
+
 

@@ -104,6 +104,14 @@ tag @a[tag=decor_rhinobred] remove decor_rhinobred
 execute as @a[tag=decor_lgbeet] run loot give @s loot pundus_root:decor/model_lgbeet
 tag @a[tag=decor_lgbeet] remove decor_lgbeet
 
+#Decor - Bii
+execute as @a[tag=decor_bii] run loot give @s loot pundus_root:decor/model_bii
+tag @a[tag=decor_bii] remove decor_bii
+
+#Decor - Lesbeean
+execute as @a[tag=decor_lesbeean] run loot give @s loot pundus_root:decor/model_lesbeean
+tag @a[tag=decor_lesbeean] remove decor_lesbeean
+
 #model_pundus
 execute as @a[tag=decor_model_pundus] run loot give @s loot pundus_root:decor/model_pundus
 tag @a[tag=decor_model_pundus] remove decor_model_pundus
@@ -773,6 +781,30 @@ tag @a[tag=tnt_launcher] remove tnt_launcher
 #pet_lunar_mining_drone
 execute as @a[tag=pet_lunar_mining_drone] run loot give @s loot pundus_root:lockbox_la/lunar_mining_drone
 tag @a[tag=pet_lunar_mining_drone] remove pet_lunar_mining_drone
+
+#comet_cocktail
+execute as @a[tag=comet_cocktail] run loot give @s loot pundus_root:lockbox_la/comet_cocktail
+tag @a[tag=comet_cocktail] remove comet_cocktail
+
+#kugelblitz_bomb
+execute as @a[tag=kugelblitz_bomb] run loot give @s loot pundus_root:lockbox_la/kugelblitz_bomb
+tag @a[tag=kugelblitz_bomb] remove kugelblitz_bomb
+
+#pathfinding_pants
+execute as @a[tag=pathfinding_pants] run loot give @s loot pundus_root:lockbox_la/pathfinding_pants
+tag @a[tag=pathfinding_pants] remove pathfinding_pants
+
+#replanting_soles
+execute as @a[tag=replanting_soles] run loot give @s loot pundus_root:lockbox_la/replanting_soles
+tag @a[tag=replanting_soles] remove replanting_soles
+
+#oxygen_suit
+execute as @a[tag=oxygen_suit] run loot give @s loot pundus_root:lockbox_la/oxygen_suit
+tag @a[tag=oxygen_suit] remove oxygen_suit
+
+#type_1_phaser
+execute as @a[tag=type_1_phaser] run loot give @s loot pundus_root:lockbox_la/type_1_phaser
+tag @a[tag=type_1_phaser] remove type_1_phaser
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

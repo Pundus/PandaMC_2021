@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{HideFlags:127,CustomModelData:1146,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"beacon_lunar_trader\"}"
+				"tag": "{HideFlags:127,CustomModelData:1152,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"kugelblitz_bomb\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -18,23 +18,31 @@
 					"color": "dark_gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.beacon_lunar_trader.lore1",
+					"translate": "pundus.item.kugelblitz_bomb.lore1",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.beacon_lunar_trader.lore2",
+					"translate": "pundus.item.kugelblitz_bomb.lore2",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.beacon_lunar_trader.lore3",
+					"translate": "pundus.item.kugelblitz_bomb.lore3",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.beacon_lunar_trader.lore4",
+					"translate": "pundus.item.kugelblitz_bomb.lore4",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.generic.overworld_only",
+					"translate": "pundus.item.kugelblitz_bomb.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.kugelblitz_bomb.lore6",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.cannot_protected",
 					"color": "red",
 					"italic": false
 				},{
@@ -45,8 +53,8 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.beacon_lunar_trader.name",
-					"color": "yellow",
+					"translate": "pundus.item.kugelblitz_bomb.name",
+					"color": "aqua",
 					"italic": false
 				}
 			}]

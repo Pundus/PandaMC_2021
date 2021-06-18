@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{HideFlags:127,CustomModelData:1146,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"beacon_lunar_trader\"}"
+				"tag": "{HideFlags:127,pundus_custom_1sec:1b,CustomModelData:1151,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"comet_cocktail\"}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -18,24 +18,24 @@
 					"color": "dark_gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.beacon_lunar_trader.lore1",
+					"translate": "pundus.item.comet_cocktail.lore1",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.beacon_lunar_trader.lore2",
+					"translate": "pundus.item.comet_cocktail.lore2",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.beacon_lunar_trader.lore3",
+					"translate": "pundus.item.comet_cocktail.lore3",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.beacon_lunar_trader.lore4",
+					"translate": "pundus.item.comet_cocktail.lore4",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.generic.overworld_only",
-					"color": "red",
+					"translate": "pundus.item.comet_cocktail.lore5",
+					"color": "gray",
 					"italic": false
 				},{
 					"translate": "pundus.item.generic.consumed",
@@ -45,8 +45,8 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.beacon_lunar_trader.name",
-					"color": "yellow",
+					"translate": "pundus.item.comet_cocktail.name",
+					"color": "aqua",
 					"italic": false
 				}
 			}]

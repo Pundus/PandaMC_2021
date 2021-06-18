@@ -60,6 +60,30 @@ execute as @a[tag=handmade_sturgeon_striker] at @s run loot spawn ~ ~ ~ loot pun
 execute as @a[tag=handmade_sturgeon_striker] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
 tag @a[tag=handmade_sturgeon_striker] remove handmade_sturgeon_striker
 
+# handmade_pathfinding_pants
+execute as @a[tag=handmade_pathfinding_pants] at @s run tag @s add Pundus_SpawnedBoundItem
+execute as @a[tag=handmade_pathfinding_pants] at @s run loot spawn ~ ~ ~ loot pundus_root:handmade/handmade_pathfinding_pants
+execute as @a[tag=handmade_pathfinding_pants] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
+tag @a[tag=handmade_pathfinding_pants] remove handmade_pathfinding_pants
+
+# handmade_replanting_soles
+execute as @a[tag=handmade_replanting_soles] at @s run tag @s add Pundus_SpawnedBoundItem
+execute as @a[tag=handmade_replanting_soles] at @s run loot spawn ~ ~ ~ loot pundus_root:handmade/handmade_replanting_soles
+execute as @a[tag=handmade_replanting_soles] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
+tag @a[tag=handmade_replanting_soles] remove handmade_replanting_soles
+
+# handmade_decor_bii
+execute as @a[tag=handmade_decor_bii] at @s run tag @s add Pundus_SpawnedBoundItem
+execute as @a[tag=handmade_decor_bii] at @s run loot spawn ~ ~ ~ loot pundus_root:handmade/handmade_model_bii
+execute as @a[tag=handmade_decor_bii] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
+tag @a[tag=handmade_decor_bii] remove handmade_decor_bii
+
+# handmade_decor_lesbeean
+execute as @a[tag=handmade_decor_lesbeean] at @s run tag @s add Pundus_SpawnedBoundItem
+execute as @a[tag=handmade_decor_lesbeean] at @s run loot spawn ~ ~ ~ loot pundus_root:handmade/handmade_model_lesbeean
+execute as @a[tag=handmade_decor_lesbeean] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
+tag @a[tag=handmade_decor_lesbeean] remove handmade_decor_lesbeean
+
 execute as @e[tag=Pundus_BoundItemSpawn,type=item] at @s run function pundus_root:bound_items/item_binder
 
 execute as @e[type=item,predicate=pundus_root:generic/playerbound_item_entity] run data modify entity @s PickupDelay set value 0

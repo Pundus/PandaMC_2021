@@ -11,7 +11,7 @@ tellraw @s[tag=hm_raw_classic_fish] [{"color":"green","translate":"pundus.npc.cm
 tellraw @s[tag=hm_ring_tlh] [{"color":"green","translate":"pundus.npc.cm.claim.generic","with":[{"translate":"pundus.item.ring_tlh.name"}],"clickEvent":{"action":"run_command","value":"/trigger Pundus_HMItem set 7"}}]
 tellraw @s[tag=hm_sturgeon_striker] [{"color":"green","translate":"pundus.npc.cm.claim.generic","with":[{"translate":"pundus.item.sturgeon_striker.name"}],"clickEvent":{"action":"run_command","value":"/trigger Pundus_HMItem set 8"}}]
 
-#tellraw @s [{"color":"green","translate":"pundus.npc.cm.claim.more","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 31"}}]
+tellraw @s [{"color":"green","translate":"pundus.npc.cm.claim.more","clickEvent":{"action":"run_command","value":"/trigger Pundus_NPCMenu set 31"}}]
 
 
 

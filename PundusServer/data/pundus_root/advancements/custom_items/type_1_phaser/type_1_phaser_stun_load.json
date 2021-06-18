@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{pundus_id:\"type_1_phaser\",Charged:0b}"
+            },
+            "offhand": {              "nbt": "{pundus_id:\"crystallic_power_cell\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/type_1_phaser/t1p_load"
+  }
+}

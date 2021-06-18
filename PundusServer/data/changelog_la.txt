@@ -1,0 +1,46 @@
+**Server Patch Notes 14/06/2021-A**
+`Content Patch to v1.0.2.53-2021.06.14-a`
+
+> Gameplay Changes
++ You now have a 5%* chance of catching a `Raw Classic Fish` when fishing.
+* - Fish loot table. Thanks to TzeOng for suggesting!
+
+> Item Changes
+**+ The `Probability Cube` has had its metadata changed.**
+**You can uncraft old ones into new ones via the Probability Trader.**
+
++ The `Prop Laser Sword` now also makes the swooshy swing noise when used to hit entities.
+
++ The `Laser Sword` will now give you a `Power Cell Manifold` after repairing instead of permanently consuming `Crystallic Power Cells`.
+
+> Item Additions
++ Added the `Lunarite Block`. Used for trading with the Lunar Event Trader in higher denominations of `Lunarite Crystal.` Tradeable for a stack of `Lunarite Crystals`.
+
++ Added a new block pack: `Block Pack: Watery Depths`. Purchasable at the Spawn Shop for 1600 :playcoin: .
+Allows for a choice for half a stack of: Sponge, Sea Lantern, Sea Pickle or the five Coral Block variants.
+
++ Added 2 new decor items: the `Bii Statuette` (Suggested by female_ryan), and the `Lesbeean Statuette` (Suggested by IcyPops).
+
+> NPC Changes
+- Removed the Lunar Item Trials trader.
+
+> Economy Changes
+= Changed prices of items from the Lunar Event Trader
+
+> Egg Changes
+
+> Graphical Changes
++ Updated the texture for the `[Ring] Beyond the Night`
++ Updated the texture for the `Bi Bandana` to include more detailing.
++ Updated the texture for the `Pan Sweatband` to include more detailing.
++ Changed the positioning and rotation of the `Pan Sweatband` while in an item frame.
+
+> Technical Changes
++ Grouped Easter items together within the code.
+
+> Bugs Fixed
+= Fixed an issue causing global Egg drops to be centered on one player, rather than all players.
+= Fixed an issue where Eggs could drop in the Nether and on the Moon naturally.
+
+> Known Bugs
+= Due to Minecraft not updating player slots serverside for some reason, certain items and effects may remain functioning even if you no longer have the item.

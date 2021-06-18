@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:1155,buyout_token_la:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"buyout_token_la\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.buyout_token_la.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.buyout_token_la.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.buyout_token_la.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.buyout_token_la.lore4",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.buyout_token_la.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

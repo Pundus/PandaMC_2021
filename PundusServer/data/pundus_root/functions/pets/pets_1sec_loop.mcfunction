@@ -14,6 +14,8 @@ execute as @e[tag=Pundus_Pet,tag=Pet_Ridden] unless data entity @s Passengers ru
 
 execute as @e[tag=Pundus_Pet,tag=Pet_Rider,predicate=pundus_root:generic/on_ground] run kill @s
 
+execute as @e[tag=Pundus_Kugelblitz] at @s run function pundus_root:pets/kugelblitz_1sec
+
 
 
 schedule function pundus_root:pets/pets_1sec_loop 1s

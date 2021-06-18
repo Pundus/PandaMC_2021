@@ -1,0 +1,61 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_leggings",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_bound_item:1b,pundus_handmade:1b,display:{color:16774023},HideFlags:64,pundus_playcoin_sellable:0b,pundus_playcoin_value:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:4s}],light_emitter:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"pathfinding_pants\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.generic.handmade.lore1",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.handmade.lore2",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.pathfinding_pants.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.pathfinding_pants.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.pathfinding_pants.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.cannot_protected",
+					"color": "red",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": [{"translate":"pundus.item.generic.handmade.name",
+					"italic": false,
+					"color": "green","with":[{
+					"translate": "pundus.item.pathfinding_pants.name",
+					"color": "green",
+					"italic": false
+				}]}]
+			}]
+		}]
+	}]
+}

@@ -2,8 +2,8 @@
 
 #egg drop
 
-execute as @a[predicate=pundus_root:dimension_check/in_overworld] as @e[limit=5] as @p at @s run function pundus_cosmetics:easter_eggs/egg_drop
-execute as @a[predicate=pundus_root:dimension_check/in_end] as @e[limit=15] as @p at @s run function pundus_cosmetics:easter_eggs/egg_drop
+execute as @a[predicate=pundus_root:dimension_check/in_overworld] at @s as @e[limit=5] as @p at @s run function pundus_cosmetics:easter_eggs/egg_drop
+#execute as @a[predicate=pundus_root:dimension_check/in_end] as @e[limit=15] as @p at @s run function pundus_cosmetics:easter_eggs/egg_drop
 
 execute as @e[tag=!Pundus_DroppedEgg,type=item,nbt={Item:{tag:{pundus_easter_egg:1b}}}] unless data entity @s Item.tag.pundus_egg_serial run tag @s add Pundus_DroppedEgg
 

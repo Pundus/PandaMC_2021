@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/undetectable/init/sonic_pearl_init"
+  }
+}

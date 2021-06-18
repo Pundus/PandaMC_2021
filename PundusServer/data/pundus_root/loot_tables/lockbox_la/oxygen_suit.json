@@ -1,0 +1,59 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_chestplate",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{display:{color:1118481},pundus_playcoin_sellable:1b,HideFlags:64,pundus_playcoin_value:500,IBU_Updated:1b,integrated_breathing_unit:1b,pundus_custom_1sec:1b,Unbreakable:1b,Enchantments:[{}],oxygen_suit:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"oxygen_suit\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [[{
+				"translate": "pundus.item.generic.value",
+				"color": "white",
+				"italic": false
+			}, {
+				"text": "500",
+				"color": "white",
+				"italic": false
+			}, {
+				"translate": "pundus.item.generic.playcoin_suffix",
+				"color": "white",
+				"italic": false
+			}],{
+					"translate": "pundus.item.generic.wear_to_use",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.oxygen_suit.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.oxygen_suit.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.oxygen_suit.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.unbreaking",
+					"color": "dark_green",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.oxygen_suit.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

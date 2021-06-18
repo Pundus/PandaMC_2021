@@ -3,8 +3,8 @@
   "entity": "this",
   "predicate": {
     "equipment": {
-      "chest": {
-        "nbt": "{integrated_breathing_unit:1b}"
+      "legs": {
+        "nbt": "{light_emitter:1b}"
       }
     }
   }

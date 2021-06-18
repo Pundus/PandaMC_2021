@@ -82,6 +82,8 @@ scoreboard objectives add Pundus_EL_CD dummy
 #scoreboard objectives add Pundus_BQuivB minecraft.used:minecraft.bow
 #scoreboard objectives add Pundus_BQuivCB minecraft.used:minecraft.crossbow
 
+scoreboard objectives add P_SonicPearlUsed minecraft.used:minecraft.ender_pearl
+
 #scoreboard objectives add Pundus_DRUse minecraft.used:minecraft.carrot_on_a_stick
 #scoreboard objectives add P_CoaSUsed_1s minecraft.used:minecraft.carrot_on_a_stick
 
@@ -143,6 +145,8 @@ scoreboard objectives add Pundus_NPCMenu trigger
 scoreboard objectives add Pundus_HMItem trigger
 scoreboard objectives add Pundus_NPC_SFX dummy
 scoreboard objectives add Pundus_DummyHP dummy
+
+scoreboard objectives add Pundus_KBTrack dummy
 
 scoreboard objectives add Pundus_URKills minecraft.killed:minecraft.zombie
 scoreboard objectives add Pundus_URKillsD minecraft.killed:minecraft.drowned

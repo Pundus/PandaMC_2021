@@ -31,3 +31,19 @@ execute as @s[tag=hm_ring_tlh] at @s if score @s Pundus_HMItem matches 7 run sco
 #sturgeon_striker
 execute as @s[tag=hm_sturgeon_striker] at @s if score @s Pundus_HMItem matches 8 run tag @s add handmade_sturgeon_striker
 execute as @s[tag=hm_sturgeon_striker] at @s if score @s Pundus_HMItem matches 8 run scoreboard players set @s Pundus_NPCMenu 4
+
+#pathfinding_pants
+execute as @s[tag=hm_pathfinding_pants] at @s if score @s Pundus_HMItem matches 9 run tag @s add handmade_pathfinding_pants
+execute as @s[tag=hm_pathfinding_pants] at @s if score @s Pundus_HMItem matches 9 run scoreboard players set @s Pundus_NPCMenu 4
+
+#replanting_soles
+execute as @s[tag=hm_replanting_soles] at @s if score @s Pundus_HMItem matches 10 run tag @s add handmade_replanting_soles
+execute as @s[tag=hm_replanting_soles] at @s if score @s Pundus_HMItem matches 10 run scoreboard players set @s Pundus_NPCMenu 4
+
+#bii
+execute as @s[tag=hm_decor_bii] at @s if score @s Pundus_HMItem matches 11 run tag @s add handmade_decor_bii
+execute as @s[tag=hm_decor_bii] at @s if score @s Pundus_HMItem matches 11 run scoreboard players set @s Pundus_NPCMenu 4
+
+#lesbeean
+execute as @s[tag=hm_decor_lesbeean] at @s if score @s Pundus_HMItem matches 12 run tag @s add handmade_decor_lesbeean
+execute as @s[tag=hm_decor_lesbeean] at @s if score @s Pundus_HMItem matches 12 run scoreboard players set @s Pundus_NPCMenu 4

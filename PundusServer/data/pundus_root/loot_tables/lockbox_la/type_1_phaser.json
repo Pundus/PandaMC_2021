@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{HideFlags:1,disco_phaser:1b,disco_phaser_justswap:0b,disco_phaser_mode:\"kill\",CustomModelData:1095,Enchantments:[{id:\"minecraft:quick_charge\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:piercing\",lvl:3s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"type_2_phaser\",Charged:0b}"
+				"tag": "{HideFlags:1,CustomModelData:1154,Enchantments:[{id:\"minecraft:quick_charge\",lvl:10s},{id:\"minecraft:piercing\",lvl:1s}],pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"type_1_phaser\",Charged:0b}"
 			}, {
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -22,27 +22,23 @@
 					"color": "dark_gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.type_2_phaser.lore1",
+					"translate": "pundus.item.type_1_phaser.lore1",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.type_2_phaser.lore2",
+					"translate": "pundus.item.type_1_phaser.lore2",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.type_2_phaser.lore3",
+					"translate": "pundus.item.type_1_phaser.lore3",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.type_2_phaser.lore4",
+					"translate": "pundus.item.type_1_phaser.lore4",
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "pundus.item.type_2_phaser.lore5",
-					"color": "gray",
-					"italic": false
-				},{
-					"translate": "pundus.item.type_2_phaser.lore6",
+					"translate": "pundus.item.type_1_phaser.lore5",
 					"color": "gray",
 					"italic": false
 				},{
@@ -53,8 +49,8 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "pundus.item.type_2_phaser.name",
-					"color": "light_purple",
+					"translate": "pundus.item.type_1_phaser.name",
+					"color": "aqua",
 					"italic": false
 				}
 			}]

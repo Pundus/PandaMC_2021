@@ -12,3 +12,5 @@ execute as @a[tag=Pundus_EatCnCiC] at @s if score @s Pundus_CnCiCCD matches 1.. 
 execute as @a[tag=Pundus_EatCnCiC] at @s unless score @s Pundus_CnCiCCD matches 1.. run function pundus_root:custom_items/5_tick_misc/cncic_ended
 
 execute as @e[tag=Pundus_FightingDummy] at @s run function pundus_root:custom_items/5_tick_misc/fighting_dummy
+
+execute as @a[tag=Pundus_LightEmitter,tag=!Pundus_InProtA,predicate=!pundus_root:custom_items/light_emitter] at @s run function pundus_root:custom_items/5_tick_misc/fix_light
