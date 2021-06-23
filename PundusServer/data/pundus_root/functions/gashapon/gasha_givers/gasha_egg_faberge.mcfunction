@@ -3,7 +3,7 @@
 tag @s remove Pundus_GashaS_Egg_Faberge
 tag @s remove Pundus_Gasha_Scrolling
 
-playsound minecraft:ui.lootbox_rarity_5 master @s ~ ~ ~ 1 1 1
+playsound minecraft:ui.lootbox_rarity_4 master @s ~ ~ ~ 1 1 1
 
 scoreboard players set %Modulo Pundus_RNG 12
 scoreboard players set %C Pundus_RNG 4096

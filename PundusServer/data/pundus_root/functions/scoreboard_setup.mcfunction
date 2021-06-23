@@ -43,6 +43,13 @@ scoreboard objectives add Pundus_DelayL dummy
 scoreboard objectives add Pundus_MoonGrav dummy
 scoreboard objectives add Pundus_LogEvent dummy
 
+scoreboard objectives add Pundus_TimeMath dummy
+scoreboard objectives add Pundus_TimeH dummy
+scoreboard objectives add Pundus_TimeM dummy
+scoreboard objectives add Pundus_TimeS dummy
+scoreboard players set %Time60 Pundus_TimeMath 60
+scoreboard players set %Time3600 Pundus_TimeMath 3600
+
 scoreboard objectives add Pundus_MobTrk1 dummy
 
 scoreboard objectives add Pundus_Pos_X dummy

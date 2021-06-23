@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "tag": "pundus_root:egg"
+            },
+            "mainhand": {
+              "nbt": "{chicken_egg_cannon:1b,Charged:0b}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/chicken_egg_cannon/cec_load"
+  }
+}

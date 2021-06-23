@@ -29,8 +29,13 @@
 #execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add lb_undead_rising
 
 #btn
-execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow"},{"translate":"pundus.server.events.btn.title"}]
-execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"text":" (","color":"gold"},{"translate":"pundus.server.events.btn.details"},{"text":")"}]
-execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add lb_btn
+#execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow"},{"translate":"pundus.server.events.btn.title"}]
+#execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"text":" (","color":"gold"},{"translate":"pundus.server.events.btn.details"},{"text":")"}]
+#execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add lb_btn
+#execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add ethereal_ingot
+#execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add gorb_cosmetic_pride
+
+#la
+execute as @s[scores={Pundus_CurDaily=1..}] run tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.la.title","bold":false,"hoverEvent":{"action":"show_text","contents":{"translate":"pundus.server.events.la.info","color":"gold","bold":false}}}]
 execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add ethereal_ingot
 execute as @s[scores={Pundus_CurDaily=1..}] run tag @s add gorb_cosmetic_pride

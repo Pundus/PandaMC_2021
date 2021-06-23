@@ -2,7 +2,10 @@ tellraw @s [{"translate":"pundus.server.welcome.title","color":"green","underlin
 
 tellraw @s [{"text":" "}]
 
-tellraw @s [{"translate":"pundus.server.welcome.daily_reset"},{"score":{"name":"%Counter","objective":"Pundus_DailyC"}},{"text":"/72000"}]
+scoreboard players operation %WelcomeCounter Pundus_TimeMath = %Counter Pundus_DailyC
+function pundus_root:welcome_message/welcome_convert_to_hhmmss
+
+tellraw @s [{"translate":"pundus.server.welcome.daily_reset","with":[{"score":{"name":"%WelcomeCounter","objective":"Pundus_TimeH"}},{"score":{"name":"%WelcomeCounter","objective":"Pundus_TimeM"}},{"score":{"name":"%WelcomeCounter","objective":"Pundus_TimeS"}}]}]
 
 tellraw @s [{"text":" "}]
 
@@ -29,8 +32,11 @@ tellraw @s [{"text":" "}]
 #tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.easter.info","bold":false}]
 
 #btn
-tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.btn.title","bold":false}]
-tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.btn.info","bold":false}]
+#tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.btn.title","bold":false}]
+#tellraw @s [{"translate":"pundus.server.welcome.event_about","color":"gold","bold":true},{"translate":"pundus.server.events.btn.info","bold":false}]
+
+#LA
+tellraw @s [{"translate":"pundus.server.welcome.event_active","color":"yellow","bold":true},{"translate":"pundus.server.events.la.title","bold":false,"hoverEvent":{"action":"show_text","contents":{"translate":"pundus.server.events.la.info","color":"gold","bold":false}}}]
 
 team join Players @s[team=!Admin,team=!Players]
 

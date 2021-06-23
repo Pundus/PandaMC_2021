@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_gasha_id:17,CustomModelData:10017,pundus_gashapon:1b,pundus_shop_cost:3,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"lb_la\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.gashapon.instruction",
+					"color": "dark_gray",
+					"italic": false
+				},[{
+					"translate": "pundus.item.gashapon.number",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"text": "17",
+					"color": "dark_gray",
+					"italic": false
+				}],{
+					"translate": "pundus.item.gashapon.la.lore.prelude1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.la.lore.info1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.gashapon.la.lore.info2",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.gashapon.la.name",
+					"color": "light_purple",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

@@ -51,14 +51,15 @@ tag @a[predicate=!pundus_root:pda_offhand,tag=pda_open] remove pda_open
 
 
 #Sell Vanilla items For Playcoins
-execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=!sim_playcoin_vanilla,predicate=!pundus_root:generic/offhand_custom_item] at @s run function pundus_root:economy/sell_item_menu_vanilla_pc
+#execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=!sim_playcoin_vanilla,predicate=!pundus_root:generic/offhand_custom_item] at @s run function pundus_root:economy/sell_item_menu_vanilla_pc
 execute as @a[predicate=pundus_root:playcoin_values/ominous_banner_offhand,tag=!sim_playcoin_vanilla] at @s run function pundus_root:economy/sell_item_menu_vanilla_pc
 
-execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=sim_playcoin_vanilla,predicate=pundus_root:generic/crouching,predicate=!pundus_root:generic/offhand_custom_item] unless score @s SET_CrouchSell matches 1.. run scoreboard players set @s Pundus_MenuVar 501
+#execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=sim_playcoin_vanilla,predicate=pundus_root:generic/crouching,predicate=!pundus_root:generic/offhand_custom_item] unless score @s SET_CrouchSell matches 1.. run scoreboard players set @s Pundus_MenuVar 501
+
 execute as @a[predicate=pundus_root:playcoin_values/ominous_banner_offhand,tag=sim_playcoin_vanilla,predicate=pundus_root:generic/crouching] unless score @s SET_CrouchSell matches 1.. run scoreboard players set @s Pundus_MenuVar 501
 
 execute as @a[predicate=pundus_root:playcoin_values/ominous_banner_offhand,tag=sim_playcoin_vanilla,scores={Pundus_MenuVar=501}] run function pundus_root:economy/sell_item_vanilla_pc
-execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=sim_playcoin_vanilla,scores={Pundus_MenuVar=501}] run function pundus_root:economy/sell_item_vanilla_pc
+#execute as @a[predicate=pundus_root:playcoin_values/playcoin_valuable,tag=sim_playcoin_vanilla,scores={Pundus_MenuVar=501}] run function pundus_root:economy/sell_item_vanilla_pc
 
 scoreboard players reset @a[scores={Pundus_MenuVar=501}] Pundus_MenuVar
 

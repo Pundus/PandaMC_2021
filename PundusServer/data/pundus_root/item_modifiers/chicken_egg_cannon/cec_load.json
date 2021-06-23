@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{ChargedProjectiles:[{id:\"minecraft:tipped_arrow\",Count:1b,tag:{CustomPotionColor:1337}},{id:\"minecraft:tipped_arrow\",Count:1b,tag:{CustomPotionColor:1338}},{id:\"minecraft:tipped_arrow\",Count:1b,tag:{CustomPotionColor:1339}}],Charged:1b}"
+  }
+]

@@ -21,11 +21,15 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"lb_undead_rising"}}]}]
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"lb_btn"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_btn
 
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"lb_la"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_la
+
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"ep_normal"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_egg_normal
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"ep_special"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_egg_special
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"ep_faberge"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_egg_faberge
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"ep_player"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_egg_player
 
 
 item entity @s weapon.offhand replace air

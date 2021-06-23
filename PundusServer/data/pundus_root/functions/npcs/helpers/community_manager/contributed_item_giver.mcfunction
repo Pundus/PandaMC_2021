@@ -47,3 +47,7 @@ execute as @s[tag=hm_decor_bii] at @s if score @s Pundus_HMItem matches 11 run s
 #lesbeean
 execute as @s[tag=hm_decor_lesbeean] at @s if score @s Pundus_HMItem matches 12 run tag @s add handmade_decor_lesbeean
 execute as @s[tag=hm_decor_lesbeean] at @s if score @s Pundus_HMItem matches 12 run scoreboard players set @s Pundus_NPCMenu 4
+
+#lesbeean
+execute as @s[tag=hm_decor_wasabee] at @s if score @s Pundus_HMItem matches 13 run tag @s add handmade_decor_wasabee
+execute as @s[tag=hm_decor_wasabee] at @s if score @s Pundus_HMItem matches 13 run scoreboard players set @s Pundus_NPCMenu 4

@@ -1,46 +1,241 @@
-**Server Patch Notes 14/06/2021-A**
+**Lunar Advance Update Patch Notes 23/06/2021-A**
 `Content Patch to v1.0.2.53-2021.06.14-a`
 
+For more information about the new Quests mechanic, refer to the abridged changelog in #announcements!
+
 > Gameplay Changes
-+ You now have a 5%* chance of catching a `Raw Classic Fish` when fishing.
-* - Fish loot table. Thanks to TzeOng for suggesting!
+**+ You now have a 5%\* chance of catching a `Raw Classic Fish` when fishing.**
+\* - Fish loot table. Thanks to TzeOng for suggesting!
+- Removed the Lockbox: Beyond the Night from the Daily login reward.
+
++ The Moon has been reset!
 
 > Item Changes
 **+ The `Probability Cube` has had its metadata changed.**
-**You can uncraft old ones into new ones via the Probability Trader.**
+**You can uncraft old `Cubes` into new ones via the Probability Trader.**
+**The ability to convert old `Cubes` will be removed in the next major content patch**
 
 + The `Prop Laser Sword` now also makes the swooshy swing noise when used to hit entities.
 
-+ The `Laser Sword` will now give you a `Power Cell Manifold` after repairing instead of permanently consuming `Crystallic Power Cells`.
+**+ The `Laser Sword` will now give you a `Power Cell Manifold` after repairing instead of permanently consuming `Crystallic Power Cells`.**
+
++ The `Probability Cube` now visually looks like a full block when placed in an Item Frame.
 
 > Item Additions
-+ Added the `Lunarite Block`. Used for trading with the Lunar Event Trader in higher denominations of `Lunarite Crystal.` Tradeable for a stack of `Lunarite Crystals`.
+**+ Added the `Lunarite Block`. Used for trading with the Lunar Event Trader in higher denominations of `Lunarite Crystal.` Tradeable for a stack of `Lunarite Crystals`.**
 
-+ Added a new block pack: `Block Pack: Watery Depths`. Purchasable at the Spawn Shop for 1600 :playcoin: .
+**+ Added a new block pack: `Block Pack: Watery Depths`. Purchasable at the Spawn Shop for 1600 :playcoin:.**
 Allows for a choice for half a stack of: Sponge, Sea Lantern, Sea Pickle or the five Coral Block variants.
 
-+ Added 2 new decor items: the `Bii Statuette` (Suggested by female_ryan), and the `Lesbeean Statuette` (Suggested by IcyPops).
+**+ Added 3 new decor items: the `Bii Statuette` (Suggested by female_ryan), the `Wasabee Statuette` (Suggested by OfficialAleks), and the `Lesbeean Statuette` (Suggested by IcyPops).**
+
++ Added the `Prototype Lunarite Drill`
+Can mine ores of Iron Pickaxe tier, but has lower durability than the `Refined Lunarite Drill`. Enchanted with Fortune V.
+
++ Added the `Starshot Bow`
+A more powerful version of the `Moonshot Bow`. Deals up to 15 hearts of damage, and is also enchanted with Punch V.
+Obtained by completing the quest Lunar Pest Control.
+
++ Added the `Egg Pack: Community Egg`
+Contains 1 random Egg from the Community Egg Collection. Purchasable from the Easter Event Trader for 64 `Eggshells` and 16 `Fabergé Egg Stands`.
+
+**+ Added the `Lockbox: Lunar Advance`**
+Contains 1 of 16 new items! For more information, refer to the Lockbox additions changelog: TBA.
+
++ Added the `Type II Phaser`
+Two firing modes: Stun and Kill. Kill mode sets what you hit on fire and deals damage, while Stun mode freezes hostile mobs you hit in place for 5 seconds while dealing negligible damage.
+Can be created by upgrading at the Probability Trader using a `Type I Phaser` and 3 `Probability Cubes`.
+
++ Added the `Lunar Trader Communicator`
+Allows you to spawn a Lunar Trader Contact anywhere for 1 minute. Has a 5 minute cooldown.
+Can be created by upgrading at the Probability Trader using a `Lunar Trader Beacon` and 10 `Probability Cubes`.
+
+> Advancement Changes
+**+ Added 11 Lunar-themed advancements:**
+```
+Lunar Advance			- Enter the Moon
+Settled Dust			- Travel to a Lunar Plains biome on the Moon
+Cracks in the Shell		- Travel to a Lunar Cracked biome on the Moon
+Shivering Heights		- Travel to a Lunar Mountains biome on the Moon
+Deep Impact				- Travel to a Lunar Crater biome on the Moon
+Lunar Advanced			- Travel to all Lunar biomes on the Moon
+Beneath the Crust		- Enter a Lunar Cave System
+Shard Extraction		- Mine Lunarite ore on the Moon
+Silverfish Scourge		- Kill a Silverfish on the Moon
+Skeletal Scare			- Kill a Skeleton on the Moon
+Moon Menagerie Murder	- Kill one of each Lunar inhabitant: 
+						  Bat, Endermen, Phantom, Skeleton, 
+						  Silverfish, Wither Skeleton
+```
+Task Advancements award 100 :playcoin: and a `Lunarite Block`
+Goal Advancements award 400 :playcoin: and an Ethereal Ingot
+Challenge Advancements award 800 :playcoin: and a `Prototype Lunarite Drill`
+
+**+ Added 5 Easter Egg-themed advancements. The Advancements come with different rewards:**
+```
+Eggciting Beginnings		- Collect all 42 Common Eggs	- 100 :playcoin: and an `Egg Basket`
+Eggcellent Collection		- Collect all 22 Special Eggs	- 500 :playcoin: and a `Spell of Dropping Eggs`
+Eggstravagant Rarities		- Collect all 12 Fabergé Eggs	- 1000 :playcoin: and an `Egg Pack: Community Egg`
+Eggstraordinary Community	- Collect all 24 Player Eggs	- 2500 :playcoin: and an `Egg Pack: Community Egg`
+Egghead						- Wear a Community Egg as a hat	- 500 :playcoin: and a Spell of Dropping Eggs
+```
+
+> Quest Additions
+**+ Added a new Quests system, with 5 Quests to start with from the following NPCs:**
+**Corporal Lance**:
+`Moon Miner`
+```Mine 150 Lunarite Ore on the Moon.```
+Reward: `Prototype Lunarite Drill`
+Cooldown: 12 Hours
+
+`Lunar Pest Control`
+```Slay 150 Silverfish on the Moon```
+Reward: `Starshot Bow`
+Cooldown: 12 Hours
+
+**Dr. Wradin**:
+`An Eggcellent Hunt`
+```Serialize 30 Eggs.```
+Reward: `Egg Basket` and 500 :playcoin:
+Cooldown: 30 Minutes
+
+`The Incubator`
+```Hatch 20 Eggs```
+Reward: `Spell of Dropping Eggs` and 1000 :playcoin:
+Cooldown: 30 Minutes
+
+`Eggcentricities`
+```Sell 10 rare Egg serials```
+Reward: `Egg Pack: Community Egg` and 2500 :playcoin:
+Cooldown: 30 Minutes
 
 > NPC Changes
++ Added the Lunar Advance Lockbox Odds and Lunar Advance Lockbox Buyout traders.
++ Added the Probability Upgrader, positioned next to the Probability Trader. You can upgrade certain items with `Probability Pearls` using this trader!
++ The `Egg Pack: Community Egg` is now available from the Easter Event Trader
+
 - Removed the Lunar Item Trials trader.
 
 > Economy Changes
+**+ All LGBT-themed Bee Statuettes are on sale for a limited time (25% off!). These are: `LGBeeT Statuette`, `Trans Bee Statuette`, `enBee Statuette`, `Bii Statuette` and the `Lesbeean Statuette`.**
+Sale ends at the end of the week.
+
 = Changed prices of items from the Lunar Event Trader
+**- Disabled selling of vanilla items temporarily, except Ominous Banners which can still be sold for 50 :playcoin: each.**
 
 > Egg Changes
+**+ Added 24 new Eggs in the Community Eggs collection:**
+```Yveltriegg
+fluoreggsin
+female_ryegg
+ThomasDeEgg
+OfficialEggleks
+egGquenXD
+daddyneedsegg
+eggs_and_stabs
+TzeEgg
+MEGG1172
+friedegg
+SyphenEgg
+Eggdern
+eggkkai
+khuziegg
+Kuusheggro
+TehEggL0rdz
+PRYtheEgg
+arcaneegg
+Xalegg
+IcyEggs
+Juiceegg
+eggportyl
+Lord_Eggdus```
+**+ Mobs can now wear Eggs of any rarity except Community Eggs.**
+**+ When a Community Egg naturally drops, all players are alerted via the actionbar.**
+**+ The `Eggdar 5000` will cause Player Eggs to glow Red to make them easier to identify.**
+**+ Community Eggs now have a 1% chance of dropping in Egg Drops, both natural and summoned by the Spell of `Dropping Eggs`.**
+
++ Eggs now hop higher, farther and further.
++ Eggs will now hop even if stuck, in an attempt to get unstuck.
 
 > Graphical Changes
-+ Updated the texture for the `[Ring] Beyond the Night`
-+ Updated the texture for the `Bi Bandana` to include more detailing.
-+ Updated the texture for the `Pan Sweatband` to include more detailing.
-+ Changed the positioning and rotation of the `Pan Sweatband` while in an item frame.
+= Updated the texture for the `[Ring] Beyond the Night`.
+= Updated the texture for the `Bi Bandana` to include more detailing.
+= Updated the texture for the `Pan Sweatband` to include more detailing.
+= Changed the positioning and rotation of the `Pan Sweatband` while in an item frame.
+= Unboxing... text is now consistently darker for all lootboxes with scrolling animations.
+= Reformatted the Daily Login message so Event Information is now in a tooltip when mousing over the event name, instead of its own line, to reduce clutter.
+= The time until the next daily reset shown on logging in is now more human-readable.
 
 > Technical Changes
 + Grouped Easter items together within the code.
++ Added range limiter to NPC shop creation to prevent accidentally deleting stuff.
 
 > Bugs Fixed
 = Fixed an issue causing global Egg drops to be centered on one player, rather than all players.
-= Fixed an issue where Eggs could drop in the Nether and on the Moon naturally.
+= Possibly fixed an issue where Eggs could drop in the Nether and on the Moon naturally.
+= Resolved an issue causing the Lunar Cracked biome's underground caves to not properly register as a cave.
 
 > Known Bugs
 = Due to Minecraft not updating player slots serverside for some reason, certain items and effects may remain functioning even if you no longer have the item.
+
+
+
+**Welcome to the Lunar Advance Update!**
+Return to the Moon in this latest content update to earn Advancements and work towards the new Lockbox: Lunar Advance!
+
+This update includes 16 new Lockbox items, 2 new Quest items, and 24 new Community-themed eggs!
+
+It also includes the new Quests system! Talk to any of the two current Quest givers, Dr. Wradin or Corporal Lance, to accept quests.
+
+There are 5 currently available Quests, 3 from Wradin and 2 from Lance. Completing them provides different rewards for each Quest, including the `Starshot Bow` which can only be obtained from Corporal Lance's `Lunar Pest Control` Quest!
+
+You can only have 1 Quest per Quest giver active, and each quest as a cooldown between availability once complete. You can also abandon quests if they are too difficult to complete.
+
+**Lockbox: Lunar Advance Additions**
+
+**{Ring] Lunar Advance**
+Equipping this ring in your offhand on the Moon will cause any mobs you slay there to drop `Lunarite Shards`,
+
+**Cosmic Cola**
+Drinking this can of cola will emulate the effects of Lunar gravity!
+
+**[Pet] Lunar Mining Drone**
+A drone that follows you around, giving haste to any players near it. Attacking a mob with the drone active will cause the drone to attack for you. If the drone becomes fully submerged, it will be destroyed. Drone is consumed on use and lasts for 5 minutes.
+
+**Darkheart**
+The latest of the three Greatswords, the `Darkheart` heals 2 of your hearts when you kill a mob with it.
+
+**Type I Phaser**
+A directed energy weapon that shoots out stun bolts, capable of disabling any hostile mob hit with it, but dealing no damage. Can be upgraded into a damaging two-mode `Type II Phaser` using `Probability Pearls`.
+
+**TNT Launcher**
+Using *Fire Charges* as ammunition, this TNT Launcher fires gravity-defying blocks of Primed TNT!
+
+**Comet Cocktail**
+A bubbly drink that glows in the dark, drinking this will heal you to full health, but weaken and nauseate you. It also lets you see in the dark!
+
+**Pathfinding Pants**
+Wearing these will cause you to emit an aura of light as long as you're standing in an air block!
+
+**[Ring] The Long Haul**
+Equipping this ring in your offhand will let you incrementally walk faster every 5 seconds, up to a stack of 3. At maximum stacks, you also gain Jump Boost I, but this cannot be used in combat.
+
+**Sonic Pearl**
+A custom-engineered *Ender Pearl* that can fly twice as fast. Be careful, if it exits loaded chunks, it won't continue flying while unloaded.
+
+**Sturgeon Striker**
+A sword made from a fish with Knockback XVI. Also allows you to swim faster while held in water, at the cost of losing 1 point of durability per second.
+
+**Kugelblitz Bomb**
+A consumable that deploys an orb of ball lightning for 30 seconds. Any hostile mobs that enter a 12 block radius of the Kugelblitz will be struck down by lightning.
+
+**Replanting Soles**
+A pair of leather shoes that, while on fresh farmland, will plant whatever seeds you have in your offhand for you!
+
+**Oxygenating Suit**
+An unbreakable Leather Chestplate that functions as an Integrated Breathing Unit. Being unbreakable, have no worries of lack of air while on the Moon, or underwater.
+
+**Lunar Trader Beacon**
+A consumable beacon that will summon a Lunar Trader Contact wherever you are in the Overworld. Can be upgraded with `Probability Pearls` into a reuseable-from-anywhere `Lunar Trader Communicator`.
+
+

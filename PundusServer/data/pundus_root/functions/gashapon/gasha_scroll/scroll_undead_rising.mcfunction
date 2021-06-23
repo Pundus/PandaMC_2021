@@ -25,32 +25,32 @@ title @s times 0 80 40
 title @s title {"translate":"pundus.special.lootbox.unboxing","color":"dark_green"}
 
 
-execute if score %LBVal_S Pundus_RNG matches 0..2 run title @s subtitle {"translate":"pundus.item.crimson_battleaxe.name","color":"light_purple"}
+execute if score %LBVal_S Pundus_RNG matches 0..2 run title @s subtitle {"translate":"pundus.item.crimson_battleaxe.name","color":"dark_purple"}
 
-execute if score %LBVal_S Pundus_RNG matches 3..8 run title @s subtitle {"translate":"pundus.item.reaping_scythe.name","color":"aqua"}
+execute if score %LBVal_S Pundus_RNG matches 3..8 run title @s subtitle {"translate":"pundus.item.reaping_scythe.name","color":"dark_aqua"}
 
-execute if score %LBVal_S Pundus_RNG matches 9..16 run title @s subtitle {"translate":"pundus.item.fertilizing_feet.name","color":"yellow"}
+execute if score %LBVal_S Pundus_RNG matches 9..16 run title @s subtitle {"translate":"pundus.item.fertilizing_feet.name","color":"gold"}
 
-execute if score %LBVal_S Pundus_RNG matches 17..24 run title @s subtitle {"translate":"pundus.item.scepter_mindless_translocation.name","color":"yellow"}
+execute if score %LBVal_S Pundus_RNG matches 17..24 run title @s subtitle {"translate":"pundus.item.scepter_mindless_translocation.name","color":"gold"}
 
-execute if score %LBVal_S Pundus_RNG matches 25..27 run title @s subtitle {"translate":"pundus.item.scepter_spirit_shift.name","color":"light_purple"}
+execute if score %LBVal_S Pundus_RNG matches 25..27 run title @s subtitle {"translate":"pundus.item.scepter_spirit_shift.name","color":"dark_purple"}
 
-execute if score %LBVal_S Pundus_RNG matches 28..33 run title @s subtitle {"translate":"pundus.item.mini_crossbow.name","color":"aqua"}
+execute if score %LBVal_S Pundus_RNG matches 28..33 run title @s subtitle {"translate":"pundus.item.mini_crossbow.name","color":"dark_aqua"}
 
-execute if score %LBVal_S Pundus_RNG matches 34..39 run title @s subtitle {"translate":"pundus.item.firebrand.name","color":"aqua"}
+execute if score %LBVal_S Pundus_RNG matches 34..39 run title @s subtitle {"translate":"pundus.item.firebrand.name","color":"dark_aqua"}
 
-execute if score %LBVal_S Pundus_RNG matches 40..47 run title @s subtitle {"translate":"pundus.item.spell_dead_men_walking.name","color":"white"}
+execute if score %LBVal_S Pundus_RNG matches 40..47 run title @s subtitle {"translate":"pundus.item.spell_dead_men_walking.name","color":"gray"}
 
-execute if score %LBVal_S Pundus_RNG matches 48..55 run title @s subtitle {"translate":"pundus.item.chestplate_satiation.name","color":"yellow"}
+execute if score %LBVal_S Pundus_RNG matches 48..55 run title @s subtitle {"translate":"pundus.item.chestplate_satiation.name","color":"gold"}
 
-execute if score %LBVal_S Pundus_RNG matches 56..61 run title @s subtitle {"translate":"pundus.item.leggings_restoration.name","color":"yellow"}
+execute if score %LBVal_S Pundus_RNG matches 56..61 run title @s subtitle {"translate":"pundus.item.leggings_restoration.name","color":"gold"}
 
-execute if score %LBVal_S Pundus_RNG matches 62..70 run title @s subtitle {"translate":"pundus.item.golem_reinforcements.name","color":"white"}
+execute if score %LBVal_S Pundus_RNG matches 62..70 run title @s subtitle {"translate":"pundus.item.golem_reinforcements.name","color":"gray"}
 
-execute if score %LBVal_S Pundus_RNG matches 71..79 run title @s subtitle {"translate":"pundus.item.golem_cannon_fodder.name","color":"white"}
+execute if score %LBVal_S Pundus_RNG matches 71..79 run title @s subtitle {"translate":"pundus.item.golem_cannon_fodder.name","color":"gray"}
 
-execute if score %LBVal_S Pundus_RNG matches 80..89 run title @s subtitle {"translate":"pundus.item.zombosoda.name","color":"white"}
+execute if score %LBVal_S Pundus_RNG matches 80..89 run title @s subtitle {"translate":"pundus.item.zombosoda.name","color":"gray"}
 
-execute if score %LBVal_S Pundus_RNG matches 90..95 run title @s subtitle {"translate":"pundus.item.history_of_fish.name","color":"yellow"}
+execute if score %LBVal_S Pundus_RNG matches 90..95 run title @s subtitle {"translate":"pundus.item.history_of_fish.name","color":"gold"}
 
-execute if score %LBVal_S Pundus_RNG matches 96..99 run title @s subtitle {"translate":"pundus.item.basic_quiver.name","color":"yellow"}
+execute if score %LBVal_S Pundus_RNG matches 96..99 run title @s subtitle {"translate":"pundus.item.basic_quiver.name","color":"gold"}

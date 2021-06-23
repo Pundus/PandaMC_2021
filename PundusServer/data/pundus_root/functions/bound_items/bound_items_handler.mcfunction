@@ -84,6 +84,12 @@ execute as @a[tag=handmade_decor_lesbeean] at @s run loot spawn ~ ~ ~ loot pundu
 execute as @a[tag=handmade_decor_lesbeean] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
 tag @a[tag=handmade_decor_lesbeean] remove handmade_decor_lesbeean
 
+# handmade_decor_wasabee
+execute as @a[tag=handmade_decor_wasabee] at @s run tag @s add Pundus_SpawnedBoundItem
+execute as @a[tag=handmade_decor_wasabee] at @s run loot spawn ~ ~ ~ loot pundus_root:handmade/handmade_model_wasabee
+execute as @a[tag=handmade_decor_wasabee] at @s run tag @e[type=item,predicate=pundus_root:generic/bound_item_entity,sort=nearest,limit=1,distance=..1] add Pundus_BoundItemSpawn
+tag @a[tag=handmade_decor_wasabee] remove handmade_decor_wasabee
+
 execute as @e[tag=Pundus_BoundItemSpawn,type=item] at @s run function pundus_root:bound_items/item_binder
 
 execute as @e[type=item,predicate=pundus_root:generic/playerbound_item_entity] run data modify entity @s PickupDelay set value 0

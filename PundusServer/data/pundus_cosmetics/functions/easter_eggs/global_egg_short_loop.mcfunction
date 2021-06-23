@@ -11,7 +11,8 @@ execute as @e[tag=!Pundus_EggHatDone,tag=!Pundus_DoNotEggHat,type=#pundus_cosmet
 execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s run data modify entity @s CustomNameVisible set value 0b
 execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s run data modify entity @s Glowing set value 0b
 
-execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s if block ~ ~1 ~ air run function pundus_cosmetics:easter_eggs/egg_hop
+#execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s if block ~ ~1 ~ air run function pundus_cosmetics:easter_eggs/egg_hop
+execute as @e[type=minecraft:item,tag=Pundus_DroppedEgg] at @s run function pundus_cosmetics:easter_eggs/egg_hop
 
 
 schedule function pundus_cosmetics:easter_eggs/global_egg_short_loop 61t

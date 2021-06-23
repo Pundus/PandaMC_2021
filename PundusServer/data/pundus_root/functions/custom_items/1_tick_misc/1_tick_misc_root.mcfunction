@@ -10,5 +10,6 @@ execute as @e[type=minecraft:tnt,tag=Pundus_TNTProjectile] at @s run function pu
 
 execute as @e[type=#pundus_root:arrows,tag=Arrow_DoI,nbt={inGround:1b}] run kill @s
 
+execute as @e[tag=Pundus_EggProj,type=egg] at @s run particle end_rod ~ ~ ~ 0 0 0 0 1
 
 execute as @e[type=#pundus_root:arrows,tag=Pundus_ArrowLum,nbt={inGround:1b}] at @s run function pundus_root:custom_items/1_tick_misc/luminaire_arrow

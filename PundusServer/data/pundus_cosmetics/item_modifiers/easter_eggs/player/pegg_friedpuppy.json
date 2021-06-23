@@ -1,0 +1,47 @@
+[{
+		"function": "minecraft:set_lore",
+		"lore": [{
+				"translate": "cosmetic.item.egg.temp.start",
+				"color": "white",
+				"italic": false
+			},
+			[{
+				"translate": "cosmetic.item.collection.egg_player",
+				"color": "dark_gray",
+				"italic": false
+			}, {
+				"text": "[#11/24]",
+				"color": "dark_gray",
+				"italic": false
+			}], {
+				"translate": "cosmetic.item.egg.player.friedpuppy.lore1",
+				"color": "gray",
+				"italic": false
+			}, {
+				"translate": "cosmetic.item.egg.player.friedpuppy.lore2",
+				"color": "gray",
+				"italic": false
+			}, {
+				"translate": "cosmetic.item.egg.temp.end1",
+				"color": "white",
+				"italic": false
+			}, {
+				"translate": "cosmetic.item.egg.temp.end2",
+				"color": "white",
+				"italic": false
+			}
+		],
+		"replace": true
+	},
+	{
+		"function": "minecraft:set_name",
+		"name": {
+			"translate": "cosmetic.item.egg.player.friedpuppy.name",
+			"color": "red",
+			"italic": false
+		}
+	}, {
+		"function": "set_nbt",
+		"tag": "{Unbreakable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"pegg_friedpuppy\",pundus_player_egg:1b,pundus_easter_egg:1b,pundus_custom:1b,pundus_data_modified:1b,HideFlags:126,CustomModelData:5187}"
+	}
+]

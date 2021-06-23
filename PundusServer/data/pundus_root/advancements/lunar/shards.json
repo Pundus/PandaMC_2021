@@ -9,7 +9,7 @@
     "description": {
       "translate": "pundus.advancement.lunar.shards.desc"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true
   },
@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "pundus_root:advancements/lunar/lunar_task"
+    "function": "pundus_root:advancements/lunar/lunar_goal"
   }
 }

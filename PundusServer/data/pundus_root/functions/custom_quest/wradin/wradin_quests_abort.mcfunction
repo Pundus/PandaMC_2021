@@ -11,6 +11,13 @@ title @s[tag=PQA_WradinCollect] subtitle {"color":"dark_red","translate":"pundus
 title @s[tag=PQA_WradinHatch] subtitle {"color":"dark_red","translate":"pundus.custom_quest.wradin.hatch.name"}
 title @s[tag=PQA_WradinSerial] subtitle {"color":"dark_red","translate":"pundus.custom_quest.wradin.serial.name"}
 
+
+execute as @s[tag=PQA_WradinCollect] run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.quest.aborted","color":"gray","italic":true,"with":[{"selector":"@s"},{"color":"dark_aqua","translate":"pundus.custom_quest.wradin.collect.name"}]}
+
+execute as @s[tag=PQA_WradinHatch] run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.quest.aborted","color":"gray","italic":true,"with":[{"selector":"@s"},{"color":"dark_aqua","translate":"pundus.custom_quest.wradin.hatch.name"}]}
+
+execute as @s[tag=PQA_WradinSerial] run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.quest.aborted","color":"gray","italic":true,"with":[{"selector":"@s"},{"color":"dark_aqua","translate":"pundus.custom_quest.wradin.serial.name"}]}
+
 function pundus_root:custom_quest/global_quest_abort_sfx
 
 tag @s remove PQA_WradinCollect

@@ -14,6 +14,9 @@ team modify Admin prefix {"translate":"[Admin] ","color":"red"}
 team modify Admin color red
 team modify Admin nametagVisibility hideForOtherTeams
 
+team add Egg
+team modify Egg color red
+
 team add Friendly {"translate":"[Friendly] ","color":"yellow"}
 team modify Friendly prefix {"translate":"[Friendly] ","color":"yellow"}
 team modify Friendly color yellow

@@ -82,6 +82,33 @@ item entity @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_netherite"}}}] weapon.mai
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_beacon"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/faberge/fegg_beacon
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_wither"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/faberge/fegg_wither
 
+#faberge
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_yveltrian"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_yveltrian
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_fluoresin"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_fluoresin
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_female_ryan"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_female_ryan
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_thomasdetrain"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_thomasdetrain
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_officialaleks"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_officialaleks
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_arquenxd"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_arquenxd
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_daddyneedsmilk"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_daddyneedsmilk
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_hugs_and_stabs"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_hugs_and_stabs
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_tzeong"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_tzeong
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_mg1172"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_mg1172
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_friedpuppy"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_friedpuppy
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_syphenjose"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_syphenjose
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_ehdern"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_ehdern
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_ruukkai"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_ruukkai
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_khuzihan"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_khuzihan
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_kuushiro"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_kuushiro
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_tehfirel0rdz"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_tehfirel0rdz
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_prythesheep"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_prythesheep
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_arcanezio"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_arcanezio
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_xalso"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_xalso
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_icypops"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_icypops
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_juicee"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_juicee
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_touchportyl"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_touchportyl
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_lord_pundus"}}}] weapon.mainhand modify pundus_cosmetics:easter_eggs/player/pegg_lord_pundus
+
+
 scoreboard players add @s Pundus_Playcoins 10
 scoreboard players remove %Server Pundus_Playcoins 10
 

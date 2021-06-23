@@ -66,7 +66,7 @@
 				"function": "set_name",
 				"name": {
 					"translate": "pundus.item.proto_lunarite_drill.name",
-					"color": "aqua",
+					"color": "light_purple",
 					"italic": false
 				}
 			}]

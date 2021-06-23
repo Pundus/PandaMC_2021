@@ -56,6 +56,10 @@ tag @a[tag=lb_undead_rising] remove lb_undead_rising
 execute as @a[tag=lb_btn] run loot give @s loot pundus_root:gashapon/lb_btn
 tag @a[tag=lb_btn] remove lb_btn
 
+#Lockbox Lunar Advance
+execute as @a[tag=lb_la] run loot give @s loot pundus_root:gashapon/lb_la
+tag @a[tag=lb_la] remove lb_la
+
 #ep_normal
 execute as @a[tag=ep_normal] run loot give @s loot pundus_root:gashapon/ep_normal
 tag @a[tag=ep_normal] remove ep_normal
@@ -67,6 +71,10 @@ tag @a[tag=ep_special] remove ep_special
 #ep_faberge
 execute as @a[tag=ep_faberge] run loot give @s loot pundus_root:gashapon/ep_faberge
 tag @a[tag=ep_faberge] remove ep_faberge
+
+#ep_player
+execute as @a[tag=ep_player] run loot give @s loot pundus_root:gashapon/ep_player
+tag @a[tag=ep_player] remove ep_player
 
 #Decor - Model Rocket
 execute as @a[tag=decor_model_rocket] run loot give @s loot pundus_root:decor/model_rocket
@@ -111,6 +119,10 @@ tag @a[tag=decor_bii] remove decor_bii
 #Decor - Lesbeean
 execute as @a[tag=decor_lesbeean] run loot give @s loot pundus_root:decor/model_lesbeean
 tag @a[tag=decor_lesbeean] remove decor_lesbeean
+
+#Decor - Wasabee
+execute as @a[tag=decor_wasabee] run loot give @s loot pundus_root:decor/model_wasabee
+tag @a[tag=decor_wasabee] remove decor_wasabee
 
 #model_pundus
 execute as @a[tag=decor_model_pundus] run loot give @s loot pundus_root:decor/model_pundus
@@ -805,6 +817,14 @@ tag @a[tag=oxygen_suit] remove oxygen_suit
 #type_1_phaser
 execute as @a[tag=type_1_phaser] run loot give @s loot pundus_root:lockbox_la/type_1_phaser
 tag @a[tag=type_1_phaser] remove type_1_phaser
+
+#sonic_pearl
+execute as @a[tag=sonic_pearl] run loot give @s loot pundus_root:lockbox_la/sonic_pearl
+tag @a[tag=sonic_pearl] remove sonic_pearl
+
+#buyout_token_la
+execute as @a[tag=buyout_token_la] run loot give @s loot pundus_root:lockbox_la/buyout_token_la
+tag @a[tag=buyout_token_la] remove buyout_token_la
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

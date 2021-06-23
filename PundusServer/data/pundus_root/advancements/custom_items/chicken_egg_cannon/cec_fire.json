@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "item": "minecraft:crossbow",
+          "nbt": "{chicken_egg_cannon:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/chicken_egg_cannon/cec_fire"
+  }
+}

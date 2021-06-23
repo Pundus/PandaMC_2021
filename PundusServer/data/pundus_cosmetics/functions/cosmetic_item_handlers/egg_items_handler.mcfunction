@@ -308,6 +308,102 @@ tag @a[tag=fegg_beacon] remove fegg_beacon
 execute as @a[tag=fegg_wither] run loot give @s loot pundus_cosmetics:easter_eggs/faberge/fegg_wither
 tag @a[tag=fegg_wither] remove fegg_wither
 
+#pegg_yveltrian
+execute as @a[tag=pegg_yveltrian] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_yveltrian
+tag @a[tag=pegg_yveltrian] remove pegg_yveltrian
+
+#pegg_fluoresin
+execute as @a[tag=pegg_fluoresin] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_fluoresin
+tag @a[tag=pegg_fluoresin] remove pegg_fluoresin
+
+#pegg_female_ryan
+execute as @a[tag=pegg_female_ryan] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_female_ryan
+tag @a[tag=pegg_female_ryan] remove pegg_female_ryan
+
+#pegg_thomasdetrain
+execute as @a[tag=pegg_thomasdetrain] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_thomasdetrain
+tag @a[tag=pegg_thomasdetrain] remove pegg_thomasdetrain
+
+#pegg_officialaleks
+execute as @a[tag=pegg_officialaleks] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_officialaleks
+tag @a[tag=pegg_officialaleks] remove pegg_officialaleks
+
+#pegg_arquenxd
+execute as @a[tag=pegg_arquenxd] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_arquenxd
+tag @a[tag=pegg_arquenxd] remove pegg_arquenxd
+
+#pegg_daddyneedsmilk
+execute as @a[tag=pegg_daddyneedsmilk] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_daddyneedsmilk
+tag @a[tag=pegg_daddyneedsmilk] remove pegg_daddyneedsmilk
+
+#pegg_hugs_and_stabs
+execute as @a[tag=pegg_hugs_and_stabs] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_hugs_and_stabs
+tag @a[tag=pegg_hugs_and_stabs] remove pegg_hugs_and_stabs
+
+#pegg_tzeong
+execute as @a[tag=pegg_tzeong] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_tzeong
+tag @a[tag=pegg_tzeong] remove pegg_tzeong
+
+#pegg_mg1172
+execute as @a[tag=pegg_mg1172] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_mg1172
+tag @a[tag=pegg_mg1172] remove pegg_mg1172
+
+#pegg_friedpuppy
+execute as @a[tag=pegg_friedpuppy] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_friedpuppy
+tag @a[tag=pegg_friedpuppy] remove pegg_friedpuppy
+
+#pegg_syphenjose
+execute as @a[tag=pegg_syphenjose] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_syphenjose
+tag @a[tag=pegg_syphenjose] remove pegg_syphenjose
+
+#pegg_ehdern
+execute as @a[tag=pegg_ehdern] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_ehdern
+tag @a[tag=pegg_ehdern] remove pegg_ehdern
+
+#pegg_ruukkai
+execute as @a[tag=pegg_ruukkai] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_ruukkai
+tag @a[tag=pegg_ruukkai] remove pegg_ruukkai
+
+#pegg_khuzihan
+execute as @a[tag=pegg_khuzihan] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_khuzihan
+tag @a[tag=pegg_khuzihan] remove pegg_khuzihan
+
+#pegg_kuushiro
+execute as @a[tag=pegg_kuushiro] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_kuushiro
+tag @a[tag=pegg_kuushiro] remove pegg_kuushiro
+
+#pegg_tehfirel0rdz
+execute as @a[tag=pegg_tehfirel0rdz] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_tehfirel0rdz
+tag @a[tag=pegg_tehfirel0rdz] remove pegg_tehfirel0rdz
+
+#pegg_prythesheep
+execute as @a[tag=pegg_prythesheep] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_prythesheep
+tag @a[tag=pegg_prythesheep] remove pegg_prythesheep
+
+#pegg_arcanezio
+execute as @a[tag=pegg_arcanezio] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_arcanezio
+tag @a[tag=pegg_arcanezio] remove pegg_arcanezio
+
+#pegg_xalso
+execute as @a[tag=pegg_xalso] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_xalso
+tag @a[tag=pegg_xalso] remove pegg_xalso
+
+#pegg_icypops
+execute as @a[tag=pegg_icypops] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_icypops
+tag @a[tag=pegg_icypops] remove pegg_icypops
+
+#pegg_juicee
+execute as @a[tag=pegg_juicee] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_juicee
+tag @a[tag=pegg_juicee] remove pegg_juicee
+
+#pegg_touchportyl
+execute as @a[tag=pegg_touchportyl] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_touchportyl
+tag @a[tag=pegg_touchportyl] remove pegg_touchportyl
+
+#pegg_lord_pundus
+execute as @a[tag=pegg_lord_pundus] run loot give @s loot pundus_cosmetics:easter_eggs/player/pegg_lord_pundus
+tag @a[tag=pegg_lord_pundus] remove pegg_lord_pundus
+
 
 
 

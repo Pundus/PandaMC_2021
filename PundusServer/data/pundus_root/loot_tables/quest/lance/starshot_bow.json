@@ -62,7 +62,7 @@
 				"function": "set_name",
 				"name": {
 					"translate": "pundus.item.starshot_bow.name",
-					"color": "aqua",
+					"color": "light_purple",
 					"italic": false
 				}
 			}]

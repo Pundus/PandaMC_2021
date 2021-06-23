@@ -21,4 +21,10 @@ execute as @s[tag=Pundus_GashaS_Egg_Special] if score @s Pundus_GshpScrl matches
 execute as @s[tag=Pundus_GashaS_Egg_Faberge] if score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_egg_faberge
 execute as @s[tag=Pundus_GashaS_Egg_Faberge] if score @s Pundus_GshpScrl matches 0 run function pundus_root:gashapon/gasha_givers/gasha_egg_faberge
 
+execute as @s[tag=Pundus_GashaS_Egg_Player] if score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_egg_player
+execute as @s[tag=Pundus_GashaS_Egg_Player] if score @s Pundus_GshpScrl matches 0 run function pundus_root:gashapon/gasha_givers/gasha_egg_player
+
+execute as @s[tag=Pundus_GashaS_LA] if score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_la
+execute as @s[tag=Pundus_GashaS_LA] if score @s Pundus_GshpScrl matches 0 run function pundus_root:gashapon/gasha_givers/gasha_la
+
 

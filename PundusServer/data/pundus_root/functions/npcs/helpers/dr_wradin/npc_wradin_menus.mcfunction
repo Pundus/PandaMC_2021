@@ -62,8 +62,8 @@ execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 matches 5.. if
 execute as @s[tag=PQA_WradinCollect] at @s if score @s PM_Wradin_1 matches ..29 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
 execute as @s[tag=PQA_WradinCollect] at @s if score @s PM_Wradin_1 matches 30.. if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete
 
-execute as @s[tag=PQA_WradinHatch] at @s if score @s PM_Wradin_2 matches ..29 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
-execute as @s[tag=PQA_WradinHatch] at @s if score @s PM_Wradin_2 matches 30.. if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete
+execute as @s[tag=PQA_WradinHatch] at @s if score @s PM_Wradin_2 matches ..19 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
+execute as @s[tag=PQA_WradinHatch] at @s if score @s PM_Wradin_2 matches 20.. if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete
 
-execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 matches ..29 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
-execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 matches 30.. if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete
+execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 matches ..9 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
+execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 matches 10.. if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete

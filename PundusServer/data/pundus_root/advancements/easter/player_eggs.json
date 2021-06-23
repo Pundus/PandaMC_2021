@@ -1,0 +1,268 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_helmet",
+			"nbt": "{CustomModelData:5209}"
+		},
+		"title": {
+			"translate": "pundus.advancement.easter.special.name"
+		},
+		"description": {
+			"translate": "pundus.advancement.easter.special.desc"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "pundus_root:easter/faberge_eggs",
+	"criteria": {
+		"pegg_yveltrian": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_yveltrian\"}"
+				}]
+			}
+		},
+		"pegg_fluoresin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_fluoresin\"}"
+				}]
+			}
+		},
+		"pegg_female_ryan": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_female_ryan\"}"
+				}]
+			}
+		},
+		"pegg_thomasdetrain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_thomasdetrain\"}"
+				}]
+			}
+		},
+		"pegg_officialaleks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_officialaleks\"}"
+				}]
+			}
+		},
+		"pegg_arquenxd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_arquenxd\"}"
+				}]
+			}
+		},
+		"pegg_daddyneedsmilk": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_daddyneedsmilk\"}"
+				}]
+			}
+		},
+		"pegg_hugs_and_stabs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_hugs_and_stabs\"}"
+				}]
+			}
+		},
+		"pegg_tzeong": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_tzeong\"}"
+				}]
+			}
+		},
+		"pegg_mg1172": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_mg1172\"}"
+				}]
+			}
+		},
+		"pegg_friedpuppy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_friedpuppy\"}"
+				}]
+			}
+		},
+		"pegg_syphenjose": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_syphenjose\"}"
+				}]
+			}
+		},
+		"pegg_ehdern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_ehdern\"}"
+				}]
+			}
+		},
+		"pegg_ruukkai": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_ruukkai\"}"
+				}]
+			}
+		},
+		"pegg_khuzihan": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_khuzihan\"}"
+				}]
+			}
+		},
+		"pegg_kuushiro": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_kuushiro\"}"
+				}]
+			}
+		},
+		"pegg_tehfirel0rdz": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_tehfirel0rdz\"}"
+				}]
+			}
+		},
+		"pegg_prythesheep": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_prythesheep\"}"
+				}]
+			}
+		},
+		"pegg_arcanezio": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_arcanezio\"}"
+				}]
+			}
+		},
+		"pegg_xalso": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_xalso\"}"
+				}]
+			}
+		},
+		"pegg_icypops": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_icypops\"}"
+				}]
+			}
+		},
+		"pegg_juicee": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_juicee\"}"
+				}]
+			}
+		},
+		"pegg_touchportyl": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_touchportyl\"}"
+				}]
+			}
+		},
+		"pegg_lord_pundus": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "pundus_root:possible_eggs",
+					"nbt": "{pundus_id:\"pegg_lord_pundus\"}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+
+		["pegg_yveltrian"],
+		["pegg_fluoresin"],
+		["pegg_female_ryan"],
+		["pegg_thomasdetrain"],
+		["pegg_officialaleks"],
+		["pegg_arquenxd"],
+		["pegg_daddyneedsmilk"],
+		["pegg_hugs_and_stabs"],
+		["pegg_tzeong"],
+		["pegg_mg1172"],
+		["pegg_friedpuppy"],
+		["pegg_syphenjose"],
+		["pegg_ehdern"],
+		["pegg_ruukkai"],
+		["pegg_khuzihan"],
+		["pegg_kuushiro"],
+		["pegg_tehfirel0rdz"],
+		["pegg_prythesheep"],
+		["pegg_arcanezio"],
+		["pegg_xalso"],
+		["pegg_icypops"],
+		["pegg_juicee"],
+		["pegg_touchportyl"],
+		["pegg_lord_pundus"]
+
+	],
+	"rewards": {
+		"function": "pundus_root:advancements/easter/player_eggs"
+	}
+}

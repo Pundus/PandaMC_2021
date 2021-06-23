@@ -1,6 +1,7 @@
 # Loop quests
 
 function pundus_root:custom_quest/lance/lance_loops
+function pundus_root:custom_quest/wradin/wradin_loops
 
 
 

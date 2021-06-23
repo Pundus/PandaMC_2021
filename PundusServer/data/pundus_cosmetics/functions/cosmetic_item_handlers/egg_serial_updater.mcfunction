@@ -304,3 +304,102 @@ execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_beacon"}}}] store result b
 #fegg_wither
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_wither"}}}] run scoreboard players add fegg_wither Pundus_EggSerial 1
 execute as @s[nbt={SelectedItem:{tag:{pundus_id:"fegg_wither"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get fegg_wither Pundus_EggSerial
+
+
+#pegg_yveltrian
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_yveltrian"}}}] run scoreboard players add pegg_yveltrian Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_yveltrian"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_yveltrian Pundus_EggSerial
+
+#pegg_fluoresin
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_fluoresin"}}}] run scoreboard players add pegg_fluoresin Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_fluoresin"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_fluoresin Pundus_EggSerial
+
+#pegg_female_ryan
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_female_ryan"}}}] run scoreboard players add pegg_female_ryan Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_female_ryan"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_female_ryan Pundus_EggSerial
+
+#pegg_thomasdetrain
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_thomasdetrain"}}}] run scoreboard players add pegg_thomasdetrain Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_thomasdetrain"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_thomasdetrain Pundus_EggSerial
+
+#pegg_officialaleks
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_officialaleks"}}}] run scoreboard players add pegg_officialaleks Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_officialaleks"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_officialaleks Pundus_EggSerial
+
+#pegg_arquenxd
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_arquenxd"}}}] run scoreboard players add pegg_arquenxd Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_arquenxd"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_arquenxd Pundus_EggSerial
+
+#pegg_daddyneedsmilk
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_daddyneedsmilk"}}}] run scoreboard players add pegg_daddyneedsmilk Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_daddyneedsmilk"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_daddyneedsmilk Pundus_EggSerial
+
+#pegg_hugs_and_stabs
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_hugs_and_stabs"}}}] run scoreboard players add pegg_hugs_and_stabs Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_hugs_and_stabs"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_hugs_and_stabs Pundus_EggSerial
+
+#pegg_tzeong
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_tzeong"}}}] run scoreboard players add pegg_tzeong Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_tzeong"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_tzeong Pundus_EggSerial
+
+#pegg_mg1172
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_mg1172"}}}] run scoreboard players add pegg_mg1172 Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_mg1172"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_mg1172 Pundus_EggSerial
+
+#pegg_friedpuppy
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_friedpuppy"}}}] run scoreboard players add pegg_friedpuppy Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_friedpuppy"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_friedpuppy Pundus_EggSerial
+
+#pegg_syphenjose
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_syphenjose"}}}] run scoreboard players add pegg_syphenjose Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_syphenjose"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_syphenjose Pundus_EggSerial
+
+#pegg_ehdern
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_ehdern"}}}] run scoreboard players add pegg_ehdern Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_ehdern"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_ehdern Pundus_EggSerial
+
+#pegg_ruukkai
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_ruukkai"}}}] run scoreboard players add pegg_ruukkai Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_ruukkai"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_ruukkai Pundus_EggSerial
+
+#pegg_khuzihan
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_khuzihan"}}}] run scoreboard players add pegg_khuzihan Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_khuzihan"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_khuzihan Pundus_EggSerial
+
+#pegg_kuushiro
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_kuushiro"}}}] run scoreboard players add pegg_kuushiro Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_kuushiro"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_kuushiro Pundus_EggSerial
+
+#pegg_tehfirel0rdz
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_tehfirel0rdz"}}}] run scoreboard players add pegg_tehfirel0rdz Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_tehfirel0rdz"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_tehfirel0rdz Pundus_EggSerial
+
+#pegg_prythesheep
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_prythesheep"}}}] run scoreboard players add pegg_prythesheep Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_prythesheep"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_prythesheep Pundus_EggSerial
+
+#pegg_arcanezio
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_arcanezio"}}}] run scoreboard players add pegg_arcanezio Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_arcanezio"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_arcanezio Pundus_EggSerial
+
+#pegg_xalso
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_xalso"}}}] run scoreboard players add pegg_xalso Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_xalso"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_xalso Pundus_EggSerial
+
+#pegg_icypops
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_icypops"}}}] run scoreboard players add pegg_icypops Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_icypops"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_icypops Pundus_EggSerial
+
+#pegg_juicee
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_juicee"}}}] run scoreboard players add pegg_juicee Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_juicee"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_juicee Pundus_EggSerial
+
+#pegg_touchportyl
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_touchportyl"}}}] run scoreboard players add pegg_touchportyl Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_touchportyl"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_touchportyl Pundus_EggSerial
+
+#pegg_lord_pundus
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_lord_pundus"}}}] run scoreboard players add pegg_lord_pundus Pundus_EggSerial 1
+execute as @s[nbt={SelectedItem:{tag:{pundus_id:"pegg_lord_pundus"}}}] store result block 0 -64 0 Items[0].tag.pundus_egg_serial int 1 run scoreboard players get pegg_lord_pundus Pundus_EggSerial
+
+
