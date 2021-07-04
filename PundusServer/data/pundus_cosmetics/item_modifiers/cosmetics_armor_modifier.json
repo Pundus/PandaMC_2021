@@ -1,6 +1,6 @@
 [ 
 {
 		"function": "set_nbt",
-		"tag": "{HideFlags:124,AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-1253810754,-1189853199,-1894917920,2008171343],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;713178735,665142175,-1256227358,-1658734794],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:0,Operation:0,UUID:[I;-983140439,1600408946,-1194375668,995454048],Slot:\"head\"}]}"
+		"tag": "{HideFlags:124,AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-1253810754,-1189853199,-1894917920,2008171343],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;713178735,665142175,-1256227358,-1658734794],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-983140439,1600408946,-1194375668,995454048],Slot:\"head\"}]}"
 	}
 ]

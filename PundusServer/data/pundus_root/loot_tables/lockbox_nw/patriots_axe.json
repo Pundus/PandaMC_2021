@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:golden_axe",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:sharpness\",lvl:10s}],CustomModelData:1159,patriots_axe:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"patriots_axe\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.patriots_axe.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.patriots_axe.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.generic.repair",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.patriots_axe.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

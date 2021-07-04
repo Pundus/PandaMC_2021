@@ -60,6 +60,10 @@ tag @a[tag=lb_btn] remove lb_btn
 execute as @a[tag=lb_la] run loot give @s loot pundus_root:gashapon/lb_la
 tag @a[tag=lb_la] remove lb_la
 
+#Lockbox New World
+execute as @a[tag=lb_nw] run loot give @s loot pundus_root:gashapon/lb_nw
+tag @a[tag=lb_nw] remove lb_nw
+
 #ep_normal
 execute as @a[tag=ep_normal] run loot give @s loot pundus_root:gashapon/ep_normal
 tag @a[tag=ep_normal] remove ep_normal
@@ -825,6 +829,34 @@ tag @a[tag=sonic_pearl] remove sonic_pearl
 #buyout_token_la
 execute as @a[tag=buyout_token_la] run loot give @s loot pundus_root:lockbox_la/buyout_token_la
 tag @a[tag=buyout_token_la] remove buyout_token_la
+
+#usa_sparkler
+execute as @a[tag=usa_sparkler] run loot give @s loot pundus_root:lockbox_nw/usa_sparkler
+tag @a[tag=usa_sparkler] remove usa_sparkler
+
+#gun
+execute as @a[tag=gun] run loot give @s loot pundus_root:lockbox_nw/gun
+tag @a[tag=gun] remove gun
+
+#patriots_axe
+execute as @a[tag=patriots_axe] run loot give @s loot pundus_root:lockbox_nw/patriots_axe
+tag @a[tag=patriots_axe] remove patriots_axe
+
+#liberty_torch
+execute as @a[tag=liberty_torch] run loot give @s loot pundus_root:lockbox_nw/liberty_torch
+tag @a[tag=liberty_torch] remove liberty_torch
+
+#usa_firework
+execute as @a[tag=usa_firework] run loot give @s loot pundus_root:lockbox_nw/usa_firework
+tag @a[tag=usa_firework] remove usa_firework
+
+#franklins_key
+execute as @a[tag=franklins_key] run loot give @s loot pundus_root:lockbox_nw/franklins_key
+tag @a[tag=franklins_key] remove franklins_key
+
+#usa_firework
+execute as @a[tag=usa_firework] run loot give @s loot pundus_root:lockbox_nw/usa_firework
+tag @a[tag=usa_firework] remove usa_firework
 
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal

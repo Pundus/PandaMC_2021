@@ -1,0 +1,31 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_helmet",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pundus_shop_playcoin:0b,pundus_shop_cost:100,pundus_shop_sellable:0b,pundus_playcoin_sellable:0b,pundus_playcoin_value:0,Unbreakable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"hat_liberty_crown\",pundus_cosmetic:1b,pundus_custom:1b,pundus_data:1b,pundus_data_modified:0b,HideFlags:126,CustomModelData:5212,pundus_cosmetic_dyeable:0b,display:{color:0}}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "cosmetic.item.generic.lore",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "cosmetic.item.liberty_crown.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

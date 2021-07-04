@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+			"tag": "pundus_root:offhand_functional_items",
+              "nbt": "{pundus_id:\"franklins_key\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/misc_consumable/init/franklins_key_init"
+  }
+}

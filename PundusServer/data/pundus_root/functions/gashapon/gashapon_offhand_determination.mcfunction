@@ -23,6 +23,8 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"lb_btn"}}]}] unless sc
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"lb_la"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_la
 
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"lb_nw"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_nw
+
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"ep_normal"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_egg_normal
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{pundus_id:"ep_special"}}]}] unless score @s Pundus_GshpScrl matches 1.. run function pundus_root:gashapon/gasha_scroll/scroll_egg_special

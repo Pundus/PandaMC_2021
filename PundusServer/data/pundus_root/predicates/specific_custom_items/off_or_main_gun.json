@@ -7,7 +7,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "nbt": "{light_emitter:1b}"
+            "nbt": "{pundus_id:\"gun\"}"
           }
         }
       }
@@ -17,8 +17,8 @@
       "entity": "this",
       "predicate": {
         "equipment": {
-          "legs": {
-            "nbt": "{light_emitter:1b}"
+          "offhand": {
+            "nbt": "{pundus_id:\"gun\"}"
           }
         }
       }

@@ -22,13 +22,18 @@
         "player": {
           "equipment": {
             "head": {
-              "nbt": "{pundus_playerbound:1b}"
+              "nbt": "{pundus_player_egg:1b}"
             }
           }
         }
       }
     }
   },
+	"requirements": [
+
+		["requirement"]
+
+	],
   "rewards": {
     "function": "pundus_root:advancements/easter/egghead"
   }

@@ -39,6 +39,13 @@ item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_enbee_pin"}}}] weapon.main
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_bi_bandana"}}}] weapon.mainhand modify pundus_cosmetics:pride/bi_bandana
 item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_allied_amulet"}}}] weapon.mainhand modify pundus_cosmetics:pride/allied_amulet
 
+#new_world
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_full_lincoln"}}}] weapon.mainhand modify pundus_cosmetics:new_world/full_lincoln
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_american_flag"}}}] weapon.mainhand modify pundus_cosmetics:new_world/american_flag
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_liberty_bell"}}}] weapon.mainhand modify pundus_cosmetics:new_world/liberty_bell
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_liberty_crown"}}}] weapon.mainhand modify pundus_cosmetics:new_world/liberty_crown
+item entity @s[nbt={SelectedItem:{tag:{pundus_id:"hat_fireworks_hat"}}}] weapon.mainhand modify pundus_cosmetics:new_world/fireworks_hat
+
 
 item entity @s weapon.mainhand modify pundus_cosmetics:cosmetics_armor_modifier
 #econ reset

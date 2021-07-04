@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "nbt": "{pundus_id:\"usa_sparkler\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/misc_one_shot/usa_sparkler/usa_sparkler_offhand"
+  }
+}

@@ -1,0 +1,39 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:flower_banner_pattern",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{light_emitter:1b,HideFlags:127,CustomModelData:1160,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"liberty_torch\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.liberty_torch.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.liberty_torch.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.liberty_torch.lore3",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.liberty_torch.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}
