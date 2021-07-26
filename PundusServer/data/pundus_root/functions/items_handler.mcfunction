@@ -858,6 +858,18 @@ tag @a[tag=franklins_key] remove franklins_key
 execute as @a[tag=usa_firework] run loot give @s loot pundus_root:lockbox_nw/usa_firework
 tag @a[tag=usa_firework] remove usa_firework
 
+#fungal_mush
+execute as @a[tag=fungal_mush] run loot give @s loot pundus_root:commodities/fungal_mush
+tag @a[tag=fungal_mush] remove fungal_mush
+
+#mushroom_paste
+execute as @a[tag=mushroom_paste] run loot give @s loot pundus_root:commodities/mushroom_paste
+tag @a[tag=mushroom_paste] remove mushroom_paste
+
+#mycelial_pulp
+execute as @a[tag=mycelial_pulp] run loot give @s loot pundus_root:commodities/mycelial_pulp
+tag @a[tag=mycelial_pulp] remove mycelial_pulp
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

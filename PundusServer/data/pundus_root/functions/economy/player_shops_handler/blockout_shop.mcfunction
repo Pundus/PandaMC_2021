@@ -26,3 +26,5 @@ loot replace block ~ ~ ~ container.23 loot pundus_root:chest_barrier
 loot replace block ~ ~ ~ container.24 loot pundus_root:chest_barrier
 loot replace block ~ ~ ~ container.25 loot pundus_root:chest_barrier
 loot replace block ~ ~ ~ container.26 loot pundus_root:chest_barrier
+
+tell @a[tag=PSDebugger] Shopchest Blocked Out

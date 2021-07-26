@@ -7,3 +7,5 @@ execute at @s[y_rotation=45..134] run setblock ~ ~ ~ trapped_chest[facing=east]
 execute at @s[y_rotation=-180..-134] run setblock ~ ~ ~ trapped_chest[facing=south]
 execute at @s[y_rotation=135..180] run setblock ~ ~ ~ trapped_chest[facing=south]
 execute at @s[y_rotation=-135..-46] run setblock ~ ~ ~ trapped_chest[facing=west]
+
+tell @a[tag=PSDebugger] Player shop chest facing set

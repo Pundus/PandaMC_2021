@@ -28,6 +28,7 @@ execute as @s[scores={Pundus_MenuVar=304}] at @s anchored eyes positioned ^ ^ ^1
 execute as @s[scores={Pundus_MenuVar=304}] at @s anchored eyes positioned ^ ^ ^1 run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.ife","color":"gray","italic":true,"with":[{"selector":"@s"},{"color":"white","translate":"pundus.ife.options.glow"},{"color":"white","translate":"pundus.ife.false"}]}
 
 execute as @s[scores={Pundus_MenuVar=205}] at @s as @e[type=#pundus_root:frames,sort=nearest,distance=..3,limit=1,tag=IFE_ForceLock] run data modify entity @s Item.tag.display.Name set from entity @s Item.tag.display.Name_Saved
+execute as @s[scores={Pundus_MenuVar=205}] at @s as @e[type=#pundus_root:frames,sort=nearest,distance=..3,limit=1,tag=IFE_ForceLock] run data remove entity @s Item.tag.display.Name_Saved
 execute as @s[scores={Pundus_MenuVar=205}] at @s as @e[type=#pundus_root:frames,sort=nearest,distance=..3,limit=1,tag=IFE_ForceLock] run tag @s remove IFE_ForceLock
 execute as @s[scores={Pundus_MenuVar=205}] at @s run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.ife","color":"gray","italic":true,"with":[{"selector":"@s"},{"color":"white","translate":"pundus.ife.options.name"},{"color":"white","translate":"pundus.ife.true"}]}
 

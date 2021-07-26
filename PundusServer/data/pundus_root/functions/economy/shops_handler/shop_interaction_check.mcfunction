@@ -26,6 +26,6 @@ scoreboard players reset @a Pundus_ShopInt
 scoreboard players enable @a Pundus_ShopVar
 
 
-execute if entity @a[scores={Pundus_PShopInt=1..}] run function pundus_root:economy/player_shops_handler/player_shop_interaction_check
+function pundus_root:economy/player_shops_handler/player_shop_interaction_check
 
 schedule function pundus_root:economy/shops_handler/shop_interaction_check 6t

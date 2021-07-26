@@ -98,12 +98,12 @@
 				}]
 			}
 		},
-		"fegg_netherrite": {
+		"fegg_netherite": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
 					"tag": "pundus_root:possible_eggs",
-					"nbt": "{pundus_id:\"fegg_netherrite\"}"
+					"nbt": "{pundus_id:\"fegg_netherite\"}"
 				}]
 			}
 		},
@@ -136,7 +136,7 @@
         ["fegg_sculk"],
         ["fegg_redstone"],
         ["fegg_music"],
-        ["fegg_netherrite"],
+        ["fegg_netherite"],
         ["fegg_beacon"],
         ["fegg_wither"]
 	],

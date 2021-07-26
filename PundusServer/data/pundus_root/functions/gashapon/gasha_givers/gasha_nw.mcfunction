@@ -34,7 +34,7 @@ execute if score %LBVal Pundus_RNG matches 3 run title @s subtitle {"translate":
 execute if score %LBVal Pundus_RNG matches 3 as @s run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.unbox","color":"gray","italic":true,"with":[{"selector":"@s"},{"translate":"cosmetic.item.liberty_crown.name","color":"yellow"},{"translate":"pundus.item.gashapon.nw.name"}]}
 
 execute if score %LBVal Pundus_RNG matches 4 run tag @s add hat_fireworks_hat
-execute if score %LBVal Pundus_RNG matches 4 run title @s subtitle {"translate":"cosmetic.item.full_lincoln.name","color":"yellow"}
+execute if score %LBVal Pundus_RNG matches 4 run title @s subtitle {"translate":"cosmetic.item.fireworks_hat.name","color":"yellow"}
 execute if score %LBVal Pundus_RNG matches 4 as @s run tellraw @a[team=Admin,tag=AdminAlerts] {"translate":"pundus.admin.alerts.unbox","color":"gray","italic":true,"with":[{"selector":"@s"},{"translate":"cosmetic.item.fireworks_hat.name","color":"yellow"},{"translate":"pundus.item.gashapon.nw.name"}]}
 
 execute if score %LBVal Pundus_RNG matches 5 run tag @s add gun

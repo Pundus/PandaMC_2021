@@ -1,0 +1,39 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,pundus_commodity:1b,CustomModelData:1137,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"fungal_mush\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.fungal_mush.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.fungal_mush.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.fungal_mush.lore3",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.fungal_mush.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"Pundus_InProtA\"]}",
+          "location": {
+            "block": {
+              "blocks": [],
+              "tag": "pundus_root:airs"
+            }
+          },
+          "flags": {
+            "is_sneaking": true
+          },
+          "equipment": {
+            "offhand": {
+              "tag": "pundus_root:shulker_boxes"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:misc/protected_area_shulker_box/deploy_offhand_box"
+  }
+}

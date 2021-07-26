@@ -6,7 +6,7 @@ title @s title {"color":"aqua","translate":"pundus.custom_quest.complete"}
 title @s subtitle {"color":"dark_aqua","translate":"pundus.custom_quest.wradin.serial.name"}
 
 tag @s add ep_player
-scoreboard players add @s Pundus_Playcoins 2500
+scoreboard players add @s Pundus_Playcoins 5000
 
 scoreboard players set @s PM_Wradin_3_CD 1800
 

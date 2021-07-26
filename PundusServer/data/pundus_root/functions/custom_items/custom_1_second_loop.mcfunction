@@ -54,6 +54,7 @@ execute as @e[type=#pundus_root:hostile_all_mobs,predicate=pundus_root:generic/h
 execute as @e[type=#pundus_root:hostile_all_mobs,scores={Pundus_MobTrk1=1..}] at @s run function pundus_root:custom_items/luck_stunner
 
 clear @a[team=!Admin] #pundus_root:illegal_items{pundus_dni:1b}
+kill @e[type=item,predicate=pundus_root:generic/illegal_item_entity]
 
 scoreboard players set @a[scores={P_BowUsed_1s=1..}] P_BowUsed_1s 0
 scoreboard players set @a[scores={P_CBowUsed_1s=1..}] P_CBowUsed_1s 0

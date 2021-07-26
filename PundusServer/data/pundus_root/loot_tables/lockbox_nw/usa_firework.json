@@ -7,7 +7,7 @@
 			"name": "minecraft:firework_rocket",
 			"functions": [{
 				"function": "set_count",
-				"count": 1
+				"count": 5
 			}, {
 				"function": "set_nbt",
 				"tag": "{CustomModelData:1161,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"usa_firework\",HideFlags:32,Fireworks:{Flight:3b,Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;16711680,255,16777215],FadeColors:[I;0]},{Type:0,Flicker:1b,Colors:[I;16711680]},{Type:4,Flicker:1b,Colors:[I;255]},{Type:1,Colors:[I;16777215]}]}}"

@@ -6,7 +6,7 @@ title @s title {"color":"aqua","translate":"pundus.custom_quest.complete"}
 title @s subtitle {"color":"dark_aqua","translate":"pundus.custom_quest.wradin.collect.name"}
 
 tag @s add egg_basket
-scoreboard players add @s Pundus_Playcoins 500
+scoreboard players add @s Pundus_Playcoins 1000
 
 scoreboard players set @s PM_Wradin_1_CD 1800
 

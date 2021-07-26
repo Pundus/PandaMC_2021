@@ -6,7 +6,7 @@ title @s title {"color":"aqua","translate":"pundus.custom_quest.complete"}
 title @s subtitle {"color":"dark_aqua","translate":"pundus.custom_quest.wradin.hatch.name"}
 
 tag @s add spell_drop_eggs
-scoreboard players add @s Pundus_Playcoins 1000
+scoreboard players add @s Pundus_Playcoins 2500
 
 scoreboard players set @s PM_Wradin_2_CD 1800
 
