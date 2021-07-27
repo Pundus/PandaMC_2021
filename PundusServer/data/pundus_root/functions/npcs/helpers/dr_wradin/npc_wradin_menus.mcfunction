@@ -50,20 +50,20 @@ execute as @s[tag=!PQA_WradinCollect,tag=!PQA_WradinHatch,tag=!PQA_WradinSerial]
 execute as @s[tag=!PQA_WradinCollect,tag=!PQA_WradinHatch,tag=!PQA_WradinSerial] at @s if score @s Pundus_NPCMenu matches 9990003 run function pundus_root:custom_quest/wradin/wradin_start_quest_serial
 
 #Submit Quest: Fight
-execute as @s[tag=PQA_WradinCollect] at @s if score @s PM_Wradin_1 matches 30.. if score @s Pundus_NPCMenu matches 8880001 run function pundus_root:custom_quest/wradin/wradin_finish_quest_collect
+execute as @s[tag=PQA_WradinCollect] at @s if score @s PM_Wradin_1 >= %Goal PM_Wradin_1 if score @s Pundus_NPCMenu matches 8880001 run function pundus_root:custom_quest/wradin/wradin_finish_quest_collect
 
 #Submit Quest: Hatch
-execute as @s[tag=PQA_WradinHatch] at @s if score @s PM_Wradin_2 matches 15.. if score @s Pundus_NPCMenu matches 8880002 run function pundus_root:custom_quest/wradin/wradin_finish_quest_hatch
+execute as @s[tag=PQA_WradinHatch] at @s if score @s PM_Wradin_2 >= %Goal PM_Wradin_2 if score @s Pundus_NPCMenu matches 8880002 run function pundus_root:custom_quest/wradin/wradin_finish_quest_hatch
 
 #Submit Quest: Serial
-execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 matches 5.. if score @s Pundus_NPCMenu matches 8880003 run function pundus_root:custom_quest/wradin/wradin_finish_quest_serial
+execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 >= %Goal PM_Wradin_2 if score @s Pundus_NPCMenu matches 8880003 run function pundus_root:custom_quest/wradin/wradin_finish_quest_serial
 
 #If Quest Active
-execute as @s[tag=PQA_WradinCollect] at @s if score @s PM_Wradin_1 matches ..29 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
-execute as @s[tag=PQA_WradinCollect] at @s if score @s PM_Wradin_1 matches 30.. if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete
+execute as @s[tag=PQA_WradinCollect] at @s if score @s PM_Wradin_1 < %Goal PM_Wradin_1 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
+execute as @s[tag=PQA_WradinCollect] at @s if score @s PM_Wradin_1 >= %Goal PM_Wradin_1 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete
 
-execute as @s[tag=PQA_WradinHatch] at @s if score @s PM_Wradin_2 matches ..19 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
-execute as @s[tag=PQA_WradinHatch] at @s if score @s PM_Wradin_2 matches 20.. if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete
+execute as @s[tag=PQA_WradinHatch] at @s if score @s PM_Wradin_2 < %Goal PM_Wradin_2 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
+execute as @s[tag=PQA_WradinHatch] at @s if score @s PM_Wradin_2 >= %Goal PM_Wradin_2 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete
 
-execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 matches ..9 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
-execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 matches 10.. if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete
+execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 < %Goal PM_Wradin_3 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_incomplete
+execute as @s[tag=PQA_WradinSerial] at @s if score @s PM_Wradin_3 >= %Goal PM_Wradin_3 if score @s Pundus_NPCMenu matches 3 run function pundus_root:npcs/helpers/dr_wradin/quests/wradin_quest_complete

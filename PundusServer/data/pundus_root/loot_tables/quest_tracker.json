@@ -1,0 +1,43 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:1163,pundus_shop_cost:100,pundus_shop_playcoin:1b,pundus_shop_sellable:1b,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"quest_tracker\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "pundus.item.quest_tracker.offhand",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.quest_tracker.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.quest_tracker.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.quest_tracker.lore3",
+					"color": "white",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.quest_tracker.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

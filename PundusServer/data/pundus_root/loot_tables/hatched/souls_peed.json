@@ -1,0 +1,55 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:honey_bottle",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:127,CustomModelData:1162,pundus_realm_custom:1b,RepairCost:-9999,pundus_id:\"souls_peed\"}"
+			}, {
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"text": " ",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.souls_peed.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.souls_peed.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.souls_peed.lore3",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.souls_peed.lore4",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.souls_peed.lore5",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pundus.item.souls_peed.lore6",
+					"color": "gray",
+					"italic": false
+				}]
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pundus.item.souls_peed.name",
+					"color": "white",
+					"italic": false
+				}
+			}]
+		}]
+	}]
+}

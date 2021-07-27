@@ -12,3 +12,6 @@ scoreboard objectives add PM_Wradin_3 dummy
 scoreboard objectives add PM_Wradin_3_CD dummy
 
 scoreboard objectives add PM_CMClaim_CD dummy
+
+
+function pundus_root:custom_quest/quest_objectives_goals

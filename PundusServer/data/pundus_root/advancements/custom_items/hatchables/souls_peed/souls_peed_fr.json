@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "tag": "minecraft:soul_speed_blocks"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "tag": "minecraft:soul_speed_blocks"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "item": {
+          "nbt": "{pundus_id:\"souls_peed\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pundus_root:custom_items/reward_functions/hatchables/souls_peed/souls_peed_fr"
+  }
+}

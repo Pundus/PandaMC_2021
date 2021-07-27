@@ -42,16 +42,16 @@ execute as @s at @s if score @s Pundus_NPCMenu matches 9990999 run function pund
 execute as @s at @s if score @s Pundus_NPCMenu matches 9990999 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_aborted
 
 #Submit Quest: Mine
-execute as @s[tag=PQA_LanceMine] at @s if score @s PM_Lance_1 matches 150.. if score @s Pundus_NPCMenu matches 8880001 run function pundus_root:custom_quest/lance/lance_finish_quest_mine
+execute as @s[tag=PQA_LanceMine] at @s if score @s PM_Lance_1 >= %Goal PM_Lance_1 if score @s Pundus_NPCMenu matches 8880001 run function pundus_root:custom_quest/lance/lance_finish_quest_mine
 
 #Submit Quest: Fight
-execute as @s[tag=PQA_LanceFight] at @s if score @s PM_Lance_2 matches 150.. if score @s Pundus_NPCMenu matches 8880002 run function pundus_root:custom_quest/lance/lance_finish_quest_fight
+execute as @s[tag=PQA_LanceFight] at @s if score @s PM_Lance_2 >= %Goal PM_Lance_2 if score @s Pundus_NPCMenu matches 8880002 run function pundus_root:custom_quest/lance/lance_finish_quest_fight
 
 #If Quest Active
-execute as @s[tag=PQA_LanceMine] at @s if score @s PM_Lance_1 matches ..149 if score @s Pundus_NPCMenu matches 5 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_mine_incomplete
-execute as @s[tag=PQA_LanceMine] at @s if score @s PM_Lance_1 matches 150.. if score @s Pundus_NPCMenu matches 5 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_mine_complete
+execute as @s[tag=PQA_LanceMine] at @s if score @s PM_Lance_1 < %Goal PM_Lance_1 if score @s Pundus_NPCMenu matches 5 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_mine_incomplete
+execute as @s[tag=PQA_LanceMine] at @s if score @s PM_Lance_1 >= %Goal PM_Lance_1 if score @s Pundus_NPCMenu matches 5 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_mine_complete
 
-execute as @s[tag=PQA_LanceFight] at @s if score @s PM_Lance_2 matches ..149 if score @s Pundus_NPCMenu matches 5 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_fight_incomplete
-execute as @s[tag=PQA_LanceFight] at @s if score @s PM_Lance_2 matches 150.. if score @s Pundus_NPCMenu matches 5 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_fight_complete
+execute as @s[tag=PQA_LanceFight] at @s if score @s PM_Lance_2 < %Goal PM_Lance_2 if score @s Pundus_NPCMenu matches 5 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_fight_incomplete
+execute as @s[tag=PQA_LanceFight] at @s if score @s PM_Lance_2 >= %Goal PM_Lance_2 if score @s Pundus_NPCMenu matches 5 run function pundus_root:npcs/helpers/corporal_lance/lance_quest_fight_complete
 
 

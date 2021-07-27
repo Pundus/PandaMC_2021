@@ -53,6 +53,8 @@ execute as @e[type=wandering_trader,predicate=!pundus_root:generic/no_ai,predica
 execute as @e[type=#pundus_root:hostile_all_mobs,predicate=pundus_root:generic/has_luck_1] run scoreboard players set @s Pundus_MobTrk1 12
 execute as @e[type=#pundus_root:hostile_all_mobs,scores={Pundus_MobTrk1=1..}] at @s run function pundus_root:custom_items/luck_stunner
 
+execute as @a[tag=Pundus_DrankSoulsPeed,predicate=!pundus_root:generic/potions/speed] at @s run function pundus_root:custom_items/reward_functions/hatchables/souls_peed/souls_peed_reset
+
 clear @a[team=!Admin] #pundus_root:illegal_items{pundus_dni:1b}
 kill @e[type=item,predicate=pundus_root:generic/illegal_item_entity]
 

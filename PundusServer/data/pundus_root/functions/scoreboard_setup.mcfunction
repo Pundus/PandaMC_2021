@@ -49,6 +49,7 @@ scoreboard objectives add Pundus_TimeM dummy
 scoreboard objectives add Pundus_TimeS dummy
 scoreboard players set %Time60 Pundus_TimeMath 60
 scoreboard players set %Time3600 Pundus_TimeMath 3600
+scoreboard players set %DayTime Pundus_TimeMath 72000
 
 scoreboard objectives add Pundus_MobTrk1 dummy
 
@@ -131,6 +132,8 @@ scoreboard objectives add P_CBowUsed_1s minecraft.used:minecraft.crossbow
 #scoreboard objectives add Pundus_VorpalB minecraft.used:minecraft.iron_sword
 scoreboard objectives add Pundus_VorpStr dummy
 scoreboard objectives add Pundus_IBUDelay dummy
+
+scoreboard objectives add Pundus_SPeed_C dummy
 
 scoreboard objectives add Pundus_Deaths deathCount {"translate":"pundus.server.leaderboards.deaths"}
 scoreboard objectives add Pundus_Health health {"translate":"pundus.server.leaderboards.health"}

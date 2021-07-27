@@ -870,6 +870,14 @@ tag @a[tag=mushroom_paste] remove mushroom_paste
 execute as @a[tag=mycelial_pulp] run loot give @s loot pundus_root:commodities/mycelial_pulp
 tag @a[tag=mycelial_pulp] remove mycelial_pulp
 
+#souls_peed
+execute as @a[tag=souls_peed] run loot give @s loot pundus_root:hatched/souls_peed
+tag @a[tag=souls_peed] remove souls_peed
+
+#quest_tracker
+execute as @a[tag=quest_tracker] run loot give @s loot pundus_root:quest_tracker
+tag @a[tag=quest_tracker] remove quest_tracker
+
 #Percent Equal
 execute as @a[tag=percent_equal] run loot give @s loot pundus_root:percent_equal
 tag @a[tag=percent_equal] remove percent_equal

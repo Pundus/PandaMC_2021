@@ -45,4 +45,9 @@ execute as @s at @s if score @s Pundus_NPC_SFX matches 13 run playsound minecraf
 #Illusioner Ambient
 execute as @s at @s if score @s Pundus_NPC_SFX matches 14 run playsound minecraft:entity.illusioner.ambient neutral @s ~ ~ ~ 1 1 1
 
+#Witch Ambient
+execute as @s at @s if score @s Pundus_NPC_SFX matches 15 run playsound minecraft:entity.witch.ambient neutral @s ~ ~ ~ 1 1 1
+
+#Witch Celebrate
+execute as @s at @s if score @s Pundus_NPC_SFX matches 16 run playsound minecraft:entity.witch.celebrate neutral @s ~ ~ ~ 1 1 1
 

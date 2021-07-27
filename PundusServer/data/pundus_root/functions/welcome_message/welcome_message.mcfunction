@@ -2,10 +2,11 @@ tellraw @s [{"translate":"pundus.server.welcome.title","color":"green","underlin
 
 tellraw @s [{"text":" "}]
 
-scoreboard players operation %WelcomeCounter Pundus_TimeMath = %Counter Pundus_DailyC
+scoreboard players operation %WelcomeCounter Pundus_TimeMath = %DayTime Pundus_TimeMath
+scoreboard players operation %WelcomeCounter Pundus_TimeMath -= %Counter Pundus_DailyC
 function pundus_root:welcome_message/welcome_convert_to_hhmmss
 
-tellraw @s [{"translate":"pundus.server.welcome.daily_reset","with":[{"score":{"name":"%WelcomeCounter","objective":"Pundus_TimeH"}},{"score":{"name":"%WelcomeCounter","objective":"Pundus_TimeM"}},{"score":{"name":"%WelcomeCounter","objective":"Pundus_TimeS"}}]}]
+tellraw @s [{"translate":"pundus.server.welcome.daily_reset","with":[{"score":{"name":"%WelcomeCounter","objective":"Pundus_TimeH"},"bold":true},{"score":{"name":"%WelcomeCounter","objective":"Pundus_TimeM"},"bold":true},{"score":{"name":"%WelcomeCounter","objective":"Pundus_TimeS"},"bold":true}]}]
 
 tellraw @s [{"text":" "}]
 
